@@ -27,7 +27,7 @@ export class GeneralEducationPage{
   resultStatus = 'Show Result';
   
   
-    constructor() { }
+    constructor(private router:Router) { }
   
     ngOnInit(): void {
       fetch('./assets/GeneralEducationJsonData/generalEducationQuestionAndAnswer.json').then(res => res.json())
@@ -67,7 +67,23 @@ export class GeneralEducationPage{
   
     showResult(){
       this.result = true;
-      this.resultStatus = 'Play Again!';    
+      this.resultStatus = 'Play Again!';   
+      Swal.fire({
+        title: this.correctAnswers + " || " + this.incorrectAnswers,
+        showDenyButton: true,
+        showCancelButton: true,
+        confirmButtonText: 'Retake',
+        denyButtonText: `Cancel`,
+      }).then((results) => {
+        if (results.isConfirmed) {
+          this.resultStatus = "Show Result";
+          this.playAgain();
+        } else if (results.isDenied) {
+          Swal.fire('nice', '', 'info')
+          this.resultStatus = "Show Result";
+          this.router.navigate(['']);
+        }
+      }) 
     }
     playAgain(){
       this.prevAnswered = [];
