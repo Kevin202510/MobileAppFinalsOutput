@@ -450,5 +450,934 @@
             { "choices" : "Adverbs" , "correct": false }
         ]
     }
- ]
+ ],
+    "AreaOfSpecialization":[{
+        "English" :[
+            {
+                "Questions":"1. Identify the play from which lines are taken: Will thou be gone? It is not yet near day. It was the nightingale, and not the lark The period the fearful hollow of thine ear; Nightly she sings on your pomegranate tree;  Believe me, love, it was the nightingale",
+                        "MultipleChoice": [
+                            { "choices" : "Love’s Labour’s Lost" , "correct": false },
+                            { "choices" : "Othello" , "correct": false  },
+                            { "choices" : "Romeo and Juliet" , "correct": true },
+                            { "choices" : "Cymbeline " , "correct": false }
+                        ]
+                },  
+                  {
+                "Questions":"2. Identify the poem from which the following line are take: DRINK TO ME ONLY WITH THINE EYES.AND I WILL PLDGE WITH ME. OR LEAVE A KISS BUT IN THE CUP. AND I’LL NOT LOOK FOR WINE.",
+                        "MultipleChoice": [
+                            { "choices" : "Song to Celia" , "correct": false },
+                            { "choices" : "Crossing the Bar" , "correct": false  },
+                            { "choices" : "Ode to the West Wind" , "correct": true },
+                            { "choices" : "She was a Phantom of Delight" , "correct": false }
+                        ]
+                }, 
+                {
+                    "Questions":"3 Identify the poem from the lines are taken: Have glimpse that would make me less forlorn; Have sight of Proteus rising from the sea; Or hear old Triton blow is wreathed horn",
+                            "MultipleChoice": [
+                                { "choices" : "Auguries of Innocence" , "correct": false },
+                                { "choices" : "God Moves in a Mysterious Way" , "correct": false  },
+                                { "choices" : "Elegy Written in a Country Churchyard" , "correct": true },
+                                { "choices" : "The World is Too Much With Us" , "correct": false }
+                            ]
+                    },            
+              {
+                "Questions":"4 Identify the author of the poem torn which the following lines are taken: O is she rosely loved is she lovely rosed O is she lovely sung as sea-shells?",
+                        "MultipleChoice": [
+                            { "choices" : "Fernando M. Maramag" , "correct": false },
+                            { "choices" : "Mauro Mendez" , "correct": false  },
+                            { "choices" : "Natividad Marquaez" , "correct": true },
+                            { "choices" : "Jose Garcia Villa" , "correct": false }
+                        ]
+                },            
+         {
+                    "Questions":"5. Who said, “These are the times that try men’s souls?",
+                            "MultipleChoice": [
+                                { "choices" : "James Madison" , "correct": false },
+                                { "choices" : "Thomas Paine" , "correct": false  },
+                                { "choices" : "Benjamin Franklin" , "correct": true },
+                                { "choices" : "Thomas Jefferson" , "correct": false }
+                            ]
+                    },            
+        {
+                "Questions":"6. Who wrote the novel WAR AND PEACE?",
+                        "MultipleChoice": [
+                            { "choices" : "Spencer" , "correct": false },
+                            { "choices" : "Turgenew" , "correct": false  },
+                            { "choices" : "Shaw" , "correct": true },
+                            { "choices" : "Tolstoy" , "correct": false }
+                        ]
+                },            
+         {
+                "Questions":"7. Identify the play from which the lines are take: All that glitters is not gold; Often you have heard that told;  Many a man his life hath sold But my outside to behold; Glided tombs do norms enfold.",
+                        "MultipleChoice": [
+                            { "choices" : "MECHANT OF VENICE" , "correct": false },
+                            { "choices" : "HAMLET" , "correct": false  },
+                            { "choices" : "AS YOU LIKE IT" , "correct": true },
+                            { "choices" : "MACBETH" , "correct": false }
+                        ]
+                },            
+         {
+                "Questions":"8. WHO SAID, “Ask not what tour country can do for you, but what you can do for you country?”",
+                        "MultipleChoice": [
+                            { "choices" : "Richard M. Nixon" , "correct": false },
+                            { "choices" : "John F. Kennedy" , "correct": false  },
+                            { "choices" : "Dwight D. Eisenhower" , "correct": true },
+                            { "choices" : "Lyndon B. Johnson’" , "correct": false }
+                        ]
+                },                      
+        {
+                "Questions":"9. Identify the poem from which the stanza is take: Trust no future, howe’er pleasant Let the dead Past bury its dead! Act-act in the living Present Heart within, and God o’erhead",
+                        "MultipleChoice": [
+                            { "choices" : "HYMN TO THE NIGHT" , "correct": false },
+                            { "choices" : "THE CROSS OF SHOW" , "correct": false  },
+                            { "choices" : "MY LOST YOUTH" , "correct": true },
+                            { "choices" : "A PSALM OF LIFE" , "correct": false }
+                        ]
+                },            
+        {
+                "Questions":"13. What does William Norris want you to do in his ZIP THE LIP? If your lips would keep from slips. Five things observe with care; To whom you speak; of whom you speak And how, when, and where",
+                        "MultipleChoice": [
+                            { "choices" : "To be truthful" , "correct": false },
+                            { "choices" : "To be sincere" , "correct": false  },
+                            { "choices" : "To show kindness" , "correct": true },
+                            { "choices" : "To observe confidentiality" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"51. Which of the theories of learning, language and literacy views children as having the ability relate new information to prior knowledge?",
+                        "MultipleChoice": [
+                            { "choices" : "Constructivist" , "correct": false },
+                            { "choices" : "Interactive" , "correct": false  },
+                            { "choices" : "Reader response" , "correct": true },
+                            { "choices" : "Sociolinguistic" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"52. What kind of word is TELECAST?",
+                        "MultipleChoice": [
+                            { "choices" : "Blend" , "correct": false },
+                            { "choices" : "Acronym" , "correct": false  },
+                            { "choices" : "Borrowed" , "correct": true },
+                            { "choices" : "Clipped" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"53. Which word should receive a high level /3/  in this sentence? SOMEONE IS LOOKING FOR HER.",
+                        "MultipleChoice": [
+                            { "choices" : "Look" , "correct": false },
+                            { "choices" : "Someone" , "correct": false  },
+                            { "choices" : "Is looking" , "correct": true },
+                            { "choices" : "" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"54. Which of the theories of learning, language and literacy emphasizes comprehension as students read",
+                        "MultipleChoice": [
+                            { "choices" : "Reader Response" , "correct": false },
+                            { "choices" : "Constructivist" , "correct": false  },
+                            { "choices" : "Interactive" , "correct": true },
+                            { "choices" : "Sociolinguistic" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"55. Which of the theories of learning, language and literacy views children as to having the ability to organize and integrate information is schemata?",
+                        "MultipleChoice": [
+                            { "choices" : "Constructivist" , "correct": false },
+                            { "choices" : "Reader Response" , "correct": false  },
+                            { "choices" : "Sociolinguistic" , "correct": true },
+                            { "choices" : "Interactive" , "correct": false }
+                        ]
+                },    
+        
+        {
+                "Questions":"56. Which integrates the other LANGUAGE ARTS?",
+                        "MultipleChoice": [
+                            { "choices" : "Listening" , "correct": false },
+                            { "choices" : "Reading" , "correct": false  },
+                            { "choices" : "Talking" , "correct": true },
+                            { "choices" : "Writing" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"57. Which reading and writing SKILL is readingand making graphs?",
+                        "MultipleChoice": [
+                            { "choices" : "Study" , "correct": false },
+                            { "choices" : "Language" , "correct": false  },
+                            { "choices" : "Reference" , "correct": true },
+                            { "choices" : "Decoding" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"58. What is the taxonomic stage of this behavior? MATCH FAMILIAR VOCABULARY WORDS IN SENTENCES WITH CORRECT DEFINITIONS",
+                        "MultipleChoice": [
+                            { "choices" : "Mechanical Skills Perception" , "correct": false },
+                            { "choices" : "Communication Comprehension" , "correct": false  },
+                            { "choices" : "Knowledge Recognition" , "correct": true },
+                            { "choices" : "Transfer Reception" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"59. What system do students use in capitalization and punctuation rules?",
+                        "MultipleChoice": [
+                            { "choices" : "Pragmatic" , "correct": false },
+                            { "choices" : "Phonological" , "correct": false  },
+                            { "choices" : "Semantic" , "correct": true },
+                            { "choices" : "Syntactic" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"60. Which gives the television an EDGE over print media?",
+                        "MultipleChoice": [
+                            { "choices" : "Proximity" , "correct": false },
+                            { "choices" : "Visual" , "correct": false  },
+                            { "choices" : "Color" , "correct": true },
+                            { "choices" : "Motion" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"101. Below is a sentence from DON QUIXOTE: In a village of La Mancha a name of which I have no desire to recall, there lived not so long ago one of  those gentlemen who always have a lance in the rock, an ancient buckles, a skinny nag and a greyhound…. Which question should you ask if you reading it at a LITERAL LEVEL?",
+                        "MultipleChoice": [
+                            { "choices" : "Is there a figurative language used?" , "correct": false },
+                            { "choices" : "Which word will lown?" , "correct": false  },
+                            { "choices" : "What are the figurative language and sound techniques used?" , "correct": true },
+                            { "choices" : "Which technique creates humor?" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"102. After reading the poem at the THIRD LEVEL, which question should be asked?",
+                        "MultipleChoice": [
+                            { "choices" : "What were their transformations after 25 years?" , "correct": false },
+                            { "choices" : "Who is speaking in the poem?" , "correct": false  },
+                            { "choices" : "What happened during the reunion?" , "correct": true },
+                            { "choices" : "What is meant by the comparison under the skin/ our skull rise /to the surface/ like rocks in the bed/ of a drying stream”?" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"103. Which question should be asked when the poem is read at the FIRST LEVEL?",
+                        "MultipleChoice": [
+                            { "choices" : "Who attended the 25th high school reunion?" , "correct": false },
+                            { "choices" : "What language is used in the poem?" , "correct": false  },
+                            { "choices" : "Why were their faces as sharp and pointed as the rocks?" , "correct": true },
+                            { "choices" : "To what are the once-young students compared?" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"104. Which is the lowest of comprehension?",
+                        "MultipleChoice": [
+                            { "choices" : "critical comprehension" , "correct": false },
+                            { "choices" : "critical evaluation" , "correct": false  },
+                            { "choices" : "literal comprehension" , "correct": true },
+                            { "choices" : "integration" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"105. Which is the highest level of comprehension?",
+                        "MultipleChoice": [
+                            { "choices" : "Literal comprehension" , "correct": false },
+                            { "choices" : "Critical evaluation" , "correct": false  },
+                            { "choices" : "Critical comprehension" , "correct": true },
+                            { "choices" : "Integration" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"1. What rhythmical device is used in this line from Latorena’s The Small Key? “…even the low square nipa house that stood in unashamed reliefagainst the gray green haze of grass and leaves.”",
+                        "MultipleChoice": [
+                            { "choices" : "alliteration" , "correct": false },
+                            { "choices" : "assonance" , "correct": false  },
+                            { "choices" : "consonance" , "correct": true },
+                            { "choices" : "anaphora" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"2. What sense image is used in this line from Latorena’s The Small Key? “There were dark, newly plowed furrows where in due time timorous seedlings would rise to sturdy stalks and golden grain, to a rippling yellow sea in the wind and sun during harvest time.",
+                        "MultipleChoice": [
+                            { "choices" : "tactile" , "correct": false },
+                            { "choices" : "olfactory" , "correct": false  },
+                            { "choices" : "visual" , "correct": true },
+                            { "choices" : "auditory" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"3. “Soledad nodded. Her eyes followed her husband down the road, noting the fine set of his head and shoulders, the ease of his stride. A strange ache rose in her throat.” Which emotion best describes Soledad’s feelings in this excerpt from Latorena’s The Small Key?",
+                        "MultipleChoice": [
+                            { "choices" : "fervent desire" , "correct": false },
+                            { "choices" : "discomfort from sore throat" , "correct": false  },
+                            { "choices" : "instinctive suspicion" , "correct": true },
+                            { "choices" : "twinge of sadness" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"4. What figure of speech is used in this lastparagraph from Latorena’s The Small Key? “How quiet and peaceful the day was! A cow that had strayed by looked over her shoulder with a round vague inquiry and went on chewing her cud, blissfully unaware of such things as a gnawing fear in the heart of a woman and a still smoldering resentment in a man’s.”",
+                        "MultipleChoice": [
+                            { "choices" : "irony" , "correct": false },
+                            { "choices" : "simile" , "correct": false  },
+                            { "choices" : "personification" , "correct": true },
+                            { "choices" : "metaphor" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"5 Alfredo Salazar undergoes epiphany at the end of Marquez-Benitez’ story. What does epiphany mean?",
+                        "MultipleChoice": [
+                            { "choices" : "regret" , "correct": false },
+                            { "choices" : "insight" , "correct": false  },
+                            { "choices" : "freedom" , "correct": true },
+                            { "choices" : "confusion" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"1. What does the poem celebrate as shown in line 1-2?",
+                        "MultipleChoice": [
+                            { "choices" : "sadness in death" , "correct": false },
+                            { "choices" : "reverence for nature" , "correct": false  },
+                            { "choices" : "familial bonding" , "correct": true },
+                            { "choices" : "sense of foreboding" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"2 What does the persona wish in the last two lines?",
+                        "MultipleChoice": [
+                            { "choices" : "that he continues to be pious" , "correct": false },
+                            { "choices" : "that he be a child once again" , "correct": false  },
+                            { "choices" : "that he continues to be connected to nature" , "correct": true },
+                            { "choices" : "that he fulfills his duties and responsibilities" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"3. What figure of speech does Wordsworth use in line 7?",
+                        "MultipleChoice": [
+                            { "choices" : "paradox" , "correct": false },
+                            { "choices" : "metonymy" , "correct": false  },
+                            { "choices" : "oxymoron" , "correct": true },
+                            { "choices" : "allusion" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"3. From what perspective is the following story told?I could picture it. I have a rotten habit of picturing the bedroom scenes of my friends. We went out to the Cafe Napolitain to have an aperitif and watch the evening crowd on the Boulevard.from The Sun Also Rises by Ernest Hemingway.",
+                        "MultipleChoice": [
+                            { "choices" : "First person" , "correct": false },
+                            { "choices" : "Second person" , "correct": false  },
+                            { "choices" : "Third person omniscient" , "correct": true },
+                            { "choices" : "Third person limited" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"4. What type of irony does Shakespeare use in Anthony’s speech? When that the poor have cried, Caesar hath wept: Ambition should be made of sterner stuff: Yet Brutus says he was ambitious; And Brutus is an honourable man.",
+                        "MultipleChoice": [
+                            { "choices" : "dramatic irony" , "correct": false },
+                            { "choices" : "causal irony" , "correct": false  },
+                            { "choices" : "irony of situation" , "correct": true },
+                            { "choices" : "verbal irony" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"5. What do the following lines from William Blake exhort? To see a World in a Grain of Sand And a Heaven in a Wild Flower, Hold Infinity in the palm of your hand And Eternity in an hour.",
+                        "MultipleChoice": [
+                            { "choices" : "to appreciate even the smallest of things" , "correct": false },
+                            { "choices" : "to be extremely imaginative and creative" , "correct": false  },
+                            { "choices" : "to believe in fantasy like a child" , "correct": true },
+                            { "choices" : "to be strong and faithful to God" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"1. How does Shelley regard the west wind in the following ode? From Ode to the West Wind Her clarion o'er the dreaming earth, and fill (Driving sweet buds like flocks to feed in air฀) With living hues and odours plain and hill: Wild Spirit, which art moving everywhere; Destroyer and Preserver; hear, oh, hear!",
+                        "MultipleChoice": [
+                            { "choices" : "It is responsible for preserving life." , "correct": false },
+                            { "choices" : "It can both wipe out and maintain life." , "correct": false  },
+                            { "choices" : "It is a wild spirit in nature that is verystrong." , "correct": true },
+                            { "choices" : "It is strong but weak since it is everywhere." , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"2. How does the speaker picture God in the following sermon? The God that holds you over the pit of hell, much as one holds a spider; or some loathsome insect, over the fire, abhors you, and is dreadfully provoked: his wrath towards you burns like fire; he looks upon you as worthy of nothing else, but to be cast into the fire; he is of purer eyes than to bear to have you in his sight; you are ten thousand times more abominable in his eyes, than the most hateful venomous serpent is in ours.",
+                        "MultipleChoice": [
+                            { "choices" : "incensed" , "correct": false },
+                            { "choices" : "abominable" , "correct": false  },
+                            { "choices" : "abominable" , "correct": true },
+                            { "choices" : "vengeful" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"3. Paradise Lost is considered among the greatest epics in English. Which of the following was the basis for this epic poem?",
+                        "MultipleChoice": [
+                            { "choices" : "treachery of Judas Iscariot" , "correct": false },
+                            { "choices" : "the passion of Christ" , "correct": false  },
+                            { "choices" : "fall from God’s grace" , "correct": true },
+                            { "choices" : "sinning of Adam and Eve" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"4. What does the speaker mean in the following lines? “Let’s so persevere That when we live no more, we may live ever” From  To My Dear and Loving Husband",
+                        "MultipleChoice": [
+                            { "choices" : "Let’s continue writing poetry to immortalize us." , "correct": false },
+                            { "choices" : "Let’s have faith in God and He will keep us alive" , "correct": false  },
+                            { "choices" : "Let’s be true to our love, and we will be joined in eternity" , "correct": true },
+                            { "choices" : "Let’s have lots of children to remember us when we die." , "correct": false }
+                        ]
+                },  
+        {
+                "Questions":"5. Which of the following is NOT an example of Gothic literature?",
+                        "MultipleChoice": [
+                            { "choices" : "Dracula" , "correct": false },
+                            { "choices" : "Lord of the Rings" , "correct": false  },
+                            { "choices" : "Frankenstein" , "correct": true },
+                            { "choices" : "Tell Tale Heart" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"11. What does the speaker celebrate in “The Soul Selects her own Society”? The soul selects her own society, Then shuts the door; On her divine majority Obtrude no more.",
+                        "MultipleChoice": [
+                            { "choices" : "conformity" , "correct": false },
+                            { "choices" : "community" , "correct": false  },
+                            { "choices" : "life and freedom" , "correct": true },
+                            { "choices" : "self-imposed isolation" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"12. What do the following lines reveal about theworld? All the world’s a stage, and all the men and women merely players. They have their exits and their entrances; And one man in his time plays manyparts - (As You Like It, Act II, Scene VII)",
+                        "MultipleChoice": [
+                            { "choices" : "Life is just like going to the theater" , "correct": false },
+                            { "choices" : "People have different roles to play in life" , "correct": false  },
+                            { "choices" : "Life is but an empty, senseless dream" , "correct": true },
+                            { "choices" : "People live and die at different times." , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"13. What truth about humans do the followinglines from A Noiseless Patient Spider reveal? And you, O my Soul, where you stand, Surrounded, surrounded, in measureless oceans of space, Ceaselessly musing, venturing, throwing,--seeking the spheres, to connect them; Till the bridge you will need, be form'd--till the ductile anchor hold; Till the gossamer thread you fling, catch somewhere, O my Sou",
+                        "MultipleChoice": [
+                            { "choices" : "People need food and shelter" , "correct": false },
+                            { "choices" : "People search for their meaning" , "correct": false  },
+                            { "choices" : "People need friends and families" , "correct": true },
+                            { "choices" : "People endlessly seek to create" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"14. Which of the following is the resounding theme of contemporary stories like Hemingway’s A Clean and Well Lighted Place and Anderson’s Hands?",
+                        "MultipleChoice": [
+                            { "choices" : "alienation from the society" , "correct": false },
+                            { "choices" : "melancholia in solitude" , "correct": false  },
+                            { "choices" : "respect for the old" , "correct": true },
+                            { "choices" : "contentment in life" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"15. Who is alluded to as the Captain in the following lines from Whitman’s poem?O captain! My Captain! Our fearful trip is done, The ship has weather’d every rack, the prize wesought is won",
+                        "MultipleChoice": [
+                            { "choices" : "Abraham Lincoln" , "correct": false },
+                            { "choices" : "George Washington" , "correct": false  },
+                            { "choices" : "John F. Kennedy" , "correct": true },
+                            { "choices" : "Thomas Jefferson" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":". In the passage, which of the following best describes the speaker's attitude toward the very rich?",
+                        "MultipleChoice": [
+                            { "choices" : "He finds their pessimism alarming and unwarranted." , "correct": false },
+                            { "choices" : "He finds them so different from the rest of society" , "correct": false  },
+                            { "choices" : "yC. He believes that the rich know more than others do." , "correct": true },
+                            { "choices" : "He thinks that he understands their way of life" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"What is the tone of the speaker in the previous passage?",
+                        "MultipleChoice": [
+                            { "choices" : "Optimistic" , "correct": false },
+                            { "choices" : "Laconic" , "correct": false  },
+                            { "choices" : "Pessimistic" , "correct": true },
+                            { "choices" : "Pessimistic" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"18. What do the novels of Bronte, Eliot, Gaskell and Dickens reveal about fiction produced during the Victorian period in English Literature",
+                        "MultipleChoice": [
+                            { "choices" : "They closely represent the real social life of the times" , "correct": false },
+                            { "choices" : "The novels were long and full of psychological musings" , "correct": false  },
+                            { "choices" : "They concentrate on the effect of industrialization on cities" , "correct": true },
+                            { "choices" : "They were largely produced by upper middle-class women." , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"19. What do the last two lines from Freneau’s The Wild Honeysuckle reveal about life?",
+                        "MultipleChoice": [
+                            { "choices" : "Life is just an hour" , "correct": false },
+                            { "choices" : "Life is frail." , "correct": false  },
+                            { "choices" : "Life is short." , "correct": true },
+                            { "choices" : "It is like a flower" , "correct": false }
+                        ]
+                } ,
+        {
+                "Questions":"20. What do the following lines from Wordsworth’s Psalm of Life reveal about heroes and heroism",
+                        "MultipleChoice": [
+                            { "choices" : "Anybody can be a hero." , "correct": false },
+                            { "choices" : "Heroes are often forgotten." , "correct": false  },
+                            { "choices" : "Heroes are easy to find" , "correct": true },
+                            { "choices" : "It is easy to do heroic acts" , "correct": false }
+                        ]
+                }      
+
+        ],
+        "Filipino" :[
+            {
+                "Questions":"1. Identify the play from which lines are taken: Will thou be gone? It is not yet near day. It was the nightingale, and not the lark The period the fearful hollow of thine ear; Nightly she sings on your pomegranate tree;  Believe me, love, it was the nightingale",
+                        "MultipleChoice": [
+                            { "choices" : "Love’s Labour’s Lost" , "correct": false },
+                            { "choices" : "Othello" , "correct": false  },
+                            { "choices" : "Romeo and Juliet" , "correct": true },
+                            { "choices" : "Cymbeline " , "correct": false }
+                        ]
+                },  
+                  {
+                "Questions":"2. Identify the poem from which the following line are take: DRINK TO ME ONLY WITH THINE EYES.AND I WILL PLDGE WITH ME. OR LEAVE A KISS BUT IN THE CUP. AND I’LL NOT LOOK FOR WINE.",
+                        "MultipleChoice": [
+                            { "choices" : "Song to Celia" , "correct": false },
+                            { "choices" : "Crossing the Bar" , "correct": false  },
+                            { "choices" : "Ode to the West Wind" , "correct": true },
+                            { "choices" : "She was a Phantom of Delight" , "correct": false }
+                        ]
+                }, 
+                {
+                    "Questions":"3 Identify the poem from the lines are taken: Have glimpse that would make me less forlorn; Have sight of Proteus rising from the sea; Or hear old Triton blow is wreathed horn",
+                            "MultipleChoice": [
+                                { "choices" : "Auguries of Innocence" , "correct": false },
+                                { "choices" : "God Moves in a Mysterious Way" , "correct": false  },
+                                { "choices" : "Elegy Written in a Country Churchyard" , "correct": true },
+                                { "choices" : "The World is Too Much With Us" , "correct": false }
+                            ]
+                    },            
+              {
+                "Questions":"4 Identify the author of the poem torn which the following lines are taken: O is she rosely loved is she lovely rosed O is she lovely sung as sea-shells?",
+                        "MultipleChoice": [
+                            { "choices" : "Fernando M. Maramag" , "correct": false },
+                            { "choices" : "Mauro Mendez" , "correct": false  },
+                            { "choices" : "Natividad Marquaez" , "correct": true },
+                            { "choices" : "Jose Garcia Villa" , "correct": false }
+                        ]
+                },            
+         {
+                    "Questions":"5. Who said, “These are the times that try men’s souls?",
+                            "MultipleChoice": [
+                                { "choices" : "James Madison" , "correct": false },
+                                { "choices" : "Thomas Paine" , "correct": false  },
+                                { "choices" : "Benjamin Franklin" , "correct": true },
+                                { "choices" : "Thomas Jefferson" , "correct": false }
+                            ]
+                    },            
+        {
+                "Questions":"6. Who wrote the novel WAR AND PEACE?",
+                        "MultipleChoice": [
+                            { "choices" : "Spencer" , "correct": false },
+                            { "choices" : "Turgenew" , "correct": false  },
+                            { "choices" : "Shaw" , "correct": true },
+                            { "choices" : "Tolstoy" , "correct": false }
+                        ]
+                },            
+         {
+                "Questions":"7. Identify the play from which the lines are take: All that glitters is not gold; Often you have heard that told;  Many a man his life hath sold But my outside to behold; Glided tombs do norms enfold.",
+                        "MultipleChoice": [
+                            { "choices" : "MECHANT OF VENICE" , "correct": false },
+                            { "choices" : "HAMLET" , "correct": false  },
+                            { "choices" : "AS YOU LIKE IT" , "correct": true },
+                            { "choices" : "MACBETH" , "correct": false }
+                        ]
+                },            
+         {
+                "Questions":"8. WHO SAID, “Ask not what tour country can do for you, but what you can do for you country?”",
+                        "MultipleChoice": [
+                            { "choices" : "Richard M. Nixon" , "correct": false },
+                            { "choices" : "John F. Kennedy" , "correct": false  },
+                            { "choices" : "Dwight D. Eisenhower" , "correct": true },
+                            { "choices" : "Lyndon B. Johnson’" , "correct": false }
+                        ]
+                },                      
+        {
+                "Questions":"9. Identify the poem from which the stanza is take: Trust no future, howe’er pleasant Let the dead Past bury its dead! Act-act in the living Present Heart within, and God o’erhead",
+                        "MultipleChoice": [
+                            { "choices" : "HYMN TO THE NIGHT" , "correct": false },
+                            { "choices" : "THE CROSS OF SHOW" , "correct": false  },
+                            { "choices" : "MY LOST YOUTH" , "correct": true },
+                            { "choices" : "A PSALM OF LIFE" , "correct": false }
+                        ]
+                },            
+        {
+                "Questions":"13. What does William Norris want you to do in his ZIP THE LIP? If your lips would keep from slips. Five things observe with care; To whom you speak; of whom you speak And how, when, and where",
+                        "MultipleChoice": [
+                            { "choices" : "To be truthful" , "correct": false },
+                            { "choices" : "To be sincere" , "correct": false  },
+                            { "choices" : "To show kindness" , "correct": true },
+                            { "choices" : "To observe confidentiality" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"51. Which of the theories of learning, language and literacy views children as having the ability relate new information to prior knowledge?",
+                        "MultipleChoice": [
+                            { "choices" : "Constructivist" , "correct": false },
+                            { "choices" : "Interactive" , "correct": false  },
+                            { "choices" : "Reader response" , "correct": true },
+                            { "choices" : "Sociolinguistic" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"52. What kind of word is TELECAST?",
+                        "MultipleChoice": [
+                            { "choices" : "Blend" , "correct": false },
+                            { "choices" : "Acronym" , "correct": false  },
+                            { "choices" : "Borrowed" , "correct": true },
+                            { "choices" : "Clipped" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"53. Which word should receive a high level /3/  in this sentence? SOMEONE IS LOOKING FOR HER.",
+                        "MultipleChoice": [
+                            { "choices" : "Look" , "correct": false },
+                            { "choices" : "Someone" , "correct": false  },
+                            { "choices" : "Is looking" , "correct": true },
+                            { "choices" : "" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"54. Which of the theories of learning, language and literacy emphasizes comprehension as students read",
+                        "MultipleChoice": [
+                            { "choices" : "Reader Response" , "correct": false },
+                            { "choices" : "Constructivist" , "correct": false  },
+                            { "choices" : "Interactive" , "correct": true },
+                            { "choices" : "Sociolinguistic" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"55. Which of the theories of learning, language and literacy views children as to having the ability to organize and integrate information is schemata?",
+                        "MultipleChoice": [
+                            { "choices" : "Constructivist" , "correct": false },
+                            { "choices" : "Reader Response" , "correct": false  },
+                            { "choices" : "Sociolinguistic" , "correct": true },
+                            { "choices" : "Interactive" , "correct": false }
+                        ]
+                },    
+        
+        {
+                "Questions":"56. Which integrates the other LANGUAGE ARTS?",
+                        "MultipleChoice": [
+                            { "choices" : "Listening" , "correct": false },
+                            { "choices" : "Reading" , "correct": false  },
+                            { "choices" : "Talking" , "correct": true },
+                            { "choices" : "Writing" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"57. Which reading and writing SKILL is readingand making graphs?",
+                        "MultipleChoice": [
+                            { "choices" : "Study" , "correct": false },
+                            { "choices" : "Language" , "correct": false  },
+                            { "choices" : "Reference" , "correct": true },
+                            { "choices" : "Decoding" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"58. What is the taxonomic stage of this behavior? MATCH FAMILIAR VOCABULARY WORDS IN SENTENCES WITH CORRECT DEFINITIONS",
+                        "MultipleChoice": [
+                            { "choices" : "Mechanical Skills Perception" , "correct": false },
+                            { "choices" : "Communication Comprehension" , "correct": false  },
+                            { "choices" : "Knowledge Recognition" , "correct": true },
+                            { "choices" : "Transfer Reception" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"59. What system do students use in capitalization and punctuation rules?",
+                        "MultipleChoice": [
+                            { "choices" : "Pragmatic" , "correct": false },
+                            { "choices" : "Phonological" , "correct": false  },
+                            { "choices" : "Semantic" , "correct": true },
+                            { "choices" : "Syntactic" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"60. Which gives the television an EDGE over print media?",
+                        "MultipleChoice": [
+                            { "choices" : "Proximity" , "correct": false },
+                            { "choices" : "Visual" , "correct": false  },
+                            { "choices" : "Color" , "correct": true },
+                            { "choices" : "Motion" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"101. Below is a sentence from DON QUIXOTE: In a village of La Mancha a name of which I have no desire to recall, there lived not so long ago one of  those gentlemen who always have a lance in the rock, an ancient buckles, a skinny nag and a greyhound…. Which question should you ask if you reading it at a LITERAL LEVEL?",
+                        "MultipleChoice": [
+                            { "choices" : "Is there a figurative language used?" , "correct": false },
+                            { "choices" : "Which word will lown?" , "correct": false  },
+                            { "choices" : "What are the figurative language and sound techniques used?" , "correct": true },
+                            { "choices" : "Which technique creates humor?" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"102. After reading the poem at the THIRD LEVEL, which question should be asked?",
+                        "MultipleChoice": [
+                            { "choices" : "What were their transformations after 25 years?" , "correct": false },
+                            { "choices" : "Who is speaking in the poem?" , "correct": false  },
+                            { "choices" : "What happened during the reunion?" , "correct": true },
+                            { "choices" : "What is meant by the comparison under the skin/ our skull rise /to the surface/ like rocks in the bed/ of a drying stream”?" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"103. Which question should be asked when the poem is read at the FIRST LEVEL?",
+                        "MultipleChoice": [
+                            { "choices" : "Who attended the 25th high school reunion?" , "correct": false },
+                            { "choices" : "What language is used in the poem?" , "correct": false  },
+                            { "choices" : "Why were their faces as sharp and pointed as the rocks?" , "correct": true },
+                            { "choices" : "To what are the once-young students compared?" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"104. Which is the lowest of comprehension?",
+                        "MultipleChoice": [
+                            { "choices" : "critical comprehension" , "correct": false },
+                            { "choices" : "critical evaluation" , "correct": false  },
+                            { "choices" : "literal comprehension" , "correct": true },
+                            { "choices" : "integration" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"105. Which is the highest level of comprehension?",
+                        "MultipleChoice": [
+                            { "choices" : "Literal comprehension" , "correct": false },
+                            { "choices" : "Critical evaluation" , "correct": false  },
+                            { "choices" : "Critical comprehension" , "correct": true },
+                            { "choices" : "Integration" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"1. What rhythmical device is used in this line from Latorena’s The Small Key? “…even the low square nipa house that stood in unashamed reliefagainst the gray green haze of grass and leaves.”",
+                        "MultipleChoice": [
+                            { "choices" : "alliteration" , "correct": false },
+                            { "choices" : "assonance" , "correct": false  },
+                            { "choices" : "consonance" , "correct": true },
+                            { "choices" : "anaphora" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"2. What sense image is used in this line from Latorena’s The Small Key? “There were dark, newly plowed furrows where in due time timorous seedlings would rise to sturdy stalks and golden grain, to a rippling yellow sea in the wind and sun during harvest time.",
+                        "MultipleChoice": [
+                            { "choices" : "tactile" , "correct": false },
+                            { "choices" : "olfactory" , "correct": false  },
+                            { "choices" : "visual" , "correct": true },
+                            { "choices" : "auditory" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"3. “Soledad nodded. Her eyes followed her husband down the road, noting the fine set of his head and shoulders, the ease of his stride. A strange ache rose in her throat.” Which emotion best describes Soledad’s feelings in this excerpt from Latorena’s The Small Key?",
+                        "MultipleChoice": [
+                            { "choices" : "fervent desire" , "correct": false },
+                            { "choices" : "discomfort from sore throat" , "correct": false  },
+                            { "choices" : "instinctive suspicion" , "correct": true },
+                            { "choices" : "twinge of sadness" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"4. What figure of speech is used in this lastparagraph from Latorena’s The Small Key? “How quiet and peaceful the day was! A cow that had strayed by looked over her shoulder with a round vague inquiry and went on chewing her cud, blissfully unaware of such things as a gnawing fear in the heart of a woman and a still smoldering resentment in a man’s.”",
+                        "MultipleChoice": [
+                            { "choices" : "irony" , "correct": false },
+                            { "choices" : "simile" , "correct": false  },
+                            { "choices" : "personification" , "correct": true },
+                            { "choices" : "metaphor" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"5 Alfredo Salazar undergoes epiphany at the end of Marquez-Benitez’ story. What does epiphany mean?",
+                        "MultipleChoice": [
+                            { "choices" : "regret" , "correct": false },
+                            { "choices" : "insight" , "correct": false  },
+                            { "choices" : "freedom" , "correct": true },
+                            { "choices" : "confusion" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"1. What does the poem celebrate as shown in line 1-2?",
+                        "MultipleChoice": [
+                            { "choices" : "sadness in death" , "correct": false },
+                            { "choices" : "reverence for nature" , "correct": false  },
+                            { "choices" : "familial bonding" , "correct": true },
+                            { "choices" : "sense of foreboding" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"2 What does the persona wish in the last two lines?",
+                        "MultipleChoice": [
+                            { "choices" : "that he continues to be pious" , "correct": false },
+                            { "choices" : "that he be a child once again" , "correct": false  },
+                            { "choices" : "that he continues to be connected to nature" , "correct": true },
+                            { "choices" : "that he fulfills his duties and responsibilities" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"3. What figure of speech does Wordsworth use in line 7?",
+                        "MultipleChoice": [
+                            { "choices" : "paradox" , "correct": false },
+                            { "choices" : "metonymy" , "correct": false  },
+                            { "choices" : "oxymoron" , "correct": true },
+                            { "choices" : "allusion" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"3. From what perspective is the following story told?I could picture it. I have a rotten habit of picturing the bedroom scenes of my friends. We went out to the Cafe Napolitain to have an aperitif and watch the evening crowd on the Boulevard.from The Sun Also Rises by Ernest Hemingway.",
+                        "MultipleChoice": [
+                            { "choices" : "First person" , "correct": false },
+                            { "choices" : "Second person" , "correct": false  },
+                            { "choices" : "Third person omniscient" , "correct": true },
+                            { "choices" : "Third person limited" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"4. What type of irony does Shakespeare use in Anthony’s speech? When that the poor have cried, Caesar hath wept: Ambition should be made of sterner stuff: Yet Brutus says he was ambitious; And Brutus is an honourable man.",
+                        "MultipleChoice": [
+                            { "choices" : "dramatic irony" , "correct": false },
+                            { "choices" : "causal irony" , "correct": false  },
+                            { "choices" : "irony of situation" , "correct": true },
+                            { "choices" : "verbal irony" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"5. What do the following lines from William Blake exhort? To see a World in a Grain of Sand And a Heaven in a Wild Flower, Hold Infinity in the palm of your hand And Eternity in an hour.",
+                        "MultipleChoice": [
+                            { "choices" : "to appreciate even the smallest of things" , "correct": false },
+                            { "choices" : "to be extremely imaginative and creative" , "correct": false  },
+                            { "choices" : "to believe in fantasy like a child" , "correct": true },
+                            { "choices" : "to be strong and faithful to God" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"1. How does Shelley regard the west wind in the following ode? From Ode to the West Wind Her clarion o'er the dreaming earth, and fill (Driving sweet buds like flocks to feed in air฀) With living hues and odours plain and hill: Wild Spirit, which art moving everywhere; Destroyer and Preserver; hear, oh, hear!",
+                        "MultipleChoice": [
+                            { "choices" : "It is responsible for preserving life." , "correct": false },
+                            { "choices" : "It can both wipe out and maintain life." , "correct": false  },
+                            { "choices" : "It is a wild spirit in nature that is verystrong." , "correct": true },
+                            { "choices" : "It is strong but weak since it is everywhere." , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"2. How does the speaker picture God in the following sermon? The God that holds you over the pit of hell, much as one holds a spider; or some loathsome insect, over the fire, abhors you, and is dreadfully provoked: his wrath towards you burns like fire; he looks upon you as worthy of nothing else, but to be cast into the fire; he is of purer eyes than to bear to have you in his sight; you are ten thousand times more abominable in his eyes, than the most hateful venomous serpent is in ours.",
+                        "MultipleChoice": [
+                            { "choices" : "incensed" , "correct": false },
+                            { "choices" : "abominable" , "correct": false  },
+                            { "choices" : "abominable" , "correct": true },
+                            { "choices" : "vengeful" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"3. Paradise Lost is considered among the greatest epics in English. Which of the following was the basis for this epic poem?",
+                        "MultipleChoice": [
+                            { "choices" : "treachery of Judas Iscariot" , "correct": false },
+                            { "choices" : "the passion of Christ" , "correct": false  },
+                            { "choices" : "fall from God’s grace" , "correct": true },
+                            { "choices" : "sinning of Adam and Eve" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"4. What does the speaker mean in the following lines? “Let’s so persevere That when we live no more, we may live ever” From  To My Dear and Loving Husband",
+                        "MultipleChoice": [
+                            { "choices" : "Let’s continue writing poetry to immortalize us." , "correct": false },
+                            { "choices" : "Let’s have faith in God and He will keep us alive" , "correct": false  },
+                            { "choices" : "Let’s be true to our love, and we will be joined in eternity" , "correct": true },
+                            { "choices" : "Let’s have lots of children to remember us when we die." , "correct": false }
+                        ]
+                },  
+        {
+                "Questions":"5. Which of the following is NOT an example of Gothic literature?",
+                        "MultipleChoice": [
+                            { "choices" : "Dracula" , "correct": false },
+                            { "choices" : "Lord of the Rings" , "correct": false  },
+                            { "choices" : "Frankenstein" , "correct": true },
+                            { "choices" : "Tell Tale Heart" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"11. What does the speaker celebrate in “The Soul Selects her own Society”? The soul selects her own society, Then shuts the door; On her divine majority Obtrude no more.",
+                        "MultipleChoice": [
+                            { "choices" : "conformity" , "correct": false },
+                            { "choices" : "community" , "correct": false  },
+                            { "choices" : "life and freedom" , "correct": true },
+                            { "choices" : "self-imposed isolation" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"12. What do the following lines reveal about theworld? All the world’s a stage, and all the men and women merely players. They have their exits and their entrances; And one man in his time plays manyparts - (As You Like It, Act II, Scene VII)",
+                        "MultipleChoice": [
+                            { "choices" : "Life is just like going to the theater" , "correct": false },
+                            { "choices" : "People have different roles to play in life" , "correct": false  },
+                            { "choices" : "Life is but an empty, senseless dream" , "correct": true },
+                            { "choices" : "People live and die at different times." , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"13. What truth about humans do the followinglines from A Noiseless Patient Spider reveal? And you, O my Soul, where you stand, Surrounded, surrounded, in measureless oceans of space, Ceaselessly musing, venturing, throwing,--seeking the spheres, to connect them; Till the bridge you will need, be form'd--till the ductile anchor hold; Till the gossamer thread you fling, catch somewhere, O my Sou",
+                        "MultipleChoice": [
+                            { "choices" : "People need food and shelter" , "correct": false },
+                            { "choices" : "People search for their meaning" , "correct": false  },
+                            { "choices" : "People need friends and families" , "correct": true },
+                            { "choices" : "People endlessly seek to create" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"14. Which of the following is the resounding theme of contemporary stories like Hemingway’s A Clean and Well Lighted Place and Anderson’s Hands?",
+                        "MultipleChoice": [
+                            { "choices" : "alienation from the society" , "correct": false },
+                            { "choices" : "melancholia in solitude" , "correct": false  },
+                            { "choices" : "respect for the old" , "correct": true },
+                            { "choices" : "contentment in life" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"15. Who is alluded to as the Captain in the following lines from Whitman’s poem?O captain! My Captain! Our fearful trip is done, The ship has weather’d every rack, the prize wesought is won",
+                        "MultipleChoice": [
+                            { "choices" : "Abraham Lincoln" , "correct": false },
+                            { "choices" : "George Washington" , "correct": false  },
+                            { "choices" : "John F. Kennedy" , "correct": true },
+                            { "choices" : "Thomas Jefferson" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":". In the passage, which of the following best describes the speaker's attitude toward the very rich?",
+                        "MultipleChoice": [
+                            { "choices" : "He finds their pessimism alarming and unwarranted." , "correct": false },
+                            { "choices" : "He finds them so different from the rest of society" , "correct": false  },
+                            { "choices" : "yC. He believes that the rich know more than others do." , "correct": true },
+                            { "choices" : "He thinks that he understands their way of life" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"What is the tone of the speaker in the previous passage?",
+                        "MultipleChoice": [
+                            { "choices" : "Optimistic" , "correct": false },
+                            { "choices" : "Laconic" , "correct": false  },
+                            { "choices" : "Pessimistic" , "correct": true },
+                            { "choices" : "Pessimistic" , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"18. What do the novels of Bronte, Eliot, Gaskell and Dickens reveal about fiction produced during the Victorian period in English Literature",
+                        "MultipleChoice": [
+                            { "choices" : "They closely represent the real social life of the times" , "correct": false },
+                            { "choices" : "The novels were long and full of psychological musings" , "correct": false  },
+                            { "choices" : "They concentrate on the effect of industrialization on cities" , "correct": true },
+                            { "choices" : "They were largely produced by upper middle-class women." , "correct": false }
+                        ]
+                },    
+        {
+                "Questions":"19. What do the last two lines from Freneau’s The Wild Honeysuckle reveal about life?",
+                        "MultipleChoice": [
+                            { "choices" : "Life is just an hour" , "correct": false },
+                            { "choices" : "Life is frail." , "correct": false  },
+                            { "choices" : "Life is short." , "correct": true },
+                            { "choices" : "It is like a flower" , "correct": false }
+                        ]
+                } ,
+        {
+                "Questions":"20. What do the following lines from Wordsworth’s Psalm of Life reveal about heroes and heroism",
+                        "MultipleChoice": [
+                            { "choices" : "Anybody can be a hero." , "correct": false },
+                            { "choices" : "Heroes are often forgotten." , "correct": false  },
+                            { "choices" : "Heroes are easy to find" , "correct": true },
+                            { "choices" : "It is easy to do heroic acts" , "correct": false }
+                        ]
+                }      
+
+        ]
+    }
+]
  }
