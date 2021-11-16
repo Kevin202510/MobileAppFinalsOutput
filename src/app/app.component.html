@@ -1,3 +1,38 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-menu side="start" menuId="letexam-menu" contentId="mainmenu">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>LET Exam Reviewer</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content color="light">
+      <ion-list>
+        <ion-menu-toggle>
+          <ion-item routerLink="/home">
+            <ion-icon name="person-outline" slot="start"></ion-icon>
+            <ion-label>Home</ion-label>
+          </ion-item>
+        </ion-menu-toggle> 
+        <ion-menu-toggle>
+          <ion-item routerLink="/general-education">
+            <ion-icon name="checkbox-outline" slot="start"></ion-icon>
+            <ion-label>General Education Exam</ion-label>
+          </ion-item>
+        </ion-menu-toggle> 
+        <ion-menu-toggle>
+          <ion-item routerLink="/professional-education">
+            <ion-icon name="radio-button-on-outline" slot="start"></ion-icon>
+            <ion-label>Professional Education Exam</ion-label>
+          </ion-item>
+        </ion-menu-toggle> 
+        <ion-menu-toggle>
+          <ion-item routerLink="/area-of-specialization">
+            <ion-icon name="toggle-outline" slot="start"></ion-icon>
+            <ion-label>Majorship Exam</ion-label>
+          </ion-item>
+        </ion-menu-toggle> 
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="mainmenu"></ion-router-outlet>
 </ion-app>

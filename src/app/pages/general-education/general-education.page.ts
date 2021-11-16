@@ -2,6 +2,7 @@ import { Component} from '@angular/core';
 import { animate, style, transition, trigger } from '@angular/animations';
 import Swal from 'sweetalert2';
 import { Router } from '@angular/router';
+import { AnimationOptions } from 'ngx-lottie';
 
 @Component({
   selector: 'app-general-education',
@@ -25,6 +26,10 @@ export class GeneralEducationPage{
   
   result = false;
   resultStatus = 'Show Result';
+
+  options:AnimationOptions = {
+    path:'assets/congrats1.json'
+  }
   
   
     constructor(private router:Router) { }
@@ -44,7 +49,7 @@ export class GeneralEducationPage{
       this.answerSelected = true;
       setTimeout(() => {
         let newQuiz = this.getRandom();
-         while(this.prevAnswered.includes(newQuiz) && this.prevAnswered.length < 4){
+         while(this.prevAnswered.includes(newQuiz) && this.prevAnswered.length < 50){
           newQuiz = this.getRandom();
          }
          this.currentQuiz = newQuiz;
@@ -67,23 +72,23 @@ export class GeneralEducationPage{
   
     showResult(){
       this.result = true;
-      this.resultStatus = 'Play Again!';   
-      Swal.fire({
-        title: this.correctAnswers + " || " + this.incorrectAnswers,
-        showDenyButton: true,
-        showCancelButton: true,
-        confirmButtonText: 'Retake',
-        denyButtonText: `Cancel`,
-      }).then((results) => {
-        if (results.isConfirmed) {
-          this.resultStatus = "Show Result";
-          this.playAgain();
-        } else if (results.isDenied) {
-          Swal.fire('nice', '', 'info')
-          this.resultStatus = "Show Result";
-          this.router.navigate(['']);
-        }
-      }) 
+      this.resultStatus = 'Play Again!';  
+      // Swal.fire({
+      //   title: this.correctAnswers + " out of " + this.quizzes.length,
+      //   showDenyButton: true,
+      //   showCancelButton: true,
+      //   confirmButtonText: 'Retake',
+      //   denyButtonText: `Cancel`,
+      // }).then((results) => {
+      //   if (results.isConfirmed) {
+      //     this.resultStatus = "Show Result";
+      //     this.playAgain();
+      //   } else if (results.isDenied) {
+      //     Swal.fire('nice', '', 'info')
+      //     this.resultStatus = "Show Result";
+      //     this.router.navigate(['']);
+      //   }
+      // }) 
     }
     playAgain(){
       this.prevAnswered = [];

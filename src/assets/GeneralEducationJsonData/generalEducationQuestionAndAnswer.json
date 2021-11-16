@@ -1,7 +1,7 @@
 {
     "GeneralEducationQuestionAndAnswer":[
       {
-          "Questions": "1Rennie Boy believes that everything that happens in this world has a cause or a reason What scientific attitude is seen in his actions?",
+          "Questions": "Rennie Boy believes that everything that happens in this world has a cause or a reason What scientific attitude is seen in his actions?",
           "MultipleChoice": [
             { "choices" : "curiosity" , "correct": false },
             { "choices" : "firm set of beliefs", "correct": false },
@@ -10,7 +10,7 @@
           ]
       },
       {
-          "Questions": "2. _____ it never recycled any waste materials, the company’s environmental record was not perfect.",
+          "Questions": "_____ it never recycled any waste materials, the company’s environmental record was not perfect.",
           "MultipleChoice": [
               { "choices" : "For", "correct": false },
               { "choices" : "In that", "correct": false  },
@@ -19,7 +19,7 @@
           ]
       },
       {
-          "Questions":"3 Our guest of honor was a loquacious speaker. Loquacious means:",
+          "Questions":"Our guest of honor was a loquacious speaker. Loquacious means:",
           "MultipleChoice": [
               { "choices" : "reserved" , "correct": false },
               { "choices" : "verbose" , "correct": true },
@@ -28,7 +28,7 @@
           ]
       },
       {
-          "Questions":"4. The sociological concept of home for most Filipino is the presence of _____.",
+          "Questions":"The sociological concept of home for most Filipino is the presence of _____.",
           "MultipleChoice": [
               { "choices" : " families with boarders in addition to the family members" , "correct": false },
               { "choices" : " nuclear family and extended families" , "correct": false },
@@ -37,7 +37,7 @@
           ]
       },
       {
-        "Questions":"5. A man is known by the company he keeps. This is an example of a _____",
+        "Questions":"A man is known by the company he keeps. This is an example of a _____",
         "MultipleChoice": [
             { "choices" : "report" , "correct": false },
             { "choices" : "rule" , "correct": false },
@@ -46,7 +46,7 @@
         ]
     },
     {
-        "Questions":" 6 Which of the following is the ultimate purpose of Human Right Education?",
+        "Questions":"Which of the following is the ultimate purpose of Human Right Education?",
         "MultipleChoice": [
             { "choices" : "to identify threats of human rights" , "correct": false },
             { "choices" : "to generate awareness of one’s basic rights" , "correct": true },
@@ -55,7 +55,7 @@
         ]
     },
     {
-        "Questions":"7 The members of the federation of cooperatives are _____",
+        "Questions":"The members of the federation of cooperatives are _____",
         "MultipleChoice": [
             { "choices" : "primaries" , "correct": false },
             { "choices" : "secondaries" , "correct": false },
@@ -64,7 +64,7 @@
         ]
     },
     {
-        "Questions":"8 Be sure to fill _____ the forms correctly",
+        "Questions":"Be sure to fill _____ the forms correctly",
         "MultipleChoice": [
             { "choices" : "over" , "correct": false },
             { "choices" : "in" , "correct": true },
@@ -73,7 +73,7 @@
         ]
     },
     {
-        "Questions":"9 Vascular tissue that transports water in leave connects directly to which of the following?",
+        "Questions":"Vascular tissue that transports water in leave connects directly to which of the following?",
         "MultipleChoice": [
             { "choices" : "meristems in the root tip" , "correct": false },
             { "choices" : "pistils in the flower" , "correct": false },
@@ -82,7 +82,7 @@
         ]
     },
     {
-        "Questions":"10 Which statement is true?",
+        "Questions":"Which statement is true?",
         "MultipleChoice": [
             { "choices" : " 5–√ is a rational number" , "correct": false },
             { "choices" : " 5–√ is a rational number" , "correct": false },
@@ -91,7 +91,7 @@
         ]
     },
     {
-        "Questions":"11 Let us campaign for the total ban ____________ of harmful insecticides.",
+        "Questions":"Let us campaign for the total ban ____________ of harmful insecticides.",
         "MultipleChoice": [
             { "choices" : "With the use" , "correct": false },
             { "choices" : "On using" , "correct": false },
@@ -100,7 +100,7 @@
         ]
     },
     {
-        "Questions":"12 Your statements are IMPERTINENT to the case. The capitalized word means ______________.",
+        "Questions":"Your statements are IMPERTINENT to the case. The capitalized word means ______________.",
         "MultipleChoice": [
             { "choices" : "Important" , "correct": false },
             { "choices" : "Irrelevant" , "correct": true },
@@ -109,7 +109,7 @@
         ]
     },
     {
-        "Questions":"13 Imprisoned for 27 years, Nelson Mandela realized his dream of a free and non-racial South Africa by forgiving his oppressors and negotiating in good faith for the peaceful transition to democracy. Nelson Mandel demonstrated his trait of ________________",
+        "Questions":"Imprisoned for 27 years, Nelson Mandela realized his dream of a free and non-racial South Africa by forgiving his oppressors and negotiating in good faith for the peaceful transition to democracy. Nelson Mandel demonstrated his trait of ________________",
         "MultipleChoice": [
             { "choices" : "Friendliness" , "correct": true },
             { "choices" : "Determination" , "correct": false },
@@ -118,7 +118,7 @@
         ]
     },
     {
-        "Questions":"14 In William Shakespeare’s “Merchant of Venice,” Portia, the judge said: “The quality of mercy is not strained; it droppeth as the gentle rain from heaven upon the place beneath... It is twice blest; it blesseth him that gives and him that takes. ‘Tis mightier than the mightiest... and one is likened to God when mercy seasons justice.” The main thought of the excerpt it that ___________________ ",
+        "Questions":"In William Shakespeare’s “Merchant of Venice,” Portia, the judge said: “The quality of mercy is not strained; it droppeth as the gentle rain from heaven upon the place beneath... It is twice blest; it blesseth him that gives and him that takes. ‘Tis mightier than the mightiest... and one is likened to God when mercy seasons justice.” The main thought of the excerpt it that ___________________ ",
         "MultipleChoice": [
             { "choices" : "Mercy is only for deserving" , "correct": false },
             { "choices" : "Mercy is limited in extent" , "correct": false },
@@ -127,7 +127,7 @@
         ]
     },
     {
-        "Questions":"15 Who was the first editor of La Solidaridad ?",
+        "Questions":"Who was the first editor of La Solidaridad ?",
         "MultipleChoice": [
             { "choices" : "Juan Luna" , "correct": false },
             { "choices" : "Graciano Lopez Jaena" , "correct": true },
@@ -136,7 +136,7 @@
         ]
     },
     {
-        "Questions":"16 A hypothetical ecosystem contains lettuce (the  producer), a caterpillar (the primary consumer),  a small passerine bird (the secondary consumer) and a lion (the tertiary consumer). A gardener  arrives and sprays pesticide, killing all the  caterpillars. What can happen to the ecosystem?",
+        "Questions":"A hypothetical ecosystem contains lettuce (the  producer), a caterpillar (the primary consumer),  a small passerine bird (the secondary consumer) and a lion (the tertiary consumer). A gardener  arrives and sprays pesticide, killing all the  caterpillars. What can happen to the ecosystem?",
         "MultipleChoice": [
             { "choices" : "The passerine birds will thrive" , "correct": false },
             { "choices" : "The lions will eventually die" , "correct": false },
@@ -145,7 +145,7 @@
         ]
     },
     {
-        "Questions":"17 Among models of reading strategies, what did student Jk adopt when she reads back and forth attending to both what is in her mind and what’s on the page?",
+        "Questions":"Among models of reading strategies, what did student Jk adopt when she reads back and forth attending to both what is in her mind and what’s on the page?",
         "MultipleChoice": [
             { "choices" : "Bottoms-up" , "correct": false },
             { "choices" : "Interactive" , "correct": true },
@@ -154,7 +154,7 @@
         ]
     },
     {
-        "Questions":"18 If threat of punishment is necessary on erring students, how should this best be done",
+        "Questions":"If threat of punishment is necessary on erring students, how should this best be done",
         "MultipleChoice": [
             { "choices" : "Make the threat and reinforce with warning" , "correct": false },
             { "choices" : "Make the threat with immediate punishment" , "correct":false},
@@ -163,7 +163,7 @@
         ]
     },
     {
-        "Questions":"19 When USA decided to drop the atomic bomb to  Nagasaki in order to stop the land invasion of Japan, what degree of moral certitude can describe this decision of USA?",
+        "Questions":"When USA decided to drop the atomic bomb to  Nagasaki in order to stop the land invasion of Japan, what degree of moral certitude can describe this decision of USA?",
         "MultipleChoice": [
             { "choices" : "Doubtful" , "correct": false },
             { "choices" : "Perflexed" , "correct": false },
@@ -172,7 +172,7 @@
         ]
     },
     {
-        "Questions":"20 Isang dulog pampatikan na kung saan ang  pagpapakahulugan sa isang tekstong binasa ay  nakapokus sa sariling panlasa ng mambabasa at kilala rin sa katawagan na readerresponse theory",
+        "Questions":"Isang dulog pampatikan na kung saan ang  pagpapakahulugan sa isang tekstong binasa ay  nakapokus sa sariling panlasa ng mambabasa at kilala rin sa katawagan na readerresponse theory",
         "MultipleChoice": [
             { "choices" : "Impresyonista" , "correct": true },
             { "choices" : "Patalambuhay" , "correct": false },
@@ -181,7 +181,7 @@
         ]
     },
     {
-        "Questions":"21 In one of his poems, the Filipino author Zulueta da Costa said that the Filipinos are like the Molave. What figure of speech was used?",
+        "Questions":"In one of his poems, the Filipino author Zulueta da Costa said that the Filipinos are like the Molave. What figure of speech was used?",
         "MultipleChoice": [
             { "choices" : "simile" , "correct": true },
             { "choices" : "personification" , "correct": false },
@@ -190,7 +190,7 @@
         ]
     },
     {
-        "Questions":"21 In one of his poems, the Filipino author Zulueta da Costa said that the Filipinos are like the Molave. What figure of speech was used?",
+        "Questions":"In one of his poems, the Filipino author Zulueta da Costa said that the Filipinos are like the Molave. What figure of speech was used?",
         "MultipleChoice": [
             { "choices" : "simile" , "correct": false },
             { "choices" : "personification" , "correct": true },
@@ -199,7 +199,7 @@
         ]
     },
     {
-        "Questions":"22 Helen of Troy is the face who launched thousand ships .What figure of speech is used in the given sentence?",
+        "Questions":"Helen of Troy is the face who launched thousand ships .What figure of speech is used in the given sentence?",
         "MultipleChoice": [
             { "choices" : "ellipsis" , "correct": false },
             { "choices" : "synecdoche" , "correct": true },
@@ -208,7 +208,7 @@
         ]
     },
     {
-        "Questions":"23 Si Ana at Ariadne ay masisipag na mag-aaral. Ano ang mali sa pangungusap?",
+        "Questions":"Si Ana at Ariadne ay masisipag na mag-aaral. Ano ang mali sa pangungusap?",
         "MultipleChoice": [
             { "choices" : "Si" , "correct": true },
             { "choices" : "at" , "correct": false },
@@ -217,7 +217,7 @@
         ]
     },
     {
-        "Questions":".24 ________ mo ng mga damit ang iyong kapatid sa dormitory",
+        "Questions":"________ mo ng mga damit ang iyong kapatid sa dormitory",
         "MultipleChoice": [
             { "choices" : "Dalhin" , "correct": false },
             { "choices" : "Dalahin" , "correct": false },
@@ -226,7 +226,7 @@
         ]
     },
     {
-        "Questions":"25 ________ sa batas, hindi maaaring isakdal ng dalawang beses ang isang akusado para sa iisang pagkakasala",
+        "Questions":"________ sa batas, hindi maaaring isakdal ng dalawang beses ang isang akusado para sa iisang pagkakasala",
         "MultipleChoice": [
             { "choices" : "Maliban" , "correct": true },
             { "choices" : "Ayon" , "correct": false },
@@ -235,7 +235,7 @@
         ]
     },
     {
-        "Questions":"26 Army men who are rescued from insurgent kidnap undergo medical check-up. Why is this done?",
+        "Questions":"Army men who are rescued from insurgent kidnap undergo medical check-up. Why is this done?",
         "MultipleChoice": [
             { "choices" : "To protect the prisoner from further harassment" , "correct": false },
             { "choices" : "To avoid relapses from illness while in hiding" , "correct": false },
@@ -244,7 +244,7 @@
         ]
     },
     {
-        "Questions":"27The reporter was accused in court becaus of his story. The story was ______.",
+        "Questions":"The reporter was accused in court becaus of his story. The story was ______.",
         "MultipleChoice": [
             { "choices" : "A tainted with malice" , "correct": false },
             { "choices" : "A narration of facts" , "correct": false },
@@ -253,7 +253,7 @@
         ]
     },
     {
-        "Questions":"28 The menace of drugs has affected the Philippines economy greatly. Which id these  drugs are found most destructive to one’s brain?",
+        "Questions":"The menace of drugs has affected the Philippines economy greatly. Which id these  drugs are found most destructive to one’s brain?",
         "MultipleChoice": [
             { "choices" : "Opium" , "correct": false },
             { "choices" : "Marijuana" , "correct": false },
@@ -262,7 +262,7 @@
         ]
     },
     {
-        "Questions":"29 Miss Victoria has many children. Her husband decided to send there to Manila and seek jobs. The eldest child is only 16 years old. What right is violated by the father",
+        "Questions":"Miss Victoria has many children. Her husband decided to send there to Manila and seek jobs. The eldest child is only 16 years old. What right is violated by the father",
         "MultipleChoice": [
             { "choices" : "Right of family to family living wage" , "correct": false },
             { "choices" : "Right to education" , "correct": false },
@@ -271,7 +271,7 @@
         ]
     },
     {
-        "Questions":"30 A prisoner was made to confess of his guilt. A lawyer of the respondent was present in the confession. What was violated?",
+        "Questions":"A prisoner was made to confess of his guilt. A lawyer of the respondent was present in the confession. What was violated?",
         "MultipleChoice": [
             { "choices" : "The confession was without due consultan" , "correct": true },
             { "choices" : "The prisoner was approached properly" , "correct": false },
@@ -280,7 +280,7 @@
         ]
     },
     {
-        "Questions":"31 Which of the following statements is definitely true about the nature of science?",
+        "Questions":"Which of the following statements is definitely true about the nature of science?",
         "MultipleChoice": [
             { "choices" : "Science will help make the world a better place to live in." , "correct": true },
             { "choices" : "Science can always uncover the truth in the realm of nature" , "correct": false },
@@ -289,7 +289,7 @@
         ]
     },
     {
-        "Questions":"32 Which of the following processes is best  associated with technology than with science?",
+        "Questions":"Which of the following processes is best  associated with technology than with science?",
         "MultipleChoice": [
             { "choices" : "designing for a need " , "correct": true },
             { "choices" : "uncovering natural phenomena" , "correct": false },
@@ -298,7 +298,7 @@
         ]
     },
     {
-        "Questions":"33 Which of the following statements best describes the connection between science and technology?",
+        "Questions":"Which of the following statements best describes the connection between science and technology?",
         "MultipleChoice": [
             { "choices" : "designing for a need " , "correct": false },
             { "choices" : "uncovering natural phenomena" , "correct": true },
@@ -307,7 +307,7 @@
         ]
     },
     {
-        "Questions":"34 Which of the following is a technological concept rather than a scientific concept?",
+        "Questions":"Which of the following is a technological concept rather than a scientific concept?",
         "MultipleChoice": [
             { "choices" : "Tungsten has a high melting point" , "correct": false },
             { "choices" : "Metals are good conductors of heat" , "correct": false },
@@ -316,7 +316,7 @@
         ]
     },
     {
-        "Questions":"35 You want to add exactly 35.00 g of salt to a  solution. What instrument must you use to measure this amount?",
+        "Questions":"You want to add exactly 35.00 g of salt to a  solution. What instrument must you use to measure this amount?",
         "MultipleChoice": [
             { "choices" : "beaker" , "correct": false },
             { "choices" : "thermometer " , "correct": false },
@@ -325,7 +325,7 @@
         ]
     },
     {
-        "Questions":"36 The teacher-adviser monitors the clas activities of his pupils.",
+        "Questions":"The teacher-adviser monitors the clas activities of his pupils.",
         "MultipleChoice": [
             { "choices" : "Demands" , "correct": false },
             { "choices" : "Observes" , "correct": true },
@@ -334,7 +334,7 @@
         ]
     },
     {
-        "Questions":"37 There is a need to renovate the old school building to avoid future accidents",
+        "Questions":"There is a need to renovate the old school building to avoid future accidents",
         "MultipleChoice": [
             { "choices" : "repair" , "correct": true },
             { "choices" : "repaint" , "correct": false },
@@ -343,7 +343,7 @@
         ]
     },
     {
-        "Questions":"38 The athlete was in a sanguine mood after the ball game",
+        "Questions":"The athlete was in a sanguine mood after the ball game",
         "MultipleChoice": [
             { "choices" : "Frustrating" , "correct": false },
             { "choices" : "happy" , "correct": true },
@@ -352,7 +352,7 @@
         ]
     },
     {
-        "Questions":"39 There is a need for an amicable settlement between the parent and the teacher",
+        "Questions":"There is a need for an amicable settlement between the parent and the teacher",
         "MultipleChoice": [
             { "choices" : "embarrassing" , "correct": false },
             { "choices" : "humble" , "correct": false },
@@ -361,7 +361,7 @@
         ]
     },
     {
-        "Questions":"40 There is an altercation going on between the teacher and principal in the office",
+        "Questions":"There is an altercation going on between the teacher and principal in the office",
         "MultipleChoice": [
             { "choices" : "dispute" , "correct": true },
             { "choices" : "disput" , "correct": false },
@@ -370,7 +370,7 @@
         ]
     },
     {
-        "Questions":"41 The English teacher is proficient in her teaching",
+        "Questions":"The English teacher is proficient in her teaching",
         "MultipleChoice": [
             { "choices" : "effective" , "correct": false },
             { "choices" : "expert" , "correct": true },
@@ -379,7 +379,7 @@
         ]
     },
     {
-        "Questions":"42 Stipulate in your constitution and by-laws the qualified of the officers.",
+        "Questions":"Stipulate in your constitution and by-laws the qualified of the officers.",
         "MultipleChoice": [
             { "choices" : "specify" , "correct": false },
             { "choices" : "attach" , "correct": true },
@@ -388,7 +388,7 @@
         ]
     },
     {
-        "Questions":"43 Integrate values in all your subject areas",
+        "Questions":"Integrate values in all your subject areas",
         "MultipleChoice": [
             { "choices" : "remove" , "correct": false },
             { "choices" : "include" , "correct": true },
@@ -397,7 +397,7 @@
         ]
     },
     {
-        "Questions":"44 His preposterous reason made him the talk of the campus",
+        "Questions":"His preposterous reason made him the talk of the campus",
         "MultipleChoice": [
             { "choices" : "magnificent" , "correct": false },
             { "choices" : "ridiculous" , "correct": true },
@@ -406,7 +406,7 @@
         ]
     },
     {
-        "Questions":"45 The singer was fidgety as the judges were deciding on the winner",
+        "Questions":"The singer was fidgety as the judges were deciding on the winner",
         "MultipleChoice": [
             { "choices" : "appealing" , "correct": false },
             { "choices" : "with love" , "correct": false },
@@ -415,7 +415,7 @@
         ]
     },
     {
-        "Questions":"46 A priest gave all his possessions to disabled children. What right may they claim?",
+        "Questions":"A priest gave all his possessions to disabled children. What right may they claim?",
         "MultipleChoice": [
             { "choices" : "Right to just treatment" , "correct": false },
             { "choices" : "Right to proper treatment" , "correct": false },
@@ -433,7 +433,7 @@
         ]
     },
     {
-        "Questions":"48 The copyreader found the news story boring. He found it full of __________.",
+        "Questions":"The copyreader found the news story boring. He found it full of __________.",
         "MultipleChoice": [
             { "choices" : "Adjectives" , "correct": false },
             { "choices" : "Verbs" , "correct": true },
@@ -442,24 +442,13 @@
         ]
     },
     {
-        "Questions":"49The copyreader found the news story  boring. He found it full of __________.",
+        "Questions":"The copyreader found the news story  boring. He found it full of __________.",
         "MultipleChoice": [
             { "choices" : "Adjectives" , "correct": false },
             { "choices" : "Verbs" , "correct": false  },
             { "choices" : "Pronouns" , "correct": true },
             { "choices" : "Adverbs" , "correct": false }
         ]
-    },
-    {
-        "Questions":"50 There were three guests on the stage. They were made up a parent, the governor and the principal. Who should be acknowledged first by the valedictorian?",
-        "MultipleChoice": [
-            { "choices" : "The classmates" , "correct": true },
-            { "choices" : "The principle" , "correct": false },
-            { "choices" : "The governor" , "correct": false },
-            { "choices" : "The parent" , "correct": false }
-        ]
     }
-  
-  
  ]
  }
