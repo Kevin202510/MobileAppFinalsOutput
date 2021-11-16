@@ -1,45 +1,30 @@
 <ion-header>
   <ion-toolbar color="primary">
-    <ion-title>General Education</ion-title>
+    <center><h1>Multiple-Choice Exam</h1></center>
     <ion-buttons slot="start"><ion-menu-button menu="neust-menu"></ion-menu-button></ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-card-header>
-    <ion-card-title>General Education Part 1</ion-card-title>
-  </ion-card-header>
-  <ion-card *ngFor="let syllabus1 of syllabus1st; let i=index;">
-    <ion-card-content>
-      <ion-text>{{i+1}}.</ion-text>
-      <ion-text>{{ syllabus1.Subject_Code }}</ion-text>
+  <ion-card *ngIf="prevAnswered.length <= 4" class="answers">
+    <ion-card-header>
+      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
+      <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>
+    </ion-card-header>
+    <ion-card-content class="answers__list" *ngFor="let quiz of quizzes[currentQuiz]?.MultipleChoice">
+      <ion-radio-group (ionChange)="onAnswer(quiz.correct)">
       <ion-item>
-        <ion-list>
-          <ion-radio-group>
-            <ion-item>
-              <ion-label>{{syllabus1.MultipleChoice[0].A}}</ion-label>
-              <ion-radio slot="start"></ion-radio>
-            </ion-item>
-            <ion-item>
-              <ion-label>{{syllabus1.MultipleChoice[0].B}}</ion-label>
-              <ion-radio slot="start"></ion-radio>
-            </ion-item>
-            <ion-item>
-              <ion-label>{{syllabus1.MultipleChoice[0].C}}</ion-label>
-              <ion-radio slot="start"></ion-radio>
-            </ion-item>
-            <ion-item>
-              <ion-label>{{syllabus1.MultipleChoice[0].D}}</ion-label>
-              <ion-radio slot="start"></ion-radio>
-            </ion-item>
-          </ion-radio-group>
-        </ion-list>      
-      </ion-item>
+          <ion-label>{{ quiz.choices }}</ion-label>
+          <ion-radio value="{{ quiz.choices }}" [disabled]="answerSelected" ion slot="start"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
     </ion-card-content>
-  </ion-card>
-<ion-footer class="ion-no-border">
-  <ion-toolbar color="primary">
-    <center><ion-title>Grid Exercise</ion-title></center>
-  </ion-toolbar>
-</ion-footer>
+  </ion-card>   
+  <div *ngIf="prevAnswered.length > 4">
+    <button class="btn" (click)="showResult()" *ngIf="resultStatus === 'Show Result'">{{ resultStatus }}</button>
+    <button class="btn btn--new" (click)="playAgain()" *ngIf="resultStatus !== 'Show Result'">{{ resultStatus }}</button>
+    <div *ngIf="result">
+      Correct Answers: {{ correctAnswers }} | Inocrrect Answers: {{ incorrectAnswers }}
+    </div>
+    </div>
 </ion-content>

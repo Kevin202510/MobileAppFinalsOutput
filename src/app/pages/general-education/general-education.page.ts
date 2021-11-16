@@ -1,38 +1,80 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
+import { animate, style, transition, trigger } from '@angular/animations';
+import Swal from 'sweetalert2';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-general-education',
   templateUrl: './general-education.page.html',
   styleUrls: ['./general-education.page.scss'],
+  animations:[  
+    trigger('answer', [
+      transition('void => *', [style({ opacity: 0, transform: 'translateY(-3rem)'}), animate(300)])
+    ])
+  ]
 })
-export class GeneralEducationPage implements OnInit {
-  syllabus1st: [];
-  MC:[];
+export class GeneralEducationPage{
 
-  constructor() {  }
+  quizzes = [];
 
-  ngOnInit() {
-    this.fetchData();
-
-  }
-
-  fetchData(){
-    // get all first year subject in 1st sem
-    fetch('./assets/GeneralEducationJsonData/generalEducationQuestionAndAnswer.json').then(res => res.json())
+  currentQuiz:number;
+  answerSelected = false;
+  correctAnswers = 0;
+  incorrectAnswers = 0;
+  prevAnswered = [];
+  
+  result = false;
+  resultStatus = 'Show Result';
+  
+  
+    constructor() { }
+  
+    ngOnInit(): void {
+      fetch('./assets/GeneralEducationJsonData/generalEducationQuestionAndAnswer.json').then(res => res.json())
       .then(content => {
-        this.syllabus1st = content.FirstYear1stSemSyllabus;
+        this.quizzes = content.GeneralEducationQuestionAndAnswer;
       });
-      // get all second year subject in 1st sem
-      // fetch('./assets/GeneralEducationJsonData/generalEducationQuestionAndAnswer.json').then(res => res.json())
-      // .then(content => {
-      //   this.syllabus3rd = content.SecondYear1stSemSyllabus;
-      // });
+      // this.quizzes = this.quizService.getQuizzes();
+      this.currentQuiz = this.getRandom();
+      
+      this.prevAnswered.push(this.currentQuiz);
+    }
+  
+    onAnswer(option: boolean){
+      this.answerSelected = true;
+      setTimeout(() => {
+        let newQuiz = this.getRandom();
+         while(this.prevAnswered.includes(newQuiz) && this.prevAnswered.length < 4){
+          newQuiz = this.getRandom();
+         }
+         this.currentQuiz = newQuiz;
+          this.prevAnswered.push(this.currentQuiz);
+        
+          this.answerSelected = false;
+      }, 300);
+  
+      if(option){
+        this.correctAnswers++;
+      }else{
+        this.incorrectAnswers++;
+      }
+      
+    }
 
-      // get all second year subject in 2nd sem
-      // fetch('./assets/GeneralEducationJsonData/generalEducationQuestionAndAnswer.json').then(res => res.json())
-      // .then(content => {
-      //   this.syllabus4th = content.SecondYear2ndSemSyllabus;
-      // });
-  }
+    getRandom(){
+      return Math.floor(Math.random() * this.quizzes.length);
+    }
+  
+    showResult(){
+      this.result = true;
+      this.resultStatus = 'Play Again!';    
+    }
+    playAgain(){
+      this.prevAnswered = [];
+      this.prevAnswered.push(this.getRandom());
+      this.correctAnswers = 0;
+      this.incorrectAnswers = 0;
+    }
+  
 
 }
