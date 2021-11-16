@@ -35,6 +35,431 @@
               { "choices" : " families with illegal light and water connections" , "correct": true },
               { "choices" : " families with pet dogs and cats" , "correct": false }
           ]
-      }
+      },
+      {
+        "Questions":"5. A man is known by the company he keeps. This is an example of a _____",
+        "MultipleChoice": [
+            { "choices" : "report" , "correct": false },
+            { "choices" : "rule" , "correct": false },
+            { "choices" : "poem" , "correct": false },
+            { "choices" : "proverb" , "correct": true }
+        ]
+    },
+    {
+        "Questions":" 6 Which of the following is the ultimate purpose of Human Right Education?",
+        "MultipleChoice": [
+            { "choices" : "to identify threats of human rights" , "correct": false },
+            { "choices" : "to generate awareness of one’s basic rights" , "correct": true },
+            { "choices" : "to check on abuses in the exercise of human rights", "correct": false },
+            { "choices" : "to understand and change conditions whic" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"7 The members of the federation of cooperatives are _____",
+        "MultipleChoice": [
+            { "choices" : "primaries" , "correct": false },
+            { "choices" : "secondaries" , "correct": false },
+            { "choices" : "natural persons " , "correct": false },
+            { "choices" : "primary and secondary cooperatives" , "correct": true }
+        ]
+    },
+    {
+        "Questions":"8 Be sure to fill _____ the forms correctly",
+        "MultipleChoice": [
+            { "choices" : "over" , "correct": false },
+            { "choices" : "in" , "correct": true },
+            { "choices" : "on" , "correct": false },
+            { "choices" : "with" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"9 Vascular tissue that transports water in leave connects directly to which of the following?",
+        "MultipleChoice": [
+            { "choices" : "meristems in the root tip" , "correct": false },
+            { "choices" : "pistils in the flower" , "correct": false },
+            { "choices" : "root hairs in the epidermis" , "correct": false },
+            { "choices" : "xylem in the stem" , "correct": true }
+        ]
+    },
+    {
+        "Questions":"10 Which statement is true?",
+        "MultipleChoice": [
+            { "choices" : " 5–√ is a rational number" , "correct": false },
+            { "choices" : " 5–√ is a rational number" , "correct": false },
+            { "choices" : "3–√ is a real number" , "correct": true },
+            { "choices" : "4–√ is an irrational number" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"11 Let us campaign for the total ban ____________ of harmful insecticides.",
+        "MultipleChoice": [
+            { "choices" : "With the use" , "correct": false },
+            { "choices" : "On using" , "correct": false },
+            { "choices" : "on the use" , "correct": true },
+            { "choices" : "with using" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"12 Your statements are IMPERTINENT to the case. The capitalized word means ______________.",
+        "MultipleChoice": [
+            { "choices" : "Important" , "correct": false },
+            { "choices" : "Irrelevant" , "correct": true },
+            { "choices" : "Violent" , "correct": false },
+            { "choices" : "malicious" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"13 Imprisoned for 27 years, Nelson Mandela realized his dream of a free and non-racial South Africa by forgiving his oppressors and negotiating in good faith for the peaceful transition to democracy. Nelson Mandel demonstrated his trait of ________________",
+        "MultipleChoice": [
+            { "choices" : "Friendliness" , "correct": true },
+            { "choices" : "Determination" , "correct": false },
+            { "choices" : "forgiving" , "correct": false },
+            { "choices" : "loyalty" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"14 In William Shakespeare’s “Merchant of Venice,” Portia, the judge said: “The quality of mercy is not strained; it droppeth as the gentle rain from heaven upon the place beneath... It is twice blest; it blesseth him that gives and him that takes. ‘Tis mightier than the mightiest... and one is likened to God when mercy seasons justice.” The main thought of the excerpt it that ___________________ ",
+        "MultipleChoice": [
+            { "choices" : "Mercy is only for deserving" , "correct": false },
+            { "choices" : "Mercy is limited in extent" , "correct": false },
+            { "choices" : "Mercy is limited in extent" , "correct": true },
+            { "choices" : "Marcelo H. Del Pilar" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"15 Who was the first editor of La Solidaridad ?",
+        "MultipleChoice": [
+            { "choices" : "Juan Luna" , "correct": false },
+            { "choices" : "Graciano Lopez Jaena" , "correct": true },
+            { "choices" : "Jose Rizal" , "correct": false },
+            { "choices" : "Marcelo H. Del Pilar" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"16 A hypothetical ecosystem contains lettuce (the  producer), a caterpillar (the primary consumer),  a small passerine bird (the secondary consumer) and a lion (the tertiary consumer). A gardener  arrives and sprays pesticide, killing all the  caterpillars. What can happen to the ecosystem?",
+        "MultipleChoice": [
+            { "choices" : "The passerine birds will thrive" , "correct": false },
+            { "choices" : "The lions will eventually die" , "correct": false },
+            { "choices" : "the passerine birds will convert to herbivores" , "correct": true },
+            { "choices" : "the lettuce will wilt and die" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"17 Among models of reading strategies, what did student Jk adopt when she reads back and forth attending to both what is in her mind and what’s on the page?",
+        "MultipleChoice": [
+            { "choices" : "Bottoms-up" , "correct": false },
+            { "choices" : "Interactive" , "correct": true },
+            { "choices" : " Down-top" , "correct": false },
+            { "choices" : "Top-down" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"18 If threat of punishment is necessary on erring students, how should this best be done",
+        "MultipleChoice": [
+            { "choices" : "Make the threat and reinforce with warning" , "correct": false },
+            { "choices" : "Make the threat with immediate punishment" , "correct":false},
+            { "choices" : "Warn and threat at the same time" , "correct": false },
+            { "choices" : "First a warning before the threat" , "correct": true }
+        ]
+    },
+    {
+        "Questions":"19 When USA decided to drop the atomic bomb to  Nagasaki in order to stop the land invasion of Japan, what degree of moral certitude can describe this decision of USA?",
+        "MultipleChoice": [
+            { "choices" : "Doubtful" , "correct": false },
+            { "choices" : "Perflexed" , "correct": false },
+            { "choices" : "Certain" , "correct": true },
+            { "choices" : "Callous" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"20 Isang dulog pampatikan na kung saan ang  pagpapakahulugan sa isang tekstong binasa ay  nakapokus sa sariling panlasa ng mambabasa at kilala rin sa katawagan na readerresponse theory",
+        "MultipleChoice": [
+            { "choices" : "Impresyonista" , "correct": true },
+            { "choices" : "Patalambuhay" , "correct": false },
+            { "choices" : "antropolohiya" , "correct": false },
+            { "choices" : "pansikolohiya" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"21 In one of his poems, the Filipino author Zulueta da Costa said that the Filipinos are like the Molave. What figure of speech was used?",
+        "MultipleChoice": [
+            { "choices" : "simile" , "correct": true },
+            { "choices" : "personification" , "correct": false },
+            { "choices" : "metaphor" , "correct": false },
+            { "choices" : "hyperbole" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"21 In one of his poems, the Filipino author Zulueta da Costa said that the Filipinos are like the Molave. What figure of speech was used?",
+        "MultipleChoice": [
+            { "choices" : "simile" , "correct": false },
+            { "choices" : "personification" , "correct": true },
+            { "choices" : "metaphor" , "correct": false },
+            { "choices" : "hyperbole" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"22 Helen of Troy is the face who launched thousand ships .What figure of speech is used in the given sentence?",
+        "MultipleChoice": [
+            { "choices" : "ellipsis" , "correct": false },
+            { "choices" : "synecdoche" , "correct": true },
+            { "choices" : "alliteration" , "correct": false },
+            { "choices" : "irony" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"23 Si Ana at Ariadne ay masisipag na mag-aaral. Ano ang mali sa pangungusap?",
+        "MultipleChoice": [
+            { "choices" : "Si" , "correct": true },
+            { "choices" : "at" , "correct": false },
+            { "choices" : "masisipag" , "correct": false },
+            { "choices" : "aaral" , "correct": false }
+        ]
+    },
+    {
+        "Questions":".24 ________ mo ng mga damit ang iyong kapatid sa dormitory",
+        "MultipleChoice": [
+            { "choices" : "Dalhin" , "correct": false },
+            { "choices" : "Dalahin" , "correct": false },
+            { "choices" : "Dalhan" , "correct": true },
+            { "choices" : "Dadalahin" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"25 ________ sa batas, hindi maaaring isakdal ng dalawang beses ang isang akusado para sa iisang pagkakasala",
+        "MultipleChoice": [
+            { "choices" : "Maliban" , "correct": true },
+            { "choices" : "Ayon" , "correct": false },
+            { "choices" : "Ayon kay" , "correct": false },
+            { "choices" : "Marahil" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"26 Army men who are rescued from insurgent kidnap undergo medical check-up. Why is this done?",
+        "MultipleChoice": [
+            { "choices" : "To protect the prisoner from further harassment" , "correct": false },
+            { "choices" : "To avoid relapses from illness while in hiding" , "correct": false },
+            { "choices" : "To determine the physical and mental state of the army man" , "correct": true },
+            { "choices" : "To determine the loyalty of this army man" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"27The reporter was accused in court becaus of his story. The story was ______.",
+        "MultipleChoice": [
+            { "choices" : "A tainted with malice" , "correct": false },
+            { "choices" : "A narration of facts" , "correct": false },
+            { "choices" : "To personal to take " , "correct": false },
+            { "choices" : "Full of distorted facts" , "correct": true }
+        ]
+    },
+    {
+        "Questions":"28 The menace of drugs has affected the Philippines economy greatly. Which id these  drugs are found most destructive to one’s brain?",
+        "MultipleChoice": [
+            { "choices" : "Opium" , "correct": false },
+            { "choices" : "Marijuana" , "correct": false },
+            { "choices" : "Methyl salicilate" , "correct": false },
+            { "choices" : "Shabu" , "correct": true }
+        ]
+    },
+    {
+        "Questions":"29 Miss Victoria has many children. Her husband decided to send there to Manila and seek jobs. The eldest child is only 16 years old. What right is violated by the father",
+        "MultipleChoice": [
+            { "choices" : "Right of family to family living wage" , "correct": false },
+            { "choices" : "Right to education" , "correct": false },
+            { "choices" : "Right of the children to work and  exploitation" , "correct": true  },
+            { "choices" : "Right of the children to assistance, proper care and" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"30 A prisoner was made to confess of his guilt. A lawyer of the respondent was present in the confession. What was violated?",
+        "MultipleChoice": [
+            { "choices" : "The confession was without due consultan" , "correct": true },
+            { "choices" : "The prisoner was approached properly" , "correct": false },
+            { "choices" : "The prisoner should have a lawyer of his choice" , "correct": false },
+            { "choices" : "The choice of the lawyer was [made by the accuser" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"31 Which of the following statements is definitely true about the nature of science?",
+        "MultipleChoice": [
+            { "choices" : "Science will help make the world a better place to live in." , "correct": true },
+            { "choices" : "Science can always uncover the truth in the realm of nature" , "correct": false },
+            { "choices" : "Scientific work requires a dedication that excludes the lives of people in other fields of work" , "correct": false },
+            { "choices" : "Theories in science can be disproved by testing: a well established theory can be demolished with a single observation" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"32 Which of the following processes is best  associated with technology than with science?",
+        "MultipleChoice": [
+            { "choices" : "designing for a need " , "correct": true },
+            { "choices" : "uncovering natural phenomena" , "correct": false },
+            { "choices" : "discovering the nature of matter" , "correct": false },
+            { "choices" : "constructing concepts, principles and laws" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"33 Which of the following statements best describes the connection between science and technology?",
+        "MultipleChoice": [
+            { "choices" : "designing for a need " , "correct": false },
+            { "choices" : "uncovering natural phenomena" , "correct": true },
+            { "choices" : "" , "correct": false },
+            { "choices" : "" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"34 Which of the following is a technological concept rather than a scientific concept?",
+        "MultipleChoice": [
+            { "choices" : "Tungsten has a high melting point" , "correct": false },
+            { "choices" : "Metals are good conductors of heat" , "correct": false },
+            { "choices" : "Resistance is inversely proportional to current." , "correct": false },
+            { "choices" : "Fluorescent lamps are improved through methods of manufacturing." , "correct": true }
+        ]
+    },
+    {
+        "Questions":"35 You want to add exactly 35.00 g of salt to a  solution. What instrument must you use to measure this amount?",
+        "MultipleChoice": [
+            { "choices" : "beaker" , "correct": false },
+            { "choices" : "thermometer " , "correct": false },
+            { "choices" : "graduated cylinder" , "correct": false },
+            { "choices" : "triple beam balance" , "correct": true }
+        ]
+    },
+    {
+        "Questions":"36 The teacher-adviser monitors the clas activities of his pupils.",
+        "MultipleChoice": [
+            { "choices" : "Demands" , "correct": false },
+            { "choices" : "Observes" , "correct": true },
+            { "choices" : "Identifies" , "correct": false },
+            { "choices" : "regulates" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"37 There is a need to renovate the old school building to avoid future accidents",
+        "MultipleChoice": [
+            { "choices" : "repair" , "correct": true },
+            { "choices" : "repaint" , "correct": false },
+            { "choices" : "restore" , "correct": false },
+            { "choices" : "redecorate" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"38 The athlete was in a sanguine mood after the ball game",
+        "MultipleChoice": [
+            { "choices" : "Frustrating" , "correct": false },
+            { "choices" : "happy" , "correct": true },
+            { "choices" : "sad" , "correct": false },
+            { "choices" : "discouraging" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"39 There is a need for an amicable settlement between the parent and the teacher",
+        "MultipleChoice": [
+            { "choices" : "embarrassing" , "correct": false },
+            { "choices" : "humble" , "correct": false },
+            { "choices" : "peaceful" , "correct": true },
+            { "choices" : "continuing" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"40 There is an altercation going on between the teacher and principal in the office",
+        "MultipleChoice": [
+            { "choices" : "dispute" , "correct": true },
+            { "choices" : "disput" , "correct": false },
+            { "choices" : "settlement" , "correct": false },
+            { "choices" : "jealousy" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"41 The English teacher is proficient in her teaching",
+        "MultipleChoice": [
+            { "choices" : "effective" , "correct": false },
+            { "choices" : "expert" , "correct": true },
+            { "choices" : "engrossed" , "correct": false },
+            { "choices" : "perfect" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"42 Stipulate in your constitution and by-laws the qualified of the officers.",
+        "MultipleChoice": [
+            { "choices" : "specify" , "correct": false },
+            { "choices" : "attach" , "correct": true },
+            { "choices" : "fasten" , "correct": false },
+            { "choices" : "underline" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"43 Integrate values in all your subject areas",
+        "MultipleChoice": [
+            { "choices" : "remove" , "correct": false },
+            { "choices" : "include" , "correct": true },
+            { "choices" : "decrease" , "correct": false },
+            { "choices" : "criticize" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"44 His preposterous reason made him the talk of the campus",
+        "MultipleChoice": [
+            { "choices" : "magnificent" , "correct": false },
+            { "choices" : "ridiculous" , "correct": true },
+            { "choices" : "funny" , "correct": false },
+            { "choices" : "positive" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"45 The singer was fidgety as the judges were deciding on the winner",
+        "MultipleChoice": [
+            { "choices" : "appealing" , "correct": false },
+            { "choices" : "with love" , "correct": false },
+            { "choices" : "restlessly" , "correct": true },
+            { "choices" : "none of these" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"46 A priest gave all his possessions to disabled children. What right may they claim?",
+        "MultipleChoice": [
+            { "choices" : "Right to just treatment" , "correct": false },
+            { "choices" : "Right to proper treatment" , "correct": false },
+            { "choices" : "Right of disable to equal treatment" , "correct": true },
+            { "choices" : "Right to disabled to equal protection" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"The parent remarked,” ____________ I come late, just lock the door",
+        "MultipleChoice": [
+            { "choices" : "In the event" , "correct": true },
+            { "choices" : "In the interval " , "correct": false },
+            { "choices" : "In the process" , "correct": false },
+            { "choices" : "In the" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"48 The copyreader found the news story boring. He found it full of __________.",
+        "MultipleChoice": [
+            { "choices" : "Adjectives" , "correct": false },
+            { "choices" : "Verbs" , "correct": true },
+            { "choices" : "In the process" , "correct": false },
+            { "choices" : "In the" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"49The copyreader found the news story  boring. He found it full of __________.",
+        "MultipleChoice": [
+            { "choices" : "Adjectives" , "correct": false },
+            { "choices" : "Verbs" , "correct": false  },
+            { "choices" : "Pronouns" , "correct": true },
+            { "choices" : "Adverbs" , "correct": false }
+        ]
+    },
+    {
+        "Questions":"50 There were three guests on the stage. They were made up a parent, the governor and the principal. Who should be acknowledged first by the valedictorian?",
+        "MultipleChoice": [
+            { "choices" : "The classmates" , "correct": true },
+            { "choices" : "The principle" , "correct": false },
+            { "choices" : "The governor" , "correct": false },
+            { "choices" : "The parent" , "correct": false }
+        ]
+    }
+  
+  
  ]
  }
