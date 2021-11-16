@@ -903,17 +903,7 @@
                             { "choices" : "Life is short." , "correct": true },
                             { "choices" : "It is like a flower" , "correct": false }
                         ]
-                } ,
-        {
-                "Questions":"20. What do the following lines from Wordsworth’s Psalm of Life reveal about heroes and heroism",
-                        "MultipleChoice": [
-                            { "choices" : "Anybody can be a hero." , "correct": false },
-                            { "choices" : "Heroes are often forgotten." , "correct": false  },
-                            { "choices" : "Heroes are easy to find" , "correct": true },
-                            { "choices" : "It is easy to do heroic acts" , "correct": false }
-                        ]
-                }      
-
+                }
         ],
         "Filipino" :[
             {
