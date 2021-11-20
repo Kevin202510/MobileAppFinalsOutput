@@ -27,7 +27,7 @@ export class AreaOfSpecializationPage{
   resultStatus = 'Show Result';
 
   options:AnimationOptions = {
-    path:'assets/congrats1.json'
+    path:'assets/welldone.json'
   }
   
   
