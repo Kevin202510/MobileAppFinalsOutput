@@ -1,5 +1,7 @@
 {
   "name": "LET_Exam_Reviewer",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

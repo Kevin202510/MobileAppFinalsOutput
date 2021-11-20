@@ -81,9 +81,9 @@ export class ProfessionalEducationPage implements OnInit {
     showResult(){
       this.result = true;
       this.resultStatus = 'Play Again!';  
-      if(localStorage.length==0){
+      // if(localStorage.length==0){
         localStorage.setItem('ionicProfessionalEducationData','[]');
-      }
+      // }
       var olddata = JSON.parse(localStorage.getItem('ionicProfessionalEducationData'));
       olddata.push({Score:this.correctAnswers,DateTaken:this.datenow});
       localStorage.setItem('ionicProfessionalEducationData',JSON.stringify(olddata));

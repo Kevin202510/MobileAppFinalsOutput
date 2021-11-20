@@ -6,7 +6,15 @@
 </ion-header>
 
 <ion-content>
-  <ion-card *ngIf="prevAnswered.length < 51" class="answers">
+  <ion-segment (ionChange)="segmentChanged($event)">
+    <ion-segment-button value="Exam">
+      <ion-label>Exam</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="History">
+      <ion-label>History</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+  <ion-card *ngIf="prevAnswered.length < 51 && selectedSegment == 'Exam'" class="answers">
     <ion-card-header>
       <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
       <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>
@@ -33,6 +41,15 @@
     <ion-card-content>
       <h2>You got {{correctAnswers}} over {{quizzes.length}}</h2>
       <ng-lottie [options]='options'></ng-lottie>
+      <button class="btn btn--new" (click)="playAgain()" *ngIf="resultStatus !== 'Show Result'">{{ resultStatus }}</button>
+    </ion-card-content>
+  </ion-card>
+  <ion-card *ngIf="selectedSegment=='History'">
+    <h4>Score History</h4>
+    <ion-card-content *ngFor="let quiz of datas">
+      <ion-item>
+        <ion-text>Score {{quiz.Score}} <br> Date Taken {{quiz.DateTaken}}</ion-text>
+      </ion-item>
     </ion-card-content>
   </ion-card>
 </ion-content>
