@@ -1,10 +1,38 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>ProfessionalEducation</ion-title>
+  <ion-toolbar color="primary">
+    <center><h1>Professional Education</h1></center>
     <ion-buttons slot="start"><ion-menu-button menu="letexam-menu"></ion-menu-button></ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-card *ngIf="prevAnswered.length < 16" class="answers">
+    <ion-card-header>
+      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
+      <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>
+    </ion-card-header>
+    <ion-card-content class="answers__list" *ngFor="let quiz of quizzes[currentQuiz]?.MultipleChoice">
+      <ion-radio-group (ionChange)="onAnswer(quiz.correct)">
+      <ion-item>
+          <ion-label>{{ quiz.choices }}</ion-label>
+          <ion-radio value="{{ quiz.choices }}" [disabled]="answerSelected" ion slot="start"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+  <ion-card *ngIf="prevAnswered.length >15 ">
+    <ion-card-header>
+        <h4 class="notedone">Exam Was Done</h4>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-button (click)="showResult()" *ngIf="resultStatus === 'Show Result'">{{ resultStatus }}</ion-button>
+    <!-- <button class="btn btn--new" (click)="playAgain()" *ngIf="resultStatus !== 'Show Result'">{{ resultStatus }}</button> -->
+    </ion-card-content>
+  </ion-card>   
+  <ion-card *ngIf="correctAnswers > 0 && resultStatus == 'Play Again!'">
+    <ion-card-content>
+      <h2>You got {{correctAnswers}} over {{quizzes.length}}</h2>
+      <ng-lottie [options]='options'></ng-lottie>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

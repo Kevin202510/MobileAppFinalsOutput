@@ -34,9 +34,9 @@ export class AreaOfSpecializationPage{
     constructor(private router:Router) { }
   
     ngOnInit(): void {
-      fetch('./assets/GeneralEducationJsonData/generalEducationQuestionAndAnswer.json').then(res => res.json())
+      fetch('./assets/GeneralEducationJsonData/QuestionAndAnswerLetExamReviewer.json').then(res => res.json())
       .then(content => {
-        console.log(this.quizzes = content.AreaOfSpecialization[0].English);
+        this.quizzes = content.AreaOfSpecialization[0].English;
       });
       // this.quizzes = this.quizService.getQuizzes();
       this.currentQuiz = this.getRandom();

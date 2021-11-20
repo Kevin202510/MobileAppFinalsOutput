@@ -35,7 +35,7 @@ export class GeneralEducationPage{
     constructor(private router:Router) { }
   
     ngOnInit(): void {
-      fetch('./assets/GeneralEducationJsonData/generalEducationQuestionAndAnswer.json').then(res => res.json())
+      fetch('./assets/GeneralEducationJsonData/QuestionAndAnswerLetExamReviewer.json').then(res => res.json())
       .then(content => {
         this.quizzes = content.GeneralEducationQuestionAndAnswer;
       });
