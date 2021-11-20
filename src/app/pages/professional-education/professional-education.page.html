@@ -6,7 +6,7 @@
 </ion-header>
 
 <ion-content>
-  <ion-card *ngIf="prevAnswered.length < 16" class="answers">
+  <ion-card *ngIf="prevAnswered.length < 51" class="answers">
     <ion-card-header>
       <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
       <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>
@@ -20,7 +20,7 @@
       </ion-radio-group>
     </ion-card-content>
   </ion-card>
-  <ion-card *ngIf="prevAnswered.length >15 ">
+  <ion-card *ngIf="prevAnswered.length >50 ">
     <ion-card-header>
         <h4 class="notedone">Exam Was Done</h4>
     </ion-card-header>
