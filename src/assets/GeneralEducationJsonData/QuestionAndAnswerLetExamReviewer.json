@@ -455,7 +455,7 @@
     "AreaOfSpecialization":[{
         "English" :[
             {
-            "Questions":"1. Identify the play from which lines are taken: Will thou be gone? It is not yet near day. It was the nightingale, and not the lark The period the fearful hollow of thine ear; Nightly she sings on your pomegranate tree;  Believe me, love, it was the nightingale",
+            "Questions":"Identify the play from which lines are taken: Will thou be gone? It is not yet near day. It was the nightingale, and not the lark The period the fearful hollow of thine ear; Nightly she sings on your pomegranate tree;  Believe me, love, it was the nightingale",
                     "MultipleChoice": [
                         { "choices" : "Love’s Labour’s Lost" , "correct": false },
                         { "choices" : "Othello" , "correct": false  },
@@ -464,106 +464,106 @@
                     ]
             },  
             {
-        "Questions":"2. Identify the poem from which the following line are take: DRINK TO ME ONLY WITH THINE EYES.AND I WILL PLDGE WITH ME. OR LEAVE A KISS BUT IN THE CUP. AND I’LL NOT LOOK FOR WINE.",
+        "Questions":"Identify the poem from which the following line are take: DRINK TO ME ONLY WITH THINE EYES.AND I WILL PLDGE WITH ME. OR LEAVE A KISS BUT IN THE CUP. AND I’LL NOT LOOK FOR WINE.",
                 "MultipleChoice": [
-                    { "choices" : "Song to Celia" , "correct": false },
+                    { "choices" : "Song to Celia" , "correct": true },
                     { "choices" : "Crossing the Bar" , "correct": false  },
-                    { "choices" : "Ode to the West Wind" , "correct": true },
+                    { "choices" : "Ode to the West Wind" , "correct": false },
                     { "choices" : "She was a Phantom of Delight" , "correct": false }
                 ]
         }, 
         {
-            "Questions":"3 Identify the poem from the lines are taken: Have glimpse that would make me less forlorn; Have sight of Proteus rising from the sea; Or hear old Triton blow is wreathed horn",
+            "Questions":"Identify the poem from the lines are taken: Have glimpse that would make me less forlorn; Have sight of Proteus rising from the sea; Or hear old Triton blow is wreathed horn",
                     "MultipleChoice": [
                         { "choices" : "Auguries of Innocence" , "correct": false },
                         { "choices" : "God Moves in a Mysterious Way" , "correct": false  },
-                        { "choices" : "Elegy Written in a Country Churchyard" , "correct": true },
-                        { "choices" : "The World is Too Much With Us" , "correct": false }
+                        { "choices" : "Elegy Written in a Country Churchyard" , "correct": false },
+                        { "choices" : "The World is Too Much With Us" , "correct": true }
                     ]
             },            
         {
-        "Questions":"4 Identify the author of the poem torn which the following lines are taken: O is she rosely loved is she lovely rosed O is she lovely sung as sea-shells?",
+        "Questions":"Identify the author of the poem torn which the following lines are taken: O is she rosely loved is she lovely rosed O is she lovely sung as sea-shells?",
                 "MultipleChoice": [
                     { "choices" : "Fernando M. Maramag" , "correct": false },
                     { "choices" : "Mauro Mendez" , "correct": false  },
-                    { "choices" : "Natividad Marquaez" , "correct": true },
-                    { "choices" : "Jose Garcia Villa" , "correct": false }
+                    { "choices" : "Natividad Marquaez" , "correct": false },
+                    { "choices" : "Jose Garcia Villa" , "correct": true }
                 ]
         },            
     {
-            "Questions":"5. Who said, “These are the times that try men’s souls?",
+            "Questions":"Who said, “These are the times that try men’s souls?",
                     "MultipleChoice": [
                         { "choices" : "James Madison" , "correct": false },
-                        { "choices" : "Thomas Paine" , "correct": false  },
-                        { "choices" : "Benjamin Franklin" , "correct": true },
+                        { "choices" : "Thomas Paine" , "correct": true  },
+                        { "choices" : "Benjamin Franklin" , "correct": false },
                         { "choices" : "Thomas Jefferson" , "correct": false }
                     ]
             },            
     {
-        "Questions":"6. Who wrote the novel WAR AND PEACE?",
+        "Questions":"Who wrote the novel WAR AND PEACE?",
                 "MultipleChoice": [
                     { "choices" : "Spencer" , "correct": false },
-                    { "choices" : "Turgenew" , "correct": false  },
-                    { "choices" : "Shaw" , "correct": true },
+                    { "choices" : "Turgenew" , "correct": true  },
+                    { "choices" : "Shaw" , "correct":  false},
                     { "choices" : "Tolstoy" , "correct": false }
                 ]
         },            
     {
-        "Questions":"7. Identify the play from which the lines are take: All that glitters is not gold; Often you have heard that told;  Many a man his life hath sold But my outside to behold; Glided tombs do norms enfold.",
+        "Questions":"Identify the play from which the lines are take: All that glitters is not gold; Often you have heard that told;  Many a man his life hath sold But my outside to behold; Glided tombs do norms enfold.",
                 "MultipleChoice": [
-                    { "choices" : "MECHANT OF VENICE" , "correct": false },
+                    { "choices" : "MECHANT OF VENICE" , "correct": true },
                     { "choices" : "HAMLET" , "correct": false  },
-                    { "choices" : "AS YOU LIKE IT" , "correct": true },
+                    { "choices" : "AS YOU LIKE IT" , "correct": false },
                     { "choices" : "MACBETH" , "correct": false }
                 ]
         },            
     {
-        "Questions":"8. WHO SAID, “Ask not what tour country can do for you, but what you can do for you country?”",
+        "Questions":"WHO SAID, “Ask not what tour country can do for you, but what you can do for you country?”",
                 "MultipleChoice": [
                     { "choices" : "Richard M. Nixon" , "correct": false },
-                    { "choices" : "John F. Kennedy" , "correct": false  },
-                    { "choices" : "Dwight D. Eisenhower" , "correct": true },
+                    { "choices" : "John F. Kennedy" , "correct": true  },
+                    { "choices" : "Dwight D. Eisenhower" , "correct": false },
                     { "choices" : "Lyndon B. Johnson’" , "correct": false }
                 ]
         },                      
     {
-        "Questions":"9. Identify the poem from which the stanza is take: Trust no future, howe’er pleasant Let the dead Past bury its dead! Act-act in the living Present Heart within, and God o’erhead",
+        "Questions":"Identify the poem from which the stanza is take: Trust no future, howe’er pleasant Let the dead Past bury its dead! Act-act in the living Present Heart within, and God o’erhead",
                 "MultipleChoice": [
                     { "choices" : "HYMN TO THE NIGHT" , "correct": false },
                     { "choices" : "THE CROSS OF SHOW" , "correct": false  },
-                    { "choices" : "MY LOST YOUTH" , "correct": true },
-                    { "choices" : "A PSALM OF LIFE" , "correct": false }
+                    { "choices" : "MY LOST YOUTH" , "correct": false },
+                    { "choices" : "A PSALM OF LIFE" , "correct": true }
                 ]
         },            
     {
-        "Questions":"13. What does William Norris want you to do in his ZIP THE LIP? If your lips would keep from slips. Five things observe with care; To whom you speak; of whom you speak And how, when, and where",
+        "Questions":"What does William Norris want you to do in his ZIP THE LIP? If your lips would keep from slips. Five things observe with care; To whom you speak; of whom you speak And how, when, and where",
                 "MultipleChoice": [
                     { "choices" : "To be truthful" , "correct": false },
                     { "choices" : "To be sincere" , "correct": false  },
-                    { "choices" : "To show kindness" , "correct": true },
-                    { "choices" : "To observe confidentiality" , "correct": false }
+                    { "choices" : "To show kindness" , "correct": false },
+                    { "choices" : "To observe confidentiality" , "correct": true }
                 ]
         },    
     {
-        "Questions":"51. Which of the theories of learning, language and literacy views children as having the ability relate new information to prior knowledge?",
+        "Questions":"Which of the theories of learning, language and literacy views children as having the ability relate new information to prior knowledge?",
                 "MultipleChoice": [
-                    { "choices" : "Constructivist" , "correct": false },
+                    { "choices" : "Constructivist" , "correct": true },
                     { "choices" : "Interactive" , "correct": false  },
-                    { "choices" : "Reader response" , "correct": true },
+                    { "choices" : "Reader response" , "correct": false },
                     { "choices" : "Sociolinguistic" , "correct": false }
                 ]
         },    
     {
-        "Questions":"52. What kind of word is TELECAST?",
+        "Questions":"What kind of word is TELECAST?",
                 "MultipleChoice": [
-                    { "choices" : "Blend" , "correct": false },
+                    { "choices" : "Blend" , "correct": true },
                     { "choices" : "Acronym" , "correct": false  },
-                    { "choices" : "Borrowed" , "correct": true },
+                    { "choices" : "Borrowed" , "correct": false },
                     { "choices" : "Clipped" , "correct": false }
                 ]
         },    
     {
-        "Questions":"53. Which word should receive a high level /3/  in this sentence? SOMEONE IS LOOKING FOR HER.",
+        "Questions":"Which word should receive a high level /3/  in this sentence? SOMEONE IS LOOKING FOR HER.",
                 "MultipleChoice": [
                     { "choices" : "Look" , "correct": false },
                     { "choices" : "Someone" , "correct": false  },
@@ -572,44 +572,44 @@
                 ]
         },    
     {
-        "Questions":"54. Which of the theories of learning, language and literacy emphasizes comprehension as students read",
+        "Questions":"Which of the theories of learning, language and literacy emphasizes comprehension as students read",
                 "MultipleChoice": [
                     { "choices" : "Reader Response" , "correct": false },
-                    { "choices" : "Constructivist" , "correct": false  },
-                    { "choices" : "Interactive" , "correct": true },
+                    { "choices" : "Constructivist" , "correct": true  },
+                    { "choices" : "Interactive" , "correct":  false},
                     { "choices" : "Sociolinguistic" , "correct": false }
                 ]
         },    
     {
-        "Questions":"55. Which of the theories of learning, language and literacy views children as to having the ability to organize and integrate information is schemata?",
+        "Questions":"Which of the theories of learning, language and literacy views children as to having the ability to organize and integrate information is schemata?",
                 "MultipleChoice": [
                     { "choices" : "Constructivist" , "correct": false },
                     { "choices" : "Reader Response" , "correct": false  },
-                    { "choices" : "Sociolinguistic" , "correct": true },
-                    { "choices" : "Interactive" , "correct": false }
+                    { "choices" : "Sociolinguistic" , "correct":  false},
+                    { "choices" : "Interactive" , "correct": true }
                 ]
         },    
 
     {
-        "Questions":"56. Which integrates the other LANGUAGE ARTS?",
+        "Questions":"Which integrates the other LANGUAGE ARTS?",
                 "MultipleChoice": [
                     { "choices" : "Listening" , "correct": false },
                     { "choices" : "Reading" , "correct": false  },
-                    { "choices" : "Talking" , "correct": true },
-                    { "choices" : "Writing" , "correct": false }
+                    { "choices" : "Talking" , "correct": false },
+                    { "choices" : "Writing" , "correct": true }
                 ]
         },    
     {
-        "Questions":"57. Which reading and writing SKILL is readingand making graphs?",
+        "Questions":"Which reading and writing SKILL is readingand making graphs?",
                 "MultipleChoice": [
-                    { "choices" : "Study" , "correct": false },
+                    { "choices" : "Study" , "correct": true },
                     { "choices" : "Language" , "correct": false  },
-                    { "choices" : "Reference" , "correct": true },
+                    { "choices" : "Reference" , "correct":  false},
                     { "choices" : "Decoding" , "correct": false }
                 ]
         },    
     {
-        "Questions":"58. What is the taxonomic stage of this behavior? MATCH FAMILIAR VOCABULARY WORDS IN SENTENCES WITH CORRECT DEFINITIONS",
+        "Questions":"What is the taxonomic stage of this behavior? MATCH FAMILIAR VOCABULARY WORDS IN SENTENCES WITH CORRECT DEFINITIONS",
                 "MultipleChoice": [
                     { "choices" : "Mechanical Skills Perception" , "correct": false },
                     { "choices" : "Communication Comprehension" , "correct": false  },
@@ -618,25 +618,25 @@
                 ]
         },    
     {
-        "Questions":"59. What system do students use in capitalization and punctuation rules?",
+        "Questions":"What system do students use in capitalization and punctuation rules?",
                 "MultipleChoice": [
                     { "choices" : "Pragmatic" , "correct": false },
                     { "choices" : "Phonological" , "correct": false  },
-                    { "choices" : "Semantic" , "correct": true },
-                    { "choices" : "Syntactic" , "correct": false }
+                    { "choices" : "Semantic" , "correct":  false},
+                    { "choices" : "Syntactic" , "correct": true }
                 ]
         },    
     {
-        "Questions":"60. Which gives the television an EDGE over print media?",
+        "Questions":"Which gives the television an EDGE over print media?",
                 "MultipleChoice": [
                     { "choices" : "Proximity" , "correct": false },
                     { "choices" : "Visual" , "correct": false  },
-                    { "choices" : "Color" , "correct": true },
-                    { "choices" : "Motion" , "correct": false }
+                    { "choices" : "Color" , "correct": false },
+                    { "choices" : "Motion" , "correct": true }
                 ]
         },    
     {
-        "Questions":"101. Below is a sentence from DON QUIXOTE: In a village of La Mancha a name of which I have no desire to recall, there lived not so long ago one of  those gentlemen who always have a lance in the rock, an ancient buckles, a skinny nag and a greyhound…. Which question should you ask if you reading it at a LITERAL LEVEL?",
+        "Questions":"Below is a sentence from DON QUIXOTE: In a village of La Mancha a name of which I have no desire to recall, there lived not so long ago one of  those gentlemen who always have a lance in the rock, an ancient buckles, a skinny nag and a greyhound…. Which question should you ask if you reading it at a LITERAL LEVEL?",
                 "MultipleChoice": [
                     { "choices" : "Is there a figurative language used?" , "correct": false },
                     { "choices" : "Which word will lown?" , "correct": false  },
@@ -645,25 +645,25 @@
                 ]
         },    
     {
-        "Questions":"102. After reading the poem at the THIRD LEVEL, which question should be asked?",
+        "Questions":"After reading the poem at the THIRD LEVEL, which question should be asked?",
                 "MultipleChoice": [
                     { "choices" : "What were their transformations after 25 years?" , "correct": false },
                     { "choices" : "Who is speaking in the poem?" , "correct": false  },
-                    { "choices" : "What happened during the reunion?" , "correct": true },
-                    { "choices" : "What is meant by the comparison under the skin/ our skull rise /to the surface/ like rocks in the bed/ of a drying stream”?" , "correct": false }
+                    { "choices" : "What happened during the reunion?" , "correct": false },
+                    { "choices" : "What is meant by the comparison under the skin/ our skull rise /to the surface/ like rocks in the bed/ of a drying stream”?" , "correct": true }
                 ]
         },    
     {
-        "Questions":"103. Which question should be asked when the poem is read at the FIRST LEVEL?",
+        "Questions":"Which question should be asked when the poem is read at the FIRST LEVEL?",
                 "MultipleChoice": [
-                    { "choices" : "Who attended the 25th high school reunion?" , "correct": false },
+                    { "choices" : "Who attended the 25th high school reunion?" , "correct": true },
                     { "choices" : "What language is used in the poem?" , "correct": false  },
-                    { "choices" : "Why were their faces as sharp and pointed as the rocks?" , "correct": true },
+                    { "choices" : "Why were their faces as sharp and pointed as the rocks?" , "correct": false },
                     { "choices" : "To what are the once-young students compared?" , "correct": false }
                 ]
         },    
     {
-        "Questions":"104. Which is the lowest of comprehension?",
+        "Questions":"Which is the lowest of comprehension?",
                 "MultipleChoice": [
                     { "choices" : "critical comprehension" , "correct": false },
                     { "choices" : "critical evaluation" , "correct": false  },
@@ -672,25 +672,25 @@
                 ]
         },    
     {
-        "Questions":"105. Which is the highest level of comprehension?",
+        "Questions":"Which is the highest level of comprehension?",
                 "MultipleChoice": [
                     { "choices" : "Literal comprehension" , "correct": false },
-                    { "choices" : "Critical evaluation" , "correct": false  },
-                    { "choices" : "Critical comprehension" , "correct": true },
+                    { "choices" : "Critical evaluation" , "correct": true  },
+                    { "choices" : "Critical comprehension" , "correct": false },
                     { "choices" : "Integration" , "correct": false }
                 ]
         },    
     {
-        "Questions":"1. What rhythmical device is used in this line from Latorena’s The Small Key? “…even the low square nipa house that stood in unashamed reliefagainst the gray green haze of grass and leaves.”",
+        "Questions":"What rhythmical device is used in this line from Latorena’s The Small Key? “…even the low square nipa house that stood in unashamed reliefagainst the gray green haze of grass and leaves.”",
                 "MultipleChoice": [
-                    { "choices" : "alliteration" , "correct": false },
+                    { "choices" : "alliteration" , "correct": true },
                     { "choices" : "assonance" , "correct": false  },
-                    { "choices" : "consonance" , "correct": true },
+                    { "choices" : "consonance" , "correct": false },
                     { "choices" : "anaphora" , "correct": false }
                 ]
         },    
     {
-        "Questions":"2. What sense image is used in this line from Latorena’s The Small Key? “There were dark, newly plowed furrows where in due time timorous seedlings would rise to sturdy stalks and golden grain, to a rippling yellow sea in the wind and sun during harvest time.",
+        "Questions":"What sense image is used in this line from Latorena’s The Small Key? “There were dark, newly plowed furrows where in due time timorous seedlings would rise to sturdy stalks and golden grain, to a rippling yellow sea in the wind and sun during harvest time.",
                 "MultipleChoice": [
                     { "choices" : "tactile" , "correct": false },
                     { "choices" : "olfactory" , "correct": false  },
@@ -699,16 +699,16 @@
                 ]
         },    
     {
-        "Questions":"3. “Soledad nodded. Her eyes followed her husband down the road, noting the fine set of his head and shoulders, the ease of his stride. A strange ache rose in her throat.” Which emotion best describes Soledad’s feelings in this excerpt from Latorena’s The Small Key?",
+        "Questions":"“Soledad nodded. Her eyes followed her husband down the road, noting the fine set of his head and shoulders, the ease of his stride. A strange ache rose in her throat.” Which emotion best describes Soledad’s feelings in this excerpt from Latorena’s The Small Key?",
                 "MultipleChoice": [
                     { "choices" : "fervent desire" , "correct": false },
                     { "choices" : "discomfort from sore throat" , "correct": false  },
-                    { "choices" : "instinctive suspicion" , "correct": true },
-                    { "choices" : "twinge of sadness" , "correct": false }
+                    { "choices" : "instinctive suspicion" , "correct": false },
+                    { "choices" : "twinge of sadness" , "correct": true }
                 ]
         },    
     {
-        "Questions":"4. What figure of speech is used in this lastparagraph from Latorena’s The Small Key? “How quiet and peaceful the day was! A cow that had strayed by looked over her shoulder with a round vague inquiry and went on chewing her cud, blissfully unaware of such things as a gnawing fear in the heart of a woman and a still smoldering resentment in a man’s.”",
+        "Questions":"What figure of speech is used in this lastparagraph from Latorena’s The Small Key? “How quiet and peaceful the day was! A cow that had strayed by looked over her shoulder with a round vague inquiry and went on chewing her cud, blissfully unaware of such things as a gnawing fear in the heart of a woman and a still smoldering resentment in a man’s.”",
                 "MultipleChoice": [
                     { "choices" : "irony" , "correct": false },
                     { "choices" : "simile" , "correct": false  },
@@ -717,97 +717,89 @@
                 ]
         },    
     {
-        "Questions":"5 Alfredo Salazar undergoes epiphany at the end of Marquez-Benitez’ story. What does epiphany mean?",
+        "Questions":"Alfredo Salazar undergoes epiphany at the end of Marquez-Benitez’ story. What does epiphany mean?",
                 "MultipleChoice": [
                     { "choices" : "regret" , "correct": false },
-                    { "choices" : "insight" , "correct": false  },
-                    { "choices" : "freedom" , "correct": true },
+                    { "choices" : "insight" , "correct": true  },
+                    { "choices" : "freedom" , "correct": false },
                     { "choices" : "confusion" , "correct": false }
                 ]
         },    
     {
-        "Questions":"1. What does the poem celebrate as shown in line 1-2?",
+        "Questions":"What does the poem celebrate as shown in line 1-2?",
                 "MultipleChoice": [
                     { "choices" : "sadness in death" , "correct": false },
-                    { "choices" : "reverence for nature" , "correct": false  },
-                    { "choices" : "familial bonding" , "correct": true },
+                    { "choices" : "reverence for nature" , "correct": true  },
+                    { "choices" : "familial bonding" , "correct": false },
                     { "choices" : "sense of foreboding" , "correct": false }
                 ]
         },    
     {
-        "Questions":"2 What does the persona wish in the last two lines?",
+        "Questions":"What does the persona wish in the last two lines?",
                 "MultipleChoice": [
                     { "choices" : "that he continues to be pious" , "correct": false },
-                    { "choices" : "that he be a child once again" , "correct": false  },
-                    { "choices" : "that he continues to be connected to nature" , "correct": true },
+                    { "choices" : "that he be a child once again" , "correct": true  },
+                    { "choices" : "that he continues to be connected to nature" , "correct": false },
                     { "choices" : "that he fulfills his duties and responsibilities" , "correct": false }
                 ]
         },    
     {
-        "Questions":"3. What figure of speech does Wordsworth use in line 7?",
+        "Questions":"What figure of speech does Wordsworth use in line 7?",
                 "MultipleChoice": [
-                    { "choices" : "paradox" , "correct": false },
+                    { "choices" : "paradox" , "correct": true },
                     { "choices" : "metonymy" , "correct": false  },
-                    { "choices" : "oxymoron" , "correct": true },
+                    { "choices" : "oxymoron" , "correct": false },
                     { "choices" : "allusion" , "correct": false }
                 ]
         },    
+
     {
-        "Questions":"3. From what perspective is the following story told?I could picture it. I have a rotten habit of picturing the bedroom scenes of my friends. We went out to the Cafe Napolitain to have an aperitif and watch the evening crowd on the Boulevard.from The Sun Also Rises by Ernest Hemingway.",
-                "MultipleChoice": [
-                    { "choices" : "First person" , "correct": false },
-                    { "choices" : "Second person" , "correct": false  },
-                    { "choices" : "Third person omniscient" , "correct": true },
-                    { "choices" : "Third person limited" , "correct": false }
-                ]
-        },    
-    {
-        "Questions":"4. What type of irony does Shakespeare use in Anthony’s speech? When that the poor have cried, Caesar hath wept: Ambition should be made of sterner stuff: Yet Brutus says he was ambitious; And Brutus is an honourable man.",
+        "Questions":"What type of irony does Shakespeare use in Anthony’s speech? When that the poor have cried, Caesar hath wept: Ambition should be made of sterner stuff: Yet Brutus says he was ambitious; And Brutus is an honourable man.",
                 "MultipleChoice": [
                     { "choices" : "dramatic irony" , "correct": false },
                     { "choices" : "causal irony" , "correct": false  },
-                    { "choices" : "irony of situation" , "correct": true },
-                    { "choices" : "verbal irony" , "correct": false }
+                    { "choices" : "irony of situation" , "correct": false },
+                    { "choices" : "verbal irony" , "correct": true }
                 ]
         },    
     {
-        "Questions":"5. What do the following lines from William Blake exhort? To see a World in a Grain of Sand And a Heaven in a Wild Flower, Hold Infinity in the palm of your hand And Eternity in an hour.",
+        "Questions":"What do the following lines from William Blake exhort? To see a World in a Grain of Sand And a Heaven in a Wild Flower, Hold Infinity in the palm of your hand And Eternity in an hour.",
                 "MultipleChoice": [
-                    { "choices" : "to appreciate even the smallest of things" , "correct": false },
+                    { "choices" : "to appreciate even the smallest of things" , "correct": true },
                     { "choices" : "to be extremely imaginative and creative" , "correct": false  },
-                    { "choices" : "to believe in fantasy like a child" , "correct": true },
+                    { "choices" : "to believe in fantasy like a child" , "correct": false },
                     { "choices" : "to be strong and faithful to God" , "correct": false }
                 ]
         },    
     {
-        "Questions":"1. How does Shelley regard the west wind in the following ode? From Ode to the West Wind Her clarion o'er the dreaming earth, and fill (Driving sweet buds like flocks to feed in air฀) With living hues and odours plain and hill: Wild Spirit, which art moving everywhere; Destroyer and Preserver; hear, oh, hear!",
+        "Questions":"How does Shelley regard the west wind in the following ode? From Ode to the West Wind Her clarion o'er the dreaming earth, and fill (Driving sweet buds like flocks to feed in air฀) With living hues and odours plain and hill: Wild Spirit, which art moving everywhere; Destroyer and Preserver; hear, oh, hear!",
                 "MultipleChoice": [
                     { "choices" : "It is responsible for preserving life." , "correct": false },
-                    { "choices" : "It can both wipe out and maintain life." , "correct": false  },
-                    { "choices" : "It is a wild spirit in nature that is verystrong." , "correct": true },
+                    { "choices" : "It can both wipe out and maintain life." , "correct": true  },
+                    { "choices" : "It is a wild spirit in nature that is verystrong." , "correct": false },
                     { "choices" : "It is strong but weak since it is everywhere." , "correct": false }
                 ]
         },    
     {
-        "Questions":"2. How does the speaker picture God in the following sermon? The God that holds you over the pit of hell, much as one holds a spider; or some loathsome insect, over the fire, abhors you, and is dreadfully provoked: his wrath towards you burns like fire; he looks upon you as worthy of nothing else, but to be cast into the fire; he is of purer eyes than to bear to have you in his sight; you are ten thousand times more abominable in his eyes, than the most hateful venomous serpent is in ours.",
+        "Questions":"How does the speaker picture God in the following sermon? The God that holds you over the pit of hell, much as one holds a spider; or some loathsome insect, over the fire, abhors you, and is dreadfully provoked: his wrath towards you burns like fire; he looks upon you as worthy of nothing else, but to be cast into the fire; he is of purer eyes than to bear to have you in his sight; you are ten thousand times more abominable in his eyes, than the most hateful venomous serpent is in ours.",
                 "MultipleChoice": [
-                    { "choices" : "incensed" , "correct": false },
+                    { "choices" : "incensed" , "correct": true },
                     { "choices" : "abominable" , "correct": false  },
-                    { "choices" : "abominable" , "correct": true },
+                    { "choices" : "abominable" , "correct": false },
                     { "choices" : "vengeful" , "correct": false }
                 ]
         },    
     {
-        "Questions":"3. Paradise Lost is considered among the greatest epics in English. Which of the following was the basis for this epic poem?",
+        "Questions":"Paradise Lost is considered among the greatest epics in English. Which of the following was the basis for this epic poem?",
                 "MultipleChoice": [
                     { "choices" : "treachery of Judas Iscariot" , "correct": false },
                     { "choices" : "the passion of Christ" , "correct": false  },
-                    { "choices" : "fall from God’s grace" , "correct": true },
-                    { "choices" : "sinning of Adam and Eve" , "correct": false }
+                    { "choices" : "fall from God’s grace" , "correct": false },
+                    { "choices" : "sinning of Adam and Eve" , "correct": true }
                 ]
         },    
     {
-        "Questions":"4. What does the speaker mean in the following lines? “Let’s so persevere That when we live no more, we may live ever” From  To My Dear and Loving Husband",
+        "Questions":"What does the speaker mean in the following lines? “Let’s so persevere That when we live no more, we may live ever” From  To My Dear and Loving Husband",
                 "MultipleChoice": [
                     { "choices" : "Let’s continue writing poetry to immortalize us." , "correct": false },
                     { "choices" : "Let’s have faith in God and He will keep us alive" , "correct": false  },
@@ -816,16 +808,16 @@
                 ]
         },  
     {
-        "Questions":"5. Which of the following is NOT an example of Gothic literature?",
+        "Questions":"Which of the following is NOT an example of Gothic literature?",
                 "MultipleChoice": [
                     { "choices" : "Dracula" , "correct": false },
-                    { "choices" : "Lord of the Rings" , "correct": false  },
-                    { "choices" : "Frankenstein" , "correct": true },
+                    { "choices" : "Lord of the Rings" , "correct": true  },
+                    { "choices" : "Frankenstein" , "correct": false },
                     { "choices" : "Tell Tale Heart" , "correct": false }
                 ]
         },    
     {
-        "Questions":"11. What does the speaker celebrate in “The Soul Selects her own Society”? The soul selects her own society, Then shuts the door; On her divine majority Obtrude no more.",
+        "Questions":"What does the speaker celebrate in “The Soul Selects her own Society”? The soul selects her own society, Then shuts the door; On her divine majority Obtrude no more.",
                 "MultipleChoice": [
                     { "choices" : "conformity" , "correct": false },
                     { "choices" : "community" , "correct": false  },
@@ -834,47 +826,47 @@
                 ]
         },    
     {
-        "Questions":"12. What do the following lines reveal about theworld? All the world’s a stage, and all the men and women merely players. They have their exits and their entrances; And one man in his time plays manyparts - (As You Like It, Act II, Scene VII)",
+        "Questions":"What do the following lines reveal about theworld? All the world’s a stage, and all the men and women merely players. They have their exits and their entrances; And one man in his time plays manyparts - (As You Like It, Act II, Scene VII)",
                 "MultipleChoice": [
                     { "choices" : "Life is just like going to the theater" , "correct": false },
-                    { "choices" : "People have different roles to play in life" , "correct": false  },
-                    { "choices" : "Life is but an empty, senseless dream" , "correct": true },
+                    { "choices" : "People have different roles to play in life" , "correct": true  },
+                    { "choices" : "Life is but an empty, senseless dream" , "correct": false },
                     { "choices" : "People live and die at different times." , "correct": false }
                 ]
         },    
     {
-        "Questions":"13. What truth about humans do the followinglines from A Noiseless Patient Spider reveal? And you, O my Soul, where you stand, Surrounded, surrounded, in measureless oceans of space, Ceaselessly musing, venturing, throwing,--seeking the spheres, to connect them; Till the bridge you will need, be form'd--till the ductile anchor hold; Till the gossamer thread you fling, catch somewhere, O my Sou",
+        "Questions":"What truth about humans do the followinglines from A Noiseless Patient Spider reveal? And you, O my Soul, where you stand, Surrounded, surrounded, in measureless oceans of space, Ceaselessly musing, venturing, throwing,--seeking the spheres, to connect them; Till the bridge you will need, be form'd--till the ductile anchor hold; Till the gossamer thread you fling, catch somewhere, O my Sou",
                 "MultipleChoice": [
                     { "choices" : "People need food and shelter" , "correct": false },
-                    { "choices" : "People search for their meaning" , "correct": false  },
-                    { "choices" : "People need friends and families" , "correct": true },
+                    { "choices" : "People search for their meaning" , "correct": true  },
+                    { "choices" : "People need friends and families" , "correct": false },
                     { "choices" : "People endlessly seek to create" , "correct": false }
                 ]
         },    
     {
-        "Questions":"14. Which of the following is the resounding theme of contemporary stories like Hemingway’s A Clean and Well Lighted Place and Anderson’s Hands?",
+        "Questions":"Which of the following is the resounding theme of contemporary stories like Hemingway’s A Clean and Well Lighted Place and Anderson’s Hands?",
                 "MultipleChoice": [
-                    { "choices" : "alienation from the society" , "correct": false },
+                    { "choices" : "alienation from the society" , "correct": true },
                     { "choices" : "melancholia in solitude" , "correct": false  },
-                    { "choices" : "respect for the old" , "correct": true },
+                    { "choices" : "respect for the old" , "correct": false },
                     { "choices" : "contentment in life" , "correct": false }
                 ]
         },    
     {
-        "Questions":"15. Who is alluded to as the Captain in the following lines from Whitman’s poem?O captain! My Captain! Our fearful trip is done, The ship has weather’d every rack, the prize wesought is won",
+        "Questions":"Who is alluded to as the Captain in the following lines from Whitman’s poem?O captain! My Captain! Our fearful trip is done, The ship has weather’d every rack, the prize wesought is won",
                 "MultipleChoice": [
-                    { "choices" : "Abraham Lincoln" , "correct": false },
+                    { "choices" : "Abraham Lincoln" , "correct": true },
                     { "choices" : "George Washington" , "correct": false  },
-                    { "choices" : "John F. Kennedy" , "correct": true },
+                    { "choices" : "John F. Kennedy" , "correct": false },
                     { "choices" : "Thomas Jefferson" , "correct": false }
                 ]
         },    
     {
-        "Questions":". In the passage, which of the following best describes the speaker's attitude toward the very rich?",
+        "Questions":"In the passage, which of the following best describes the speaker's attitude toward the very rich?",
                 "MultipleChoice": [
                     { "choices" : "He finds their pessimism alarming and unwarranted." , "correct": false },
-                    { "choices" : "He finds them so different from the rest of society" , "correct": false  },
-                    { "choices" : "yC. He believes that the rich know more than others do." , "correct": true },
+                    { "choices" : "He finds them so different from the rest of society" , "correct": true  },
+                    { "choices" : "yC. He believes that the rich know more than others do." , "correct": false },
                     { "choices" : "He thinks that he understands their way of life" , "correct": false }
                 ]
         },    
@@ -883,491 +875,490 @@
                 "MultipleChoice": [
                     { "choices" : "Optimistic" , "correct": false },
                     { "choices" : "Laconic" , "correct": false  },
-                    { "choices" : "Pessimistic" , "correct": true },
-                    { "choices" : "Pessimistic" , "correct": false }
+                    { "choices" : "Pessimistic" , "correct": false },
+                    { "choices" : "Pessimistic" , "correct": true }
                 ]
         },    
     {
-        "Questions":"18. What do the novels of Bronte, Eliot, Gaskell and Dickens reveal about fiction produced during the Victorian period in English Literature",
+        "Questions":". What do the novels of Bronte, Eliot, Gaskell and Dickens reveal about fiction produced during the Victorian period in English Literature",
                 "MultipleChoice": [
-                    { "choices" : "They closely represent the real social life of the times" , "correct": false },
+                    { "choices" : "They closely represent the real social life of the times" , "correct": true },
                     { "choices" : "The novels were long and full of psychological musings" , "correct": false  },
-                    { "choices" : "They concentrate on the effect of industrialization on cities" , "correct": true },
+                    { "choices" : "They concentrate on the effect of industrialization on cities" , "correct": false },
                     { "choices" : "They were largely produced by upper middle-class women." , "correct": false }
                 ]
         },    
     {
-        "Questions":"19. What do the last two lines from Freneau’s The Wild Honeysuckle reveal about life?",
+        "Questions":". What do the last two lines from Freneau’s The Wild Honeysuckle reveal about life?",
                 "MultipleChoice": [
                     { "choices" : "Life is just an hour" , "correct": false },
                     { "choices" : "Life is frail." , "correct": false  },
                     { "choices" : "Life is short." , "correct": true },
                     { "choices" : "It is like a flower" , "correct": false }
+                ]
+        },
+
+    {
+        "Questions":"What do the following lines from Wordsworth’s Psalm of Life reveal about heroes and heroism?",
+                "MultipleChoice": [
+                    { "choices" : "Anybody can be a hero.", "correct": true },
+                    { "choices" : "Heroes are often forgotten.." , "correct": false  },
+                    { "choices" : " C. Heroes are easy to find" , "correct": false },
+                    { "choices" : " D. It is easy to do heroic acts." , "correct": false }
                 ]
         }
     ],
     "Filipino" :[
     {
-        "Questions":"1. Identify the play from which lines are taken: Will thou be gone? It is not yet near day. It was the nightingale, and not the lark The period the fearful hollow of thine ear; Nightly she sings on your pomegranate tree;  Believe me, love, it was the nightingale",
+        "Questions":"  Ito ay isang sangay ng linggwistika nasumasaklaw sa pag-aaral ng kayarian oistruktura ng salita.",
                 "MultipleChoice": [
-                    { "choices" : "Love’s Labour’s Lost" , "correct": false },
-                    { "choices" : "Othello" , "correct": false  },
-                    { "choices" : "Romeo and Juliet" , "correct": true },
-                    { "choices" : "Cymbeline " , "correct": false }
+                    { "choices" : "Ortograpiya" , "correct": false },
+                    { "choices" : "Morpolohiya" , "correct": true  },
+                    { "choices" : "Semantika" , "correct": false },
+                    { "choices" : "Sintaks" , "correct": false }
                 ]
         },  
-            {
-        "Questions":"2. Identify the poem from which the following line are take: DRINK TO ME ONLY WITH THINE EYES.AND I WILL PLDGE WITH ME. OR LEAVE A KISS BUT IN THE CUP. AND I’LL NOT LOOK FOR WINE.",
+    {
+        "Questions":"“Lumilindol.” Anon uri ito ngpangungusap na walang tiyak na paksa?",
                 "MultipleChoice": [
-                    { "choices" : "Song to Celia" , "correct": false },
-                    { "choices" : "Crossing the Bar" , "correct": false  },
-                    { "choices" : "Ode to the West Wind" , "correct": true },
-                    { "choices" : "She was a Phantom of Delight" , "correct": false }
+                    { "choices" : "Temporal" , "correct": false },
+                    { "choices" : "Eksistensyal" , "correct": false  },
+                    { "choices" : "Eksistensyal" , "correct": true },
+                    { "choices" : "Modal" , "correct": false }
+                ]
+        },    
+    {
+        "Questions":"Ibigay ang panlapi na ginamit sa mgasumusunod na salita kaligayahan,pagmamahalan pagkatiwalaan",
+                "MultipleChoice": [
+                    { "choices" : "hulapi" , "correct": false },
+                    { "choices" : "tambalan" , "correct": false  },
+                    { "choices" : "kabilaan" , "correct": true },
+                    { "choices" : "laguhan" , "correct": false }
+                ]
+        },   
+    {
+        "Questions":"Anong bantas ang siyang inilalagay sapagitan ng unlaping “ika” at “tambilang”?",
+                "MultipleChoice": [
+                    { "choices" : "tuldok" , "correct": false },
+                    { "choices" : "panaklong" , "correct": false  },
+                    { "choices" : "kuwit" , "correct": false },
+                    { "choices" : "gitling" , "correct": true }
+                ]
+        },       
+    {
+        "Questions":"Ayon kay Gleason, ang wika ay pinagkakasunduan ng isang lahi at kaya naman ay naunawaan ng lahat ng kasapi ng lahi.",
+                "MultipleChoice": [
+                    { "choices" : "masistema" , "correct": false },
+                    { "choices" : "dinamiko" , "correct": false  },
+                    { "choices" : "likas" , "correct": false },
+                    { "choices" : "arbitraryo" , "correct": true }
+                ]
+        },            
+    {
+        "Questions":"Isang akda ni Padre Modesto de Castro na binubuo ng palitan ng liham ng dalawang magkapatid.",
+                "MultipleChoice": [
+                    { "choices" : "Urbana at Feliza" , "correct": false },
+                    { "choices" : "Barlaan at Josaphat" , "correct": true  },
+                    { "choices" : "Dasalan at Tocsoha" , "correct": false },
+                    { "choices" : "Indarapatra at Sulayman" , "correct": false }
+                ]
+        },    
+    {
+        "Questions":"Anong teorya ng wika ang nagsasabing ang wika ay nailikha bunga ng masidhing damdamin ng tao?",
+                "MultipleChoice": [
+                    { "choices" : "Bow-wow" , "correct": false },
+                    { "choices" : ". Pooh-pooh" , "correct": true  },
+                    { "choices" : "Ding-dong" , "correct": false },
+                    { "choices" : "Yoheho" , "correct": false }
+                ]
+        },
+    {
+        "Questions":"“Nahulog ang bata!” Anong uri ng pangungusap ayon sa kayarian ang pangungusap na ito?",
+                "MultipleChoice": [
+                    { "choices" : "padamdam" , "correct": false },
+                    { "choices" : "pasalaysay" , "correct": false  },
+                    { "choices" : "payak" , "correct": true },
+                    { "choices" : "tambalan" , "correct": false }
                 ]
         }, 
-        {
-            "Questions":"3 Identify the poem from the lines are taken: Have glimpse that would make me less forlorn; Have sight of Proteus rising from the sea; Or hear old Triton blow is wreathed horn",
-                    "MultipleChoice": [
-                        { "choices" : "Auguries of Innocence" , "correct": false },
-                        { "choices" : "God Moves in a Mysterious Way" , "correct": false  },
-                        { "choices" : "Elegy Written in a Country Churchyard" , "correct": true },
-                        { "choices" : "The World is Too Much With Us" , "correct": false }
-                    ]
-            },            
-        {
-        "Questions":"4 Identify the author of the poem torn which the following lines are taken: O is she rosely loved is she lovely rosed O is she lovely sung as sea-shells?",
+    {
+        "Questions":"Sa ponemang segmental, ano ang tinataglay ng mga salitang galaw, baliw lamay, kahoy?",
                 "MultipleChoice": [
-                    { "choices" : "Fernando M. Maramag" , "correct": false },
-                    { "choices" : "Mauro Mendez" , "correct": false  },
-                    { "choices" : "Natividad Marquaez" , "correct": true },
-                    { "choices" : "Jose Garcia Villa" , "correct": false }
+                    { "choices" : "ponema" , "correct": false },
+                    { "choices" : "klaster" , "correct": false  },
+                    { "choices" : "diptonggo" , "correct": true },
+                    { "choices" : "pares minimal" , "correct": false }
                 ]
-        },            
+        }, 
     {
-            "Questions":"5. Who said, “These are the times that try men’s souls?",
-                    "MultipleChoice": [
-                        { "choices" : "James Madison" , "correct": false },
-                        { "choices" : "Thomas Paine" , "correct": false  },
-                        { "choices" : "Benjamin Franklin" , "correct": true },
-                        { "choices" : "Thomas Jefferson" , "correct": false }
-                    ]
-            },            
-    {
-        "Questions":"6. Who wrote the novel WAR AND PEACE?",
+        "Questions":"Sa kasaysayan ng ating panitikan, ang kinikilalang Gintong Panahon ng Panitikan ng Pilipinas ay ang panahon ng______.",
                 "MultipleChoice": [
-                    { "choices" : "Spencer" , "correct": false },
-                    { "choices" : "Turgenew" , "correct": false  },
-                    { "choices" : "Shaw" , "correct": true },
-                    { "choices" : "Tolstoy" , "correct": false }
+                    { "choices" : "Amerikano" , "correct": false },
+                    { "choices" : "Hapones" , "correct": true  },
+                    { "choices" : "Kastila" , "correct": false },
+                    { "choices" : "Kontemporaryo" , "correct": false }
                 ]
-        },            
+        },             
     {
-        "Questions":"7. Identify the play from which the lines are take: All that glitters is not gold; Often you have heard that told;  Many a man his life hath sold But my outside to behold; Glided tombs do norms enfold.",
+        "Questions":"Ang “Kodigo ni kalantiaw” ay naglalaman ng?",
                 "MultipleChoice": [
-                    { "choices" : "MECHANT OF VENICE" , "correct": false },
-                    { "choices" : "HAMLET" , "correct": false  },
-                    { "choices" : "AS YOU LIKE IT" , "correct": true },
-                    { "choices" : "MACBETH" , "correct": false }
+                    { "choices" : "a. batas na dapat sundin ng mga mamamayan" , "correct": true },
+                    { "choices" : "pamantayan para maayos na pamumuhay" , "correct": false  },
+                    { "choices" : "batas ng kagandahang asal" , "correct": false },
+                    { "choices" : ". kasunduang pang – pangkalakalan" , "correct": false }
                 ]
-        },            
+        },         
     {
-        "Questions":"8. WHO SAID, “Ask not what tour country can do for you, but what you can do for you country?”",
+        "Questions":"Ang akdang hindi nauukol sa relihiyon noong panahon ng Kastila",
                 "MultipleChoice": [
-                    { "choices" : "Richard M. Nixon" , "correct": false },
-                    { "choices" : "John F. Kennedy" , "correct": false  },
-                    { "choices" : "Dwight D. Eisenhower" , "correct": true },
-                    { "choices" : "Lyndon B. Johnson’" , "correct": false }
+                    { "choices" : "dalit" , "correct": false },
+                    { "choices" : "panuluyan" , "correct": false  },
+                    { "choices" : "senakulo" , "correct": false },
+                    { "choices" : "panubog" , "correct": true }
                 ]
-        },                      
+        }, 
     {
-        "Questions":"9. Identify the poem from which the stanza is take: Trust no future, howe’er pleasant Let the dead Past bury its dead! Act-act in the living Present Heart within, and God o’erhead",
+        "Questions":"Naglalaman ng mga butyl ng karunungangkinapapalooban ng mabuting payo hango satunay na karanasan ng ating mga ninuno.",
                 "MultipleChoice": [
-                    { "choices" : "HYMN TO THE NIGHT" , "correct": false },
-                    { "choices" : "THE CROSS OF SHOW" , "correct": false  },
-                    { "choices" : "MY LOST YOUTH" , "correct": true },
-                    { "choices" : "A PSALM OF LIFE" , "correct": false }
+                    { "choices" : "bugtong" , "correct": false },
+                    { "choices" : "talinghaga" , "correct": false  },
+                    { "choices" : "salawikain" , "correct": true },
+                    { "choices" : "palaisipan" , "correct": false }
                 ]
-        },            
+        }, 
     {
-        "Questions":"13. What does William Norris want you to do in his ZIP THE LIP? If your lips would keep from slips. Five things observe with care; To whom you speak; of whom you speak And how, when, and where",
+        "Questions":"Ang Katotohanan inihayag sa awiting “Florante at Laura” ni Balagtas.",
                 "MultipleChoice": [
-                    { "choices" : "To be truthful" , "correct": false },
-                    { "choices" : "To be sincere" , "correct": false  },
-                    { "choices" : "To show kindness" , "correct": true },
-                    { "choices" : "To observe confidentiality" , "correct": false }
+                    { "choices" : " kahirapan sa buhay" , "correct": false },
+                    { "choices" : "katiwalian ng mga Kastila" , "correct": true  },
+                    { "choices" : "pag – iibigan ng mga magka – ibang lahi" , "correct": false },
+                    { "choices" : ". buhay pangangalakal noon panahon ng Kastila" , "correct": false }
                 ]
-        },    
+        }, 
     {
-        "Questions":"51. Which of the theories of learning, language and literacy views children as having the ability relate new information to prior knowledge?",
+        "Questions":"pagsulat ng mga Pilipino ssa magasing “liwayway” nuong panahon ng Hapon",
                 "MultipleChoice": [
-                    { "choices" : "Constructivist" , "correct": false },
-                    { "choices" : "Interactive" , "correct": false  },
-                    { "choices" : "Reader response" , "correct": true },
-                    { "choices" : "Sociolinguistic" , "correct": false }
+                    { "choices" : "malaya silang sumulat" , "correct": false },
+                    { "choices" : ". Walang takot silang sumulat" , "correct": false  },
+                    { "choices" : "nabigyan ng pagpapahalaga ang sariling wika" , "correct": true },
+                    { "choices" : "mapayapa ang panahon" , "correct": false }
                 ]
-        },    
+        }, 
     {
-        "Questions":"52. What kind of word is TELECAST?",
+        "Questions":"Ang “Urbana at Felisa” na isinulat ni Modestode Castro, ay naglalaman ng magagandang asal ng mga Pilipino tungkol sa a. pakikipagkapwa, paggalang sa magulang at pagkilala sa Diyos",
                 "MultipleChoice": [
-                    { "choices" : "Blend" , "correct": false },
-                    { "choices" : "Acronym" , "correct": false  },
-                    { "choices" : "Borrowed" , "correct": true },
-                    { "choices" : "Clipped" , "correct": false }
+                    { "choices" : "magandang relasyon ng makakapatid" , "correct": true },
+                    { "choices" : "pagtupad ng tungkulin sa bayan" , "correct": false  },
+                    { "choices" : "pagharap sa pagsubok sa buhay" , "correct": false },
+                    { "choices" : "pagkilala sa karapatan ng kapwa" , "correct": false }
                 ]
-        },    
+        }, 
     {
-        "Questions":"53. Which word should receive a high level /3/  in this sentence? SOMEONE IS LOOKING FOR HER.",
+        "Questions":"Ano ang kahulugan na nais iparating ng talatang ito hango sa “Sa Bagong Paraiso” ni Efren Abueg?” At ang pamumulaklak at pamumunga ng manga, santol, sinegwelas at ng iba pang punungkahoy o halaman sa loobang iyon ay nagpatuloy. Ang damuhan ay natuyo at muling sinibulan ng bagong supling.”",
                 "MultipleChoice": [
-                    { "choices" : "Look" , "correct": false },
-                    { "choices" : "Someone" , "correct": false  },
-                    { "choices" : "Is looking" , "correct": true },
-                    { "choices" : "" , "correct": false }
+                    { "choices" : " Napakaganda ng mga tanawin sa lalawigan" , "correct": false },
+                    { "choices" : ". Panahon ng tag – araw" , "correct": false  },
+                    { "choices" : "Patuloy ang paglipas ng panahon" , "correct": true },
+                    { "choices" : "Malulusog ang pananim sa lalawigan" , "correct": false }
                 ]
-        },    
+        }, 
     {
-        "Questions":"54. Which of the theories of learning, language and literacy emphasizes comprehension as students read",
+        "Questions":"Ano ang nais iparating ni Jose Rizal sa talatang ito hango sa kanyang “Noli Me Tangere”;”Mamatay akong di – man Nakita angmangingining na pagbubukang – liwayway saaking Inang Bayan. Kayong makakakita, batiinninyo siya at huwag kalilimutan ang mganalugmok sa dilim ng gabi.”",
                 "MultipleChoice": [
-                    { "choices" : "Reader Response" , "correct": false },
-                    { "choices" : "Constructivist" , "correct": false  },
-                    { "choices" : "Interactive" , "correct": true },
-                    { "choices" : "Sociolinguistic" , "correct": false }
+                    { "choices" : " pagkawala ng pag-asa dahil sa mga nangyari sa bayan" , "correct": false },
+                    { "choices" : "pag-asa sa kalayaan at paggunita sa mga taong nagbuwis ng buhay para sa kalayaan" , "correct": true  },
+                    { "choices" : ". pagpapa-walang halaga sa paghihirap ng mga bayani." , "correct": false },
+                    { "choices" : "malawakang kalungkutan nadarama sa pagkawala ng pag asa" , "correct": false }
                 ]
-        },    
+        }, 
     {
-        "Questions":"55. Which of the theories of learning, language and literacy views children as to having the ability to organize and integrate information is schemata?",
+        "Questions":"Karaniwang tauhan ng akdang ito ay mga hayop na ang layunin ay ipa-alam ang mga kaugaliang dapat pamarisan.",
                 "MultipleChoice": [
-                    { "choices" : "Constructivist" , "correct": false },
-                    { "choices" : "Reader Response" , "correct": false  },
-                    { "choices" : "Sociolinguistic" , "correct": true },
-                    { "choices" : "Interactive" , "correct": false }
+                    { "choices" : "tugmaan" , "correct": false },
+                    { "choices" : "alamat" , "correct": false  },
+                    { "choices" : "pabula" , "correct": true },
+                    { "choices" : "parabula" , "correct": false }
                 ]
-        },    
-
+        }, 
     {
-        "Questions":"56. Which integrates the other LANGUAGE ARTS?",
+        "Questions":"Sa mga saknong na ito hango sa “Florante atLaura” ni Balagtas, ano ang kahulugan nito? “Katiwala ako’t ang inyong kariktan;Kapilas ng langit, anaki’y matibay; Tapat ang puso mo’t di-nagunamgunam; Na ang paglililo’y nasa kagandahan”",
                 "MultipleChoice": [
-                    { "choices" : "Listening" , "correct": false },
-                    { "choices" : "Reading" , "correct": false  },
-                    { "choices" : "Talking" , "correct": true },
-                    { "choices" : "Writing" , "correct": false }
+                    { "choices" : "Ang kagandahan ay maaaring makalinlang ng tao" , "correct": true },
+                    { "choices" : "Maaring pagtakpan ng kagandahan ang isang kataksilan" , "correct": false  },
+                    { "choices" : "Pisikal na kagandahan ay maaring magpahiwatig rin ng kagandahang asal" , "correct": false },
+                    { "choices" : "Kagandahan ay maari ring maging batayan ng pagtitiwala sa katapan ng tao" , "correct": false }
                 ]
-        },    
+        }, 
     {
-        "Questions":"57. Which reading and writing SKILL is readingand making graphs?",
+        "Questions":"Anong ayos ng pantig and ginagamit sa salitang “daigdig”?",
                 "MultipleChoice": [
-                    { "choices" : "Study" , "correct": false },
-                    { "choices" : "Language" , "correct": false  },
-                    { "choices" : "Reference" , "correct": true },
-                    { "choices" : "Decoding" , "correct": false }
+                    { "choices" : "KPPKKPK" , "correct": true },
+                    { "choices" : "KKPKPPK" , "correct": false  },
+                    { "choices" : "KPPPKPP" , "correct": false },
+                    { "choices" : "LLPPKPP" , "correct": false }
                 ]
-        },    
+        }, 
     {
-        "Questions":"58. What is the taxonomic stage of this behavior? MATCH FAMILIAR VOCABULARY WORDS IN SENTENCES WITH CORRECT DEFINITIONS",
+        "Questions":"Ang “Kodigo ni kalantiaw” ay naglalaman ng?",
                 "MultipleChoice": [
-                    { "choices" : "Mechanical Skills Perception" , "correct": false },
-                    { "choices" : "Communication Comprehension" , "correct": false  },
-                    { "choices" : "Knowledge Recognition" , "correct": true },
-                    { "choices" : "Transfer Reception" , "correct": false }
+                    { "choices" : " batas na dapat sundin ng mga mamamayan" , "correct": true },
+                    { "choices" : " pamantayan para maayos na pamumuhay" , "correct": false  },
+                    { "choices" : ". batas ng kagandahang asal" , "correct": false },
+                    { "choices" : ". kasunduang pang – pangkalakalan" , "correct": false }
                 ]
-        },    
+        }, 
     {
-        "Questions":"59. What system do students use in capitalization and punctuation rules?",
+        "Questions":"Ang akdang hindi nauukol sa relihiyon noong panahon ng Kastila",
                 "MultipleChoice": [
-                    { "choices" : "Pragmatic" , "correct": false },
-                    { "choices" : "Phonological" , "correct": false  },
-                    { "choices" : "Semantic" , "correct": true },
-                    { "choices" : "Syntactic" , "correct": false }
+                    { "choices" : "dalit" , "correct": false },
+                    { "choices" : "panuluyan" , "correct": false  },
+                    { "choices" : "senakulo" , "correct": false },
+                    { "choices" : "panubog" , "correct": true }
                 ]
-        },    
+        }, 
     {
-        "Questions":"60. Which gives the television an EDGE over print media?",
+        "Questions":"Naglalaman ng mga butyl ng karunungang kinapapalooban ng mabuting payo hango sa tunay nakaranasan ng ating mga ninuno.",
                 "MultipleChoice": [
-                    { "choices" : "Proximity" , "correct": false },
-                    { "choices" : "Visual" , "correct": false  },
-                    { "choices" : "Color" , "correct": true },
-                    { "choices" : "Motion" , "correct": false }
+                    { "choices" : "bugtong" , "correct": false },
+                    { "choices" : "talinghaga" , "correct": false  },
+                    { "choices" : "salawikain" , "correct": true },
+                    { "choices" : "palaisipan" , "correct": false }
                 ]
-        },    
+        }, 
     {
-        "Questions":"101. Below is a sentence from DON QUIXOTE: In a village of La Mancha a name of which I have no desire to recall, there lived not so long ago one of  those gentlemen who always have a lance in the rock, an ancient buckles, a skinny nag and a greyhound…. Which question should you ask if you reading it at a LITERAL LEVEL?",
+        "Questions":"Ang Katotohanan inihayag sa awiting“Florante at Laura” ni Balagtas.",
                 "MultipleChoice": [
-                    { "choices" : "Is there a figurative language used?" , "correct": false },
-                    { "choices" : "Which word will lown?" , "correct": false  },
-                    { "choices" : "What are the figurative language and sound techniques used?" , "correct": true },
-                    { "choices" : "Which technique creates humor?" , "correct": false }
+                    { "choices" : " kahirapan sa buhay" , "correct": false },
+                    { "choices" : "katiwalian ng mga Kastila" , "correct": true  },
+                    { "choices" : "pag – iibigan ng mga magka – ibang lahi" , "correct": false },
+                    { "choices" : "buhay pangangalakal noon panahon ng Kastila" , "correct": false }
                 ]
-        },    
+        }, 
     {
-        "Questions":"102. After reading the poem at the THIRD LEVEL, which question should be asked?",
+        "Questions":"Dahilan kong bakit nagging masigla ang pagsulat ng mga Pilipino ssa magasing “liwayway” nuong panahon ng Hapon.",
                 "MultipleChoice": [
-                    { "choices" : "What were their transformations after 25 years?" , "correct": false },
-                    { "choices" : "Who is speaking in the poem?" , "correct": false  },
-                    { "choices" : "What happened during the reunion?" , "correct": true },
-                    { "choices" : "What is meant by the comparison under the skin/ our skull rise /to the surface/ like rocks in the bed/ of a drying stream”?" , "correct": false }
+                    { "choices" : ". malaya silang sumulat" , "correct": false },
+                    { "choices" : ". Walang takot silang sumulat" , "correct": false  },
+                    { "choices" : " nabigyan ng pagpapahalaga ang sariling wika" , "correct": true },
+                    { "choices" : "mapayapa ang panahon" , "correct": false }
                 ]
-        },    
+        }, 
     {
-        "Questions":"103. Which question should be asked when the poem is read at the FIRST LEVEL?",
+        "Questions":"Ang “Urbana at Felisa” na isinulat ni Modesto de Castro, ay naglalaman ng magagandang asal ng mga Pilipino tungkol sa",
                 "MultipleChoice": [
-                    { "choices" : "Who attended the 25th high school reunion?" , "correct": false },
-                    { "choices" : "What language is used in the poem?" , "correct": false  },
-                    { "choices" : "Why were their faces as sharp and pointed as the rocks?" , "correct": true },
-                    { "choices" : "To what are the once-young students compared?" , "correct": false }
+                    { "choices" : ". pakikipagkapwa, paggalang sa magulang at pagkilala sa Diyos" , "correct": true },
+                    { "choices" : "magandang relasyon ng makakapatid" , "correct": false  },
+                    { "choices" : "pagtupad ng tungkulin sa bayan" , "correct": false },
+                    { "choices" : "pagharap sa pagsubok sa buhay" , "correct": false }
                 ]
-        },    
+        }, 
     {
-        "Questions":"104. Which is the lowest of comprehension?",
+        "Questions":"Hindi totoo ang katapangan na ipinapakita niVincent sa harap ni Lalie sapagkat BAHAG ANGBUNTOT niya sa harap ng paghihirap",
                 "MultipleChoice": [
-                    { "choices" : "critical comprehension" , "correct": false },
-                    { "choices" : "critical evaluation" , "correct": false  },
-                    { "choices" : "literal comprehension" , "correct": true },
-                    { "choices" : "integration" , "correct": false }
+                    { "choices" : "Matapang" , "correct": false },
+                    { "choices" : "Matiyaga" , "correct": false  },
+                    { "choices" : "Duwag" , "correct": true },
+                    { "choices" : ". Malakas ang loob" , "correct": false }
                 ]
-        },    
+        }, 
     {
-        "Questions":"105. Which is the highest level of comprehension?",
+        "Questions":"NAG-ALSA BALUTAN si Claudia dahil sa malimit umanong pananakit ni Reymar.",
                 "MultipleChoice": [
-                    { "choices" : "Literal comprehension" , "correct": false },
-                    { "choices" : "Critical evaluation" , "correct": false  },
-                    { "choices" : "Critical comprehension" , "correct": true },
-                    { "choices" : "Integration" , "correct": false }
+                    { "choices" : "Lumayas" , "correct": true },
+                    { "choices" : "Nagtampo" , "correct": false  },
+                    { "choices" : "Nagtago" , "correct": false },
+                    { "choices" : "Nagmaktol" , "correct": false }
                 ]
-        },    
+        }, 
     {
-        "Questions":"1. What rhythmical device is used in this line from Latorena’s The Small Key? “…even the low square nipa house that stood in unashamed reliefagainst the gray green haze of grass and leaves.”",
+        "Questions":"Ang ________________ ng mga Nars ay dininig ng komite kahapon.",
                 "MultipleChoice": [
-                    { "choices" : "alliteration" , "correct": false },
-                    { "choices" : "assonance" , "correct": false  },
-                    { "choices" : "consonance" , "correct": true },
-                    { "choices" : "anaphora" , "correct": false }
+                    { "choices" : "Pakiusapan" , "correct": false },
+                    { "choices" : "Pakikipag-usap" , "correct": false  },
+                    { "choices" : ". Ipakiusap" , "correct": false },
+                    { "choices" : "Pakiusap" , "correct": true }
                 ]
-        },    
+        }, 
     {
-        "Questions":"2. What sense image is used in this line from Latorena’s The Small Key? “There were dark, newly plowed furrows where in due time timorous seedlings would rise to sturdy stalks and golden grain, to a rippling yellow sea in the wind and sun during harvest time.",
+        "Questions":"Lumapit si Prink kay Eadji at sinabing, “__________ mo si Landon ng pagkain sa kusina.”",
                 "MultipleChoice": [
-                    { "choices" : "tactile" , "correct": false },
-                    { "choices" : "olfactory" , "correct": false  },
-                    { "choices" : "visual" , "correct": true },
-                    { "choices" : "auditory" , "correct": false }
+                    { "choices" : "Utusan" , "correct": false },
+                    { "choices" : "Kunin" , "correct": false  },
+                    { "choices" : "Kunan" , "correct": true },
+                    { "choices" : "Hanapan" , "correct": false }
                 ]
-        },    
+        }, 
     {
-        "Questions":"3. “Soledad nodded. Her eyes followed her husband down the road, noting the fine set of his head and shoulders, the ease of his stride. A strange ache rose in her throat.” Which emotion best describes Soledad’s feelings in this excerpt from Latorena’s The Small Key?",
+        "Questions":"Nakatulog si Jana sa kanilang opisina dahil saHIMINGTING ng kapaligiran. Ano angkahulugan ng salita na nasa malalaking letra",
                 "MultipleChoice": [
-                    { "choices" : "fervent desire" , "correct": false },
-                    { "choices" : "discomfort from sore throat" , "correct": false  },
-                    { "choices" : "instinctive suspicion" , "correct": true },
-                    { "choices" : "twinge of sadness" , "correct": false }
+                    { "choices" : "Kaingayan" , "correct": false },
+                    { "choices" : "Kapayapaan" , "correct": false  },
+                    { "choices" : "Lakas ng hangin" , "correct": false },
+                    { "choices" : ". Katahimikan" , "correct": true }
                 ]
-        },    
+        }, 
     {
-        "Questions":"4. What figure of speech is used in this lastparagraph from Latorena’s The Small Key? “How quiet and peaceful the day was! A cow that had strayed by looked over her shoulder with a round vague inquiry and went on chewing her cud, blissfully unaware of such things as a gnawing fear in the heart of a woman and a still smoldering resentment in a man’s.”",
+        "Questions":"Alin sa mga sumusunod na layunin ang nasa afektib domeyn?",
                 "MultipleChoice": [
-                    { "choices" : "irony" , "correct": false },
-                    { "choices" : "simile" , "correct": false  },
-                    { "choices" : "personification" , "correct": true },
-                    { "choices" : "metaphor" , "correct": false }
+                    { "choices" : "Nakakabuo ng isang daayogo oganho sa taludutd ng isang tula" , "correct": false },
+                    { "choices" : "Naibibigay ang sariling pananaw hingil sa isyong tinalakay" , "correct": false  },
+                    { "choices" : "Nahahango ang mensahe ng texto atnailalapat ito sa aktwal na buhay" , "correct": true },
+                    { "choices" : "Natataya ang kaisiningan ngpagkakabuo ng pinapanood na pelikula" , "correct": false }
                 ]
-        },    
+        }, 
     {
-        "Questions":"5 Alfredo Salazar undergoes epiphany at the end of Marquez-Benitez’ story. What does epiphany mean?",
+        "Questions":"Alin sa mga sumusunod na set ng beheybyur ang nabibilang sa antas sintesis batay sa taksonomiya ng layunin ayon kay Bloom?",
                 "MultipleChoice": [
-                    { "choices" : "regret" , "correct": false },
-                    { "choices" : "insight" , "correct": false  },
-                    { "choices" : "freedom" , "correct": true },
-                    { "choices" : "confusion" , "correct": false }
+                    { "choices" : ". ilarawn, isalin, ipakahulugan" , "correct": false },
+                    { "choices" : "Ilapat, idayagram, tugunan" , "correct": false  },
+                    { "choices" : "Bumuo, balagkasin, pag-ugnayin" , "correct": true },
+                    { "choices" : "Suriin, pangatwiran, paghambingin" , "correct": false }
                 ]
-        },    
+        },     
     {
-        "Questions":"1. What does the poem celebrate as shown in line 1-2?",
+        "Questions":"Alin sa mga sumusunod na layunin ang may pinakamataas na antas?",
                 "MultipleChoice": [
-                    { "choices" : "sadness in death" , "correct": false },
-                    { "choices" : "reverence for nature" , "correct": false  },
-                    { "choices" : "familial bonding" , "correct": true },
-                    { "choices" : "sense of foreboding" , "correct": false }
+                    { "choices" : "Nailalapat ang kahalagahan ng textongbinasa sa sariling karanasan" , "correct": false },
+                    { "choices" : "Nasusuri ang kwento ayon sa mgaelement, dulog at alituntunin" , "correct": true  },
+                    { "choices" : "Natutukoy ang pangunahing ideya sa mga detalyeng nasa texto" , "correct": false },
+                    { "choices" : "Nakabubuo ng lagon mula sa nakasaadna impormasyon" , "correct": false }
                 ]
-        },    
+        }, 
     {
-        "Questions":"2 What does the persona wish in the last two lines?",
+        "Questions":"Anong lawak ng kasanayan angtinutukoy sa sumusunod na implakasyongpandiskurso?“Sa pagpili, pagpaplano at pagtalakay ngguro sa mga aralin pag-aaralan,kailangang palaging isasalang-alang a=ngguro kung paano at saan magagamit anfmga impormasyon a kaalamang anatamosa anumang pag-aaral.”",
                 "MultipleChoice": [
-                    { "choices" : "that he continues to be pious" , "correct": false },
-                    { "choices" : "that he be a child once again" , "correct": false  },
-                    { "choices" : "that he continues to be connected to nature" , "correct": true },
-                    { "choices" : "that he fulfills his duties and responsibilities" , "correct": false }
+                    { "choices" : "Receptive area" , "correct": false },
+                    { "choices" : "Reflective area" , "correct": false  },
+                    { "choices" : "Expressive area" , "correct": true },
+                    { "choices" : "Intensive area" , "correct": false }
                 ]
-        },    
+        },                         
     {
-        "Questions":"3. What figure of speech does Wordsworth use in line 7?",
+        "Questions":"Ano ang katotohanan sa likod ngkonsepto ng pagkakatuto ng wika?  1. kapag ang isang tao ay may likas na kakayahan 2. kung ito ay nagmumla sa isnag bungang panggagaya o panggagad ngpagsasalita 3. kung ito ay mula sa proseso ngpakikihalubilo sa kapwa4. kapag tinanggap o pinag-aralanito saklase sa akademikong paraan.",
                 "MultipleChoice": [
-                    { "choices" : "paradox" , "correct": false },
-                    { "choices" : "metonymy" , "correct": false  },
-                    { "choices" : "oxymoron" , "correct": true },
-                    { "choices" : "allusion" , "correct": false }
+                    { "choices" : ". 1 at 2" , "correct": false },
+                    { "choices" : ". 3 to 4" , "correct": false  },
+                    { "choices" : "1, 2 at 3" , "correct": false },
+                    { "choices" : "1, 2, 3 at 4" , "correct": true }
                 ]
-        },    
+        },                     
     {
-        "Questions":"3. From what perspective is the following story told?I could picture it. I have a rotten habit of picturing the bedroom scenes of my friends. We went out to the Cafe Napolitain to have an aperitif and watch the evening crowd on the Boulevard.from The Sun Also Rises by Ernest Hemingway.",
+        "Questions":"Ang pangunahing tauhan sa patulang akdang kapampangan na pinagamatang “Ang Baho ng Central “ na isang amang mangingsda na namatayan ng anak bunga ng kahirapan dahil sa patuloy na pagdumi ng dagat na pinagkukunan niya ng ikinabubuhay",
                 "MultipleChoice": [
-                    { "choices" : "First person" , "correct": false },
-                    { "choices" : "Second person" , "correct": false  },
-                    { "choices" : "Third person omniscient" , "correct": true },
-                    { "choices" : "Third person limited" , "correct": false }
+                    { "choices" : "Berto" , "correct": false },
+                    { "choices" : "Delfin" , "correct": true  },
+                    { "choices" : "Imo" , "correct": false },
+                    { "choices" : "Sendong" , "correct": false }
                 ]
-        },    
+        }, 
     {
-        "Questions":"4. What type of irony does Shakespeare use in Anthony’s speech? When that the poor have cried, Caesar hath wept: Ambition should be made of sterner stuff: Yet Brutus says he was ambitious; And Brutus is an honourable man.",
+        "Questions":"Isang akdang rehiyunal na tumutukoy sa mga dasal at kabutihang loob para sa buhay na walang hanggan kasama ang ilang panrelihiyong paniniwala ng Muslim",
                 "MultipleChoice": [
-                    { "choices" : "dramatic irony" , "correct": false },
-                    { "choices" : "causal irony" , "correct": false  },
-                    { "choices" : "irony of situation" , "correct": true },
-                    { "choices" : "verbal irony" , "correct": false }
+                    { "choices" : "Agyu" , "correct": false },
+                    { "choices" : "Delfin" , "correct": false  },
+                    { "choices" : "Imo" , "correct": true },
+                    { "choices" : "Sendong" , "correct": false }
                 ]
-        },    
+        }, 
     {
-        "Questions":"5. What do the following lines from William Blake exhort? To see a World in a Grain of Sand And a Heaven in a Wild Flower, Hold Infinity in the palm of your hand And Eternity in an hour.",
+        "Questions":"Ayon sa akdang bikol na pinamagatang “Piyon” ni Honesto M. Pesino, jr. ano angipinanalangin at sinasambit ng piyon n asana lunurin ng tubig sa timba sa timba?",
                 "MultipleChoice": [
-                    { "choices" : "to appreciate even the smallest of things" , "correct": false },
-                    { "choices" : "to be extremely imaginative and creative" , "correct": false  },
-                    { "choices" : "to believe in fantasy like a child" , "correct": true },
-                    { "choices" : "to be strong and faithful to God" , "correct": false }
+                    { "choices" : "kasalanan" , "correct": false },
+                    { "choices" : "kasamaan" , "correct": false  },
+                    { "choices" : "kahinaan" , "correct": false },
+                    { "choices" : "kahirapan" , "correct": true }
                 ]
-        },    
+        }, 
     {
-        "Questions":"1. How does Shelley regard the west wind in the following ode? From Ode to the West Wind Her clarion o'er the dreaming earth, and fill (Driving sweet buds like flocks to feed in air฀) With living hues and odours plain and hill: Wild Spirit, which art moving everywhere; Destroyer and Preserver; hear, oh, hear!",
+        "Questions":"Ayon sa kwentong Pangasinan na pinamagatang “Gayuma ni Lolo Simeon” ni LeornardaCarrera, nagamit ba ni Felino ang gayuma sa panunuyo sa pagsungkit sa puso ni Celia?",
                 "MultipleChoice": [
-                    { "choices" : "It is responsible for preserving life." , "correct": false },
-                    { "choices" : "It can both wipe out and maintain life." , "correct": false  },
-                    { "choices" : "It is a wild spirit in nature that is verystrong." , "correct": true },
-                    { "choices" : "It is strong but weak since it is everywhere." , "correct": false }
-                ]
-        },    
-    {
-        "Questions":"2. How does the speaker picture God in the following sermon? The God that holds you over the pit of hell, much as one holds a spider; or some loathsome insect, over the fire, abhors you, and is dreadfully provoked: his wrath towards you burns like fire; he looks upon you as worthy of nothing else, but to be cast into the fire; he is of purer eyes than to bear to have you in his sight; you are ten thousand times more abominable in his eyes, than the most hateful venomous serpent is in ours.",
-                "MultipleChoice": [
-                    { "choices" : "incensed" , "correct": false },
-                    { "choices" : "abominable" , "correct": false  },
-                    { "choices" : "abominable" , "correct": true },
-                    { "choices" : "vengeful" , "correct": false }
-                ]
-        },    
-    {
-        "Questions":"3. Paradise Lost is considered among the greatest epics in English. Which of the following was the basis for this epic poem?",
-                "MultipleChoice": [
-                    { "choices" : "treachery of Judas Iscariot" , "correct": false },
-                    { "choices" : "the passion of Christ" , "correct": false  },
-                    { "choices" : "fall from God’s grace" , "correct": true },
-                    { "choices" : "sinning of Adam and Eve" , "correct": false }
-                ]
-        },    
-    {
-        "Questions":"4. What does the speaker mean in the following lines? “Let’s so persevere That when we live no more, we may live ever” From  To My Dear and Loving Husband",
-                "MultipleChoice": [
-                    { "choices" : "Let’s continue writing poetry to immortalize us." , "correct": false },
-                    { "choices" : "Let’s have faith in God and He will keep us alive" , "correct": false  },
-                    { "choices" : "Let’s be true to our love, and we will be joined in eternity" , "correct": true },
-                    { "choices" : "Let’s have lots of children to remember us when we die." , "correct": false }
+                    { "choices" : "Oo, kaya’t sa huli sila’y nagging mag-asawa" , "correct": false },
+                    { "choices" : "Hindi, sapagkat binagabag siya ng kanyang konsensya" , "correct": false  },
+                    { "choices" : ". Oo, upang mapagtagumpaya niya ang kanyang pagkatorpe sa dalaga" , "correct": false },
+                    { "choices" : "Hindi, bagama’t pina ang binata hinggil ditto." , "correct": true }
                 ]
         },  
     {
-        "Questions":"5. Which of the following is NOT an example of Gothic literature?",
+        "Questions":"Ibigay ang mensaheng haid ng sumusund na pahiwatig mula sa akdang Cebuano na “Paalam na sa Pagakabata” “Ang langit ay nasa tao, hinid nakikita, hindi nahihipo, hindi naabot.”",
                 "MultipleChoice": [
-                    { "choices" : "Dracula" , "correct": false },
-                    { "choices" : "Lord of the Rings" , "correct": false  },
-                    { "choices" : "Frankenstein" , "correct": true },
-                    { "choices" : "Tell Tale Heart" , "correct": false }
+                    { "choices" : ". Ang langit ay lugar na tao na itinuturing na paraiso" , "correct": false },
+                    { "choices" : "Ang langit ay nasa puso ng isang tao, ang kabutihang loob, kapayapaan ng isisp atkalinisan ng budhi ang kaganapan nito" , "correct": true  },
+                    { "choices" : "Ang langit kailanman ay di makikita, mahihipo o maabot ng tao" , "correct": false },
+                    { "choices" : ". Ang langit ay inihanda para as tao at ito’y hindi makikita at maabot lalo na ng mga yaonghindi nararapat ditto." , "correct": false }
                 ]
-        },    
+        },  
     {
-        "Questions":"11. What does the speaker celebrate in “The Soul Selects her own Society”? The soul selects her own society, Then shuts the door; On her divine majority Obtrude no more.",
+        "Questions":"Ayon sa akdang “Tumanggap Ako ng mga bulaklak sa Araw na ito”, anong araw hulingtumanggap ng mga bulaklak ang tauhang nagsasalaysay sa tula?",
                 "MultipleChoice": [
-                    { "choices" : "conformity" , "correct": false },
-                    { "choices" : "community" , "correct": false  },
-                    { "choices" : "life and freedom" , "correct": true },
-                    { "choices" : "self-imposed isolation" , "correct": false }
+                    { "choices" : "Kaarawan" , "correct": false },
+                    { "choices" : "Anibersaryo" , "correct": false  },
+                    { "choices" : "Libing" , "correct": true },
+                    { "choices" : ". Araw ng mga Ina" , "correct": false }
                 ]
-        },    
+        },  
     {
-        "Questions":"12. What do the following lines reveal about theworld? All the world’s a stage, and all the men and women merely players. They have their exits and their entrances; And one man in his time plays manyparts - (As You Like It, Act II, Scene VII)",
+        "Questions":"Samakatuwid ang akdang “Tumanggap ako ng mga Bulaklak sa Araw na ito” ay isang____________.",
                 "MultipleChoice": [
-                    { "choices" : "Life is just like going to the theater" , "correct": false },
-                    { "choices" : "People have different roles to play in life" , "correct": false  },
-                    { "choices" : "Life is but an empty, senseless dream" , "correct": true },
-                    { "choices" : "People live and die at different times." , "correct": false }
+                    { "choices" : "Komedya" , "correct": false },
+                    { "choices" : "Trahedya" , "correct": true  },
+                    { "choices" : "Romansa" , "correct": false },
+                    { "choices" : "Parsa" , "correct": false }
                 ]
-        },    
+        },  
     {
-        "Questions":"13. What truth about humans do the followinglines from A Noiseless Patient Spider reveal? And you, O my Soul, where you stand, Surrounded, surrounded, in measureless oceans of space, Ceaselessly musing, venturing, throwing,--seeking the spheres, to connect them; Till the bridge you will need, be form'd--till the ductile anchor hold; Till the gossamer thread you fling, catch somewhere, O my Sou",
+        "Questions":"Ayon sa kwentong “Ang Inang Anak” ni Thu Van ng Vietnam, ano ang ibig sabihin ng kamatayang “bat doc ky tu”?",
                 "MultipleChoice": [
-                    { "choices" : "People need food and shelter" , "correct": false },
-                    { "choices" : "People search for their meaning" , "correct": false  },
-                    { "choices" : "People need friends and families" , "correct": true },
-                    { "choices" : "People endlessly seek to create" , "correct": false }
+                    { "choices" : ". Kamatayang parusa ng kasalanan" , "correct": false },
+                    { "choices" : "Pagtatakda ng kamatayan ayon guhit ng kapalara" , "correct": false  },
+                    { "choices" : "Paglilibot ng kaluluwa ng mga namamtay sa akdisdente hanggang sa araw ng talaga nilang kamatayan" , "correct": true },
+                    { "choices" : "Kamatayang biglaan at di napaghandaan" , "correct": false }
                 ]
-        },    
+        },  
     {
-        "Questions":"14. Which of the following is the resounding theme of contemporary stories like Hemingway’s A Clean and Well Lighted Place and Anderson’s Hands?",
+        "Questions":"Kung susuriin an kwentong Asyano na “Mga Magnanakaw” ni Yanti Soebiakto, ito aynagpapamalas ng anong teoryang pampanitikan?",
                 "MultipleChoice": [
-                    { "choices" : "alienation from the society" , "correct": false },
-                    { "choices" : "melancholia in solitude" , "correct": false  },
-                    { "choices" : "respect for the old" , "correct": true },
-                    { "choices" : "contentment in life" , "correct": false }
+                    { "choices" : "Sikolohikal" , "correct": false },
+                    { "choices" : "Sosyolohikal" , "correct": true  },
+                    { "choices" : "Markismo" , "correct": false },
+                    { "choices" : "Dekontruksyon" , "correct": false }
                 ]
-        },    
+        },  
     {
-        "Questions":"15. Who is alluded to as the Captain in the following lines from Whitman’s poem?O captain! My Captain! Our fearful trip is done, The ship has weather’d every rack, the prize wesought is won",
+        "Questions":"Ilarawan ang kwentong Asyano “Ang ikatlong Baytang” ni Shanon Ahmad.",
                 "MultipleChoice": [
-                    { "choices" : "Abraham Lincoln" , "correct": false },
-                    { "choices" : "George Washington" , "correct": false  },
-                    { "choices" : "John F. Kennedy" , "correct": true },
-                    { "choices" : "Thomas Jefferson" , "correct": false }
+                    { "choices" : "Ito ay tungkol sa yugto ng pagsilang" , "correct": false },
+                    { "choices" : "Ito ay tungkol sa yugto ng kamatayang" , "correct": true  },
+                    { "choices" : "Ito ay tungkol sa yugto ng buhay" , "correct": false },
+                    { "choices" : "Ito ay tungkol sa yugto ng tagumpay" , "correct": false }
                 ]
-        },    
+        },  
     {
-        "Questions":". In the passage, which of the following best describes the speaker's attitude toward the very rich?",
+        "Questions":"Itinuro ni Titser ang wika gamit ang pamamaraang na kung saan inilalahad niya sa mgamag-aaral ang proseso ng paggawa ng mungkahing pangkalakal pagkatapos ay nagtanongsiya ng tungkol dito. Ibigay ang layunin ng guro.",
                 "MultipleChoice": [
-                    { "choices" : "He finds their pessimism alarming and unwarranted." , "correct": false },
-                    { "choices" : "He finds them so different from the rest of society" , "correct": false  },
-                    { "choices" : "yC. He believes that the rich know more than others do." , "correct": true },
-                    { "choices" : "He thinks that he understands their way of life" , "correct": false }
+                    { "choices" : "Nahihinuha ang paksa ng usapan" , "correct": false },
+                    { "choices" : "Natutukoy ang mahahalagang kasipan at pagtatanggal ng mga di-mahalaga" , "correct": false  },
+                    { "choices" : "Nakakalap ang mahahalagang impormasyonsa pamamagitan ng pagtatala" , "correct": true },
+                    { "choices" : "Nahihinuiha sa mga pahiwatag na impormasyon ang intension at saloobin ng tagapagsalita" , "correct": false }
                 ]
-        },    
+        },  
     {
-        "Questions":"What is the tone of the speaker in the previous passage?",
+        "Questions":"Si Jose ay masusing inaanalisa ang mga impormasyon napakinggan batay sa mgaebidesya o patunay. Kung gayon, taglay ng naturang mag-aaral ang ____________ .",
                 "MultipleChoice": [
-                    { "choices" : "Optimistic" , "correct": false },
-                    { "choices" : "Laconic" , "correct": false  },
-                    { "choices" : "Pessimistic" , "correct": true },
-                    { "choices" : "Pessimistic" , "correct": false }
+                    { "choices" : "marginal o passive na pakikinig" , "correct": false },
+                    { "choices" : "masigasig na pakikinig" , "correct": false  },
+                    { "choices" : "mapanuring pakikinig" , "correct": true },
+                    { "choices" : "maglugod na pakikinig" , "correct": false }
                 ]
-        },    
+        },  
     {
-        "Questions":"18. What do the novels of Bronte, Eliot, Gaskell and Dickens reveal about fiction produced during the Victorian period in English Literature",
+        "Questions":"Kapag ang mag-aaral ay may laton sa pakikinig na mahango ang kahulugan ng mensahe sa pamamagitan ng pag-unawa sa lahat ng datos panglingwistika, maituturing na siya ay gumagamit ng prosesong ___________.",
                 "MultipleChoice": [
-                    { "choices" : "They closely represent the real social life of the times" , "correct": false },
-                    { "choices" : "The novels were long and full of psychological musings" , "correct": false  },
-                    { "choices" : "They concentrate on the effect of industrialization on cities" , "correct": true },
-                    { "choices" : "They were largely produced by upper middle-class women." , "correct": false }
+                    { "choices" : ". top down" , "correct": false },
+                    { "choices" : "bottom-up" , "correct": true  },
+                    { "choices" : " aktibong pakikinig" , "correct": false },
+                    { "choices" : "pagdinig vs. pakikinig" , "correct": false }
                 ]
-        },    
-    {
-        "Questions":"19. What do the last two lines from Freneau’s The Wild Honeysuckle reveal about life?",
-                "MultipleChoice": [
-                    { "choices" : "Life is just an hour" , "correct": false },
-                    { "choices" : "Life is frail." , "correct": false  },
-                    { "choices" : "Life is short." , "correct": true },
-                    { "choices" : "It is like a flower" , "correct": false }
-                ]
-        } ,
-    {
-        "Questions":"20. What do the following lines from Wordsworth’s Psalm of Life reveal about heroes and heroism",
-                "MultipleChoice": [
-                    { "choices" : "Anybody can be a hero." , "correct": false },
-                    { "choices" : "Heroes are often forgotten." , "correct": false  },
-                    { "choices" : "Heroes are easy to find" , "correct": true },
-                    { "choices" : "It is easy to do heroic acts" , "correct": false }
-                ]
-        }      
-
+        }                                                       
         ]
     }
     ],
@@ -1505,6 +1496,321 @@
                 { "choices" : "content" , "correct": false  },
                 { "choices" : "criterion-related" , "correct": false },
                 { "choices" : "face" , "correct": true }
+            ]  
+        },
+        {
+            "Questions":"Which assumption underlies the teacher's useof performance objectives?",
+            "MultipleChoice": [
+                { "choices" : "Not every form of learning is observable." , "correct": false },
+                { "choices" : "Performance objectives assure the learrier of learning" , "correct": false  },
+                { "choices" : "Learning is defined as a change in the learner's observable performance" , "correct": true },
+                { "choices" : "The success of learner is based on teacher performance" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"In the parlance of test construction what does TOS mean?",
+            "MultipleChoice": [
+                { "choices" : "Table of Specifics" , "correct": false },
+                { "choices" : "Table of Specifications" , "correct": true  },
+                { "choices" : "Table of Specific Test Items" , "correct": false },
+                { "choices" : "Team of Specifications" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"A student passes a research report poorlywritten but ornately presented in a folder tomake up for the poor quality of the bookreportcontent. Which Filipino trait does this practice prove? Emphasis on __________.",
+            "MultipleChoice": [
+                { "choices" : "art over academics" , "correct": false },
+                { "choices" : "substance overporma" , "correct": false  },
+                { "choices" : "art over science" , "correct": false },
+                { "choices" : "pormaover substance" , "correct": true }
+            ] 
+        },
+        {
+            "Questions":"In a criterion-referenced testing, what must you do to ensure that your test is fair?",
+            "MultipleChoice": [
+                { "choices" : "Make all of the questions true or false." , "correct": false },
+                { "choices" : "Ask each student to contribute one question." , "correct": false  },
+                { "choices" : "Make twenty questions but ask the students to answer only ten of their choice" , "correct": false },
+                { "choices" : "Use the objectives for the units as guide in your test construction." , "correct": true }
+            ] 
+        },
+        {
+            "Questions":"Which does Noam Chomsky, assert aboutlanguage learning for children?I. Young children learn and apply grammaticalrules and vocabulary as they are exposed to them.II. Begin formal teaching of grammatical rules tochildren as early as possible.III. Do not require initial formal languageteaching for children. ",
+            "MultipleChoice": [
+                { "choices" : "I and III" , "correct": false },
+                { "choices" : "II only" , "correct": false  },
+                { "choices" : "I only" , "correct": false },
+                { "choices" : "I and II" , "correct": true }
+            ] 
+        },
+        {
+            "Questions":"Life is what you make it exemplifies best what ______:",
+            "MultipleChoice": [
+                { "choices" : "Existentialism" , "correct": true },
+                { "choices" : "Humanism" , "correct": false  },
+                { "choices" : "Progressivism" , "correct": false },
+                { "choices" : "Essentialism" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"After listening to the homily of the Priest about fidelity, Catherine has amoment of reflection. Her understanding of the value of fidelity has become deeper as she related this to her past experience. This typifies what kind of philosophy ?",
+            "MultipleChoice": [
+                { "choices" : "Constructivism" , "correct": true },
+                { "choices" : "Reconstructivism" , "correct": false  },
+                { "choices" : "Humanism" , "correct": false },
+                { "choices" : "Existentialism" , "correct": false}
+            ] 
+        },
+        {
+            "Questions":"After studying the Principle of Identity, Teacher Beng asks her students to determine which among the given set of problems conforms to the said identity. This shows that Teacher Beng upholds this kind of philosophy?",
+            "MultipleChoice": [
+                { "choices" : "Perennialism" , "correct": false },
+                { "choices" : "Progressivism" , "correct": true  },
+                { "choices" : "Essentialism" , "correct": false },
+                { "choices" : "Naturalism" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"Joy listens to the advice given by hersister to end the relationship that she haswith Min Hoo . However, her sisterlearned that the advice she has given wasnot followed and Joy decided to continue the relationship. This action of Joy is a manifestation of what kind of philosophy?",
+            "MultipleChoice": [
+                { "choices" : "Essentialism" , "correct": false },
+                { "choices" : "Existentialism" , "correct": true  },
+                { "choices" : "Perennialism" , "correct": false },
+                { "choices" : "Humanism" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"After finishing the degree in Education, Teacher Mary realizes that learning never stops. In fact, she accumulates more knowledge after leaving the portal of her alma mater. This typifies what kind of philosophy?",
+            "MultipleChoice": [
+                { "choices" : "Constructivism" , "correct": false },
+                { "choices" : "Perennialism" , "correct": false  },
+                { "choices" : "Progressivism" , "correct": true },
+                { "choices" : "Humanism" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"Flordeluna, an education student, was asked by Prof. Cruz to described accurately education. Which of the following statement will Flordeluna most likely choose?",
+            "MultipleChoice": [
+                { "choices" : "A process of individual growth and social development" , "correct": true },
+                { "choices" : "Growth resulting from academic study" , "correct": false  },
+                { "choices" : "Acquired basically through the teacher" , "correct": false },
+                { "choices" : "Synonymous to formal schooling" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"Miss Orencia has been rated a very effective teacher. Which intellectual trait does Miss Orencia manifest?",
+            "MultipleChoice": [
+                { "choices" : "Well groomed " , "correct": false },
+                { "choices" : "Tolerance" , "correct": false  },
+                { "choices" : "Widely read" , "correct": true },
+                { "choices" : "Intellectual honest" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"Miss Lucero is a newly appointed teacher. The principal handed a copy of the Teacher’s Code of Ethics. Which could have been the motive of the principal?",
+            "MultipleChoice": [
+                { "choices" : "Acquaint her with principles of moral behavior, conduct and relationship in the practice of profession" , "correct": true },
+                { "choices" : ". Make her aware of the principles and rules prescribed under the authority of the state" , "correct": false  },
+                { "choices" : "Familiarize her with the generally accepted customs of right living in a society" , "correct": false },
+                { "choices" : "Provides her a set of rules and regulation to observe in school" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"As a pioneer in the world ideas, what would be the teacher’s task?",
+            "MultipleChoice": [
+                { "choices" : "Establishing instructional goals" , "correct": false },
+                { "choices" : "Establishing standards of behavior" , "correct": false  },
+                { "choices" : "Leading children to acquire about his environment" , "correct": true },
+                { "choices" : ". Articulating social, political and economic traditions" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"Mr. Villena is a newly appointed teacher. The principal advised him to avoid any conduct which discredit the teaching profession?",
+            "MultipleChoice": [
+                { "choices" : "Writing anonymous letters" , "correct": false },
+                { "choices" : "Revealing confidential information to authorities concerned" , "correct": true  },
+                { "choices" : ". Assigning underserved grades" , "correct": false },
+                { "choices" : " Joining social drinking and gambling session" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"Mr. Fernando, a Geography teacher, integrates the learning activities and materials with real life. Inline with the principle of expanding environment her context should start with",
+            "MultipleChoice": [
+                { "choices" : ". projection into the future" , "correct": false },
+                { "choices" : "adventures into outer space" , "correct": false  },
+                { "choices" : "local situations and community" , "correct": true },
+                { "choices" : "lands and people beyond Philippine shores" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"When Ms. Narvaez selects activist and materials for her Social Studies lessons that stimulate curiosity and satisfy the need to know, which criterion is meet?",
+            "MultipleChoice": [
+                { "choices" : " Criterion of organization" , "correct": false },
+                { "choices" : "Criterion of authenticity" , "correct": false  },
+                { "choices" : "criterion of appropriateness" , "correct": false },
+                { "choices" : "Criterion of interest" , "correct": true }
+            ] 
+        },
+        {
+            "Questions":"The Grade 6 Science teachers are engaged in panning the units for Science. Which of the following activities will not be engaged in by the group of teachers?",
+            "MultipleChoice": [
+                { "choices" : "rearranging or adding lesson content to provide task-relevant prior knowledge" , "correct": true },
+                { "choices" : "translating unit outcomes/objectives into specific lesson objective" , "correct": false  },
+                { "choices" : "classifying unit outcome/objectives at a higher level of behavior" , "correct": false },
+                { "choices" : "breaking the lesson contents into chunk" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"Miss Tantengco is teaching a lesson on “sounds”. Assuming that no task-relevant prior knowledge is required , what should be the starting point of her lesson?",
+            "MultipleChoice": [
+                { "choices" : "comprehension of principles" , "correct": false },
+                { "choices" : "knowledge of principle" , "correct": false  },
+                { "choices" : "comprehension of concepts" , "correct": false },
+                { "choices" : "knowledge of concepts" , "correct": true }
+            ] 
+        },
+        {
+            "Questions":"What is the primary reason why teacher should take a system perspective?",
+            "MultipleChoice": [
+                { "choices" : "Lessons prepared will always be a part of something greater" , "correct": false },
+                { "choices" : ". Lesson plan is composed of interrelated parts of a system" , "correct": false  },
+                { "choices" : "Lesson plan is a part of the total school system" , "correct": false },
+                { "choices" : ". Lesson planning is a systematic process" , "correct": true }
+            ] 
+        },
+        {
+            "Questions":"Which of the following conditions manifests trend of globalization?",
+            "MultipleChoice": [
+                { "choices" : "Establishment of stronger boundaries between and among nations" , "correct": false },
+                { "choices" : ". Increased awareness on the importance of national cultures and traditions." , "correct": false  },
+                { "choices" : ". Less and less impact of human activity on the planet earth." , "correct": false },
+                { "choices" : "The incorporation of local and national economies into a worldwide global economy" , "correct": true }
+            ] 
+        },
+        {
+            "Questions":"According to the Delors report, there are a number of main tensions central to the problems of thetwenty first century that we need to overcome. One of them is the challenge to an individual how he or she can adapt to the changing world without forgetting or turning his/her back from the past. What kindof tension or conflict is manifested in this situation?",
+            "MultipleChoice": [
+                { "choices" : "Tension between tradition and modernity" , "correct": false },
+                { "choices" : ". Tension between the global and the local" , "correct": true  },
+                { "choices" : "Tension between the universal and the individual" , "correct": false },
+                { "choices" : "Tension between long term and short term considerations" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"Which of the following features represents the new paradigm shift in education?",
+            "MultipleChoice": [
+                { "choices" : "Traditional pedagogies" , "correct": false },
+                { "choices" : "Lifelong education for all" , "correct": true  },
+                { "choices" : ". Rigid subject matter boundaries" , "correct": false },
+                { "choices" : "Knowledge as the only learning outcome" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"What is the measure of relevance in education?",
+            "MultipleChoice": [
+                { "choices" : "Democratization of access" , "correct": false },
+                { "choices" : "Functionality and meaningfulness" , "correct": true  },
+                { "choices" : " Ability to sustain education through the future" , "correct": false },
+                { "choices" : "Excellence and effectiveness" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"What is the concern of Multicultural Education? ",
+            "MultipleChoice": [
+                { "choices" : "Anticipating the future and imagining possible and probable futures" , "correct": false },
+                { "choices" : "Gender equality and harnessing of the role of women in development" , "correct": false  },
+                { "choices" : ". Promoting care for the environment and building a global culture of ecological responsibility" , "correct": false },
+                { "choices" : "The exploration of concepts of cultural diversity, similarities and prejudices to promote cultural understanding." , "correct": true }
+            ] 
+        },
+        {
+            "Questions":"Teacher A, a Values Education teacher emphasizes ethics in almost all her lessons. Which of the following emphasizes the same?",
+            "MultipleChoice": [
+                { "choices" : "Liberal Education" , "correct": false },
+                { "choices" : ". Moral Education" , "correct": true  },
+                { "choices" : "Religious Training" , "correct": false },
+                { "choices" : "Social Education" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"Which reform in the Philippine Educational System advocates the use of English and Filipino as mediaof instruction in specific learning areas?",
+            "MultipleChoice": [
+                { "choices" : "Alternative Learning" , "correct": false },
+                { "choices" : ". Bilingual Education" , "correct": true  },
+                { "choices" : "K-12 Program" , "correct": false },
+                { "choices" : ". Multilingual Education" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"Activities planned by school clubs/ organizations show school-community connection geared towardssociety's needs. What philosophy is related to this?",
+            "MultipleChoice": [
+                { "choices" : "Existentialism" , "correct": false },
+                { "choices" : "Progressivism" , "correct": false  },
+                { "choices" : "Realism" , "correct": false },
+                { "choices" : "Social reconstructionism" , "correct": true }
+            ] 
+        },
+        {
+            "Questions":"What philosophy is related to the practice of schools acting as laboratory for teaching reforms and experimentation?",
+            "MultipleChoice": [
+                { "choices" : "Essentialism" , "correct": false },
+                { "choices" : "Existentialism" , "correct": false  },
+                { "choices" : "Progressivism" , "correct": true },
+                { "choices" : ". Social Reconstructionism" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"Which of the following situations presents a value conflict?",
+            "MultipleChoice": [
+                { "choices" : "The teacher and his students have class standing as their priorities" , "correct": false },
+                { "choices" : "The teacher and the administrator follow a set of criteria in giving grades" , "correct": false  },
+                { "choices" : "The teacher has students whose parents want their children to obtain higher grades than what they are capable of getting" , "correct": true },
+                { "choices" : "The teacher sets high expectations for intelligent students such as getting higher grades." , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"1. Which holds true to standardized tests?",
+            "MultipleChoice": [
+                { "choices" : "They are used for comparative purposes" , "correct": false },
+                { "choices" : "They are administered differently" , "correct": true  },
+                { "choices" : "They are scored according to different standards" , "correct": false },
+                { "choices" : "" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"2. A negative discrimination index of a test item tells that particular test item lacks _____.",
+            "MultipleChoice": [
+                { "choices" : "objectivity" , "correct": false },
+                { "choices" : "reliability" , "correct": true  },
+                { "choices" : "content validity" , "correct": false },
+                { "choices" : "construct validity" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"3. In his second item analysis, Teacher H found out that more from the lower group got the test item # 6correctly. This means that the test item __________.",
+            "MultipleChoice": [
+                { "choices" : "has a negative discriminating power" , "correct": false },
+                { "choices" : "has a lower validity" , "correct": true  },
+                { "choices" : "has a positive discriminating power" , "correct": false },
+                { "choices" : "has a high reliability" , "correct": false }
+            ] 
+        },
+        {
+            "Questions":"4. You want ti teach concepts, patterns, and abstractions. Which method is most appropriate",
+            "MultipleChoice": [
+                { "choices" : "deductive method" , "correct": false },
+                { "choices" : "problem solving" , "correct": false  },
+                { "choices" : "direct instruction" , "correct": false },
+                { "choices" : "indirect instruction" , "correct": true }
+            ] 
+        },
+        {
+            "Questions":"5. Which can enhance the development of spatial intelligence?",
+            "MultipleChoice": [
+                { "choices" : "hands-on demonstrations" , "correct": false },
+                { "choices" : "environmental study" , "correct": false  },
+                { "choices" : "concept miming" , "correct": false },
+                { "choices" : ". concept mapping" , "correct": true }
             ] 
         }
     ]
