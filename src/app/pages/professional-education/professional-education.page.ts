@@ -3,11 +3,13 @@ import { animate, style, transition, trigger } from '@angular/animations';
 import Swal from 'sweetalert2';
 import { Router } from '@angular/router';
 import { AnimationOptions } from 'ngx-lottie';
+import { DatePipe } from '@angular/common';
 
 @Component({
   selector: 'app-professional-education',
   templateUrl: './professional-education.page.html',
   styleUrls: ['./professional-education.page.scss'],
+  providers: [DatePipe],
   animations:[  
     trigger('answer', [
       transition('void => *', [style({ opacity: 0, transform: 'translateY(-3rem)'}), animate(300)])
@@ -16,27 +18,34 @@ import { AnimationOptions } from 'ngx-lottie';
 })
 export class ProfessionalEducationPage implements OnInit {
   quizzes = [];
+  datas=[];
+
+  myDate = new Date();
 
   currentQuiz:number;
   answerSelected = false;
   correctAnswers = 0;
   incorrectAnswers = 0;
   prevAnswered = [];
+  datenow:string;
   
   result = false;
   resultStatus = 'Show Result';
+  private selectedSegment: string = "Exam";
 
   options:AnimationOptions = {
     path:'assets/welldone.json'
   }
   
   
-    constructor(private router:Router) { }
+    constructor(private router:Router,private datePipe: DatePipe) {
+      this.datenow = this.datePipe.transform(this.myDate, 'MMM-dd-yyyy');
+     }
   
     ngOnInit(): void {
       fetch('./assets/GeneralEducationJsonData/QuestionAndAnswerLetExamReviewer.json').then(res => res.json())
       .then(content => {
-        this.quizzes = content.ProfessionalEducation;
+        console.log(this.quizzes = content.ProfessionalEducation);
       });
       // this.quizzes = this.quizService.getQuizzes();
       this.currentQuiz = this.getRandom();
@@ -72,6 +81,12 @@ export class ProfessionalEducationPage implements OnInit {
     showResult(){
       this.result = true;
       this.resultStatus = 'Play Again!';  
+      if(localStorage.length==0){
+        localStorage.setItem('ionicProfessionalEducationData','[]');
+      }
+      var olddata = JSON.parse(localStorage.getItem('ionicProfessionalEducationData'));
+      olddata.push({Score:this.correctAnswers,DateTaken:this.datenow});
+      localStorage.setItem('ionicProfessionalEducationData',JSON.stringify(olddata));
       // Swal.fire({
       //   title: this.correctAnswers + " out of " + this.quizzes.length,
       //   showDenyButton: true,
@@ -96,5 +111,11 @@ export class ProfessionalEducationPage implements OnInit {
       this.incorrectAnswers = 0;
     }
   
+    segmentChanged(event:any){
+        this.selectedSegment = event.target.value; 
+        if(event.target.value=='History'){
+          console.log(this.datas = JSON.parse(localStorage.getItem('ionicProfessionalEducationData'))); 
+        }
+    }
 
 }
