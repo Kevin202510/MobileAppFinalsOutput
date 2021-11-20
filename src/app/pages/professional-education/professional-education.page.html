@@ -14,7 +14,7 @@
       <ion-label>History</ion-label>
     </ion-segment-button>
   </ion-segment>
-  <ion-card *ngIf="prevAnswered.length < 16 && selectedSegment == 'Exam'" class="answers">
+  <ion-card *ngIf="prevAnswered.length < 51 && selectedSegment == 'Exam'" class="answers">
     <ion-card-header>
       <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
       <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>
