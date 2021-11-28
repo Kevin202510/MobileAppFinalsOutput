@@ -3697,7 +3697,7 @@
             ] 
         },
         {
-            "Questions":"9. Section 6, Article XIV states that the national language of the Philippines is________________.",
+            "Questions":"Section 6, Article XIV states that the national language of the Philippines is________________.",
             "MultipleChoice": [
                 { "choices" : "English" , "correct": false },
                 { "choices" : "Filipino", "correct": true  },
@@ -3985,7 +3985,7 @@
             ] 
         },
         {
-            "Questions":"1. The coastline of islands in the Philippines is twice that of the ________. ",
+            "Questions":"The coastline of islands in the Philippines is twice that of the ________. ",
             "MultipleChoice": [
                 { "choices" : "Africa" , "correct": false },
                 { "choices" : "Caribbean Islands", "correct": false  },
@@ -3994,7 +3994,7 @@
             ] 
         },
         {
-            "Questions":"2. The highest mountain in the Philippines standing at 9,600 feet is _________.",
+            "Questions":"he highest mountain in the Philippines standing at 9,600 feet is _________.",
             "MultipleChoice": [
                 { "choices" : "Mt. Mayon" , "correct": false },
                 { "choices" : "Mt. Apo", "correct": true  },
@@ -4003,7 +4003,7 @@
             ] 
         },
         {
-            "Questions":"3. The longest river in the Philippines is_____________.",
+            "Questions":"The longest river in the Philippines is_____________.",
             "MultipleChoice": [
                 { "choices" : "Pampanga River" , "correct": false },
                 { "choices" : "Pasig River", "correct": false  },
@@ -4012,7 +4012,7 @@
             ] 
         },
         {
-            "Questions":"4. Intervening the dry and wet seasons in the Philippines are months from__________ known as the Philippine springtime, the most delightful season of the years. a. November to February",
+            "Questions":"Intervening the dry and wet seasons in the Philippines are months from__________ known as the Philippine springtime, the most delightful season of the years. a. November to February",
             "MultipleChoice": [
                 { "choices" : "November to February" , "correct": true },
                 { "choices" : "April to June", "correct": false  },
@@ -4021,7 +4021,7 @@
             ] 
         },
         {
-            "Questions":"5. The largest flower in the world is the one-foot diameter ______ which grows wild in the forests of Mindanao.",
+            "Questions":"The largest flower in the world is the one-foot diameter ______ which grows wild in the forests of Mindanao.",
             "MultipleChoice": [
                 { "choices" : "kamuning" , "correct": false },
                 { "choices" : "banaba", "correct": false  },
@@ -4030,7 +4030,7 @@
             ] 
         },
         {
-            "Questions":"6. Which of Bohol is reputed to be the smallest monkey in the world?",
+            "Questions":"Which of Bohol is reputed to be the smallest monkey in the world?",
             "MultipleChoice": [
                 { "choices" : "Zebronkey" , "correct": false },
                 { "choices" : "Pilandut", "correct": false  },
@@ -4039,7 +4039,7 @@
             ] 
         },
         {
-            "Questions":"7. Which is regarded as the Queen of the Philippine Orchids?",
+            "Questions":"Which is regarded as the Queen of the Philippine Orchids?",
             "MultipleChoice": [
                 { "choices" : "Liwayway" , "correct":false },
                 { "choices" : "Tarhata", "correct": false  },
@@ -4048,7 +4048,7 @@
             ] 
         },
         {
-            "Questions":"8. The Queen of Philippine fruits is the _________.",
+            "Questions":"The Queen of Philippine fruits is the _________.",
             "MultipleChoice": [
                 { "choices" : "durian" , "correct": false },
                 { "choices" : "lanzones", "correct": true  },
@@ -4057,7 +4057,7 @@
             ] 
         },
         {
-            "Questions":"9. The King of Jungle Fruits in the Philippines is the _________.",
+            "Questions":"The King of Jungle Fruits in the Philippines is the _________.",
             "MultipleChoice": [
                 { "choices" : "saging" , "correct": true },
                 { "choices" : "dalandan", "correct": false  },
@@ -4066,7 +4066,7 @@
             ] 
         },
         {
-            "Questions":"10. The Philippine national flower is the _________.",
+            "Questions":"The Philippine national flower is the _________.",
             "MultipleChoice": [
                 { "choices" : "ilang-ilang" , "correct": false },
                 { "choices" : "sampaguita", "correct": false  },
@@ -4074,1369 +4074,1369 @@
                 { "choices" : "walling-walling" , "correct": false }
             ] 
         },
-        {
-            "Questions":"",
+         {
+            "Questions":"The Philippine national flower is the _________.",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "ilang-ilang" , "correct": false },
+                { "choices" : "sampaguita", "correct": false  },
+                { "choices" : "tsampaka" , "correct": false },
+                { "choices" : "walling-walling" , "correct": false }
             ] 
         }
     ],
     "Physical Science":[
         {
-            "Questions":"",
+            "Questions":"Which refers to the recorded observations and measurements in an explanation?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Conclusion" , "correct": false },
+                { "choices" : "Data", "correct": true  },
+                { "choices" : "Graph" , "correct": false },
+                { "choices" : "Variables" , "correct": false }
             ] 
         },
          {
-            "Questions":"",
+            "Questions":"How is hypothesis tested?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "By gathering enough information about the problem" , "correct": false },
+                { "choices" : "By making inferences", "correct": false  },
+                { "choices" : "By conducting experiment" , "correct": true },
+                { "choices" : ". By formulating conclusion" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which summarizes a natural occurrence that may be constantly observed given the same conditions which may be expressed in words or in mathematical form?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Conclusion" , "correct": false },
+                { "choices" : "Hypothesis", "correct": false  },
+                { "choices" : "Law" , "correct": true },
+                { "choices" : "Theory" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Ruben prepares a solution by putting a pinch of orange crystals to water in a beaker, then by consistent stirring, the crystal dissolve. Which of the statements above are likely to be observed by Ruben?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "The water becomes orange." , "correct": false },
+                { "choices" : "The color of the solution becomes darker.", "correct": false  },
+                { "choices" : "Crystals disappear from the bottom of the beaker." , "correct": true },
+                { "choices" : "The beaker and its contents become heavier as attiring continues." , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of the following is NOT true about scientific method?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Conclusion is the last step" , "correct": false },
+                { "choices" : "Scientific method may be applied in every life.", "correct": false  },
+                { "choices" : "Scientific method is a systematic way of solving problem" , "correct": false },
+                { "choices" : ". Scientific method is done by following a step-by-step procedure in an exact sequence." , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which apparatus will you use to measure the mass of an irregular solid correctly?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : " Empty beaker" , "correct": false },
+                { "choices" : "Erlenmeyer flash", "correct": false  },
+                { "choices" : "Graduated cylinder with water" , "correct": true },
+                { "choices" : "Vernier caliper" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"To graph the distance covered and velocity of a car, which is the dependent variable? Where should be it plotted on a line graph?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Distance, x axis" , "correct": false },
+                { "choices" : ". Distance, y-axis", "correct": true  },
+                { "choices" : "Velocity, x-axis" , "correct": false },
+                { "choices" : "Velocity, y-axis" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"A student found a piece of metal. What can the student to do quickly determine if the metal might contain iron",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Heat the metal" , "correct": false },
+                { "choices" : "Weight the metal", "correct": false  },
+                { "choices" : "Place the metal in water" , "correct": false },
+                { "choices" : "Place the metal near the magnet" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"A student dipped a strip of aluminum and a strip of iron in water. The student then exposed the strips to air for one week. Which was most likely observed one week later?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "The iron strip formed rust" , "correct": true },
+                { "choices" : " The aluminum strip formed rust.", "correct": false  },
+                { "choices" : "Both of the metal strips formed rust." , "correct": false },
+                { "choices" : "Neither of the metal formed rust." , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"What human activity has added the most carbon in the atmosphere?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Burning fossils fuels" , "correct": true },
+                { "choices" : ". Mining fossil fuel", "correct": false  },
+                { "choices" : "ncreasing soil erosion" , "correct": false },
+                { "choices" : "Cutting down the rain forests" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"A week attraction between hydrogen atom in one molecule and an oxygen in other called_______.",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "covalent bond" , "correct": false },
+                { "choices" : " Hydrogen bond", "correct": true  },
+                { "choices" : " Ionic bond" , "correct": false },
+                { "choices" : "Metallic bond" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of the following substances is most likely a covalent compound ?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "CaCO3" , "correct": false },
+                { "choices" : "KNO3", "correct": false  },
+                { "choices" : "SO2" , "correct": true },
+                { "choices" : "NaOH" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"What is the element needed to bond with Na to create the most ionic bond?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "F" , "correct": true },
+                { "choices" : "C1", "correct": false  },
+                { "choices" : "Br" , "correct": false },
+                { "choices" : "1" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"The boiling point of substance A is higher than that of substance B. What does this meaning?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : ". Substance A is less viscous than substance B." , "correct": false },
+                { "choices" : "Substance A evaporates faster than substance B.", "correct": false  },
+                { "choices" : "Substance B has greater surface tension than substance A" , "correct": false },
+                { "choices" : "Substance B has weaker intermolecular forces than substance A." , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"What is the intermolecular force of attraction between the nucleus of one atom and the electrons of a nearby atom?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Dipole-dipole force" , "correct": false },
+                { "choices" : ". Ion-dipole force", "correct": false  },
+                { "choices" : "London dispersion force" , "correct": true },
+                { "choices" : "Van der Waals force" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of the following has the greatest number of atom?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Ca(OH)2" , "correct": false },
+                { "choices" : "A12O3", "correct": false  },
+                { "choices" : "NaHCO3" , "correct": true },
+                { "choices" : "C2H2" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"What does a triangle , which is placed in a chemical equation indicate?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Changes happened" , "correct": false },
+                { "choices" : ". Heat is applied", "correct": true  },
+                { "choices" : "Gas is evolved" , "correct": false },
+                { "choices" : "Precipitate" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"What would most probably be the resulting chemical formula when Mg+2and O2combine?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "MgO" , "correct": true },
+                { "choices" : "Mg2O2", "correct": false  },
+                { "choices" : "MgO2" , "correct": false },
+                { "choices" : "Mg4O4" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of the following is an example of combustion reaction?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : ". Mg+C12 -------------------------------------> MgC12" , "correct": true },
+                { "choices" : "CaCO3 -------------------------------------> CaO + CO2", "correct": false  },
+                { "choices" : "2 C4H10 + 13 O2 ----------------------------------> 8 CO2 + 10 H2O" , "correct": true },
+                { "choices" : " AgNO3 + NaC1 --------------------------------> AgC1 + NaNO3" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"What type of chemical reaction is involved in Ca(S) + 2H2O Ca(OH)2(aq)?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Combination" , "correct": false },
+                { "choices" : "Decomposition", "correct": false  },
+                { "choices" : "Single-displacement" , "correct": true },
+                { "choices" : "Double-displacement" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of the following BEST describes temperature?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Temperature measures the total energy in something." , "correct": false },
+                { "choices" : "Temperature measures the kinetic energy in substance.", "correct": false  },
+                { "choices" : "Temperature measures the total kinetic energy contained in an object" , "correct": false },
+                { "choices" : "Temperature measures the average molecular kinetic energy in substance." , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"The Earth receives tremendous heat coming from the sun which could be beneficial at one point and harmful to a large extent. Which of the following methods of transferring heat is being illustrated?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Conduction" , "correct": false },
+                { "choices" : "Convection", "correct": false  },
+                { "choices" : "Radiation" , "correct": true },
+                { "choices" : "Transduction" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"A reaction takes place endothermically. Which of the following statements BEST describes endothermic reactions?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "The temperature of the system drops" , "correct": false },
+                { "choices" : "The temperature of the surrounding rises.", "correct": false  },
+                { "choices" : "The temperature of the surrounding drops" , "correct": true },
+                { "choices" : "The temperature of the surrounding remains the same." , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of the following statements on specific heat is TRUE?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : ". It is an extrinsic property." , "correct": false },
+                { "choices" : ". It is always equal to the heat capacity.", "correct": false  },
+                { "choices" : "It is the heat capacity per mole of a substance." , "correct": false },
+                { "choices" : "It is equal to zero when the heat capacity is zero." , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"The entropy usually increase when ________________. I. A molecule is broken into two or more smaller molecules II. A reaction occurs that results in an increase in the number of moles of gas III.A solid changes to a liquid IV. A liquid changes to a gas",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "I and II only" , "correct": false },
+                { "choices" : ". I and II only", "correct": false  },
+                { "choices" : "I, II and III only" , "correct": false },
+                { "choices" : "I, II, III, and IV" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"The potential energy of a body at a certain height is 100 J. The kinetic energy possessed by it when it just touches the surface of the earth is________________.",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : ". greater than the potential energy" , "correct": false },
+                { "choices" : " less than the potential energy", "correct": true  },
+                { "choices" : "equal to the potential energy" , "correct": false },
+                { "choices" : ". cannot be known" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"What happens to the kinetic energy of an object if tit’s speed is doubled?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : ". It will be halved." , "correct": false },
+                { "choices" : "It will be doubled.", "correct": false  },
+                { "choices" : "It will be tripled." , "correct": false },
+                { "choices" : " It will be quadrupled." , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"What is the type of energy possessed by a simple pendulum when it is at the mean position?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Kinetic energy" , "correct": true },
+                { "choices" : "Mechanical energy", "correct": false  },
+                { "choices" : "Potential energy" , "correct": false },
+                { "choices" : "Sound energy" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"A ball is thrown upward into the air with a speed that is greater than terminal speed. On the way up, it slows down and after its speed equal the terminal speed but before it gets to the trajectory_____.",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : " it speed up" , "correct": false },
+                { "choices" : "its speed is constant", "correct": false  },
+                { "choices" : "it continues to the slow down" , "correct": true },
+                { "choices" : " its motion becomes jerky" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"When a bullet is fired from a riffle, the force in the riffle is equal to the force on the bullet. Why is it that the energy of the bullet is greater than the energy of the recoiling rifle?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Because there is more impulse on the bullet" , "correct": false },
+                { "choices" : "Because the force on the bullet acts for a longer time", "correct": false  },
+                { "choices" : "Because the force on the bullet acts for the longer distance" , "correct": true },
+                { "choices" : "Because the bullet’s momentum is greater than that of the rifle" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which statement about the North-magnetic pole of the Earth is TRUE?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Its location never changes" , "correct": false },
+                { "choices" : ". It corresponds to the N-pole of a bar magnet", "correct": false  },
+                { "choices" : "It corresponds to the S-pole of a bar magnet." , "correct": true },
+                { "choices" : ". It is at the same location as the geographic north pole of the Earth" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"An iron nail can be turned into a temporary magnet if it is held in a strong magnet field. Which method of magnetization is this?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Charging" , "correct": false },
+                { "choices" : "Conduction", "correct": false  },
+                { "choices" : "Introduction" , "correct": true },
+                { "choices" : "Saturation" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of the following factors affect the size of the induced current in a coil? I. Number of turns in the coil II. Size of the inducing field III.Direction of the winding in the coil IV. Resistance of the wire in the coil",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "I and II only" , "correct": false },
+                { "choices" : "III and IV only", "correct": false  },
+                { "choices" : "I, II, and III only" , "correct": false },
+                { "choices" : "I, II, and IV only" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"To use the right hand rule to predict the direction of n induced current in a coil, your thumb must point__________________.",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : ". to the direction of the motion of the wire" , "correct": true },
+                { "choices" : "to the S-pole of the induced magnetic field", "correct": false  },
+                { "choices" : "in the direction of the induced current" , "correct": false },
+                { "choices" : ". in the direction of the inducing field" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"When a bar magnet is inserted into a coil, a current of 12.0 A is induced in the coil. If four magnets of the same type are inserted into a coil at the same time, what would be the induced current?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "3 A" , "correct": false },
+                { "choices" : "4 A", "correct": false  },
+                { "choices" : "12 A" , "correct": false },
+                { "choices" : "48 A" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"According to the effects of length contraction, from the viewpoint of an observer stationary with respect to a body moving at a uniform speed relative to the observer, which one is CORRECT",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : ". The body contracts along the direction of the motion." , "correct": true },
+                { "choices" : "The time it takes for a clock incorporated in the body to tick contracts", "correct": false  },
+                { "choices" : "The body is not now contracted but would contract if it were accelerate." , "correct": false },
+                { "choices" : "The body contracts in some direction traverse to the direction of motion" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"April and May are identical twins. One day, April embarked on a high-speed space travel into a distance star. When he gets back home, who is older between the two?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "April" , "correct": false },
+                { "choices" : "May", "correct": true  },
+                { "choices" : "None of them because they are still of the same age" , "correct": false },
+                { "choices" : "Cannot be determined" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"An accelerated frame is a non-inertial frame. Is this TRUE?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "True" , "correct": true },
+                { "choices" : "False", "correct": false  },
+                { "choices" : "Sometimes true, sometimes false" , "correct": false },
+                { "choices" : "Not enough information given" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"What is the rest energy of a single proton which has a rest mass of 1.67 x 10 -27kg?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : ". 1.50 x 10 J" , "correct": false },
+                { "choices" : "1.50 x 101J", "correct": false  },
+                { "choices" : ". 1.50 x 10-10J" , "correct": false },
+                { "choices" : ". 1.50 x 10-10J" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of the following statements is TRUE about the speed of light?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "The speed of light has a value that depends on the observer’s frame of reference." , "correct": false },
+                { "choices" : "The speed of light has the same value for observers in all reference frames.", "correct": false  },
+                { "choices" : "The speed of light is constant in an inertial frame of reference." , "correct": true },
+                { "choices" : "The speed of light is slower in a moving frame of reference." , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of the following conditions rather than faulting",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Low temperatures and low confining pressures" , "correct": false },
+                { "choices" : "Low temperatures and high confining pressures", "correct": false  },
+                { "choices" : "High temperatures and low confining pressures" , "correct": false },
+                { "choices" : "High temperatures and high confining pressures" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"In which of the following climates will chemical weathering be most rapid?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Hot and dry" , "correct": false },
+                { "choices" : "Cold and dry", "correct": false  },
+                { "choices" : "Hot and humid" , "correct": true },
+                { "choices" : "Cold and humid" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of the following statements about weathering is false?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Rock of different composition weather at different rates" , "correct": false },
+                { "choices" : "Heat and heavy rainfall increase the rate of chemical weathering", "correct": false  },
+                { "choices" : "The presence of soil slows down the weathering of the underlying bedrock." , "correct": true },
+                { "choices" : "The longer a rock is exposed at the surface, the more weathered becomes" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Why do agricultural areas often experience the greatest amount of soil erosion?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : " Because farms are typically located near streams" , "correct": false },
+                { "choices" : "Because farmers usually remove trees from their fields", "correct": false  },
+                { "choices" : "Because they typically occur in areas of moderately steep slopes" , "correct": false },
+                { "choices" : "Because farming usually involves plowing the soil to plant seeds" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"What can happen to global temperatures for several years after a volcanic eruption",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Temperatures may increase" , "correct": false },
+                { "choices" : "Temperatures may decrease", "correct": true  },
+                { "choices" : "Temperatures can create more volcanoes" , "correct": false },
+                { "choices" : "Temperatures are not affected by volcanic eruptions" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"What must be done in order to preserve the biosphere for future generations?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Put all wild animals and game preserves." , "correct": false },
+                { "choices" : "Make use of technology to develop.", "correct": false  },
+                { "choices" : "Explore ways to drain and fill wetlands along the sea coast." , "correct": false },
+                { "choices" : "Understand how living things interact with their environment" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of the following can help ensure a suitable environment for the future generations?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Biological controls" , "correct": true },
+                { "choices" : "Chemical dumps", "correct": false  },
+                { "choices" : "Fossils fuels" , "correct": false },
+                { "choices" : "Pesticides" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which human activity would be more likely to have a negative impact on the environment?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Investigating the use of the biological controls for the pests" , "correct": false },
+                { "choices" : "Using reforestation and cover cropping to control soil erosion", "correct": false  },
+                { "choices" : "Using insecticides to kill insects that compete with human for food" , "correct": true },
+                { "choices" : ". Developing a research aimed toward the preservation of endangered species" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which is the main cause of the depletion of the ozone layer?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Decrease in temperature" , "correct": false },
+                { "choices" : "Decrease in the amount of air pollutants", "correct": false  },
+                { "choices" : "ncrease in number of marine ecosystem" , "correct": false },
+                { "choices" : "ncrease in temperature due to atmospheric pollutants" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"DDT was used to kill mosquitoes. It was observed that lizards that ate the mosquitoes slowed down and died. Eventually, the pollution of cats that eat lizards diminished. What can be inferred from this situation?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : " DDT can cause harm to all organisms" , "correct": false },
+                { "choices" : "Using DDT is a reliable way to eliminate insect predators.", "correct": false  },
+                { "choices" : "The mosquito and other organisms were all competing for same resources." , "correct": false },
+                { "choices" : "Environmental changes that affect one population can affect other population." , "correct": true }
             ] 
         }
     ],
     "Biological Science":[
         {
-            "Questions":"",
+            "Questions":"Where do producers obtain their energy?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "From other producers" , "correct": false },
+                { "choices" : "From the consumers", "correct": false  },
+                { "choices" : "From the decomposers" , "correct": true },
+                { "choices" : "From the sun" , "correct": false }
             ] 
         },
          {
-            "Questions":"",
+            "Questions":"Why do you experience not seeing things clearly for some seconds when you enter suddenly a well-lighted room after coming from a dark room, you",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "The pupils are not adapted to the dark" , "correct": false },
+                { "choices" : "The eyes are adapted to the light only", "correct": false  },
+                { "choices" : "The pupils are not dilated yet" , "correct": true },
+                { "choices" : "Light had caused temporary blindness" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"What term is used to describe the ability to maintain a constant internal environment?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Metabolism" , "correct": false },
+                { "choices" : "Growth and development", "correct": false  },
+                { "choices" : "Homeostasis" , "correct": true },
+                { "choices" : "Homeostasis" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"What is the most common cause of cardiovascular disease?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Fatty deposits in the arteries" , "correct": true },
+                { "choices" : "Inadequate supply of red blood cells", "correct": false  },
+                { "choices" : "Lack of sodium in the diet" , "correct": false },
+                { "choices" : "Increased heartbeat" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which is the smallest unit of life that can survive and reproduce on its own?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Cell" , "correct": true },
+                { "choices" : "Organ", "correct": false  },
+                { "choices" : "Tissues" , "correct": false },
+                { "choices" : "Population" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which region of a vertebrate forebrain is considered with the neutral-endocrine control of visceral activities?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Cerebellum" , "correct": false },
+                { "choices" : "Thalamus", "correct": false  },
+                { "choices" : "Hypothalamus" , "correct": true },
+                { "choices" : "Pituitary" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of the following is the building block carbohydrate?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Amino acid" , "correct": false },
+                { "choices" : "Nucleotide", "correct": false  },
+                { "choices" : "Fatty acid" , "correct": false },
+                { "choices" : "Monosaccharide" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Why it is necessary men have more red blood cells per cubic millimeter of blood than women?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Man does strenuous activities and need more energy" , "correct": true },
+                { "choices" : "They have bigger physique and need more blood", "correct": false  },
+                { "choices" : "Man waste more blood cells and need extra" , "correct": false },
+                { "choices" : "They are more prone to anemia disorders" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of the following is the building block of protein?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Amino acid" , "correct": true },
+                { "choices" : "Nucleotide", "correct": false  },
+                { "choices" : "Fatty acid" , "correct": false },
+                { "choices" : "Monosaccharide" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Where does protein synthesis take place?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Ribosomes" , "correct": true },
+                { "choices" : "Lysosomes", "correct": false  },
+                { "choices" : "Endoplasmic reticulum" , "correct": false },
+                { "choices" : "Golgi bodies" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which hormone is insufficient in cretinism?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Glucagon" , "correct": false },
+                { "choices" : "Adrenalin", "correct": false  },
+                { "choices" : "Insulin" , "correct": false },
+                { "choices" : "Insulin" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of the following is both endocrine and an exocrine gland?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Gastric glands" , "correct": false },
+                { "choices" : "Thyroid glands", "correct": false  },
+                { "choices" : "Pituitary glands" , "correct": false },
+                { "choices" : "Pancreas" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"What organ is controlled by the automatic nervous system?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Skeletal" , "correct": false },
+                { "choices" : "Muscles", "correct": false  },
+                { "choices" : "Heart" , "correct": true },
+                { "choices" : "Both A and B" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"What do you call food in a semi-liquid form, partially digested and mixed with hydrochloric acid?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Gastric secretion" , "correct": false },
+                { "choices" : "Gastric fluid", "correct": false  },
+                { "choices" : "Mucosa" , "correct": false },
+                { "choices" : "Chime" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which is considered the master gland due to its influence on the activity of all the other glands?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Thyroid" , "correct": false },
+                { "choices" : "Adrenal", "correct": false  },
+                { "choices" : "Pituitary" , "correct": true },
+                { "choices" : "Parathyroid" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which part of the brain is responsible for intelligence, memory and learned behavior?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Cerebellum" , "correct": false },
+                { "choices" : "Cerebrum", "correct": true  },
+                { "choices" : "Medulla" , "correct": false },
+                { "choices" : "Thalamus" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of these materials is not a major component of the plasma membrane?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Phospholipids" , "correct": false },
+                { "choices" : "Glycoprotein", "correct": false  },
+                { "choices" : "Proteins" , "correct": false },
+                { "choices" : "DNA" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which form of RNA delivers information from DNA to be used in making protein?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Messenger RNA" , "correct": true },
+                { "choices" : "Ribosomal RNA", "correct": false  },
+                { "choices" : "Transfer RNA" , "correct": false },
+                { "choices" : "All of the above" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of the following is not a type of cell?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Bacterium" , "correct": false },
+                { "choices" : "Amoeba", "correct": false  },
+                { "choices" : "Sperm" , "correct": false },
+                { "choices" : "Virus" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which property of water is probably MOST important for the functioning of organisms at the molecular level?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : ". Cohesion and high surface tension" , "correct": false },
+                { "choices" : "High specific heat", "correct": false  },
+                { "choices" : "High heat of vaporization" , "correct": false },
+                { "choices" : "Versatility as a solvent" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of the following is a part of the process of chemiosmosis?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Protons move along the electron transport chain." , "correct": false },
+                { "choices" : "Water molecules are split", "correct": false  },
+                { "choices" : "Hydrogen ions pass through membranes" , "correct": true },
+                { "choices" : "Light is absorbed by chlorophyll." , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"During mitosis, a double-stranded chromosome is attached to a spindle fiber at the",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "cell plate" , "correct": false },
+                { "choices" : "centromere", "correct": true  },
+                { "choices" : "centrosome" , "correct": false },
+                { "choices" : "centriole" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which is an effect of drugs on cells?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Produce toxic substance" , "correct": false },
+                { "choices" : "Discontinuous cell activity", "correct": false  },
+                { "choices" : "Cause damage to their structure" , "correct": true },
+                { "choices" : "Poison the cell liquid" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"The cell wall of plant is made of",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Lipids" , "correct": false },
+                { "choices" : "Cellulose", "correct": true  },
+                { "choices" : "Protein" , "correct": false },
+                { "choices" : "Cell membrane" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which is the storage cell of plants?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Microtubule" , "correct": false },
+                { "choices" : "Collenchyma", "correct": false  },
+                { "choices" : "Collenchyma" , "correct": false },
+                { "choices" : "Parenchyma" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which results from drinking saltwater?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Poisoning of the cells" , "correct": false },
+                { "choices" : "Dehydration of the cells", "correct": true  },
+                { "choices" : "Increase in cell pressure" , "correct": false },
+                { "choices" : "Bursting of the cells" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"What kind of tissue lines our skin and what is its important function?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Nerve tissue; responsible for reflexes" , "correct": false },
+                { "choices" : "Epithelial; protection from ultraviolet radiation", "correct": false  },
+                { "choices" : "Nerve tissue; receive stimuli on the skin" , "correct": false },
+                { "choices" : "Epithelial; produce new cells when peeled off" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"At metaphase of the first meiotic division, the chromosomes are attached to the spindle fibers as ",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "double chromatids" , "correct": false },
+                { "choices" : "non-homologous pairs", "correct": false  },
+                { "choices" : "single chromatid strand" , "correct": false },
+                { "choices" : "a tetrad of chromatids" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which type of cell would probably provide the best opportunity to study lysosomes?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Leaf" , "correct": false },
+                { "choices" : "Nerve", "correct": false  },
+                { "choices" : "Muscle" , "correct": false },
+                { "choices" : "White blood" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which best describes meiosis as another form of cell division with accompanying nuclear changes?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "The nuclear changes follow one another indefinitely." , "correct": false },
+                { "choices" : "Each new cell has double the amount from both parents.", "correct": false  },
+                { "choices" : "The nucleoli break up into two parts and disappear." , "correct": false },
+                { "choices" : "Each new cell has half the number of chromosomes." , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Arthropods exhibit fast and coordinated movement because they possess",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "an endoskeleton " , "correct": false },
+                { "choices" : "jointed appendages", "correct": true  },
+                { "choices" : "exoskeleton" , "correct": false },
+                { "choices" : "bilateral symmetry" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"The following statements are true of spiders EXCEPT",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Have rectal glands for potassium and water reabsorption" , "correct": false },
+                { "choices" : "Tagmata include cephalothorax and abdomen", "correct": false  },
+                { "choices" : "Contain silk glands for web making" , "correct": false },
+                { "choices" : "Possess 3 pairs of legs" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"The relationship that exists between insects and flowering plants is called .",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "parasitism" , "correct": false },
+                { "choices" : "predation", "correct": false  },
+                { "choices" : "mutualism" , "correct": true },
+                { "choices" : "commensalism" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":" Which of the following causes our nose to “run” when we cry?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "The lungs release water vapor." , "correct": false },
+                { "choices" : "Mucous glands are activated.", "correct": false  },
+                { "choices" : "Tears enter the duct to the nasal cavity." , "correct": true },
+                { "choices" : "Tears enter the duct to the nasal cavity." , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"What is the main function of the peripheral nervous system?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Communicates with the endocrine glands" , "correct": false },
+                { "choices" : "Regulates our heartbeat and breathing", "correct": false  },
+                { "choices" : "Controls our emotions and intelligence" , "correct": false },
+                { "choices" : "Connects central nervous system to all organs" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"What causes our bones to turn brittle?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Turning into muscle tissue" , "correct": false },
+                { "choices" : "Increase in flexibility", "correct": false  },
+                { "choices" : "Turbidity decreased" , "correct": false },
+                { "choices" : "Removal of collagen" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which part of the neuron conducts impulse from other neurons toward the cell body?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Axon" , "correct": false },
+                { "choices" : "Ganglia", "correct": false  },
+                { "choices" : "Synapse" , "correct": false },
+                { "choices" : "Dendrite" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"The tendency to react automatically to an external stimulus is called a/an",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Habituation" , "correct": false },
+                { "choices" : "Aggression", "correct": false  },
+                { "choices" : "Imprinting" , "correct": false },
+                { "choices" : "Reflex" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which hormone promotes the development of secondary female sexual characteristics such as broad pelvis and enlarged breasts?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Testosterone" , "correct": false },
+                { "choices" : "Estrogen", "correct": true  },
+                { "choices" : "Melatonin" , "correct": false },
+                { "choices" : "Growth" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which part of the ear is dangerously affected when sound is of hundred decibels?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Pinna" , "correct": false },
+                { "choices" : "Eustachian tube", "correct": false  },
+                { "choices" : "Semi-circular canal" , "correct": false },
+                { "choices" : "Tympanic membrane" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"As green plants make food, they are",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "first – order consumers" , "correct": false },
+                { "choices" : "second – order consumers", "correct": false  },
+                { "choices" : "decomposers" , "correct": false },
+                { "choices" : "producers" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"The producers in a pond are usually",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "tadpoles" , "correct": false },
+                { "choices" : "algae", "correct": true  },
+                { "choices" : "bacteria" , "correct": false },
+                { "choices" : "small fish" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"A series in which each organism serves as food for the next organism is a",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "food chain" , "correct": true },
+                { "choices" : "population", "correct": false  },
+                { "choices" : "community" , "correct": false },
+                { "choices" : "niche" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Substances from dead plants and animals are returned to the water by",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "producers" , "correct": false },
+                { "choices" : "consumers", "correct": false  },
+                { "choices" : "decomposers" , "correct": true },
+                { "choices" : "top consumers" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"The special role of each organism in a food pyramid is its",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "system" , "correct": false },
+                { "choices" : "niche", "correct": true  },
+                { "choices" : "physical environment" , "correct": false },
+                { "choices" : "community" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"The consumers in a food chain in a pond are the",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "algae" , "correct": false },
+                { "choices" : "plants", "correct": false  },
+                { "choices" : "bacteria" , "correct": false },
+                { "choices" : "animals" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"If you study how a fish is fitted for life in a quiet water, you are studying its",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "food pyramid" , "correct": false },
+                { "choices" : "adaptation", "correct": true  },
+                { "choices" : "interdependence" , "correct": false },
+                { "choices" : "population" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"All the plants and animals in a pond form",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "an environment" , "correct": false },
+                { "choices" : "a community", "correct": true  },
+                { "choices" : "a population" , "correct": false },
+                { "choices" : "an ecosystem" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Many interdependent food chains in a forest make up a",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "food pyramid" , "correct": false },
+                { "choices" : "pyramid of biomass", "correct": false  },
+                { "choices" : "food web" , "correct": true },
+                { "choices" : "habitat" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"The second – order consumers in a food pyramid get their food directly from",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "carnivores" , "correct": false },
+                { "choices" : "decomposers", "correct": false  },
+                { "choices" : "producers" , "correct": false },
+                { "choices" : "herbivores" , "correct": true }
             ] 
         }
     ],
     "Agriculture and Fishery Art":[
         {
-            "Questions":"",
+            "Questions":"Which type of plant propagation is reflected in the paragraph above?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Sexual Propagation" , "correct": false },
+                { "choices" : "Asexual Propagation", "correct": true  },
+                { "choices" : "Veneer Grafting" , "correct": false },
+                { "choices" : "Tongue Propagation" , "correct": false }
             ] 
         },
          {
-            "Questions":"",
+            "Questions":"Which method of propagation is referred to in the third sentence?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Inarching grafting" , "correct": false },
+                { "choices" : "Bank Grafting", "correct": true  },
+                { "choices" : "Splice Grafting" , "correct": false },
+                { "choices" : "Saddle Grafting" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"In the second sentence, which method of propagation can be used?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Mound Layering" , "correct": false },
+                { "choices" : "Tip Layering", "correct": false  },
+                { "choices" : "Composite Layering" , "correct": false },
+                { "choices" : "Air Layering" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"The following method of propagation can be used to achieve what is needed in the third sentence, EXCEPT?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : " approach grafting" , "correct": false },
+                { "choices" : "tongue grafting", "correct": false  },
+                { "choices" : "root grafting" , "correct": true },
+                { "choices" : "saddle grafting" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which process is describe above?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Propagation" , "correct": false },
+                { "choices" : "Sterilization", "correct": false  },
+                { "choices" : "Pollination" , "correct": true },
+                { "choices" : "Pigmentation" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which is the function of the butterfly in the process described above?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Consumer" , "correct": false },
+                { "choices" : "Merchandiser", "correct": false  },
+                { "choices" : "Retailer" , "correct": false },
+                { "choices" : "Agent" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Can human be an agent of pollination like the butterfly described above?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Yes, we can." , "correct": true },
+                { "choices" : "No, we can’t", "correct": false  },
+                { "choices" : "Maybe, we can" , "correct": false },
+                { "choices" : "Maybe, we can" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which type of pollination DOES NOT involve other organism to act as agent?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Biotic" , "correct": false },
+                { "choices" : "Abiotic", "correct": true  },
+                { "choices" : "Anemophily" , "correct": false },
+                { "choices" : "Hydrophily" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which type of pollination involves wind as the agent?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Biotic" , "correct": false },
+                { "choices" : "Abiotic", "correct": false  },
+                { "choices" : "Anemophily" , "correct": true },
+                { "choices" : "Hydrophily" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"What is meant by a 15-30-15 fertilizer?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "15 parts Nitrogen, 30 parts Potassium, 15 parts Phosphorous" , "correct": false },
+                { "choices" : "15 parts Nitrogen, 30 parts Phosphorous, 15 parts Potassium", "correct": true  },
+                { "choices" : "15 parts Nitrogen, 30 parts Magnesium Sulfate, 15 parts Potassium" , "correct": false },
+                { "choices" : "15 parts Nitrogen, 30 parts Manganese, 15 parts Potassium" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which is referred to as the hard covering of a seed?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Seed coat" , "correct": false },
+                { "choices" : "Test", "correct": true  },
+                { "choices" : "Flesh" , "correct": false },
+                { "choices" : "Cotelydon" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of the following is NOT one of the importance of plant classification?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Complicates plants collection initiatives, research, breeding and specialized development efforts" , "correct": true },
+                { "choices" : ". Facilitates efficient communication, dissemination and retrieval of scientific information", "correct": false  },
+                { "choices" : "Helps in intergeneric grafting of Solanaceae" , "correct": false },
+                { "choices" : "Indicates the similarities of crops in their uses, adaptation growth habits and method of culture" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which is the transfer of pollen from the anther of one flower to the stiga of another flower in separate plants?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : ". Self-polliation" , "correct": false },
+                { "choices" : ". Cross-pollination", "correct": true  },
+                { "choices" : "Mono-pollination" , "correct": false },
+                { "choices" : "Dual-pollination" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which refers to the propagation of fruits, Vegetables and ornamental plants?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Crop Production" , "correct": false },
+                { "choices" : "Farm Engineering", "correct": false  },
+                { "choices" : "Horticulture" , "correct": true },
+                { "choices" : "Agricultural Economics" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which latin words mean “field cultivation”",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Ager cultura" , "correct": true },
+                { "choices" : "Flos cultura", "correct": false  },
+                { "choices" : "Proventus cultura" , "correct": false },
+                { "choices" : "Ager cultura" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Where were the earliest planned sowing and harvesting of plants discovered through archeological excavation?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "China" , "correct": false },
+                { "choices" : "Fertile cresent of Egypt and India", "correct": true  },
+                { "choices" : "Summeria" , "correct": false },
+                { "choices" : "Pakistan" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which is the scientific and art of systematic production of useful plants and animals for man’s use and consumption through human management?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Farming" , "correct": false },
+                { "choices" : "Agriculture", "correct": true  },
+                { "choices" : "Horticulture" , "correct": false },
+                { "choices" : "Crop production" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which crop are referred to as “garden crop” they are annual and perennial crops which are grown under an intensive system of culture and utilized with high moisture content, and therefore, perishable.",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Agronomic crops" , "correct": false },
+                { "choices" : "Solanaceous crops", "correct": false  },
+                { "choices" : "Cole crops" , "correct": false },
+                { "choices" : "Horticultural crops" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which pasture and forage are grown, cut, fermented and preserved before being fed to animals?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : ". Spoilage crops" , "correct": false },
+                { "choices" : "Beverage crops", "correct": false  },
+                { "choices" : "Silage crops" , "correct": true },
+                { "choices" : "Cereal or Grain crops" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"The following are the examples of cole crops EXCEPT __________ .",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "squash" , "correct": true },
+                { "choices" : "lettuce", "correct": false  },
+                { "choices" : "cabbage" , "correct": false },
+                { "choices" : "pechay" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which type of insect’s life cycle goes through the four (4) stages of development?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Complete Metamorphosis" , "correct": true },
+                { "choices" : "Perfect Metamorphosis", "correct": false  },
+                { "choices" : "Incomplete Metamorphosis" , "correct": false },
+                { "choices" : "Imperfect Metamorphosis" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"The following are causes of disease, EXCEPT ",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "bacteria" , "correct": false },
+                { "choices" : "fungi", "correct": false  },
+                { "choices" : "viruses" , "correct": false },
+                { "choices" : "blight" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which is the most intensively kept poultry in the Philippines?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Chiken" , "correct": true },
+                { "choices" : "Geese", "correct": false  },
+                { "choices" : "Duck" , "correct": false },
+                { "choices" : "Quail" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which refers to the covering of the entire body of animals? Its main function is protection and, to a limited exent, regular of heat.",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Skin" , "correct": true },
+                { "choices" : "Feather", "correct": false  },
+                { "choices" : "Fur" , "correct": false },
+                { "choices" : "Coat" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which term refers to the ovulation period in animals?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Sex period" , "correct": false },
+                { "choices" : "Heat period", "correct": true  },
+                { "choices" : "Aroused period" , "correct": false },
+                { "choices" : "Hot period" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which lighting pattern is essential to prevent very early sexual maturity of chicken?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Increasing or constant" , "correct": true },
+                { "choices" : "Decreasing or constant", "correct": false  },
+                { "choices" : "Increasing and influence" , "correct": false },
+                { "choices" : "Decreasing and fluctuating" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which term is applied to a group of organism with specific characteristics that distinguish them from other groups within that species",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Inbreed" , "correct": false },
+                { "choices" : " Cross-breed", "correct": false  },
+                { "choices" : "Breed" , "correct": true },
+                { "choices" : "Hybrid" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which is the collective term of domestic birds that are raised for either their meat or eggs or as pets?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Flock" , "correct": false },
+                { "choices" : "Fowl", "correct": false  },
+                { "choices" : "Bird" , "correct": false },
+                { "choices" : "Poultry" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which described a snood correctly?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Fleshy appendage hanging down the skin to the throat or chin of goats" , "correct": false },
+                { "choices" : ". Fleshy flap of skin that hangs over the turkey’s beak, and similar to the caruncle, turns bright red when angered or during courtdship", "correct": true  },
+                { "choices" : ". Fleshy protuberance on the back of a cattle" , "correct": false },
+                { "choices" : "Fleshy and usually red outcrop of skin atop the chicken head" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"At what age does improve breed of swine reach puberty?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "5 to 7 months" , "correct": false },
+                { "choices" : "6 to 8 months", "correct": true  },
+                { "choices" : "4 to 6 months" , "correct": false },
+                { "choices" : ". 8 to 10 months" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which crop disease grows on leaf surface as white, gray or purple spots?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Galls" , "correct": false },
+                { "choices" : "Leaf Spot", "correct": false  },
+                { "choices" : "Mildew" , "correct": true },
+                { "choices" : "Mosaic" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which crop disease is distinguish by the appearance of rings of different shades of brown, green or yellow that make spot on the leaves?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Galls" , "correct": false },
+                { "choices" : "Leaf Spot", "correct": true  },
+                { "choices" : "Mildew" , "correct": false },
+                { "choices" : "Mosaic" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which are the larva stage of heel flies?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Cattle Grubs" , "correct": true },
+                { "choices" : "Cattle Lice", "correct": false  },
+                { "choices" : "Mange Mites" , "correct": false },
+                { "choices" : "Sarcoptic Mange" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which avain disease is caused by mycoplasma or pleuropneumonia-like organism",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Coccidiosis" , "correct": false },
+                { "choices" : "Marek’s Disease", "correct": false  },
+                { "choices" : ". Avain Malaria" , "correct": false },
+                { "choices" : ". Chronic Respiratory" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which insect pest tear, grind or chew their food?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : ". Chewing Insects" , "correct": true },
+                { "choices" : "Piercing-Sucking Insects", "correct": false  },
+                { "choices" : "Rasping-sucking insects" , "correct": false },
+                { "choices" : "Sponging Insects" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of the following is one of the four group of preventive measures?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Burning" , "correct": false },
+                { "choices" : "Quarantine", "correct": true  },
+                { "choices" : "Medication" , "correct": false },
+                { "choices" : "Culling" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which statement on the effective use of protective fungicide is TRUE?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Use too little fungicide at the right time and at the right way." , "correct": false },
+                { "choices" : "Use too much fungicide at the right time and at the right way", "correct": false  },
+                { "choices" : "Use the extract amount of fungicide at the right time and at the right away" , "correct": true },
+                { "choices" : "Use too extract amount of fungicide at anytime at anyway" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which refers to the total elimination of weed species?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Eradication" , "correct": true },
+                { "choices" : "Control", "correct": false  },
+                { "choices" : "Prevention" , "correct": false },
+                { "choices" : "Restriction" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which of the following is a disadvantage of biopesticides?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "They are more economical alternative" , "correct": false },
+                { "choices" : "They have less dangerous impact on the environment and water quality", "correct": false  },
+                { "choices" : "They take more extensive management and planning ." , "correct": true },
+                { "choices" : "Helpful insects and animals can go completely unaffected by their use." , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"The following are aim of integrated Pest Management, EXCCEPT _________ .",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "reduced the used of synthetic organic pesticides" , "correct": false },
+                { "choices" : "ensure consumers a supply of high quality, safe and economical foods and other agricultural products", "correct": false  },
+                { "choices" : "grow crops that are environmental sound" , "correct": false },
+                { "choices" : "grow crops that pose risk to human health" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which organic insecticides is prepared with crushed or ground garlic cloves mixed a cup of water?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Hot pepper-based" , "correct": false },
+                { "choices" : "Malunggay-based", "correct": false  },
+                { "choices" : "Clover-based" , "correct": false },
+                { "choices" : "Garlic-based" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which agricultural product is a natural allpurpose insecticides?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Garlic" , "correct": false },
+                { "choices" : "Malunggay", "correct": false  },
+                { "choices" : "Hot pepper" , "correct": true },
+                { "choices" : "Onion" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which organic farming cultural practices breaks the life cycle of insects and diseases?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Cover Cropping" , "correct": false },
+                { "choices" : "Crop Rotation", "correct": true  },
+                { "choices" : "Organic Fertilization" , "correct": false },
+                { "choices" : "Composting" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Catching or control pest using a decoy is _______ .",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Catching by hand" , "correct": false },
+                { "choices" : "Providing natural enemies", "correct": false  },
+                { "choices" : "Catching by traps" , "correct": true },
+                { "choices" : "Applying Chemicals" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which is growing two or more crops in alternating strips?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "A. Cover Cropping" , "correct": false },
+                { "choices" : "Crop Rotation", "correct": true  },
+                { "choices" : "Organic Fertilization" , "correct": false },
+                { "choices" : "Composting" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which is the part of organizing the farm business and the science of decision making related to its organization and operation in the most efficient way?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Farm Inventory" , "correct": true },
+                { "choices" : "Farm Manual", "correct": false  },
+                { "choices" : "Farm Records" , "correct": false },
+                { "choices" : "Farm Accounts" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which is a written statement or collection of facts and figures on a subject for a definite purpose?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Farm Inventory" , "correct": false },
+                { "choices" : " Farm Manual", "correct": false  },
+                { "choices" : "Farm Records" , "correct": true },
+                { "choices" : "Farm Accounts" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"The following are factors that determines the best time in talking a farm inventory EXCEPT ________ .",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "the time when the amount of factors and supplies on hand is at the lowest point" , "correct": false },
+                { "choices" : ". the time when income tax returns are due", "correct": false  },
+                { "choices" : "when there is little essential work to be done on the farm" , "correct": false },
+                { "choices" : "the time when the amount of growing crops is at the highest" , "correct": true }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which function of management determines and guide the progress being made to achieve the goals and the quality of the accomplishment",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Directing" , "correct": false },
+                { "choices" : "Organizing", "correct": false  },
+                { "choices" : ". Controlling/Coordinating" , "correct": true },
+                { "choices" : "Reporting/Representing" , "correct": false }
             ] 
         },
         {
-            "Questions":"",
+            "Questions":"Which function of management determines the position and responsibilities of personnel to attain the objectives set in the plan?",
             "MultipleChoice": [
-                { "choices" : "" , "correct": true },
-                { "choices" : "", "correct": false  },
-                { "choices" : "" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "Directing" , "correct": false },
+                { "choices" : "Organizing", "correct": true  },
+                { "choices" : "Controlling/Coordinating" , "correct": false },
+                { "choices" : "Reporting/representing" , "correct": false }
             ] 
         }
     ]
