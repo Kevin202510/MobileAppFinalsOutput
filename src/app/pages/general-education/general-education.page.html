@@ -1,19 +1,28 @@
-<ion-header>
-  <ion-toolbar color="primary">
-    <center><h1>Multiple-Choice Exam</h1></center>
+<ion-header [translucent]="true">
+  <ion-toolbar>
+      <h4>Licensure Examination for Teachers</h4>
     <ion-buttons slot="start"><ion-menu-button menu="letexam-menu"></ion-menu-button></ion-buttons>
+    <!-- <img slot="end" style="margin-right: 20px; border-radius: 13px;" src="assets/icon/profile1.png" width="50"> -->
+    <ion-segment (ionChange)="segmentChanged($event)">
+      <ion-segment-button value="Exam">
+        <ion-label>Exam</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="History">
+        <ion-label>History</ion-label>
+      </ion-segment-button>
+    </ion-segment>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-segment (ionChange)="segmentChanged($event)">
+  <!-- <ion-segment (ionChange)="segmentChanged($event)">
     <ion-segment-button value="Exam">
       <ion-label>Exam</ion-label>
     </ion-segment-button>
     <ion-segment-button value="History">
       <ion-label>History</ion-label>
     </ion-segment-button>
-  </ion-segment>
+  </ion-segment> -->
   <ion-card *ngIf="prevAnswered.length < 51 && selectedSegment == 'Exam'" class="answers">
     <ion-card-header>
       <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
@@ -27,6 +36,16 @@
         </ion-item>
       </ion-radio-group>
     </ion-card-content>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-button>Back</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button>Next</ion-button>
+        </ion-col>
+      </ion-row>
+      </ion-grid>
   </ion-card>
   <ion-card *ngIf="prevAnswered.length >= 50 ">
     <ion-card-header>

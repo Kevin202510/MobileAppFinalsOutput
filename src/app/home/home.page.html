@@ -1,40 +1,32 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      LET Exam Reviewer
-    </ion-title>
-    <ion-buttons slot="start"><ion-menu-button menu="letexam-menu"></ion-menu-button></ion-buttons>
+  <ion-toolbar id="headCol">
+    <div class="headtit">
+      <h4 class="title">Licensure Examination <br> for Teachers</h4>
+    </div>
+    <div class="bgbut"></div>
+    <ion-buttons slot="end" id="pos"><ion-menu-button menu="letexam-menu"><ion-icon name="list-outline"></ion-icon></ion-menu-button></ion-buttons>
+    <!-- <img slot="end" style="margin-right: 20px; border-radius: 13px;" src="assets/icon/profile1.png" width="50"> -->
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <!-- <ion-input [(ngModel)]="userName"></ion-input>
-  <ion-button (click) ="test()">Add Data</ion-button>
-  <ion-button (click) ="loadthis()">Load Data</ion-button>
-  <ion-card>
-  <ion-card-content *ngFor="let quiz of datas">
-    <ion-item>
-      <ion-label>{{quiz.Score}}</ion-label>
-      </ion-item>
-  </ion-card-content>
-</ion-card> -->
-    <ion-card id="hovthisGE" (click)="goGEED()">
+    <ion-card id="hovthisGE" class="ge" (click)="goGEED()">
       <ion-card-header>
-        <img src="assets/HomeLogo/GELOGO.png" class="gelogo">
+        <img src="assets/logs/gened.png" class="gelogo">
       </ion-card-header>
       <ion-card-content>
       </ion-card-content>
     </ion-card>
-    <ion-card id="hovthisGE" (click)="goPEED()">
+    <ion-card id="hovthisGE" class="pe" (click)="goPEED()">
       <ion-card-header>
-        <img src="assets/HomeLogo/GELOGO.png" class="gelogo">
+        <img src="assets/logs/profed.png" class="gelogo">
       </ion-card-header>
       <ion-card-content>
       </ion-card-content>
     </ion-card>
-    <ion-card id="hovthisGE" (click)="goAOS()">
+    <ion-card id="hovthisGE" class="aos" (click)="goAOS()">
       <ion-card-header>
-        <img src="assets/HomeLogo/GELOGO.png" class="gelogo">
+        <img src="assets/logs/aos.png" class="gelogo">
       </ion-card-header>
       <ion-card-content>
       </ion-card-content>

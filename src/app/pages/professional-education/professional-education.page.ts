@@ -81,9 +81,9 @@ export class ProfessionalEducationPage implements OnInit {
     showResult(){
       this.result = true;
       this.resultStatus = 'Play Again!';  
-      // if(localStorage.length==0){
+      if(localStorage.getItem("ionicProfessionalEducationData")===null){
         localStorage.setItem('ionicProfessionalEducationData','[]');
-      // }
+      }
       var olddata = JSON.parse(localStorage.getItem('ionicProfessionalEducationData'));
       olddata.push({Score:this.correctAnswers,DateTaken:this.datenow});
       localStorage.setItem('ionicProfessionalEducationData',JSON.stringify(olddata));
@@ -105,6 +105,7 @@ export class ProfessionalEducationPage implements OnInit {
       // }) 
     }
     playAgain(){
+      this.resultStatus = 'Show Result'; 
       this.prevAnswered = [];
       this.prevAnswered.push(this.getRandom());
       this.correctAnswers = 0;
