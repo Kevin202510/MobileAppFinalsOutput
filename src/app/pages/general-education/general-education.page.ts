@@ -82,9 +82,9 @@ export class GeneralEducationPage{
     showResult(){
       this.result = true;
       this.resultStatus = 'Play Again!';  
-      // if(localStorage.length==0){
+      if(localStorage.getItem("ionicGeneralEducationData")===null){
         localStorage.setItem('ionicGeneralEducationData','[]');
-      // }
+      }
       var olddata = JSON.parse(localStorage.getItem('ionicGeneralEducationData'));
       olddata.push({Score:this.correctAnswers,DateTaken:this.datenow});
       localStorage.setItem('ionicGeneralEducationData',JSON.stringify(olddata));
@@ -106,6 +106,7 @@ export class GeneralEducationPage{
       // }) 
     }
     playAgain(){
+      this.resultStatus = 'Show Result';
       this.prevAnswered = [];
       this.prevAnswered.push(this.getRandom());
       this.correctAnswers = 0;

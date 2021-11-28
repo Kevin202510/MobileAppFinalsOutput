@@ -1,0 +1,26 @@
+.icardhead{
+    text-align: center;
+    font-size: 30px;
+}
+.logbtn{
+    --border-radius: 100px;
+    margin-top: 40px;
+    width: 70%;
+}
+.cent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logcard{
+    margin-top: 20%;
+    height: 80%;
+}
+.gradcap{
+    border-radius: 110px;
+    height: 150px;
+}
+.swal2-popup{
+    width: 20em !important;
+    max-width: 80% !important;
+}

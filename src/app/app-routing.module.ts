@@ -8,7 +8,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'tabbutton',
     pathMatch: 'full'
   },
   {
@@ -22,6 +22,10 @@ const routes: Routes = [
   {
     path: 'area-of-specialization',
     loadChildren: () => import('./pages/area-of-specialization/area-of-specialization.module').then( m => m.AreaOfSpecializationPageModule)
+  },
+  {
+    path: 'authentication',
+    loadChildren: () => import('./pages/Authentication/authentication/authentication.module').then( m => m.AuthenticationPageModule)
   },
 ];
 
