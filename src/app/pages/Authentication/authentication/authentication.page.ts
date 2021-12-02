@@ -35,6 +35,10 @@ export class AuthenticationPage implements OnInit {
     if(this.validateForm()){
       if(localStorage.getItem("ionicAuthenticationData")===null){
         localStorage.setItem('ionicAuthenticationData','[]');
+        var olddata = JSON.parse(localStorage.getItem('ionicAuthenticationData'));
+        olddata.push({Username:this.username,Password:this.password});
+        localStorage.setItem('ionicAuthenticationData',JSON.stringify(olddata));
+        this.router.navigate(['home']);
       }else{
         console.log(this.authData = JSON.parse(localStorage.getItem('ionicAuthenticationData')));
         console.log(this.authData);

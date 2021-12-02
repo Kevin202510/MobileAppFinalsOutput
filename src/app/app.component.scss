@@ -14,16 +14,32 @@
     margin-top: -50px;
     margin-bottom: 60px;
 }
-.prof{
+.lab{
+    --color: white;
+    font-weight: bold;
+}
+.iconn{
+    color: white;
+}
+.lalag{
+    height: 80px;
+}
+.header-content{
     position: absolute;
-    top: 20px;
-    left: 10px;
+    top: 30px;
+    left: 15px;
+    display: flex;
     align-items: center;
 
     img{
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 90px;
         border-radius: 50%;
-        border: 7px solid rgb(106, 56, 172);
+        margin-right: 10px;
+        border: 7px solid #5e7ccc;
+    }
+
+    .uname{
+        font-weight: bold;
     }
 }

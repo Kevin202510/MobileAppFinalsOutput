@@ -1,12 +1,266 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>AreaOfSpecialization</ion-title>
-    <ion-buttons slot="start"><ion-menu-button menu="letexam-menu"></ion-menu-button></ion-buttons>
+<ion-header [translucent]="true">
+  <ion-toolbar id="headCol">
+    <div class="headtit">
+      <h4 class="title">Licensure Examination <br> for Teachers</h4>
+    </div>
+    <div class="bgbut"></div>
+    <ion-buttons slot="end" id="pos"><ion-menu-button menu="letexam-menu"><ion-icon name="list-outline"></ion-icon></ion-menu-button></ion-buttons>
+    <!-- <img slot="end" style="margin-right: 20px; border-radius: 13px;" src="assets/icon/profile1.png" width="50"> -->
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-card *ngIf="prevAnswered.length < 51" class="answers">
+
+  <ion-card *ngIf="!English" id="hovthisGE" class="ge" (click)="takeQuiz(1)">
+    <ion-card-header>
+      <img src="assets/logs/gened.png" class="gelogo">
+    </ion-card-header>
+    <ion-card-content>
+      <h4>1</h4>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="!Filipino" id="hovthisGE" class="ge" (click)="takeQuiz(2)">
+    <ion-card-header>
+      <img src="assets/logs/gened.png" class="gelogo">
+    </ion-card-header>
+    <ion-card-content>
+      <h2>2</h2>
+    </ion-card-content>
+  </ion-card>
+
+ 
+  <ion-card *ngIf="!Mathematics" id="hovthisGE" class="ge" (click)="takeQuiz(3)">
+    <ion-card-header>
+      <img src="assets/logs/gened.png" class="gelogo">
+    </ion-card-header>
+    <ion-card-content>
+      <h3>3</h3>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="!Mapeh" id="hovthisGE" class="ge" (click)="takeQuiz(4)">
+    <ion-card-header>
+      <img src="assets/logs/gened.png" class="gelogo">
+    </ion-card-header>
+    <ion-card-content>
+      <h4>4</h4>
+    </ion-card-content>
+  </ion-card>
+
+
+   <ion-card *ngIf="!Values_Education" id="hovthisGE" class="ge" (click)="takeQuiz(5)">
+    <ion-card-header>
+      <img src="assets/logs/gened.png" class="gelogo">
+    </ion-card-header>
+    <ion-card-content>
+      <h4>5</h4>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="!Tecnology_and_LIvelihood_Education" id="hovthisGE" class="ge" (click)="takeQuiz(6)">
+    <ion-card-header>
+      <img src="assets/logs/gened.png" class="gelogo">
+    </ion-card-header>
+    <ion-card-content>
+      <h4>6</h4>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="!Social_Science" id="hovthisGE" class="ge" (click)="takeQuiz(7)">
+    <ion-card-header>
+      <img src="assets/logs/gened.png" class="gelogo">
+    </ion-card-header>
+    <ion-card-content>
+      <h4>7</h4>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="!Physical_Science" id="hovthisGE" class="ge" (click)="takeQuiz(8)">
+    <ion-card-header>
+      <img src="assets/logs/gened.png" class="gelogo">
+    </ion-card-header>
+    <ion-card-content>
+      <h4>8</h4>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="!Biological_Science" id="hovthisGE" class="ge" (click)="takeQuiz(9)">
+    <ion-card-header>
+      <img src="assets/logs/gened.png" class="gelogo">
+    </ion-card-header>
+    <ion-card-content>
+      <h4>9</h4>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="!Agriculture_and_Fishery_Art" id="hovthisGE" class="ge" (click)="takeQuiz(10)">
+    <ion-card-header>
+      <img src="assets/logs/gened.png" class="gelogo">
+    </ion-card-header>
+    <ion-card-content>
+      <h4>10</h4>
+    </ion-card-content>
+  </ion-card>
+
+
+
+  
+
+  <ion-card *ngIf="prevAnswered.length < 51 && English" class="answers">
+    <ion-card-header>
+      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
+      <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>
+    </ion-card-header>
+    <ion-card-content class="answers__list" *ngFor="let quiz of quizzes[currentQuiz]?.MultipleChoice">
+      <ion-radio-group (ionChange)="onAnswer(quiz.correct)">
+      <ion-item>
+          <ion-label>{{ quiz.choices }}</ion-label>
+          <ion-radio value="{{ quiz.choices }}" [disabled]="answerSelected" ion slot="start"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="prevAnswered.length < 51 && Filipino" class="answers">
+    <ion-card-header>
+      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
+      <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>
+    </ion-card-header>
+    <ion-card-content class="answers__list" *ngFor="let quiz of quizzes[currentQuiz]?.MultipleChoice">
+      <ion-radio-group (ionChange)="onAnswer(quiz.correct)">
+      <ion-item>
+          <ion-label>{{ quiz.choices }}</ion-label>
+          <ion-radio value="{{ quiz.choices }}" [disabled]="answerSelected" ion slot="start"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+
+   <ion-card *ngIf="prevAnswered.length < 51 && Mathematics" class="answers">
+    <ion-card-header>
+      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
+      <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>
+    </ion-card-header>
+    <ion-card-content class="answers__list" *ngFor="let quiz of quizzes[currentQuiz]?.MultipleChoice">
+      <ion-radio-group (ionChange)="onAnswer(quiz.correct)">
+      <ion-item>
+          <ion-label>{{ quiz.choices }}</ion-label>
+          <ion-radio value="{{ quiz.choices }}" [disabled]="answerSelected" ion slot="start"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="prevAnswered.length < 51 && Mapeh" class="answers">
+    <ion-card-header>
+      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
+      <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>
+    </ion-card-header>
+    <ion-card-content class="answers__list" *ngFor="let quiz of quizzes[currentQuiz]?.MultipleChoice">
+      <ion-radio-group (ionChange)="onAnswer(quiz.correct)">
+      <ion-item>
+          <ion-label>{{ quiz.choices }}</ion-label>
+          <ion-radio value="{{ quiz.choices }}" [disabled]="answerSelected" ion slot="start"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="prevAnswered.length < 51 && Values_Education" class="answers">
+    <ion-card-header>
+      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
+      <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>
+    </ion-card-header>
+    <ion-card-content class="answers__list" *ngFor="let quiz of quizzes[currentQuiz]?.MultipleChoice">
+      <ion-radio-group (ionChange)="onAnswer(quiz.correct)">
+      <ion-item>
+          <ion-label>{{ quiz.choices }}</ion-label>
+          <ion-radio value="{{ quiz.choices }}" [disabled]="answerSelected" ion slot="start"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="prevAnswered.length < 51 && Tecnology_and_LIvelihood_Education" class="answers">
+    <ion-card-header>
+      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
+      <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>
+    </ion-card-header>
+    <ion-card-content class="answers__list" *ngFor="let quiz of quizzes[currentQuiz]?.MultipleChoice">
+      <ion-radio-group (ionChange)="onAnswer(quiz.correct)">
+      <ion-item>
+          <ion-label>{{ quiz.choices }}</ion-label>
+          <ion-radio value="{{ quiz.choices }}" [disabled]="answerSelected" ion slot="start"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="prevAnswered.length < 51 && Social_Science" class="answers">
+    <ion-card-header>
+      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
+      <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>
+    </ion-card-header>
+    <ion-card-content class="answers__list" *ngFor="let quiz of quizzes[currentQuiz]?.MultipleChoice">
+      <ion-radio-group (ionChange)="onAnswer(quiz.correct)">
+      <ion-item>
+          <ion-label>{{ quiz.choices }}</ion-label>
+          <ion-radio value="{{ quiz.choices }}" [disabled]="answerSelected" ion slot="start"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="prevAnswered.length < 51 && Physical_Science" class="answers">
+    <ion-card-header>
+      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
+      <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>
+    </ion-card-header>
+    <ion-card-content class="answers__list" *ngFor="let quiz of quizzes[currentQuiz]?.MultipleChoice">
+      <ion-radio-group (ionChange)="onAnswer(quiz.correct)">
+      <ion-item>
+          <ion-label>{{ quiz.choices }}</ion-label>
+          <ion-radio value="{{ quiz.choices }}" [disabled]="answerSelected" ion slot="start"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="prevAnswered.length < 51 && Biological_Science" class="answers">
+    <ion-card-header>
+      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
+      <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>
+    </ion-card-header>
+    <ion-card-content class="answers__list" *ngFor="let quiz of quizzes[currentQuiz]?.MultipleChoice">
+      <ion-radio-group (ionChange)="onAnswer(quiz.correct)">
+      <ion-item>
+          <ion-label>{{ quiz.choices }}</ion-label>
+          <ion-radio value="{{ quiz.choices }}" [disabled]="answerSelected" ion slot="start"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="prevAnswered.length < 51 && Agriculture_and_Fishery_Art" class="answers">
+    <ion-card-header>
+      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
+      <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>
+    </ion-card-header>
+    <ion-card-content class="answers__list" *ngFor="let quiz of quizzes[currentQuiz]?.MultipleChoice">
+      <ion-radio-group (ionChange)="onAnswer(quiz.correct)">
+      <ion-item>
+          <ion-label>{{ quiz.choices }}</ion-label>
+          <ion-radio value="{{ quiz.choices }}" [disabled]="answerSelected" ion slot="start"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+
+
+
+  <!-- default -->
+  <!-- <ion-card *ngIf="prevAnswered.length < 51" class="answers">
     <ion-card-header>
       <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
       <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>
@@ -27,7 +281,7 @@
     </ion-card-header>
     <ion-card-content>
       <ion-button (click)="showResult()" *ngIf="resultStatus === 'Show Result'">{{ resultStatus }}</ion-button>
-    <!-- <button class="btn btn--new" (click)="playAgain()" *ngIf="resultStatus !== 'Show Result'">{{ resultStatus }}</button> -->
+    <button class="btn btn--new" (click)="playAgain()" *ngIf="resultStatus !== 'Show Result'">{{ resultStatus }}</button>
     </ion-card-content>
   </ion-card>   
   <ion-card *ngIf="correctAnswers > 0 && resultStatus == 'Play Again!'">
@@ -35,6 +289,6 @@
       <h2>You got {{correctAnswers}} over {{quizzes.length}}</h2>
       <ng-lottie [options]='options'></ng-lottie>
     </ion-card-content>
-  </ion-card>
+  </ion-card> -->
 
 </ion-content>

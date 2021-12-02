@@ -1,7 +1,11 @@
-<ion-header>
-  <ion-toolbar color="primary">
-    <center><h1>Professional Education</h1></center>
-    <ion-buttons slot="start"><ion-menu-button menu="letexam-menu"></ion-menu-button></ion-buttons>
+<ion-header [translucent]="true">
+  <ion-toolbar id="headCol">
+    <div class="headtit">
+      <h4 class="title">Licensure Examination <br> for Teachers</h4>
+    </div>
+    <div class="bgbut"></div>
+    <ion-buttons slot="end" id="pos"><ion-menu-button menu="letexam-menu"><ion-icon name="list-outline"></ion-icon></ion-menu-button></ion-buttons>
+    <!-- <img slot="end" style="margin-right: 20px; border-radius: 13px;" src="assets/icon/profile1.png" width="50"> -->
   </ion-toolbar>
 </ion-header>
 

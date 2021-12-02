@@ -8,7 +8,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'tabbutton',
+    redirectTo: 'home',
     pathMatch: 'full'
   },
   {
@@ -26,6 +26,10 @@ const routes: Routes = [
   {
     path: 'authentication',
     loadChildren: () => import('./pages/Authentication/authentication/authentication.module').then( m => m.AuthenticationPageModule)
+  },
+  {
+    path: 'register',
+    loadChildren: () => import('./pages/Authentication/register/register.module').then( m => m.RegisterPageModule)
   },
 ];
 

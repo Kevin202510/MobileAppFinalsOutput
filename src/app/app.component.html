@@ -1,39 +1,36 @@
 <ion-app>
   <ion-menu  class="sidebg" side="start" menuId="letexam-menu" contentId="mainmenu">
-    <!-- <ion-header>
-      <ion-toolbar color="primary">
-        <ion-title>LET Exam Reviewer</ion-title>
-      </ion-toolbar>
-    </ion-header> -->
     <ion-content color="primary">
       <div class="menu-header-bg"></div>
-      <div class="prof">
+      <div class="header-content">
         <img src="assets/logs/vin.jpg">
-        <h4>Kevin Felix Caluag</h4>
-      </div>
+        <ion-label>
+          <h2 class="uname">Kevin Felix Caluag</h2>
+        </ion-label>
+    </div>
       <ion-list>
         <ion-menu-toggle>
-          <ion-item routerLink="/home">
-            <ion-icon name="home" slot="start"></ion-icon>
-            <ion-label>Home</ion-label>
+          <ion-item class="lalag" routerLink="/home">
+            <ion-icon class="iconn" name="home" slot="start"></ion-icon>
+            <ion-label class="lab">Home</ion-label>
           </ion-item>
         </ion-menu-toggle> 
         <ion-menu-toggle>
-          <ion-item routerLink="/general-education">
-            <ion-icon name="bookmarks" slot="start"></ion-icon>
-            <ion-label>General Education Exam</ion-label>
+          <ion-item class="lalag" routerLink="/general-education">
+            <ion-icon class="iconn" name="bookmarks" slot="start"></ion-icon>
+            <ion-label class="lab">General Education</ion-label>
           </ion-item>
         </ion-menu-toggle> 
         <ion-menu-toggle>
-          <ion-item routerLink="/professional-education">
-            <ion-icon name="bookmarks" slot="start"></ion-icon>
-            <ion-label>Professional Education Exam</ion-label>
+          <ion-item class="lalag" routerLink="/professional-education">
+            <ion-icon class="iconn" name="bookmarks" slot="start"></ion-icon>
+            <ion-label class="lab">Professional Education</ion-label>
           </ion-item>
         </ion-menu-toggle> 
         <ion-menu-toggle>
-          <ion-item routerLink="/area-of-specialization">
-            <ion-icon name="bookmarks" slot="start"></ion-icon>
-            <ion-label>Majorship Exam</ion-label>
+          <ion-item class="lalag" routerLink="/area-of-specialization">
+            <ion-icon class="iconn" name="bookmarks" slot="start"></ion-icon>
+            <ion-label class="lab">Majorship</ion-label>
           </ion-item>
         </ion-menu-toggle> 
       </ion-list>

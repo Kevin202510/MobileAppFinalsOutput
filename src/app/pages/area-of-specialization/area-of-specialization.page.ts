@@ -16,6 +16,16 @@ import { AnimationOptions } from 'ngx-lottie';
 })
 export class AreaOfSpecializationPage{
   quizzes = [];
+  English = false;
+  Filipino = false;
+  Mathematics = false;
+  Mapeh=false;
+  Values_Education=false;
+  Tecnology_and_LIvelihood_Education=false;
+  Social_Science=false;
+  Physical_Science=false;
+  Biological_Science=false;
+  Agriculture_and_Fishery_Art=false;
 
   currentQuiz:number;
   answerSelected = false;
@@ -34,16 +44,176 @@ export class AreaOfSpecializationPage{
     constructor(private router:Router) { }
   
     ngOnInit(): void {
+    }
+  
+
+    takeQuiz(quiznum:number){
+      if(quiznum==1){
+        fetch('./assets/GeneralEducationJsonData/QuestionAndAnswerLetExamReviewer.json').then(res => res.json())
+        .then(content => {
+          this.quizzes = content.AreaOfSpecialization[0].English;
+        });
+        this.prevAnswered.length=0;
+        this.English = true;
+        this.Filipino = false;
+        this.Mathematics = false;
+        this.Mapeh = false;
+        this.Values_Education=false;
+        this.Tecnology_and_LIvelihood_Education = false;
+        this.Social_Science = false;
+        this.Physical_Science = false;
+        this.Biological_Science = false;
+        this.Agriculture_and_Fishery_Art = false;
+      }else if(quiznum==2){
+        fetch('./assets/GeneralEducationJsonData/QuestionAndAnswerLetExamReviewer.json').then(res => res.json())
+        .then(content => {
+          this.quizzes = content.AreaOfSpecialization[0].Filipino;
+        });
+        this.prevAnswered.length=0;
+        this.Filipino = true;
+        this.English = false;
+        this.Mathematics = false;
+        this.Mapeh = false;
+        this.Values_Education=false;
+        this.Tecnology_and_LIvelihood_Education = false;
+        this.Social_Science = false;
+        this.Physical_Science = false;
+        this.Biological_Science = false;
+        this.Agriculture_and_Fishery_Art = false;
+       }else if(quiznum==3){
+        fetch('./assets/GeneralEducationJsonData/QuestionAndAnswerLetExamReviewer.json').then(res => res.json())
+        .then(content => {
+          this.quizzes = content.AreaOfSpecialization[0].Mathematics;
+        });
+        this.prevAnswered.length=0;
+        this.Mathematics = true;
+        this.English = false;
+        this.Filipino = false;
+        this.Mapeh = false;
+        this.Values_Education=false;
+        this.Tecnology_and_LIvelihood_Education = false;
+        this.Social_Science = false;
+        this.Physical_Science = false;
+        this.Biological_Science = false;
+        this.Agriculture_and_Fishery_Art = false;
+      }else if(quiznum==4){
+        fetch('./assets/GeneralEducationJsonData/QuestionAndAnswerLetExamReviewer.json').then(res => res.json())
+        .then(content => {
+          this.quizzes = content.AreaOfSpecialization[0].Mapeh;
+        });
+        this.prevAnswered.length=0;
+        this.Mapeh = true;
+        this.English = false;
+        this.Filipino = false;
+        this.Mathematics = false;
+        this.Values_Education=false;
+        this.Tecnology_and_LIvelihood_Education = false;
+        this.Social_Science = false;
+        this.Physical_Science = false;
+        this.Biological_Science = false;
+        this.Agriculture_and_Fishery_Art = false;
+     } else if(quiznum==5){
       fetch('./assets/GeneralEducationJsonData/QuestionAndAnswerLetExamReviewer.json').then(res => res.json())
       .then(content => {
-        this.quizzes = content.AreaOfSpecialization[0].English;
+        this.quizzes = content.AreaOfSpecialization[0].Values_Education;
       });
-      // this.quizzes = this.quizService.getQuizzes();
+      this.prevAnswered.length=0;
+      this.Values_Education=true;
+      this.English = false;
+      this.Filipino = false;
+      this.Mathematics = false;
+      this.Mapeh = false;
+      this.Tecnology_and_LIvelihood_Education = false;
+      this.Social_Science = false;
+      this.Physical_Science = false;
+      this.Biological_Science = false;
+      this.Agriculture_and_Fishery_Art = false;
+   }  else if(quiznum==6){
+        fetch('./assets/GeneralEducationJsonData/QuestionAndAnswerLetExamReviewer.json').then(res => res.json())
+        .then(content => {
+          this.quizzes = content.AreaOfSpecialization[0].Tecnology_and_LIvelihood_Education;
+        });
+        this.prevAnswered.length=0;
+        this.Tecnology_and_LIvelihood_Education = true;
+        this.English = false;
+        this.Filipino = false;
+        this.Mathematics = false;
+        this.Mapeh = false;
+        this.Values_Education=false;
+        this.Social_Science = false;
+        this.Physical_Science = false;
+        this.Biological_Science = false;
+        this.Agriculture_and_Fishery_Art = false;
+     }  else if(quiznum==7){
+        fetch('./assets/GeneralEducationJsonData/QuestionAndAnswerLetExamReviewer.json').then(res => res.json())
+        .then(content => {
+          this.quizzes = content.AreaOfSpecialization[0].Social_Science;
+        });
+        this.prevAnswered.length=0;
+        this.Social_Science = true;
+        this.English = false;
+        this.Filipino = false;
+        this.Mathematics = false;
+        this.Mapeh = false;
+        this.Values_Education=false;
+        this.Tecnology_and_LIvelihood_Education = false;
+        this.Physical_Science = false;
+        this.Biological_Science = false;
+        this.Agriculture_and_Fishery_Art = false;
+     }  else if(quiznum==8){
+        fetch('./assets/GeneralEducationJsonData/QuestionAndAnswerLetExamReviewer.json').then(res => res.json())
+        .then(content => {
+          this.quizzes = content.AreaOfSpecialization[0].Physical_Science;
+        });
+        this.prevAnswered.length=0;
+        this.Physical_Science = true;
+        this.English = false;
+        this.Filipino = false;
+        this.Mathematics = false;
+        this.Mapeh = false;
+        this.Values_Education=false;
+        this.Tecnology_and_LIvelihood_Education = false;
+        this.Social_Science = false;
+        this.Biological_Science = false;
+        this.Agriculture_and_Fishery_Art = false;
+     }  else if(quiznum==9){
+        fetch('./assets/GeneralEducationJsonData/QuestionAndAnswerLetExamReviewer.json').then(res => res.json())
+        .then(content => {
+          this.quizzes = content.AreaOfSpecialization[0].Biological_Science;
+        });
+        this.prevAnswered.length=0;
+        this.Biological_Science = true;
+        this.English = false;
+        this.Filipino = false;
+        this.Mathematics = false;
+        this.Mapeh = false;
+        this.Values_Education=false;
+        this.Tecnology_and_LIvelihood_Education = false;
+        this.Social_Science = false;
+        this.Physical_Science = false;
+        this.Agriculture_and_Fishery_Art = false;
+     }  else if(quiznum==10){
+        fetch('./assets/GeneralEducationJsonData/QuestionAndAnswerLetExamReviewer.json').then(res => res.json())
+        .then(content => {
+          this.quizzes = content.AreaOfSpecialization[0].Mapeh;
+        });
+        this.prevAnswered.length=0;
+        this.Agriculture_and_Fishery_Art = true;
+        this.English = false;
+        this.Filipino = false;
+        this.Mathematics = false;
+        this.Mapeh = false;
+        this.Values_Education=false;
+        this.Tecnology_and_LIvelihood_Education = false;
+        this.Social_Science = false;
+        this.Physical_Science = false;
+        this.Biological_Science = false;
+     }  
       this.currentQuiz = this.getRandom();
       
       this.prevAnswered.push(this.currentQuiz);
     }
-  
+
     onAnswer(option: boolean){
       this.answerSelected = true;
       setTimeout(() => {

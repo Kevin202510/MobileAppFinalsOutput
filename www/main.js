@@ -46,7 +46,7 @@ const routes = [
     },
     {
         path: '',
-        redirectTo: 'tabbutton',
+        redirectTo: 'home',
         pathMatch: 'full'
     },
     {
