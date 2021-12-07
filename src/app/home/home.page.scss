@@ -1,17 +1,19 @@
 .gelogo{
   text-align: center;
 }
-#hovthisGE:hover{
-  border: 5px solid red;
+#hovthisGE{
+  height: 25%;
+
+  #hovthisGE:hover{
+    border: 5px solid red;
+  }
+
 }
 #pos{
   position: absolute;
   top: 10px;
   right: 10px;
   color: white;
-}
-.headtit{
-  text-align: center;
 }
 .bgbut{
   position: absolute;
@@ -22,11 +24,59 @@
   background-color: rgb(83, 178, 255);
   border-radius: 60%;
 }
-#headCol{
-  --background: linear-gradient(to right, rgb(11, 158, 216), rgb(4, 89, 247));
+.toolbars{
+  height: 12%;
+  --background: rgb(109, 25, 25);
 }
 .title{
   font-weight: bold;
   font-size: 25px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.letDescription{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  text-align: center;
   color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.descr{
+  --background : #3772f1ba;
+}
+.pageContent{
+  --background: rgb(234, 218, 208);
+}
+.slides {
+  margin-top: 1%;
+  background: #e0f1e7;
+  padding: 1px 10px 20px 10px;
+  border-radius: 28px 28px 28px 28px;
+
+  .tobetaken{
+    margin-top: 12%;
+    text-align: center;
+  }
+
+}
+.topbtn{
+  color: white;
+}
+.examContent{
+  margin-top: 5%;
+  height: 80%;
+  --background: #e0f1e7;
+}
+.takeExam{
+  text-align: center;
+
+  ion-button{
+    width: 70%;
+    height: 70px;
+  }
+}
+.tobetakenper{
+  font-size: 1.1em;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

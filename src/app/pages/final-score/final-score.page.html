@@ -1,0 +1,31 @@
+<ion-toolbar class="toolbars">
+  <ion-buttons slot="start">
+    <ion-menu-button menu="letexam-menu" autoHide="false"></ion-menu-button>
+  </ion-buttons>
+  <ion-buttons slot="secondary">
+    <ion-button>
+      <ion-icon slot="icon-only" name="star"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+  <h4 class="title">Licensure Examination <br> for Teachers</h4>
+</ion-toolbar>
+
+<ion-content class="pageContent ion-padding">
+<div class="slides ion-margin-bottom">  
+<h4 class="pageTitle">Final Score</h4>
+<ion-card class="questionAndAns">
+  <ion-card-content class="answers__list">
+      <h4>{{initScoreGe}}</h4>
+      <h4>{{initScoreProfEd}}</h4>
+  </ion-card-content>
+</ion-card>
+
+<ion-card>
+  <ion-card-content>
+    <!-- <ng-lottie [options]='options'></ng-lottie> -->
+    <ion-button class="btn btn--new" (click)="retakeExam()" href="general-education" *ngIf="resultStatus && status">Retake Exam</ion-button>
+    <ion-button href="home" (click)="getBackHome()" class="btn btn--new" *ngIf="resultStatus && status">No</ion-button>
+  </ion-card-content>
+</ion-card>
+</div>
+</ion-content>

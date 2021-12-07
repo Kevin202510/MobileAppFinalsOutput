@@ -31,6 +31,10 @@ const routes: Routes = [
     path: 'register',
     loadChildren: () => import('./pages/Authentication/register/register.module').then( m => m.RegisterPageModule)
   },
+  {
+    path: 'final-score',
+    loadChildren: () => import('./pages/final-score/final-score.module').then( m => m.FinalScorePageModule)
+  },
 ];
 
 @NgModule({

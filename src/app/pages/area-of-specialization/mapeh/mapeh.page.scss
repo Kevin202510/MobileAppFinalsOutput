@@ -1,0 +1,72 @@
+#pos{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+}
+.headtit{
+  text-align: center;
+}
+.bgbut{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 45px;
+  height: 40px;
+  background-color: rgb(83, 178, 255);
+  border-radius: 60%;
+}
+#headCol{
+  --background: linear-gradient(to right, rgb(11, 158, 216), rgb(4, 89, 247));
+  height: 120%;
+}
+.title{
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(0, 0, 0);;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pageTitle{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(2, 2, 2);
+  font-size: 1.5em;
+}
+.examContent{
+  margin-top: 5%;
+  height: 80%;
+  --background: #e0f1e7;
+}
+.questionAndAns{
+  height: 90%;
+}
+.examNum{
+  text-align: center;
+}
+.nextBtn{
+  text-align: center;
+  margin-bottom: 15px;
+  ion-button{
+    height: 40px;
+    width: 80px;
+  }
+}
+.pageContent{
+  --background: #0853faba;
+}
+.slides {
+margin-top: 2%;
+background: #e0f1e7;
+padding: 1px 10px 20px 10px;
+border-radius: 28px 28px 28px 28px;
+// height: 20%;
+}
+.toolbars{
+height: 12%;
+--background: #ede900e0
+}
+.return{
+  font-size: 30px;
+  margin-left: 15px;
+}

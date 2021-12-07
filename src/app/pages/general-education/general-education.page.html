@@ -1,71 +1,49 @@
-<ion-header [translucent]="true">
-  <ion-toolbar id="headCol">
-    <div class="headtit">
-      <h4 class="title">Licensure Examination <br> for Teachers</h4>
-    </div>
-    <div class="bgbut"></div>
-    <ion-buttons slot="end" id="pos"><ion-menu-button menu="letexam-menu"><ion-icon name="list-outline"></ion-icon></ion-menu-button></ion-buttons>
-    <!-- <img slot="end" style="margin-right: 20px; border-radius: 13px;" src="assets/icon/profile1.png" width="50"> -->
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-  <ion-toolbar>
-  <ion-segment (ionChange)="segmentChanged($event)">
-    <ion-segment-button value="Exam">
-      <ion-label>Exam</ion-label>
-    </ion-segment-button>
-    <ion-segment-button value="History">
-      <ion-label>History</ion-label>
-    </ion-segment-button>
-  </ion-segment>
+<ion-toolbar class="toolbars">
+  <ion-buttons slot="start">
+    <ion-menu-button menu="letexam-menu" autoHide="false"></ion-menu-button>
+  </ion-buttons>
+  <ion-buttons slot="secondary">
+    <ion-button>
+      <ion-icon slot="icon-only" name="star"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+  <h4 class="title">Licensure Examination <br> for Teachers</h4>
 </ion-toolbar>
-  <ion-card *ngIf="prevAnswered.length < 51 && selectedSegment == 'Exam'" class="answers">
-    <ion-card-header>
+
+<ion-content class="pageContent ion-padding">
+<div class="slides ion-margin-bottom">  
+<h4 class="pageTitle">GENERAL EDUCATION</h4>
+<ion-card *ngIf="prevAnswered.length <= 51 && diplayquestion && selectedSegment == 'Exam'" class="questionAndAns">
+  <ion-card-header>
+    <div class="examNum">
       <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
-      <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>
-    </ion-card-header>
-    <ion-card-content class="answers__list" *ngFor="let quiz of quizzes[currentQuiz]?.MultipleChoice">
-      <ion-radio-group (ionChange)="onAnswer(quiz.correct)">
-      <ion-item>
-          <ion-label>{{ quiz.choices }}</ion-label>
-          <ion-radio value="{{ quiz.choices }}" [disabled]="answerSelected" ion slot="start"></ion-radio>
-        </ion-item>
-      </ion-radio-group>
-    </ion-card-content>
-    <ion-grid>
-      <ion-row>
-        <ion-col>
-          <ion-button>Back</ion-button>
-        </ion-col>
-        <ion-col>
-          <ion-button>Next</ion-button>
-        </ion-col>
-      </ion-row>
-      </ion-grid>
-  </ion-card>
-  <ion-card *ngIf="prevAnswered.length >= 50 ">
-    <ion-card-header>
-        <h4 class="notedone">Exam Was Done</h4>
-    </ion-card-header>
-    <ion-card-content>
-      <ion-button (click)="showResult()" *ngIf="resultStatus === 'Show Result'">{{ resultStatus }}</ion-button>
-    <!-- <button class="btn btn--new" (click)="playAgain()" *ngIf="resultStatus !== 'Show Result'">{{ resultStatus }}</button> -->
-    </ion-card-content>
-  </ion-card>   
-  <ion-card *ngIf="correctAnswers > 0 && resultStatus == 'Play Again!'">
-    <ion-card-content>
-      <h2>You got {{correctAnswers}} over {{quizzes.length}}</h2>
-      <ng-lottie [options]='options'></ng-lottie>
-      <button class="btn btn--new" (click)="playAgain()" *ngIf="resultStatus !== 'Show Result'">{{ resultStatus }}</button>
-    </ion-card-content>
-  </ion-card>
-  <ion-card *ngIf="selectedSegment=='History'">
-    <h4>Score History</h4>
-    <ion-card-content *ngFor="let quiz of datas">
-      <ion-item>
-        <ion-text>Score {{quiz.Score}} <br> Date Taken {{quiz.DateTaken}}</ion-text>
-      </ion-item>
-    </ion-card-content>
-  </ion-card>
+    </div>
+    <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>
+  </ion-card-header>
+  <ion-card-content class="answers__list">
+    <ion-radio-group>
+    <ion-item *ngFor="let quiz of quizzes[currentQuiz]?.MultipleChoice">
+        <ion-label>{{ quiz.choices }}</ion-label>
+        <ion-radio value="{{ quiz.choices }}" (click)="getCorrectAns(quiz.correct)" slot="start"></ion-radio>
+    </ion-item>
+    </ion-radio-group>
+  </ion-card-content>
+</ion-card>
+  <div *ngIf="prevAnswered.length < 51 && diplayquestion">
+    <ion-button (click)="SubmitExam()">Submit</ion-button>
+  </div>
+  <div class="nextBtn">
+    <ion-button *ngIf="prevAnswered.length <= 51 && diplayquestion" (click)="onAnswer(answer)">Next</ion-button>
+  </div>
+
+<ion-card *ngIf="correctAnswers >= 0 && resultStatus">
+  <ion-card-content>
+    <h2>You got {{correctAnswers}} over {{quizzes.length}}</h2>
+    <ng-lottie [options]='options'></ng-lottie>
+    <ion-button class="btn btn--new" (click)="playAgain()" *ngIf="resultStatus && !status">Retake</ion-button>
+    <ion-button class="btn btn--new" (click)="retakeExam()" href="general-education" *ngIf="resultStatus && status">Retake Exam</ion-button>
+    <ion-button href="home" (click)="getBackHome()" class="btn btn--new" *ngIf="resultStatus && status">No</ion-button>
+  </ion-card-content>
+</ion-card>
+</div>
 </ion-content>

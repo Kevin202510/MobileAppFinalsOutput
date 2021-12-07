@@ -1,0 +1,49 @@
+<ion-toolbar class="toolbars">
+  <ion-icon class="return" slot="start" name="return-up-back" routerLink="/area-of-specialization"></ion-icon>
+  <h4 class="title">Licensure Examination <br> for Teachers</h4>
+</ion-toolbar>
+
+<ion-content class="pageContent ion-padding">
+<div class="slides ion-margin-bottom">  
+<h4 class="pageTitle">ENGLISH</h4>
+<ion-card *ngIf="prevAnswered.length <= 51 && diplayquestion && selectedSegment == 'Exam'" class="questionAndAns">
+  <ion-card-header>
+    <div class="examNum">
+      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
+    </div>
+    <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>
+  </ion-card-header>
+  <ion-card-content class="answers__list">
+    <ion-radio-group>
+    <ion-item *ngFor="let quiz of quizzes[currentQuiz]?.MultipleChoice">
+        <ion-label>{{ quiz.choices }}</ion-label>
+        <ion-radio value="{{ quiz.choices }}" (click)="getCorrectAns(quiz.correct)" slot="start"></ion-radio>
+    </ion-item>
+    </ion-radio-group>
+  </ion-card-content>
+</ion-card>
+<ion-grid *ngIf="prevAnswered.length < 51 && diplayquestion" >
+  <ion-row>
+    <ion-col>
+      <ion-button (click)="ReviewExam()">Review</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="SubmitExam()">Submit</ion-button>
+    </ion-col>
+  </ion-row>
+  </ion-grid>
+  <div class="nextBtn">
+    <ion-button *ngIf="prevAnswered.length <= 51 && diplayquestion" (click)="onAnswer(answer)">Next</ion-button>
+  </div>
+
+  <ion-card *ngIf="correctAnswers >= 0 && resultStatus">
+    <ion-card-content>
+      <h2>You got {{correctAnswers}} over {{quizzes.length}}</h2>
+      <ng-lottie [options]='options'></ng-lottie>
+      <ion-button class="btn btn--new" (click)="playAgain()" *ngIf="resultStatus && !status">Retake</ion-button>
+      <ion-button class="btn btn--new" (click)="retakeExam()" href="general-education" *ngIf="resultStatus && status">Retake Exam</ion-button>
+      <ion-button href="home" (click)="getBackHome()" class="btn btn--new" *ngIf="resultStatus && status">No</ion-button>
+    </ion-card-content>
+  </ion-card>
+</div>
+</ion-content>

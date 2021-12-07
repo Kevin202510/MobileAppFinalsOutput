@@ -302,8 +302,8 @@
         "MultipleChoice": [
             { "choices" : "designing for a need " , "correct": false },
             { "choices" : "uncovering natural phenomena" , "correct": true },
-            { "choices" : "" , "correct": false },
-            { "choices" : "" , "correct": false }
+            { "choices" : "beaker" , "correct": false },
+            { "choices" : "non deabove" , "correct": false }
         ]
     },
     {
@@ -451,7 +451,458 @@
         ]
     }
  ],
-
+ "ProfessionalEducation":[
+     {
+         "Questions":" part 1 - 15 At the end of periodical examination, Teacher R administered a summative test in Filipino. After scoring the test papers she assigned grades to each test score such as 95, 90, 85, 80 etc. What process did Teacher R use?",
+         "MultipleChoice": [
+             { "choices" : "Ranking" , "correct": false },
+             { "choices" : "Computation" , "correct": true  },
+             { "choices" : "Measurement" , "correct": false },
+             { "choices" : "Evaluation" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"It is the study of man’s prehistory through the buried remains of ancient culture, skeletal remnants of human beings.",
+         "MultipleChoice": [
+             { "choices" : "Anthropology" , "correct": false },
+             { "choices" : "Archeology" , "correct": true  },
+             { "choices" : "Ethnology" , "correct": false },
+             { "choices" : "Ethnography" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"Teacher D claims: If I have to give reinforcement, it has to be given immediately after the response. Which theory supports Teacher D?",
+         "MultipleChoice": [
+             { "choices" : "operant conditioning theory" , "correct": true },
+             { "choices" : "social cognitive theory" , "correct": false  },
+             { "choices" : "cognitive theory" , "correct": false },
+             { "choices" : "humanist theory" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"Visual imagery helps people store information in their memory more effectively. Which is one teaching implication of this principle?",
+         "MultipleChoice": [
+             { "choices" : "You will not object when your students daydream in class." , "correct": true },
+             { "choices" : "Instruct students to take notes while you lecture." , "correct": false  },
+             { "choices" : "Encourage your students to imagine the characters and situations when reading a story." , "correct": false },
+             { "choices" : "Tell them to read more illustrated comics." , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"Which is essential in the cognitive development of a person according to Vygotsky?",
+         "MultipleChoice": [
+             { "choices" : "independent thinking" , "correct": true },
+             { "choices" : "social interaction" , "correct": false  },
+             { "choices" : "individual mental work" , "correct": false },
+             { "choices" : "scientific thinking" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"The design of the 2002 Basic Education Curriculum (BEC) is based on the principles that the main sources for contemporary basic education are the expert systems of knowledge and the learner's experience in their context.This shows that the BEC is _____ in orientation. I. constructivist II. behaviorist III. essentialist",
+         "MultipleChoice": [
+             { "choices" : "I and III" , "correct": false },
+             { "choices" : "III only" , "correct": false  },
+             { "choices" : "I only" , "correct": false },
+             { "choices" : "I, II, and III" , "correct": true }
+         ] 
+     },
+     {
+         "Questions":"Which assessment tool shows evidence of student’s writing skills?",
+         "MultipleChoice": [
+             { "choices" : "project " , "correct": true },
+             { "choices" : "portfolio" , "correct": false  },
+             { "choices" : "critiquing sessions" , "correct": false },
+             { "choices" : "daily journal" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":" Ask to do a learning task, Joe hesitates and says Mahirap. Ayaw ko. 'Di ko kaya! (It's difficult. I don't like it. I can't do it.) To which problem does the case of the student allude? I. Unmotivated students II. Uncaring teachers III. Extremely difficult learning tasks IV. incompetent teachers",
+         "MultipleChoice": [
+             { "choices" : "I and III" , "correct": false },
+             { "choices" : "I and II" , "correct": false  },
+             { "choices" : "II and III" , "correct": true },
+             { "choices" : "I, II, and III" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"Teacher S wants to determine immediately the learning difficulties of her students. Which of the following do you expect her to undertake?",
+         "MultipleChoice": [
+             { "choices" : "Require her students to prepare a portfolio." , "correct": false },
+             { "choices" : "Administer an achievement test." , "correct": false  },
+             { "choices" : "Administer a diagnostic test." , "correct": true },
+             { "choices" : "Interview her students directly." , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"NSAT and NEAT results are interpreted against set mastery level. This means that NSAT and NEAT fall under __________.",
+         "MultipleChoice": [
+             { "choices" : "intelligence test" , "correct": false },
+             { "choices" : "aptitude test" , "correct": false  },
+             { "choices" : "criterion-referenced test" , "correct": false },
+             { "choices" : "norm-referenced test" , "correct": true }
+         ] 
+     },
+     {
+         "Questions":"The result of the item analysis showed that item no. 4 has a discrimination index of 0.67. What characteristic could be true about this item?",
+         "MultipleChoice": [
+             { "choices" : "Difficult" , "correct": false },
+             { "choices" : "Valid" , "correct": true  },
+             { "choices" : "Easy" , "correct": false },
+             { "choices" : "Average" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"The theme of Vygotsky's socio-cultural theory emphasizes the role of appropriate assistance given by the teacher to accomplish a task. Such help enables the child to move from the zone of actual developmeny to a zone of proximal development. Such assistance is termed _____.",
+         "MultipleChoice": [
+             { "choices" : "competency technique" , "correct": false },
+             { "choices" : "scaffolding" , "correct": false  },
+             { "choices" : "active participation" , "correct": true },
+             { "choices" : "collaboration" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"Which of these activities is not appealing to the bodily-kinesthetic learners?",
+         "MultipleChoice": [
+             { "choices" : "making math moves" , "correct": false },
+             { "choices" : "doing simple calisthenics" , "correct": false  },
+             { "choices" : "sketching/illustrating events" , "correct": true },
+             { "choices" : "joining extramural events" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"Institutions of learning are required to meet the minimum standards for state recognition but are encouraged to set higher standards of quality over and above the minimum through _____ as provided in Educational Act of 1982.",
+         "MultipleChoice": [
+             { "choices" : "lifelong education" , "correct": false },
+             { "choices" : "voluntary accreditation" , "correct": true  },
+             { "choices" : "formal education" , "correct": false },
+             { "choices" : "academic freedom" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"You intend to assess affective attributes such as capacity to feel, attitudes, and behavior. Which of the following should you establish to ascertain the instrument's validity?",
+         "MultipleChoice": [
+             { "choices" : "construct" , "correct": false },
+             { "choices" : "content" , "correct": false  },
+             { "choices" : "criterion-related" , "correct": false },
+             { "choices" : "face" , "correct": true }
+         ]  
+     },
+     {
+         "Questions":"Which assumption underlies the teacher's useof performance objectives?",
+         "MultipleChoice": [
+             { "choices" : "Not every form of learning is observable." , "correct": false },
+             { "choices" : "Performance objectives assure the learrier of learning" , "correct": false  },
+             { "choices" : "Learning is defined as a change in the learner's observable performance" , "correct": true },
+             { "choices" : "The success of learner is based on teacher performance" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"In the parlance of test construction what does TOS mean?",
+         "MultipleChoice": [
+             { "choices" : "Table of Specifics" , "correct": false },
+             { "choices" : "Table of Specifications" , "correct": true  },
+             { "choices" : "Table of Specific Test Items" , "correct": false },
+             { "choices" : "Team of Specifications" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"A student passes a research report poorlywritten but ornately presented in a folder tomake up for the poor quality of the bookreportcontent. Which Filipino trait does this practice prove? Emphasis on __________.",
+         "MultipleChoice": [
+             { "choices" : "art over academics" , "correct": false },
+             { "choices" : "substance overporma" , "correct": false  },
+             { "choices" : "art over science" , "correct": false },
+             { "choices" : "pormaover substance" , "correct": true }
+         ] 
+     },
+     {
+         "Questions":"In a criterion-referenced testing, what must you do to ensure that your test is fair?",
+         "MultipleChoice": [
+             { "choices" : "Make all of the questions true or false." , "correct": false },
+             { "choices" : "Ask each student to contribute one question." , "correct": false  },
+             { "choices" : "Make twenty questions but ask the students to answer only ten of their choice" , "correct": false },
+             { "choices" : "Use the objectives for the units as guide in your test construction." , "correct": true }
+         ] 
+     },
+     {
+         "Questions":"Which does Noam Chomsky, assert aboutlanguage learning for children?I. Young children learn and apply grammaticalrules and vocabulary as they are exposed to them.II. Begin formal teaching of grammatical rules tochildren as early as possible.III. Do not require initial formal languageteaching for children. ",
+         "MultipleChoice": [
+             { "choices" : "I and III" , "correct": false },
+             { "choices" : "II only" , "correct": false  },
+             { "choices" : "I only" , "correct": false },
+             { "choices" : "I and II" , "correct": true }
+         ] 
+     },
+     {
+         "Questions":"Life is what you make it exemplifies best what ______:",
+         "MultipleChoice": [
+             { "choices" : "Existentialism" , "correct": true },
+             { "choices" : "Humanism" , "correct": false  },
+             { "choices" : "Progressivism" , "correct": false },
+             { "choices" : "Essentialism" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"After listening to the homily of the Priest about fidelity, Catherine has amoment of reflection. Her understanding of the value of fidelity has become deeper as she related this to her past experience. This typifies what kind of philosophy ?",
+         "MultipleChoice": [
+             { "choices" : "Constructivism" , "correct": true },
+             { "choices" : "Reconstructivism" , "correct": false  },
+             { "choices" : "Humanism" , "correct": false },
+             { "choices" : "Existentialism" , "correct": false}
+         ] 
+     },
+     {
+         "Questions":"After studying the Principle of Identity, Teacher Beng asks her students to determine which among the given set of problems conforms to the said identity. This shows that Teacher Beng upholds this kind of philosophy?",
+         "MultipleChoice": [
+             { "choices" : "Perennialism" , "correct": false },
+             { "choices" : "Progressivism" , "correct": true  },
+             { "choices" : "Essentialism" , "correct": false },
+             { "choices" : "Naturalism" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"Joy listens to the advice given by hersister to end the relationship that she haswith Min Hoo . However, her sisterlearned that the advice she has given wasnot followed and Joy decided to continue the relationship. This action of Joy is a manifestation of what kind of philosophy?",
+         "MultipleChoice": [
+             { "choices" : "Essentialism" , "correct": false },
+             { "choices" : "Existentialism" , "correct": true  },
+             { "choices" : "Perennialism" , "correct": false },
+             { "choices" : "Humanism" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"After finishing the degree in Education, Teacher Mary realizes that learning never stops. In fact, she accumulates more knowledge after leaving the portal of her alma mater. This typifies what kind of philosophy?",
+         "MultipleChoice": [
+             { "choices" : "Constructivism" , "correct": false },
+             { "choices" : "Perennialism" , "correct": false  },
+             { "choices" : "Progressivism" , "correct": true },
+             { "choices" : "Humanism" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"Flordeluna, an education student, was asked by Prof. Cruz to described accurately education. Which of the following statement will Flordeluna most likely choose?",
+         "MultipleChoice": [
+             { "choices" : "A process of individual growth and social development" , "correct": true },
+             { "choices" : "Growth resulting from academic study" , "correct": false  },
+             { "choices" : "Acquired basically through the teacher" , "correct": false },
+             { "choices" : "Synonymous to formal schooling" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"Miss Orencia has been rated a very effective teacher. Which intellectual trait does Miss Orencia manifest?",
+         "MultipleChoice": [
+             { "choices" : "Well groomed " , "correct": false },
+             { "choices" : "Tolerance" , "correct": false  },
+             { "choices" : "Widely read" , "correct": true },
+             { "choices" : "Intellectual honest" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"Miss Lucero is a newly appointed teacher. The principal handed a copy of the Teacher’s Code of Ethics. Which could have been the motive of the principal?",
+         "MultipleChoice": [
+             { "choices" : "Acquaint her with principles of moral behavior, conduct and relationship in the practice of profession" , "correct": true },
+             { "choices" : "Make her aware of the principles and rules prescribed under the authority of the state" , "correct": false  },
+             { "choices" : "Familiarize her with the generally accepted customs of right living in a society" , "correct": false },
+             { "choices" : "Provides her a set of rules and regulation to observe in school" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"As a pioneer in the world ideas, what would be the teacher’s task?",
+         "MultipleChoice": [
+             { "choices" : "Establishing instructional goals" , "correct": false },
+             { "choices" : "Establishing standards of behavior" , "correct": false  },
+             { "choices" : "Leading children to acquire about his environment" , "correct": true },
+             { "choices" : "Articulating social, political and economic traditions" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"Mr. Villena is a newly appointed teacher. The principal advised him to avoid any conduct which discredit the teaching profession?",
+         "MultipleChoice": [
+             { "choices" : "Writing anonymous letters" , "correct": false },
+             { "choices" : "Revealing confidential information to authorities concerned" , "correct": true  },
+             { "choices" : "Assigning underserved grades" , "correct": false },
+             { "choices" : " Joining social drinking and gambling session" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"Mr. Fernando, a Geography teacher, integrates the learning activities and materials with real life. Inline with the principle of expanding environment her context should start with",
+         "MultipleChoice": [
+             { "choices" : "projection into the future" , "correct": false },
+             { "choices" : "adventures into outer space" , "correct": false  },
+             { "choices" : "local situations and community" , "correct": true },
+             { "choices" : "lands and people beyond Philippine shores" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"When Ms. Narvaez selects activist and materials for her Social Studies lessons that stimulate curiosity and satisfy the need to know, which criterion is meet?",
+         "MultipleChoice": [
+             { "choices" : "Criterion of organization" , "correct": false },
+             { "choices" : "Criterion of authenticity" , "correct": false  },
+             { "choices" : "criterion of appropriateness" , "correct": false },
+             { "choices" : "Criterion of interest" , "correct": true }
+         ] 
+     },
+     {
+         "Questions":"The Grade 6 Science teachers are engaged in panning the units for Science. Which of the following activities will not be engaged in by the group of teachers?",
+         "MultipleChoice": [
+             { "choices" : "rearranging or adding lesson content to provide task-relevant prior knowledge" , "correct": true },
+             { "choices" : "translating unit outcomes/objectives into specific lesson objective" , "correct": false  },
+             { "choices" : "classifying unit outcome/objectives at a higher level of behavior" , "correct": false },
+             { "choices" : "breaking the lesson contents into chunk" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"Miss Tantengco is teaching a lesson on “sounds”. Assuming that no task-relevant prior knowledge is required , what should be the starting point of her lesson?",
+         "MultipleChoice": [
+             { "choices" : "comprehension of principles" , "correct": false },
+             { "choices" : "knowledge of principle" , "correct": false  },
+             { "choices" : "comprehension of concepts" , "correct": false },
+             { "choices" : "knowledge of concepts" , "correct": true }
+         ] 
+     },
+     {
+         "Questions":"What is the primary reason why teacher should take a system perspective?",
+         "MultipleChoice": [
+             { "choices" : "Lessons prepared will always be a part of something greater" , "correct": false },
+             { "choices" : "Lesson plan is composed of interrelated parts of a system" , "correct": false  },
+             { "choices" : "Lesson plan is a part of the total school system" , "correct": false },
+             { "choices" : "Lesson planning is a systematic process" , "correct": true }
+         ] 
+     },
+     {
+         "Questions":"Which of the following conditions manifests trend of globalization?",
+         "MultipleChoice": [
+             { "choices" : "Establishment of stronger boundaries between and among nations" , "correct": false },
+             { "choices" : "Increased awareness on the importance of national cultures and traditions." , "correct": false  },
+             { "choices" : "Less and less impact of human activity on the planet earth." , "correct": false },
+             { "choices" : "The incorporation of local and national economies into a worldwide global economy" , "correct": true }
+         ] 
+     },
+     {
+         "Questions":"According to the Delors report, there are a number of main tensions central to the problems of thetwenty first century that we need to overcome. One of them is the challenge to an individual how he or she can adapt to the changing world without forgetting or turning his/her back from the past. What kindof tension or conflict is manifested in this situation?",
+         "MultipleChoice": [
+             { "choices" : "Tension between tradition and modernity" , "correct": false },
+             { "choices" : "Tension between the global and the local" , "correct": true  },
+             { "choices" : "Tension between the universal and the individual" , "correct": false },
+             { "choices" : "Tension between long term and short term considerations" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"Which of the following features represents the new paradigm shift in education?",
+         "MultipleChoice": [
+             { "choices" : "Traditional pedagogies" , "correct": false },
+             { "choices" : "Lifelong education for all" , "correct": true  },
+             { "choices" : "Rigid subject matter boundaries" , "correct": false },
+             { "choices" : "Knowledge as the only learning outcome" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"What is the measure of relevance in education?",
+         "MultipleChoice": [
+             { "choices" : "Democratization of access" , "correct": false },
+             { "choices" : "Functionality and meaningfulness" , "correct": true  },
+             { "choices" : "Ability to sustain education through the future" , "correct": false },
+             { "choices" : "Excellence and effectiveness" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"What is the concern of Multicultural Education? ",
+         "MultipleChoice": [
+             { "choices" : "Anticipating the future and imagining possible and probable futures" , "correct": false },
+             { "choices" : "Gender equality and harnessing of the role of women in development" , "correct": false  },
+             { "choices" : "Promoting care for the environment and building a global culture of ecological responsibility" , "correct": false },
+             { "choices" : "The exploration of concepts of cultural diversity, similarities and prejudices to promote cultural understanding." , "correct": true }
+         ] 
+     },
+     {
+         "Questions":"Teacher A, a Values Education teacher emphasizes ethics in almost all her lessons. Which of the following emphasizes the same?",
+         "MultipleChoice": [
+             { "choices" : "Liberal Education" , "correct": false },
+             { "choices" : "Moral Education" , "correct": true  },
+             { "choices" : "Religious Training" , "correct": false },
+             { "choices" : "Social Education" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"Which reform in the Philippine Educational System advocates the use of English and Filipino as mediaof instruction in specific learning areas?",
+         "MultipleChoice": [
+             { "choices" : "Alternative Learning" , "correct": false },
+             { "choices" : "Bilingual Education" , "correct": true  },
+             { "choices" : "K-12 Program" , "correct": false },
+             { "choices" : "Multilingual Education" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"Activities planned by school clubs/ organizations show school-community connection geared towardssociety's needs. What philosophy is related to this?",
+         "MultipleChoice": [
+             { "choices" : "Existentialism" , "correct": false },
+             { "choices" : "Progressivism" , "correct": false  },
+             { "choices" : "Realism" , "correct": false },
+             { "choices" : "Social reconstructionism" , "correct": true }
+         ] 
+     },
+     {
+         "Questions":"What philosophy is related to the practice of schools acting as laboratory for teaching reforms and experimentation?",
+         "MultipleChoice": [
+             { "choices" : "Essentialism" , "correct": false },
+             { "choices" : "Existentialism" , "correct": false  },
+             { "choices" : "Progressivism" , "correct": true },
+             { "choices" : "Social Reconstructionism" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"Which of the following situations presents a value conflict?",
+         "MultipleChoice": [
+             { "choices" : "The teacher and his students have class standing as their priorities" , "correct": false },
+             { "choices" : "The teacher and the administrator follow a set of criteria in giving grades" , "correct": false  },
+             { "choices" : "The teacher has students whose parents want their children to obtain higher grades than what they are capable of getting" , "correct": true },
+             { "choices" : "The teacher sets high expectations for intelligent students such as getting higher grades." , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"Which holds true to standardized tests?",
+         "MultipleChoice": [
+             { "choices" : "They are used for comparative purposes" , "correct": false },
+             { "choices" : "They are administered differently" , "correct": true  },
+             { "choices" : "They are scored according to different standards" , "correct": false },
+             { "choices" : "nin deabove" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"A negative discrimination index of a test item tells that particular test item lacks _____.",
+         "MultipleChoice": [
+             { "choices" : "objectivity" , "correct": false },
+             { "choices" : "reliability" , "correct": true  },
+             { "choices" : "content validity" , "correct": false },
+             { "choices" : "construct validity" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"In his second item analysis, Teacher H found out that more from the lower group got the test item # 6correctly. This means that the test item __________.",
+         "MultipleChoice": [
+             { "choices" : "has a negative discriminating power" , "correct": false },
+             { "choices" : "has a lower validity" , "correct": true  },
+             { "choices" : "has a positive discriminating power" , "correct": false },
+             { "choices" : "has a high reliability" , "correct": false }
+         ] 
+     },
+     {
+         "Questions":"You want ti teach concepts, patterns, and abstractions. Which method is most appropriate",
+         "MultipleChoice": [
+             { "choices" : "deductive method" , "correct": false },
+             { "choices" : "problem solving" , "correct": false  },
+             { "choices" : "direct instruction" , "correct": false },
+             { "choices" : "indirect instruction" , "correct": true }
+         ] 
+     },
+     {
+         "Questions":" Which can enhance the development of spatial intelligence?",
+         "MultipleChoice": [
+             { "choices" : "hands-on demonstrations" , "correct": false },
+             { "choices" : "environmental study" , "correct": false  },
+             { "choices" : "concept miming" , "correct": false },
+             { "choices" : ". concept mapping" , "correct": true }
+         ] 
+     }
+ ],
     "AreaOfSpecialization":[{
         "English" :[
             {
@@ -568,7 +1019,7 @@
                     { "choices" : "Look" , "correct": false },
                     { "choices" : "Someone" , "correct": false  },
                     { "choices" : "Is looking" , "correct": true },
-                    { "choices" : "" , "correct": false }
+                    { "choices" : "non deabove" , "correct": false }
                 ]
         },    
     {
@@ -875,7 +1326,7 @@
                 "MultipleChoice": [
                     { "choices" : "Optimistic" , "correct": false },
                     { "choices" : "Laconic" , "correct": false  },
-                    { "choices" : "Pessimistic" , "correct": false },
+                    { "choices" : "Pessimistics" , "correct": false },
                     { "choices" : "Pessimistic" , "correct": true }
                 ]
         },    
@@ -903,8 +1354,8 @@
                 "MultipleChoice": [
                     { "choices" : "Anybody can be a hero.", "correct": true },
                     { "choices" : "Heroes are often forgotten.." , "correct": false  },
-                    { "choices" : " C. Heroes are easy to find" , "correct": false },
-                    { "choices" : " D. It is easy to do heroic acts." , "correct": false }
+                    { "choices" : "Heroes are easy to find" , "correct": false },
+                    { "choices" : "It is easy to do heroic acts." , "correct": false }
                 ]
         }
     ],
@@ -967,7 +1418,7 @@
         "Questions":"Anong teorya ng wika ang nagsasabing ang wika ay nailikha bunga ng masidhing damdamin ng tao?",
                 "MultipleChoice": [
                     { "choices" : "Bow-wow" , "correct": false },
-                    { "choices" : ". Pooh-pooh" , "correct": true  },
+                    { "choices" : "Pooh-pooh" , "correct": true  },
                     { "choices" : "Ding-dong" , "correct": false },
                     { "choices" : "Yoheho" , "correct": false }
                 ]
@@ -1002,10 +1453,10 @@
     {
         "Questions":"Ang “Kodigo ni kalantiaw” ay naglalaman ng?",
                 "MultipleChoice": [
-                    { "choices" : "a. batas na dapat sundin ng mga mamamayan" , "correct": true },
+                    { "choices" : "batas na dapat sundin ng mga mamamayan" , "correct": true },
                     { "choices" : "pamantayan para maayos na pamumuhay" , "correct": false  },
                     { "choices" : "batas ng kagandahang asal" , "correct": false },
-                    { "choices" : ". kasunduang pang – pangkalakalan" , "correct": false }
+                    { "choices" : "kasunduang pang – pangkalakalan" , "correct": false }
                 ]
         },         
     {
@@ -1029,17 +1480,17 @@
     {
         "Questions":"Ang Katotohanan inihayag sa awiting “Florante at Laura” ni Balagtas.",
                 "MultipleChoice": [
-                    { "choices" : " kahirapan sa buhay" , "correct": false },
+                    { "choices" : "kahirapan sa buhay" , "correct": false },
                     { "choices" : "katiwalian ng mga Kastila" , "correct": true  },
                     { "choices" : "pag – iibigan ng mga magka – ibang lahi" , "correct": false },
-                    { "choices" : ". buhay pangangalakal noon panahon ng Kastila" , "correct": false }
+                    { "choices" : "buhay pangangalakal noon panahon ng Kastila" , "correct": false }
                 ]
         }, 
     {
         "Questions":"pagsulat ng mga Pilipino ssa magasing “liwayway” nuong panahon ng Hapon",
                 "MultipleChoice": [
                     { "choices" : "malaya silang sumulat" , "correct": false },
-                    { "choices" : ". Walang takot silang sumulat" , "correct": false  },
+                    { "choices" : "Walang takot silang sumulat" , "correct": false  },
                     { "choices" : "nabigyan ng pagpapahalaga ang sariling wika" , "correct": true },
                     { "choices" : "mapayapa ang panahon" , "correct": false }
                 ]
@@ -1056,8 +1507,8 @@
     {
         "Questions":"Ano ang kahulugan na nais iparating ng talatang ito hango sa “Sa Bagong Paraiso” ni Efren Abueg?” At ang pamumulaklak at pamumunga ng manga, santol, sinegwelas at ng iba pang punungkahoy o halaman sa loobang iyon ay nagpatuloy. Ang damuhan ay natuyo at muling sinibulan ng bagong supling.”",
                 "MultipleChoice": [
-                    { "choices" : " Napakaganda ng mga tanawin sa lalawigan" , "correct": false },
-                    { "choices" : ". Panahon ng tag – araw" , "correct": false  },
+                    { "choices" : "Napakaganda ng mga tanawin sa lalawigan" , "correct": false },
+                    { "choices" : "Panahon ng tag – araw" , "correct": false  },
                     { "choices" : "Patuloy ang paglipas ng panahon" , "correct": true },
                     { "choices" : "Malulusog ang pananim sa lalawigan" , "correct": false }
                 ]
@@ -1067,7 +1518,7 @@
                 "MultipleChoice": [
                     { "choices" : " pagkawala ng pag-asa dahil sa mga nangyari sa bayan" , "correct": false },
                     { "choices" : "pag-asa sa kalayaan at paggunita sa mga taong nagbuwis ng buhay para sa kalayaan" , "correct": true  },
-                    { "choices" : ". pagpapa-walang halaga sa paghihirap ng mga bayani." , "correct": false },
+                    { "choices" : "pagpapa-walang halaga sa paghihirap ng mga bayani." , "correct": false },
                     { "choices" : "malawakang kalungkutan nadarama sa pagkawala ng pag asa" , "correct": false }
                 ]
         }, 
@@ -1101,10 +1552,10 @@
     {
         "Questions":"Ang “Kodigo ni kalantiaw” ay naglalaman ng?",
                 "MultipleChoice": [
-                    { "choices" : " batas na dapat sundin ng mga mamamayan" , "correct": true },
-                    { "choices" : " pamantayan para maayos na pamumuhay" , "correct": false  },
-                    { "choices" : ". batas ng kagandahang asal" , "correct": false },
-                    { "choices" : ". kasunduang pang – pangkalakalan" , "correct": false }
+                    { "choices" : "batas na dapat sundin ng mga mamamayan" , "correct": true },
+                    { "choices" : "pamantayan para maayos na pamumuhay" , "correct": false  },
+                    { "choices" : "batas ng kagandahang asal" , "correct": false },
+                    { "choices" : "kasunduang pang – pangkalakalan" , "correct": false }
                 ]
         }, 
     {
@@ -1137,8 +1588,8 @@
     {
         "Questions":"Dahilan kong bakit nagging masigla ang pagsulat ng mga Pilipino ssa magasing “liwayway” nuong panahon ng Hapon.",
                 "MultipleChoice": [
-                    { "choices" : ". malaya silang sumulat" , "correct": false },
-                    { "choices" : ". Walang takot silang sumulat" , "correct": false  },
+                    { "choices" : "malaya silang sumulat" , "correct": false },
+                    { "choices" : "Walang takot silang sumulat" , "correct": false  },
                     { "choices" : " nabigyan ng pagpapahalaga ang sariling wika" , "correct": true },
                     { "choices" : "mapayapa ang panahon" , "correct": false }
                 ]
@@ -1146,7 +1597,7 @@
     {
         "Questions":"Ang “Urbana at Felisa” na isinulat ni Modesto de Castro, ay naglalaman ng magagandang asal ng mga Pilipino tungkol sa",
                 "MultipleChoice": [
-                    { "choices" : ". pakikipagkapwa, paggalang sa magulang at pagkilala sa Diyos" , "correct": true },
+                    { "choices" : "pakikipagkapwa, paggalang sa magulang at pagkilala sa Diyos" , "correct": true },
                     { "choices" : "magandang relasyon ng makakapatid" , "correct": false  },
                     { "choices" : "pagtupad ng tungkulin sa bayan" , "correct": false },
                     { "choices" : "pagharap sa pagsubok sa buhay" , "correct": false }
@@ -1158,7 +1609,7 @@
                     { "choices" : "Matapang" , "correct": false },
                     { "choices" : "Matiyaga" , "correct": false  },
                     { "choices" : "Duwag" , "correct": true },
-                    { "choices" : ". Malakas ang loob" , "correct": false }
+                    { "choices" : "Malakas ang loob" , "correct": false }
                 ]
         }, 
     {
@@ -1175,7 +1626,7 @@
                 "MultipleChoice": [
                     { "choices" : "Pakiusapan" , "correct": false },
                     { "choices" : "Pakikipag-usap" , "correct": false  },
-                    { "choices" : ". Ipakiusap" , "correct": false },
+                    { "choices" : "Ipakiusap" , "correct": false },
                     { "choices" : "Pakiusap" , "correct": true }
                 ]
         }, 
@@ -1194,7 +1645,7 @@
                     { "choices" : "Kaingayan" , "correct": false },
                     { "choices" : "Kapayapaan" , "correct": false  },
                     { "choices" : "Lakas ng hangin" , "correct": false },
-                    { "choices" : ". Katahimikan" , "correct": true }
+                    { "choices" : "Katahimikan" , "correct": true }
                 ]
         }, 
     {
@@ -1209,7 +1660,7 @@
     {
         "Questions":"Alin sa mga sumusunod na set ng beheybyur ang nabibilang sa antas sintesis batay sa taksonomiya ng layunin ayon kay Bloom?",
                 "MultipleChoice": [
-                    { "choices" : ". ilarawn, isalin, ipakahulugan" , "correct": false },
+                    { "choices" : "ilarawn, isalin, ipakahulugan" , "correct": false },
                     { "choices" : "Ilapat, idayagram, tugunan" , "correct": false  },
                     { "choices" : "Bumuo, balagkasin, pag-ugnayin" , "correct": true },
                     { "choices" : "Suriin, pangatwiran, paghambingin" , "correct": false }
@@ -1236,8 +1687,8 @@
     {
         "Questions":"Ano ang katotohanan sa likod ngkonsepto ng pagkakatuto ng wika?  1. kapag ang isang tao ay may likas na kakayahan 2. kung ito ay nagmumla sa isnag bungang panggagaya o panggagad ngpagsasalita 3. kung ito ay mula sa proseso ngpakikihalubilo sa kapwa4. kapag tinanggap o pinag-aralanito saklase sa akademikong paraan.",
                 "MultipleChoice": [
-                    { "choices" : ". 1 at 2" , "correct": false },
-                    { "choices" : ". 3 to 4" , "correct": false  },
+                    { "choices" : "1 at 2" , "correct": false },
+                    { "choices" : "3 to 4" , "correct": false  },
                     { "choices" : "1, 2 at 3" , "correct": false },
                     { "choices" : "1, 2, 3 at 4" , "correct": true }
                 ]
@@ -1274,17 +1725,17 @@
                 "MultipleChoice": [
                     { "choices" : "Oo, kaya’t sa huli sila’y nagging mag-asawa" , "correct": false },
                     { "choices" : "Hindi, sapagkat binagabag siya ng kanyang konsensya" , "correct": false  },
-                    { "choices" : ". Oo, upang mapagtagumpaya niya ang kanyang pagkatorpe sa dalaga" , "correct": false },
+                    { "choices" : "Oo, upang mapagtagumpaya niya ang kanyang pagkatorpe sa dalaga" , "correct": false },
                     { "choices" : "Hindi, bagama’t pina ang binata hinggil ditto." , "correct": true }
                 ]
         },  
     {
         "Questions":"Ibigay ang mensaheng haid ng sumusund na pahiwatig mula sa akdang Cebuano na “Paalam na sa Pagakabata” “Ang langit ay nasa tao, hinid nakikita, hindi nahihipo, hindi naabot.”",
                 "MultipleChoice": [
-                    { "choices" : ". Ang langit ay lugar na tao na itinuturing na paraiso" , "correct": false },
+                    { "choices" : "Ang langit ay lugar na tao na itinuturing na paraiso" , "correct": false },
                     { "choices" : "Ang langit ay nasa puso ng isang tao, ang kabutihang loob, kapayapaan ng isisp atkalinisan ng budhi ang kaganapan nito" , "correct": true  },
                     { "choices" : "Ang langit kailanman ay di makikita, mahihipo o maabot ng tao" , "correct": false },
-                    { "choices" : ". Ang langit ay inihanda para as tao at ito’y hindi makikita at maabot lalo na ng mga yaonghindi nararapat ditto." , "correct": false }
+                    { "choices" : "Ang langit ay inihanda para as tao at ito’y hindi makikita at maabot lalo na ng mga yaonghindi nararapat ditto." , "correct": false }
                 ]
         },  
     {
@@ -1293,7 +1744,7 @@
                     { "choices" : "Kaarawan" , "correct": false },
                     { "choices" : "Anibersaryo" , "correct": false  },
                     { "choices" : "Libing" , "correct": true },
-                    { "choices" : ". Araw ng mga Ina" , "correct": false }
+                    { "choices" : "Araw ng mga Ina" , "correct": false }
                 ]
         },  
     {
@@ -1308,7 +1759,7 @@
     {
         "Questions":"Ayon sa kwentong “Ang Inang Anak” ni Thu Van ng Vietnam, ano ang ibig sabihin ng kamatayang “bat doc ky tu”?",
                 "MultipleChoice": [
-                    { "choices" : ". Kamatayang parusa ng kasalanan" , "correct": false },
+                    { "choices" : "Kamatayang parusa ng kasalanan" , "correct": false },
                     { "choices" : "Pagtatakda ng kamatayan ayon guhit ng kapalara" , "correct": false  },
                     { "choices" : "Paglilibot ng kaluluwa ng mga namamtay sa akdisdente hanggang sa araw ng talaga nilang kamatayan" , "correct": true },
                     { "choices" : "Kamatayang biglaan at di napaghandaan" , "correct": false }
@@ -1353,473 +1804,19 @@
     {
         "Questions":"Kapag ang mag-aaral ay may laton sa pakikinig na mahango ang kahulugan ng mensahe sa pamamagitan ng pag-unawa sa lahat ng datos panglingwistika, maituturing na siya ay gumagamit ng prosesong ___________.",
                 "MultipleChoice": [
-                    { "choices" : ". top down" , "correct": false },
+                    { "choices" : "top down" , "correct": false },
                     { "choices" : "bottom-up" , "correct": true  },
                     { "choices" : " aktibong pakikinig" , "correct": false },
                     { "choices" : "pagdinig vs. pakikinig" , "correct": false }
                 ]
         }                                                       
-        ]
-    }
-    ],
-    "ProfessionalEducation":[
-        {
-            "Questions":" part 1 - 15 At the end of periodical examination, Teacher R administered a summative test in Filipino. After scoring the test papers she assigned grades to each test score such as 95, 90, 85, 80 etc. What process did Teacher R use?",
-            "MultipleChoice": [
-                { "choices" : "Ranking" , "correct": false },
-                { "choices" : "Computation" , "correct": true  },
-                { "choices" : "Measurement" , "correct": false },
-                { "choices" : "Evaluation" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"It is the study of man’s prehistory through the buried remains of ancient culture, skeletal remnants of human beings.",
-            "MultipleChoice": [
-                { "choices" : "Anthropology" , "correct": false },
-                { "choices" : "Archeology" , "correct": true  },
-                { "choices" : "Ethnology" , "correct": false },
-                { "choices" : "Ethnography" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"Teacher D claims: If I have to give reinforcement, it has to be given immediately after the response. Which theory supports Teacher D?",
-            "MultipleChoice": [
-                { "choices" : "operant conditioning theory" , "correct": true },
-                { "choices" : "social cognitive theory" , "correct": false  },
-                { "choices" : "cognitive theory" , "correct": false },
-                { "choices" : "humanist theory" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"Visual imagery helps people store information in their memory more effectively. Which is one teaching implication of this principle?",
-            "MultipleChoice": [
-                { "choices" : "You will not object when your students daydream in class." , "correct": true },
-                { "choices" : "Instruct students to take notes while you lecture." , "correct": false  },
-                { "choices" : "Encourage your students to imagine the characters and situations when reading a story." , "correct": false },
-                { "choices" : "Tell them to read more illustrated comics." , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"Which is essential in the cognitive development of a person according to Vygotsky?",
-            "MultipleChoice": [
-                { "choices" : "independent thinking" , "correct": true },
-                { "choices" : "social interaction" , "correct": false  },
-                { "choices" : "individual mental work" , "correct": false },
-                { "choices" : "scientific thinking" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"The design of the 2002 Basic Education Curriculum (BEC) is based on the principles that the main sources for contemporary basic education are the expert systems of knowledge and the learner's experience in their context.This shows that the BEC is _____ in orientation. I. constructivist II. behaviorist III. essentialist",
-            "MultipleChoice": [
-                { "choices" : "I and III" , "correct": false },
-                { "choices" : "III only" , "correct": false  },
-                { "choices" : "I only" , "correct": false },
-                { "choices" : "I, II, and III" , "correct": true }
-            ] 
-        },
-        {
-            "Questions":"Which assessment tool shows evidence of student’s writing skills?",
-            "MultipleChoice": [
-                { "choices" : "project " , "correct": true },
-                { "choices" : "portfolio" , "correct": false  },
-                { "choices" : "critiquing sessions" , "correct": false },
-                { "choices" : "daily journal" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":" Ask to do a learning task, Joe hesitates and says Mahirap. Ayaw ko. 'Di ko kaya! (It's difficult. I don't like it. I can't do it.) To which problem does the case of the student allude? I. Unmotivated students II. Uncaring teachers III. Extremely difficult learning tasks IV. incompetent teachers",
-            "MultipleChoice": [
-                { "choices" : "I and III" , "correct": false },
-                { "choices" : "I and II" , "correct": false  },
-                { "choices" : "II and III" , "correct": true },
-                { "choices" : "I, II, and III" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"Teacher S wants to determine immediately the learning difficulties of her students. Which of the following do you expect her to undertake?",
-            "MultipleChoice": [
-                { "choices" : "Require her students to prepare a portfolio." , "correct": false },
-                { "choices" : "Administer an achievement test." , "correct": false  },
-                { "choices" : "Administer a diagnostic test." , "correct": true },
-                { "choices" : "Interview her students directly." , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"NSAT and NEAT results are interpreted against set mastery level. This means that NSAT and NEAT fall under __________.",
-            "MultipleChoice": [
-                { "choices" : "intelligence test" , "correct": false },
-                { "choices" : "aptitude test" , "correct": false  },
-                { "choices" : "criterion-referenced test" , "correct": false },
-                { "choices" : "norm-referenced test" , "correct": true }
-            ] 
-        },
-        {
-            "Questions":"The result of the item analysis showed that item no. 4 has a discrimination index of 0.67. What characteristic could be true about this item?",
-            "MultipleChoice": [
-                { "choices" : "Difficult" , "correct": false },
-                { "choices" : "Valid" , "correct": true  },
-                { "choices" : "Easy" , "correct": false },
-                { "choices" : "Average" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"The theme of Vygotsky's socio-cultural theory emphasizes the role of appropriate assistance given by the teacher to accomplish a task. Such help enables the child to move from the zone of actual developmeny to a zone of proximal development. Such assistance is termed _____.",
-            "MultipleChoice": [
-                { "choices" : "competency technique" , "correct": false },
-                { "choices" : "scaffolding" , "correct": false  },
-                { "choices" : "active participation" , "correct": true },
-                { "choices" : "collaboration" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"Which of these activities is not appealing to the bodily-kinesthetic learners?",
-            "MultipleChoice": [
-                { "choices" : "making math moves" , "correct": false },
-                { "choices" : "doing simple calisthenics" , "correct": false  },
-                { "choices" : "sketching/illustrating events" , "correct": true },
-                { "choices" : "joining extramural events" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"Institutions of learning are required to meet the minimum standards for state recognition but are encouraged to set higher standards of quality over and above the minimum through _____ as provided in Educational Act of 1982.",
-            "MultipleChoice": [
-                { "choices" : "lifelong education" , "correct": false },
-                { "choices" : "voluntary accreditation" , "correct": true  },
-                { "choices" : "formal education" , "correct": false },
-                { "choices" : "academic freedom" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"You intend to assess affective attributes such as capacity to feel, attitudes, and behavior. Which of the following should you establish to ascertain the instrument's validity?",
-            "MultipleChoice": [
-                { "choices" : "construct" , "correct": false },
-                { "choices" : "content" , "correct": false  },
-                { "choices" : "criterion-related" , "correct": false },
-                { "choices" : "face" , "correct": true }
-            ]  
-        },
-        {
-            "Questions":"Which assumption underlies the teacher's useof performance objectives?",
-            "MultipleChoice": [
-                { "choices" : "Not every form of learning is observable." , "correct": false },
-                { "choices" : "Performance objectives assure the learrier of learning" , "correct": false  },
-                { "choices" : "Learning is defined as a change in the learner's observable performance" , "correct": true },
-                { "choices" : "The success of learner is based on teacher performance" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"In the parlance of test construction what does TOS mean?",
-            "MultipleChoice": [
-                { "choices" : "Table of Specifics" , "correct": false },
-                { "choices" : "Table of Specifications" , "correct": true  },
-                { "choices" : "Table of Specific Test Items" , "correct": false },
-                { "choices" : "Team of Specifications" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"A student passes a research report poorlywritten but ornately presented in a folder tomake up for the poor quality of the bookreportcontent. Which Filipino trait does this practice prove? Emphasis on __________.",
-            "MultipleChoice": [
-                { "choices" : "art over academics" , "correct": false },
-                { "choices" : "substance overporma" , "correct": false  },
-                { "choices" : "art over science" , "correct": false },
-                { "choices" : "pormaover substance" , "correct": true }
-            ] 
-        },
-        {
-            "Questions":"In a criterion-referenced testing, what must you do to ensure that your test is fair?",
-            "MultipleChoice": [
-                { "choices" : "Make all of the questions true or false." , "correct": false },
-                { "choices" : "Ask each student to contribute one question." , "correct": false  },
-                { "choices" : "Make twenty questions but ask the students to answer only ten of their choice" , "correct": false },
-                { "choices" : "Use the objectives for the units as guide in your test construction." , "correct": true }
-            ] 
-        },
-        {
-            "Questions":"Which does Noam Chomsky, assert aboutlanguage learning for children?I. Young children learn and apply grammaticalrules and vocabulary as they are exposed to them.II. Begin formal teaching of grammatical rules tochildren as early as possible.III. Do not require initial formal languageteaching for children. ",
-            "MultipleChoice": [
-                { "choices" : "I and III" , "correct": false },
-                { "choices" : "II only" , "correct": false  },
-                { "choices" : "I only" , "correct": false },
-                { "choices" : "I and II" , "correct": true }
-            ] 
-        },
-        {
-            "Questions":"Life is what you make it exemplifies best what ______:",
-            "MultipleChoice": [
-                { "choices" : "Existentialism" , "correct": true },
-                { "choices" : "Humanism" , "correct": false  },
-                { "choices" : "Progressivism" , "correct": false },
-                { "choices" : "Essentialism" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"After listening to the homily of the Priest about fidelity, Catherine has amoment of reflection. Her understanding of the value of fidelity has become deeper as she related this to her past experience. This typifies what kind of philosophy ?",
-            "MultipleChoice": [
-                { "choices" : "Constructivism" , "correct": true },
-                { "choices" : "Reconstructivism" , "correct": false  },
-                { "choices" : "Humanism" , "correct": false },
-                { "choices" : "Existentialism" , "correct": false}
-            ] 
-        },
-        {
-            "Questions":"After studying the Principle of Identity, Teacher Beng asks her students to determine which among the given set of problems conforms to the said identity. This shows that Teacher Beng upholds this kind of philosophy?",
-            "MultipleChoice": [
-                { "choices" : "Perennialism" , "correct": false },
-                { "choices" : "Progressivism" , "correct": true  },
-                { "choices" : "Essentialism" , "correct": false },
-                { "choices" : "Naturalism" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"Joy listens to the advice given by hersister to end the relationship that she haswith Min Hoo . However, her sisterlearned that the advice she has given wasnot followed and Joy decided to continue the relationship. This action of Joy is a manifestation of what kind of philosophy?",
-            "MultipleChoice": [
-                { "choices" : "Essentialism" , "correct": false },
-                { "choices" : "Existentialism" , "correct": true  },
-                { "choices" : "Perennialism" , "correct": false },
-                { "choices" : "Humanism" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"After finishing the degree in Education, Teacher Mary realizes that learning never stops. In fact, she accumulates more knowledge after leaving the portal of her alma mater. This typifies what kind of philosophy?",
-            "MultipleChoice": [
-                { "choices" : "Constructivism" , "correct": false },
-                { "choices" : "Perennialism" , "correct": false  },
-                { "choices" : "Progressivism" , "correct": true },
-                { "choices" : "Humanism" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"Flordeluna, an education student, was asked by Prof. Cruz to described accurately education. Which of the following statement will Flordeluna most likely choose?",
-            "MultipleChoice": [
-                { "choices" : "A process of individual growth and social development" , "correct": true },
-                { "choices" : "Growth resulting from academic study" , "correct": false  },
-                { "choices" : "Acquired basically through the teacher" , "correct": false },
-                { "choices" : "Synonymous to formal schooling" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"Miss Orencia has been rated a very effective teacher. Which intellectual trait does Miss Orencia manifest?",
-            "MultipleChoice": [
-                { "choices" : "Well groomed " , "correct": false },
-                { "choices" : "Tolerance" , "correct": false  },
-                { "choices" : "Widely read" , "correct": true },
-                { "choices" : "Intellectual honest" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"Miss Lucero is a newly appointed teacher. The principal handed a copy of the Teacher’s Code of Ethics. Which could have been the motive of the principal?",
-            "MultipleChoice": [
-                { "choices" : "Acquaint her with principles of moral behavior, conduct and relationship in the practice of profession" , "correct": true },
-                { "choices" : ". Make her aware of the principles and rules prescribed under the authority of the state" , "correct": false  },
-                { "choices" : "Familiarize her with the generally accepted customs of right living in a society" , "correct": false },
-                { "choices" : "Provides her a set of rules and regulation to observe in school" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"As a pioneer in the world ideas, what would be the teacher’s task?",
-            "MultipleChoice": [
-                { "choices" : "Establishing instructional goals" , "correct": false },
-                { "choices" : "Establishing standards of behavior" , "correct": false  },
-                { "choices" : "Leading children to acquire about his environment" , "correct": true },
-                { "choices" : ". Articulating social, political and economic traditions" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"Mr. Villena is a newly appointed teacher. The principal advised him to avoid any conduct which discredit the teaching profession?",
-            "MultipleChoice": [
-                { "choices" : "Writing anonymous letters" , "correct": false },
-                { "choices" : "Revealing confidential information to authorities concerned" , "correct": true  },
-                { "choices" : ". Assigning underserved grades" , "correct": false },
-                { "choices" : " Joining social drinking and gambling session" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"Mr. Fernando, a Geography teacher, integrates the learning activities and materials with real life. Inline with the principle of expanding environment her context should start with",
-            "MultipleChoice": [
-                { "choices" : ". projection into the future" , "correct": false },
-                { "choices" : "adventures into outer space" , "correct": false  },
-                { "choices" : "local situations and community" , "correct": true },
-                { "choices" : "lands and people beyond Philippine shores" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"When Ms. Narvaez selects activist and materials for her Social Studies lessons that stimulate curiosity and satisfy the need to know, which criterion is meet?",
-            "MultipleChoice": [
-                { "choices" : " Criterion of organization" , "correct": false },
-                { "choices" : "Criterion of authenticity" , "correct": false  },
-                { "choices" : "criterion of appropriateness" , "correct": false },
-                { "choices" : "Criterion of interest" , "correct": true }
-            ] 
-        },
-        {
-            "Questions":"The Grade 6 Science teachers are engaged in panning the units for Science. Which of the following activities will not be engaged in by the group of teachers?",
-            "MultipleChoice": [
-                { "choices" : "rearranging or adding lesson content to provide task-relevant prior knowledge" , "correct": true },
-                { "choices" : "translating unit outcomes/objectives into specific lesson objective" , "correct": false  },
-                { "choices" : "classifying unit outcome/objectives at a higher level of behavior" , "correct": false },
-                { "choices" : "breaking the lesson contents into chunk" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"Miss Tantengco is teaching a lesson on “sounds”. Assuming that no task-relevant prior knowledge is required , what should be the starting point of her lesson?",
-            "MultipleChoice": [
-                { "choices" : "comprehension of principles" , "correct": false },
-                { "choices" : "knowledge of principle" , "correct": false  },
-                { "choices" : "comprehension of concepts" , "correct": false },
-                { "choices" : "knowledge of concepts" , "correct": true }
-            ] 
-        },
-        {
-            "Questions":"What is the primary reason why teacher should take a system perspective?",
-            "MultipleChoice": [
-                { "choices" : "Lessons prepared will always be a part of something greater" , "correct": false },
-                { "choices" : ". Lesson plan is composed of interrelated parts of a system" , "correct": false  },
-                { "choices" : "Lesson plan is a part of the total school system" , "correct": false },
-                { "choices" : ". Lesson planning is a systematic process" , "correct": true }
-            ] 
-        },
-        {
-            "Questions":"Which of the following conditions manifests trend of globalization?",
-            "MultipleChoice": [
-                { "choices" : "Establishment of stronger boundaries between and among nations" , "correct": false },
-                { "choices" : ". Increased awareness on the importance of national cultures and traditions." , "correct": false  },
-                { "choices" : ". Less and less impact of human activity on the planet earth." , "correct": false },
-                { "choices" : "The incorporation of local and national economies into a worldwide global economy" , "correct": true }
-            ] 
-        },
-        {
-            "Questions":"According to the Delors report, there are a number of main tensions central to the problems of thetwenty first century that we need to overcome. One of them is the challenge to an individual how he or she can adapt to the changing world without forgetting or turning his/her back from the past. What kindof tension or conflict is manifested in this situation?",
-            "MultipleChoice": [
-                { "choices" : "Tension between tradition and modernity" , "correct": false },
-                { "choices" : ". Tension between the global and the local" , "correct": true  },
-                { "choices" : "Tension between the universal and the individual" , "correct": false },
-                { "choices" : "Tension between long term and short term considerations" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"Which of the following features represents the new paradigm shift in education?",
-            "MultipleChoice": [
-                { "choices" : "Traditional pedagogies" , "correct": false },
-                { "choices" : "Lifelong education for all" , "correct": true  },
-                { "choices" : ". Rigid subject matter boundaries" , "correct": false },
-                { "choices" : "Knowledge as the only learning outcome" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"What is the measure of relevance in education?",
-            "MultipleChoice": [
-                { "choices" : "Democratization of access" , "correct": false },
-                { "choices" : "Functionality and meaningfulness" , "correct": true  },
-                { "choices" : " Ability to sustain education through the future" , "correct": false },
-                { "choices" : "Excellence and effectiveness" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"What is the concern of Multicultural Education? ",
-            "MultipleChoice": [
-                { "choices" : "Anticipating the future and imagining possible and probable futures" , "correct": false },
-                { "choices" : "Gender equality and harnessing of the role of women in development" , "correct": false  },
-                { "choices" : ". Promoting care for the environment and building a global culture of ecological responsibility" , "correct": false },
-                { "choices" : "The exploration of concepts of cultural diversity, similarities and prejudices to promote cultural understanding." , "correct": true }
-            ] 
-        },
-        {
-            "Questions":"Teacher A, a Values Education teacher emphasizes ethics in almost all her lessons. Which of the following emphasizes the same?",
-            "MultipleChoice": [
-                { "choices" : "Liberal Education" , "correct": false },
-                { "choices" : ". Moral Education" , "correct": true  },
-                { "choices" : "Religious Training" , "correct": false },
-                { "choices" : "Social Education" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"Which reform in the Philippine Educational System advocates the use of English and Filipino as mediaof instruction in specific learning areas?",
-            "MultipleChoice": [
-                { "choices" : "Alternative Learning" , "correct": false },
-                { "choices" : ". Bilingual Education" , "correct": true  },
-                { "choices" : "K-12 Program" , "correct": false },
-                { "choices" : ". Multilingual Education" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"Activities planned by school clubs/ organizations show school-community connection geared towardssociety's needs. What philosophy is related to this?",
-            "MultipleChoice": [
-                { "choices" : "Existentialism" , "correct": false },
-                { "choices" : "Progressivism" , "correct": false  },
-                { "choices" : "Realism" , "correct": false },
-                { "choices" : "Social reconstructionism" , "correct": true }
-            ] 
-        },
-        {
-            "Questions":"What philosophy is related to the practice of schools acting as laboratory for teaching reforms and experimentation?",
-            "MultipleChoice": [
-                { "choices" : "Essentialism" , "correct": false },
-                { "choices" : "Existentialism" , "correct": false  },
-                { "choices" : "Progressivism" , "correct": true },
-                { "choices" : ". Social Reconstructionism" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"Which of the following situations presents a value conflict?",
-            "MultipleChoice": [
-                { "choices" : "The teacher and his students have class standing as their priorities" , "correct": false },
-                { "choices" : "The teacher and the administrator follow a set of criteria in giving grades" , "correct": false  },
-                { "choices" : "The teacher has students whose parents want their children to obtain higher grades than what they are capable of getting" , "correct": true },
-                { "choices" : "The teacher sets high expectations for intelligent students such as getting higher grades." , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"Which holds true to standardized tests?",
-            "MultipleChoice": [
-                { "choices" : "They are used for comparative purposes" , "correct": false },
-                { "choices" : "They are administered differently" , "correct": true  },
-                { "choices" : "They are scored according to different standards" , "correct": false },
-                { "choices" : "" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"A negative discrimination index of a test item tells that particular test item lacks _____.",
-            "MultipleChoice": [
-                { "choices" : "objectivity" , "correct": false },
-                { "choices" : "reliability" , "correct": true  },
-                { "choices" : "content validity" , "correct": false },
-                { "choices" : "construct validity" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"In his second item analysis, Teacher H found out that more from the lower group got the test item # 6correctly. This means that the test item __________.",
-            "MultipleChoice": [
-                { "choices" : "has a negative discriminating power" , "correct": false },
-                { "choices" : "has a lower validity" , "correct": true  },
-                { "choices" : "has a positive discriminating power" , "correct": false },
-                { "choices" : "has a high reliability" , "correct": false }
-            ] 
-        },
-        {
-            "Questions":"You want ti teach concepts, patterns, and abstractions. Which method is most appropriate",
-            "MultipleChoice": [
-                { "choices" : "deductive method" , "correct": false },
-                { "choices" : "problem solving" , "correct": false  },
-                { "choices" : "direct instruction" , "correct": false },
-                { "choices" : "indirect instruction" , "correct": true }
-            ] 
-        },
-        {
-            "Questions":" Which can enhance the development of spatial intelligence?",
-            "MultipleChoice": [
-                { "choices" : "hands-on demonstrations" , "correct": false },
-                { "choices" : "environmental study" , "correct": false  },
-                { "choices" : "concept miming" , "correct": false },
-                { "choices" : ". concept mapping" , "correct": true }
-            ] 
-        }
-    ],
+        ],
     "Mathematics":[
         {
             "Questions":"Which statement is true?",
             "MultipleChoice": [
                 { "choices" : "√5 is a rational number" , "correct": false },
-                { "choices" : ". 0 is a positive number" , "correct": false  },
+                { "choices" : "0 is a positive number" , "correct": false  },
                 { "choices" : "√3 is a real number" , "correct": true },
                 { "choices" : "√4 is an irrational number" , "correct": false }
             ] 
@@ -1882,7 +1879,7 @@
             "Questions":"Which is proportion?",
             "MultipleChoice": [
                 { "choices" : "5:4 = 15:12 " , "correct": true },
-                { "choices" : ". 8:3 = 16:9" , "correct": false  },
+                { "choices" : "8:3 = 16:9" , "correct": false  },
                 { "choices" : "4:5 = 12:10" , "correct": false },
                 { "choices" : "½:7 = 5:2" , "correct": false }
             ] 
@@ -1893,13 +1890,13 @@
                 { "choices" : "₱300 " , "correct": true },
                 { "choices" : "₱350" , "correct": false  },
                 { "choices" : "₱380" , "correct": false },
-                { "choices" : ". ₱400" , "correct": false }
+                { "choices" : "₱400" , "correct": false }
             ] 
         }, 
         {
             "Questions":" Peter borrowed 15,000 from the bank at the rate of 12% per year. How much will he owe the bank after 1.5 years?",
             "MultipleChoice": [
-                { "choices" : " ₱16,000" , "correct": false },
+                { "choices" : "₱16,000" , "correct": false },
                 { "choices" : "₱16,7" , "correct": true  },
                 { "choices" : "₱17,000" , "correct": false },
                 { "choices" : "₱17,700" , "correct": false }
@@ -1990,7 +1987,7 @@
             "Questions":"What is the exact interest of ₱15,000, invested at 5.5% simple interest rate for 108 days?",
             "MultipleChoice": [
                 { "choices" : "₱255.62" , "correct": false },
-                { "choices" : ". ₱260.62" , "correct": false  },
+                { "choices" : "₱260.62" , "correct": false  },
                 { "choices" : "₱265.62" , "correct": false },
                 { "choices" : "₱244.11" , "correct": true }
             ] 
@@ -2008,9 +2005,9 @@
             "Questions":"Which are the next three terms in the progression 1, 4, 16 . . . 8 terms?",
             "MultipleChoice": [
                 { "choices" : "64, 256, 1024" , "correct": true },
-                { "choices" : ". 67, 259, 1027" , "correct": false  },
+                { "choices" : "67, 259, 1027" , "correct": false  },
                 { "choices" : "66, 258, 1026" , "correct": false },
-                { "choices" : ". 65, 257, 1025" , "correct": false }
+                { "choices" : "65, 257, 1025" , "correct": false }
             ] 
         }, 
         {
@@ -2019,7 +2016,7 @@
                 { "choices" : "-2, 6, -26" , "correct": true },
                 { "choices" : "-3, 7, -27" , "correct": false  },
                 { "choices" : "-4, 8, -28" , "correct": false },
-                { "choices" : " -1, 5, -25" , "correct": false }
+                { "choices" : "-1, 5, -25" , "correct": false }
             ] 
         }, 
         {
@@ -2043,9 +2040,9 @@
         {
             "Questions":"The Miranda Family purchased a 250-pound side of beef and had itpackaged. They paid ₱365.00 for the side of beef. During the packaging, 75pounds of beef were discarded as waste. What was the cost per pound for the packaged beef?",
             "MultipleChoice": [
-                { "choices" : ". ₱2.08 per pound" , "correct": true },
+                { "choices" : "₱2.08 per pound" , "correct": true },
                 { "choices" : "₱2.50 per pound" , "correct": false  },
-                { "choices" : ". ₱2.06 per pound" , "correct": false },
+                { "choices" : "₱2.06 per pound" , "correct": false },
                 { "choices" : "₱2.30 per pound" , "correct": false }
             ] 
         }, 
@@ -2070,7 +2067,7 @@
         {
             "Questions":"You buy a new refrigerator for ₱12,800.00 and make a down payment of ₱2,500.00. If you finance the remainder at 8% annually for three years, how much will you actually pay for the refrigerator?",
             "MultipleChoice": [
-                { "choices" : ". ₱12,190.00 " , "correct": false },
+                { "choices" : "₱12,190.00 " , "correct": false },
                 { "choices" : "₱10,300.00" , "correct": false  },
                 { "choices" : "₱12,772.00" , "correct": false },
                 { "choices" : "₱15,272.00" , "correct": true }
@@ -2117,7 +2114,7 @@
             "MultipleChoice": [
                 { "choices" : "8 kg" , "correct": true },
                 { "choices" : "800 kg" , "correct": false  },
-                { "choices" : "800 kg" , "correct": false },
+                { "choices" : "85 kg" , "correct": false },
                 { "choices" : "80 kg" , "correct": false }
             ] 
         }, 
@@ -2179,9 +2176,9 @@
             "Questions":"Two buses leave the same station at 8:00 pm.One bus travels north at the rate of 30 kph and the other travels east at 40 kph. How many kilometers apart are the buses at 10 pm?",
             "MultipleChoice": [
                 { "choices" : "140 km" , "correct": false },
-                { "choices" : " 100 km" , "correct": true  },
-                { "choices" : " 100 km" , "correct": false },
-                { "choices" : " 50 km" , "correct": false }
+                { "choices" : "100 km" , "correct": true  },
+                { "choices" : "10 km" , "correct": false },
+                { "choices" : "50 km" , "correct": false }
             ] 
         }, 
         {
@@ -2214,7 +2211,7 @@
         {
             "Questions":"Which of the following has the greatest value",
             "MultipleChoice": [
-                { "choices" : ". 3 + 32 + (3 + 3) 2" , "correct": false },
+                { "choices" : "3 + 32 + (3 + 3) 2" , "correct": false },
                 { "choices" : "3 3" , "correct": false  },
                 { "choices" : "[(3 + 3) 2]2" , "correct": true },
                 { "choices" : "(3 + 3 + 3) 2" , "correct": false }
@@ -2306,7 +2303,7 @@
         {
             "Questions":"Who is an outstanding Filipino Sculptor workingwith an urban refuse and ecological materials are artistic media",
             "MultipleChoice": [
-                { "choices" : ". Anastacio Tanchangco Caedo" , "correct": false },
+                { "choices" : "Anastacio Tanchangco Caedo" , "correct": false },
                 { "choices" : "Guillermo Tolentino" , "correct": false  },
                 { "choices" : "Napoleon Abvuevas" , "correct": true },
                 { "choices" : "Rey Paz Contreras" , "correct": false }
@@ -2352,7 +2349,7 @@
             "Questions":"Which Buddha covered in gold is considered ingold is considered to be the oldest statue of Buddhain the world (338 years old) and as unique status among the Chinese?",
             "MultipleChoice": [
                 { "choices" : "The Seated Buddha" , "correct": true },
-                { "choices" : "The Lying Buddha" , "correct": false  },
+                { "choices" : "The Lying Buddhas" , "correct": false  },
                 { "choices" : "The Sleeping Buddha" , "correct": false },
                 { "choices" : "The Big Buddha" , "correct": false }
             ] 
@@ -2371,7 +2368,7 @@
             "MultipleChoice": [
                 { "choices" : "Kolb’s learning style" , "correct": false },
                 { "choices" : "Bandura’s social cognitive development ( selfefficacy )" , "correct": false  },
-                { "choices" : ". Piaget’s theory of cognitive development (preoperational stage of thinking )" , "correct": true },
+                { "choices" : "Piaget’s theory of cognitive development (preoperational stage of thinking )" , "correct": true },
                 { "choices" : "Gardener’s theory of multiple intelligences (bodily-kinesthetic intelligences )" , "correct": false }
             ] 
         }, 
@@ -2387,7 +2384,7 @@
         {
             "Questions":"4. Which of the following BEST describes the main goal of Physical Education?",
             "MultipleChoice": [
-                { "choices" : ". Improve the cognitive, affective ( socioemotional ) and psychomotor capacities of students through physical activities" , "correct": false },
+                { "choices" : "Improve the cognitive, affective ( socioemotional ) and psychomotor capacities of students through physical activities" , "correct": false },
                 { "choices" : "Teaching the knowledge, skills and values for students to live a healthy lifestyle now and in the future" , "correct": true  },
                 { "choices" : "Improve the physical fitness of all students, regardless of individual differences in abilities and backgrounds" , "correct": false },
                 { "choices" : "Promote physical fitness and health that complements the rest of the school curriculum" , "correct": false }
@@ -2396,9 +2393,9 @@
         {
             "Questions":"5. What is the most important factor that contributes to the decline of PE recently?",
             "MultipleChoice": [
-                { "choices" : ". More subjects in the school curriculum and focus on academics leading to reduce time allocation in PE" , "correct": true },
+                { "choices" : "More subjects in the school curriculum and focus on academics leading to reduce time allocation in PE" , "correct": true },
                 { "choices" : "Dominance of technology and prevalence of sedentariness ( inadequate physical activity ) leading to irrelevance of PE as a subject" , "correct": false  },
-                { "choices" : ". Lack of professionalization in PE ( PE teachers are not specialist; poor quality of degree programs in PE )" , "correct": false },
+                { "choices" : "Lack of professionalization in PE ( PE teachers are not specialist; poor quality of degree programs in PE )" , "correct": false },
                 { "choices" : "Focus on sports that cater t athletes’ needs instead of the majority of students’ need to achieve and maintain fitness and health through sporting activities" , "correct": false }
             ] 
         }, 
@@ -2416,16 +2413,16 @@
             "MultipleChoice": [
                 { "choices" : "be intrinsically motivated" , "correct": false },
                 { "choices" : "ascribed their performance to their environment such as God’s help, others’ support, their competitors, the game officials, playing facilities and equipment" , "correct": false  },
-                { "choices" : "C. ascribe their performance outcomes to their own ability and effort" , "correct": true },
+                { "choices" : "ascribe their performance outcomes to their own ability and effort" , "correct": true },
                 { "choices" : "be extrinsically motivated" , "correct": false }
             ] 
         }, 
         {
             "Questions":"Physical literacy is the best described as a composite of ______ .",
             "MultipleChoice": [
-                { "choices" : ". health-related, skill-related and physiological fitness that enables students to perform a variety of physical activities" , "correct": false },
+                { "choices" : "health-related, skill-related and physiological fitness that enables students to perform a variety of physical activities" , "correct": false },
                 { "choices" : "body management, locomotor and nonlocomotor and object control or maintenance of good health" , "correct": false  },
-                { "choices" : " games, sports, rhythms and dance that leads to improved fitness and maintenance of good health" , "correct": false },
+                { "choices" : "games, sports, rhythms and dance that leads to improved fitness and maintenance of good health" , "correct": false },
                 { "choices" : "fundamental movement, motor- and activityspecific skills that equip students for an active lifestyle" , "correct": true }
             ] 
         }, 
@@ -2441,17 +2438,17 @@
         {
             "Questions":"After completing their personal fitness assessments, the teacher ask each students to write down an individual fitness goal and three possible ways achieves this. Which is the primary benefit of this activity?",
             "MultipleChoice": [
-                { "choices" : ". It allows the student the opportunity to focus either on area of strength or weakness" , "correct": false },
-                { "choices" : ". It minimize student resistance to participate in efforts to improve fitness." , "correct": false  },
+                { "choices" : "It allows the student the opportunity to focus either on area of strength or weakness" , "correct": false },
+                { "choices" : "It minimize student resistance to participate in efforts to improve fitness." , "correct": false  },
                 { "choices" : "It gives the students student greater individual responsibility for his/her own learning and fitness." , "correct": true },
-                { "choices" : ". It maintain the the privacy of each student in developing and pursuing fitness goals" , "correct": false }
+                { "choices" : "It maintain the the privacy of each student in developing and pursuing fitness goals" , "correct": false }
             ] 
         }, 
         {
             "Questions":"Which is NOT true of chicken pox?",
             "MultipleChoice": [
-                { "choices" : "Touching the fluids of chicken pox blisters can get you the disease" , "correct": false },
-                { "choices" : "Touching the fluids of chicken pox blisters can get you the disease" , "correct": false  },
+                { "choices" : "Touching the fluids of blisters can get you the disease" , "correct": false },
+                { "choices" : "Touching the fluids of chicken pox blisters " , "correct": false  },
                 { "choices" : "Touching the fluids of chicken pox blisters can get you the disease" , "correct": true },
                 { "choices" : "Even after the resolution of the disease the virus remains inactive in certain nerves of our body" , "correct": false }
             ] 
@@ -2505,8 +2502,8 @@
             "Questions":"TRUE regarding rabies post-exposure prophylaxis?",
             "MultipleChoice": [
                 { "choices" : "Infants and pregnancy women should never be given rabies vaccine" , "correct": false },
-                { "choices" : ". Babies born to rabid mothers become naturally immune to rabies." , "correct": false  },
-                { "choices" : ". If you get bitten by a pig you need anti-rabies vaccine." , "correct": true },
+                { "choices" : "Babies born to rabid mothers become naturally immune to rabies." , "correct": false  },
+                { "choices" : "If you get bitten by a pig you need anti-rabies vaccine." , "correct": true },
                 { "choices" : "No vaccine is needed if your neighbor’s dog caused a minor scratch in your leg." , "correct": false }
             ] 
         }, 
@@ -2524,7 +2521,7 @@
             "MultipleChoice": [
                 { "choices" : "Proper location of dump sites." , "correct": false },
                 { "choices" : "Don’t cook on a charcoal barbecue in an enclosed space." , "correct": true  },
-                { "choices" : ". Protect yourself from medical radiation" , "correct": false },
+                { "choices" : "Protect yourself from medical radiation" , "correct": false },
                 { "choices" : "Do not use a microwave over if the door does not close properly." , "correct": false }
             ] 
         }, 
@@ -2586,7 +2583,7 @@
             "Questions":"Which is executed by moving the hand from the wrist either clockwise or counter clockwise?",
             "MultipleChoice": [
                 { "choices" : "Kulintang" , "correct": false },
-                { "choices" : " Kumintang" , "correct": true  },
+                { "choices" : "Kumintangs" , "correct": true  },
                 { "choices" : "Cross arm" , "correct": false },
                 { "choices" : "Outside Hand" , "correct": false }
             ] 
@@ -2667,7 +2664,7 @@
             "Questions":"Which foul is committed by a player which involves contact with an opponents?",
             "MultipleChoice": [
                 { "choices" : "Personal Foul" , "correct": true },
-                { "choices" : ". International Foul" , "correct": false  },
+                { "choices" : "International Foul" , "correct": false  },
                 { "choices" : "Double Foul" , "correct": false },
                 { "choices" : "Technical foul" , "correct": false }
             ] 
@@ -2676,15 +2673,15 @@
             "Questions":"In basketball game, how long can a player be on his opponent’s restricted area when his team has a possession of ball without being penalized?",
             "MultipleChoice": [
                 { "choices" : "Three Seconds" , "correct": true },
-                { "choices" : ". Five Seconds" , "correct": false  },
+                { "choices" : "Five Seconds" , "correct": false  },
                 { "choices" : "Thirty Seconds" , "correct": false },
-                { "choices" : ". Ten Seconds" , "correct": false }
+                { "choices" : "Ten Seconds" , "correct": false }
             ] 
         }, 
         {
             "Questions":"Which of the following is against the rules?",
             "MultipleChoice": [
-                { "choices" : ". A player bounces ball to another player." , "correct": false },
+                { "choices" : "A player bounces ball to another player." , "correct": false },
                 { "choices" : "A player takes the ball from the hands of an opposing player" , "correct": false  },
                 { "choices" : "A player dribbling towards goal knocks over an opponents who has is in path." , "correct": true },
                 { "choices" : "A player rolls the ball along the ground." , "correct": false }
@@ -2718,7 +2715,7 @@
             ] 
         }
     ],
-    "Values Education":[
+    "Values_Education":[
         {
             "Questions":"The Filipinos have constituted themselves into a nation – state to pursue the goal of social progress and total human liberation and development of their:",
             "MultipleChoice": [
@@ -3073,7 +3070,7 @@
         {
             "Questions":"Which technique/method in values education is most appropriate when you want your student to take a stand and justify that on a moral issue?",
             "MultipleChoice": [
-                { "choices" : " Values clarification" , "correct": false },
+                { "choices" : "Values clarification" , "correct": false },
                 { "choices" : "Inculcation" , "correct": false  },
                 { "choices" : "Moral dilemma" , "correct": true },
                 { "choices" : "Role playing" , "correct": false }
@@ -3085,7 +3082,7 @@
                 { "choices" : "Strengthen faithfulness of husband to their wives" , "correct": false },
                 { "choices" : "Seek help from all sectors of the community" , "correct": true  },
                 { "choices" : "Be responsible member of their families" , "correct": false },
-                { "choices" : "" , "correct": false }
+                { "choices" : "non deabove" , "correct": false }
             ] 
         }, 
         {
@@ -3094,14 +3091,14 @@
                 { "choices" : "Patronize indigenous culture" , "correct": false },
                 { "choices" : "Maintain global awareness on various issues" , "correct": false  },
                 { "choices" : "Travel to many attractive places around the world" , "correct":false },
-                { "choices" : "" , "correct": true }
+                { "choices" : "non deabove" , "correct": true }
             ] 
         }, 
         {
             "Questions":"What are the factors that contribute to the family’s success in values formation for their children? I. Effective child rearing methods I. Empathy and well directed love foe the children III. Schooling experiences and religious instruction IV. Permissive and modern ways of bringing up children",
             "MultipleChoice": [
                 { "choices" : "I, II and IV" , "correct": false },
-                { "choices" : ". I, III and IV" , "correct": true  },
+                { "choices" : "I, III and IV" , "correct": true  },
                 { "choices" : "II, III and IV" , "correct": false },
                 { "choices" : "IV d. I" , "correct": false }
             ] 
@@ -3171,7 +3168,7 @@
             ] 
         }
     ],
-    "Tecnology and LIvelihood Education":[
+    "Tecnology_and_LIvelihood_Education":[
         {
             "Questions":"Which of the following should be taken into account before preparing the farm lots?",
             "MultipleChoice": [
@@ -3221,7 +3218,7 @@
             "Questions":"The objective of applying fertilizers to fish ponds",
             "MultipleChoice": [
                 { "choices" : "Promote fish growth" , "correct": false },
-                { "choices" : " Enhance production", "correct": true  },
+                { "choices" : "Enhance production", "correct": true  },
                 { "choices" : "Neutralize acidity" , "correct": false },
                 { "choices" : "Enhance the color of the water" , "correct": false }
             ] 
@@ -3230,7 +3227,7 @@
             "Questions":"This type of plants contains nitrogen in its roots which is converted to nitrates by rhizolia, thus, contributing to soil fertility",
             "MultipleChoice": [
                 { "choices" : "Vine crops" , "correct": false },
-                { "choices" : ". Root crops", "correct": false  },
+                { "choices" : "Root crops", "correct": false  },
                 { "choices" : "Legumes" , "correct": true },
                 { "choices" : "Tubers" , "correct": false }
             ] 
@@ -3241,7 +3238,7 @@
                 { "choices" : "Fish cultivation" , "correct": false },
                 { "choices" : "Fish propagation", "correct": false  },
                 { "choices" : "Fish conservation" , "correct": false },
-                { "choices" : " Fish marketing" , "correct": true }
+                { "choices" : "Fish marketing" , "correct": true }
             ] 
         },
         {
@@ -3319,7 +3316,7 @@
         {
             "Questions":"The tools used to tighten or loosen hexagonal fittings like unions and other metal fittings.",
             "MultipleChoice": [
-                { "choices" : " Pipe vise" , "correct": false },
+                { "choices" : "Pipe vise" , "correct": false },
                 { "choices" : "Pliers", "correct": false  },
                 { "choices" : "Wrenches" , "correct": true },
                 { "choices" : "Threader" , "correct": false }
@@ -3347,7 +3344,7 @@
             "Questions":"It is a device installed in water lines that can be closed or opened to allow installation or troubleshooting of fixtures.",
             "MultipleChoice": [
                 { "choices" : "Check valve" , "correct": true },
-                { "choices" : ". Gate valve", "correct": false  },
+                { "choices" : "Gate valve", "correct": false  },
                 { "choices" : "Ball valve*" , "correct": true },
                 { "choices" : "Float valve" , "correct": false }
             ] 
@@ -3367,7 +3364,7 @@
                 { "choices" : "photoelectric" , "correct": false },
                 { "choices" : "Photovoltaic system", "correct": true  },
                 { "choices" : "Photoemission system" , "correct": false },
-                { "choices" : " Solar light" , "correct": false }
+                { "choices" : "Solar light" , "correct": false }
             ] 
         },
         {
@@ -3481,7 +3478,7 @@
         {
             "Questions":"Which instrument serves as 3 measuring instruments in one?",
             "MultipleChoice": [
-                { "choices" : ". Audio generator" , "correct": false },
+                { "choices" : "Audio generator" , "correct": false },
                 { "choices" : "Oscilloscope", "correct": false  },
                 { "choices" : "Signal generator" , "correct": false },
                 { "choices" : "VOM" , "correct": true }
@@ -3490,7 +3487,7 @@
         {
             "Questions":"Which device produces simple waveforms?",
             "MultipleChoice": [
-                { "choices" : ". audio amplifier" , "correct": false },
+                { "choices" : "audio amplifier" , "correct": false },
                 { "choices" : "VOM", "correct": false  },
                 { "choices" : "Signal tracer" , "correct": false },
                 { "choices" : "Signal generator" , "correct": true }
@@ -3501,7 +3498,7 @@
             "MultipleChoice": [
                 { "choices" : "Wiring diagram" , "correct": false },
                 { "choices" : "Block diagram", "correct": false  },
-                { "choices" : ". Pictorial diagram" , "correct": false },
+                { "choices" : "Pictorial diagram" , "correct": false },
                 { "choices" : "Schematic diagram" , "correct": true }
             ] 
         },
@@ -3544,7 +3541,7 @@
         {
             "Questions":"How tall is a ten – meter building in inches?",
             "MultipleChoice": [
-                { "choices" : " 3.937" , "correct": false },
+                { "choices" : "3.937" , "correct": false },
                 { "choices" : "39.37", "correct": false  },
                 { "choices" : "393.7" , "correct": true },
                 { "choices" : "3,937" , "correct": false }
@@ -3562,7 +3559,7 @@
         {
             "Questions":"A carpenter wants to mark very rough objects. Which tool is appropriate?",
             "MultipleChoice": [
-                { "choices" : " Chalk line" , "correct": true },
+                { "choices" : "Chalk line" , "correct": true },
                 { "choices" : "extension rule", "correct": false  },
                 { "choices" : "level" , "correct": false },
                 { "choices" : "border line" , "correct": false }
@@ -3574,7 +3571,7 @@
                 { "choices" : "Ruler" , "correct": false },
                 { "choices" : "level", "correct": false  },
                 { "choices" : "Plum bob" , "correct": true },
-                { "choices" : ". pull push rule" , "correct": false }
+                { "choices" : "pull push rule" , "correct": false }
             ] 
         },
         {
@@ -3599,7 +3596,7 @@
             "Questions":"With the help of drawing instruments such as T-square and triangles one produces quick and accurate delineations for an intended project. The process is considered as ________",
             "MultipleChoice": [
                 { "choices" : "drafting" , "correct": true },
-                { "choices" : ". pictorial drawing", "correct": false  },
+                { "choices" : "pictorial drawing", "correct": false  },
                 { "choices" : "graphics" , "correct": false },
                 { "choices" : "shape and size descriptions" , "correct": false }
             ] 
@@ -3609,7 +3606,7 @@
             "MultipleChoice": [
                 { "choices" : "blueprint reading" , "correct": false },
                 { "choices" : "Geometric construction", "correct": true  },
-                { "choices" : ". line weights" , "correct": false },
+                { "choices" : "line weights" , "correct": false },
                 { "choices" : "measurements" , "correct": false }
             ] 
         },
@@ -3617,13 +3614,13 @@
             "Questions":"Objects to be drawn are not always solid in nature and if we want to explain complex objects to the reader of our blueprints, we need an imaginary cut through a component (part) or an assembly drawing to portray exactly what is inside. This element is called _______ . ",
             "MultipleChoice": [
                 { "choices" : "sectionin" , "correct": true },
-                { "choices" : ". parallel perspective", "correct": false  },
+                { "choices" : "parallel perspective", "correct": false  },
                 { "choices" : "etching" , "correct": false },
                 { "choices" : "dimensioning" , "correct": false }
             ] 
         }
     ],
-    "Social Science":[
+    "Social_Science":[
         {
             "Questions":"The Philippines ten-year transaction period before the granting of complete independence from the Americans.",
             "MultipleChoice": [
@@ -3654,7 +3651,7 @@
         {
             "Questions":"The first appointed head of the Department of Education during",
             "MultipleChoice": [
-                { "choices" : ". Claro M. Recto" , "correct": false },
+                { "choices" : "Claro M. Recto" , "correct": false },
                 { "choices" : "Sergio Osmena", "correct": true  },
                 { "choices" : "Rafael Palma" , "correct": false },
                 { "choices" : "Jose P. Laurel" , "correct": false }
@@ -3674,7 +3671,7 @@
             "MultipleChoice": [
                 { "choices" : "Benigno Aquino" , "correct": false },
                 { "choices" : "Benigno Ramos", "correct": true  },
-                { "choices" : ". Isabelo delos Reyes" , "correct": false },
+                { "choices" : "Isabelo delos Reyes" , "correct": false },
                 { "choices" : "Isabelle Espiritu" , "correct": false }
             ] 
         },
@@ -3682,7 +3679,7 @@
             "Questions":"The last department turned over by the Americans to be government by a Filipino",
             "MultipleChoice": [
                 { "choices" : "Department of Public Health and Welfare" , "correct": false },
-                { "choices" : ". Department of Trade", "correct": false  },
+                { "choices" : "Department of Trade", "correct": false  },
                 { "choices" : "Department of Education" , "correct": true },
                 { "choices" : "Department of Defense" , "correct": false }
             ] 
@@ -3782,8 +3779,8 @@
             "MultipleChoice": [
                 { "choices" : "I and II" , "correct": false },
                 { "choices" : "I and III", "correct": false  },
-                { "choices" : " II and III" , "correct": true },
-                { "choices" : " I and III" , "correct": false }
+                { "choices" : "II and III" , "correct": true },
+                { "choices" : "I and III" , "correct": false }
             ] 
         },
         {
@@ -3807,7 +3804,7 @@
         {
             "Questions":"What factor was a major cause of both World War I and World War II?",
             "MultipleChoice": [
-                { "choices" : ". The spread of Marxian ideas into Europe" , "correct": false },
+                { "choices" : "The spread of Marxian ideas into Europe" , "correct": false },
                 { "choices" : "The dropping of atomic bombs", "correct": false  },
                 { "choices" : "Nationalism and national borders" , "correct": false },
                 { "choices" : "The rise of totalitarian fascist states" , "correct": true }
@@ -3852,7 +3849,7 @@
         {
             "Questions":"ESD involves topics on peace education, global citizenship and human rights in addition to environmental education. What teaching-learning approach is recommended for ESD?",
             "MultipleChoice": [
-                { "choices" : " Project-based" , "correct": false },
+                { "choices" : "Project-based" , "correct": false },
                 { "choices" : "Outcome-based", "correct": false  },
                 { "choices" : "Problem-based" , "correct": true },
                 { "choices" : "Concept-based" , "correct": false }
@@ -3861,8 +3858,8 @@
         {
             "Questions":"In teaching ESD what kills are considered essential for integrating effective participation in both work and society?",
             "MultipleChoice": [
-                { "choices" : ". Assertiveness and mediation" , "correct": false },
-                { "choices" : ". Social and emotional skills", "correct": true  },
+                { "choices" : "Assertiveness and mediation" , "correct": false },
+                { "choices" : "Social and emotional skills", "correct": true  },
                 { "choices" : "Negotiation and conflict management" , "correct": false },
                 { "choices" : " Stress and time management" , "correct": false }
             ] 
@@ -3870,9 +3867,9 @@
         {
             "Questions":"Which BEST describes the wholeschool approach in teaching-learning social studies?",
             "MultipleChoice": [
-                { "choices" : " It transforms the teaching and learning towards holistic life skills and values" , "correct": true },
+                { "choices" : "It transforms the teaching and learning towards holistic life skills and values" , "correct": true },
                 { "choices" : "It transmits changes in social institutions.", "correct": false  },
-                { "choices" : ". It integrates goals and targets in the curriculum through projects" , "correct": false },
+                { "choices" : "It integrates goals and targets in the curriculum through projects" , "correct": false },
                 { "choices" : "It demonstrates problem-based and project-based practices." , "correct": false }
             ] 
         },
@@ -3970,9 +3967,9 @@
             "Questions":"An anthropologist understands other cultures from the perspective of an insider?",
             "MultipleChoice": [
                 { "choices" : "Yes" , "correct": true },
-                { "choices" : ". No, should be from the point of view of an outsider", "correct": false  },
+                { "choices" : "No, should be from the point of view of an outsider", "correct": false  },
                 { "choices" : "No, should be from the point of view of an anthropologist" , "correct": false },
-                { "choices" : ". Yes, if the insiders are literate." , "correct": false }
+                { "choices" : "Yes, if the insiders are literate." , "correct": false }
             ] 
         },
         {
@@ -4084,7 +4081,7 @@
             ] 
         }
     ],
-    "Physical Science":[
+    "Physical_Science":[
         {
             "Questions":"Which refers to the recorded observations and measurements in an explanation?",
             "MultipleChoice": [
@@ -4100,7 +4097,7 @@
                 { "choices" : "By gathering enough information about the problem" , "correct": false },
                 { "choices" : "By making inferences", "correct": false  },
                 { "choices" : "By conducting experiment" , "correct": true },
-                { "choices" : ". By formulating conclusion" , "correct": false }
+                { "choices" : "By formulating conclusion" , "correct": false }
             ] 
         },
         {
@@ -4127,7 +4124,7 @@
                 { "choices" : "Conclusion is the last step" , "correct": false },
                 { "choices" : "Scientific method may be applied in every life.", "correct": false  },
                 { "choices" : "Scientific method is a systematic way of solving problem" , "correct": false },
-                { "choices" : ". Scientific method is done by following a step-by-step procedure in an exact sequence." , "correct": true }
+                { "choices" : "Scientific method is done by following a step-by-step procedure in an exact sequence." , "correct": true }
             ] 
         },
         {
@@ -4170,7 +4167,7 @@
             "Questions":"What human activity has added the most carbon in the atmosphere?",
             "MultipleChoice": [
                 { "choices" : "Burning fossils fuels" , "correct": true },
-                { "choices" : ". Mining fossil fuel", "correct": false  },
+                { "choices" : "Mining fossil fuel", "correct": false  },
                 { "choices" : "ncreasing soil erosion" , "correct": false },
                 { "choices" : "Cutting down the rain forests" , "correct": false }
             ] 
@@ -4179,8 +4176,8 @@
             "Questions":"A week attraction between hydrogen atom in one molecule and an oxygen in other called_______.",
             "MultipleChoice": [
                 { "choices" : "covalent bond" , "correct": false },
-                { "choices" : " Hydrogen bond", "correct": true  },
-                { "choices" : " Ionic bond" , "correct": false },
+                { "choices" : "Hydrogen bond", "correct": true  },
+                { "choices" : "Ionic bond" , "correct": false },
                 { "choices" : "Metallic bond" , "correct": false }
             ] 
         },
@@ -4215,7 +4212,7 @@
             "Questions":"What is the intermolecular force of attraction between the nucleus of one atom and the electrons of a nearby atom?",
             "MultipleChoice": [
                 { "choices" : "Dipole-dipole force" , "correct": false },
-                { "choices" : ". Ion-dipole force", "correct": false  },
+                { "choices" : "Ion-dipole force", "correct": false  },
                 { "choices" : "London dispersion force" , "correct": true },
                 { "choices" : "Van der Waals force" , "correct": false }
             ] 
@@ -4233,7 +4230,7 @@
             "Questions":"What does a triangle , which is placed in a chemical equation indicate?",
             "MultipleChoice": [
                 { "choices" : "Changes happened" , "correct": false },
-                { "choices" : ". Heat is applied", "correct": true  },
+                { "choices" : "Heat is applied", "correct": true  },
                 { "choices" : "Gas is evolved" , "correct": false },
                 { "choices" : "Precipitate" , "correct": false }
             ] 
@@ -4250,10 +4247,10 @@
         {
             "Questions":"Which of the following is an example of combustion reaction?",
             "MultipleChoice": [
-                { "choices" : ". Mg+C12 -------------------------------------> MgC12" , "correct": true },
+                { "choices" : "Mg+C12 -------------------------------------> MgC12" , "correct": true },
                 { "choices" : "CaCO3 -------------------------------------> CaO + CO2", "correct": false  },
                 { "choices" : "2 C4H10 + 13 O2 ----------------------------------> 8 CO2 + 10 H2O" , "correct": true },
-                { "choices" : " AgNO3 + NaC1 --------------------------------> AgC1 + NaNO3" , "correct": false }
+                { "choices" : "AgNO3 + NaC1 --------------------------------> AgC1 + NaNO3" , "correct": false }
             ] 
         },
         {
@@ -4295,8 +4292,8 @@
         {
             "Questions":"Which of the following statements on specific heat is TRUE?",
             "MultipleChoice": [
-                { "choices" : ". It is an extrinsic property." , "correct": false },
-                { "choices" : ". It is always equal to the heat capacity.", "correct": false  },
+                { "choices" : "It is an extrinsic property." , "correct": false },
+                { "choices" : "It is always equal to the heat capacity.", "correct": false  },
                 { "choices" : "It is the heat capacity per mole of a substance." , "correct": false },
                 { "choices" : "It is equal to zero when the heat capacity is zero." , "correct": true }
             ] 
@@ -4305,7 +4302,7 @@
             "Questions":"The entropy usually increase when ________________. I. A molecule is broken into two or more smaller molecules II. A reaction occurs that results in an increase in the number of moles of gas III.A solid changes to a liquid IV. A liquid changes to a gas",
             "MultipleChoice": [
                 { "choices" : "I and II only" , "correct": false },
-                { "choices" : ". I and II only", "correct": false  },
+                { "choices" : "I and II onlys", "correct": false  },
                 { "choices" : "I, II and III only" , "correct": false },
                 { "choices" : "I, II, III, and IV" , "correct": true }
             ] 
@@ -4313,19 +4310,19 @@
         {
             "Questions":"The potential energy of a body at a certain height is 100 J. The kinetic energy possessed by it when it just touches the surface of the earth is________________.",
             "MultipleChoice": [
-                { "choices" : ". greater than the potential energy" , "correct": false },
+                { "choices" : "greater than the potential energy" , "correct": false },
                 { "choices" : " less than the potential energy", "correct": true  },
                 { "choices" : "equal to the potential energy" , "correct": false },
-                { "choices" : ". cannot be known" , "correct": false }
+                { "choices" : "cannot be known" , "correct": false }
             ] 
         },
         {
             "Questions":"What happens to the kinetic energy of an object if tit’s speed is doubled?",
             "MultipleChoice": [
-                { "choices" : ". It will be halved." , "correct": false },
+                { "choices" : "It will be halved." , "correct": false },
                 { "choices" : "It will be doubled.", "correct": false  },
                 { "choices" : "It will be tripled." , "correct": false },
-                { "choices" : " It will be quadrupled." , "correct": true }
+                { "choices" : "It will be quadrupled." , "correct": true }
             ] 
         },
         {
@@ -4359,9 +4356,9 @@
             "Questions":"Which statement about the North-magnetic pole of the Earth is TRUE?",
             "MultipleChoice": [
                 { "choices" : "Its location never changes" , "correct": false },
-                { "choices" : ". It corresponds to the N-pole of a bar magnet", "correct": false  },
+                { "choices" : "It corresponds to the N-pole of a bar magnet", "correct": false  },
                 { "choices" : "It corresponds to the S-pole of a bar magnet." , "correct": true },
-                { "choices" : ". It is at the same location as the geographic north pole of the Earth" , "correct": false }
+                { "choices" : "It is at the same location as the geographic north pole of the Earth" , "correct": false }
             ] 
         },
         {
@@ -4385,10 +4382,10 @@
         {
             "Questions":"To use the right hand rule to predict the direction of n induced current in a coil, your thumb must point__________________.",
             "MultipleChoice": [
-                { "choices" : ". to the direction of the motion of the wire" , "correct": true },
+                { "choices" : "to the direction of the motion of the wire" , "correct": true },
                 { "choices" : "to the S-pole of the induced magnetic field", "correct": false  },
                 { "choices" : "in the direction of the induced current" , "correct": false },
-                { "choices" : ". in the direction of the inducing field" , "correct": false }
+                { "choices" : "in the direction of the inducing field" , "correct": false }
             ] 
         },
         {
@@ -4403,7 +4400,7 @@
         {
             "Questions":"According to the effects of length contraction, from the viewpoint of an observer stationary with respect to a body moving at a uniform speed relative to the observer, which one is CORRECT",
             "MultipleChoice": [
-                { "choices" : ". The body contracts along the direction of the motion." , "correct": true },
+                { "choices" : "The body contracts along the direction of the motion." , "correct": true },
                 { "choices" : "The time it takes for a clock incorporated in the body to tick contracts", "correct": false  },
                 { "choices" : "The body is not now contracted but would contract if it were accelerate." , "correct": false },
                 { "choices" : "The body contracts in some direction traverse to the direction of motion" , "correct": false }
@@ -4430,10 +4427,10 @@
         {
             "Questions":"What is the rest energy of a single proton which has a rest mass of 1.67 x 10 -27kg?",
             "MultipleChoice": [
-                { "choices" : ". 1.50 x 10 J" , "correct": false },
+                { "choices" : "1.50 x 10 J" , "correct": false },
                 { "choices" : "1.50 x 101J", "correct": false  },
-                { "choices" : ". 1.50 x 10-10J" , "correct": false },
-                { "choices" : ". 1.50 x 10-10J" , "correct": true }
+                { "choices" : "1.50 x 10-10J" , "correct": false },
+                { "choices" : "1.50 x 10-10J" , "correct": true }
             ] 
         },
         {
@@ -4514,7 +4511,7 @@
                 { "choices" : "Investigating the use of the biological controls for the pests" , "correct": false },
                 { "choices" : "Using reforestation and cover cropping to control soil erosion", "correct": false  },
                 { "choices" : "Using insecticides to kill insects that compete with human for food" , "correct": true },
-                { "choices" : ". Developing a research aimed toward the preservation of endangered species" , "correct": false }
+                { "choices" : "Developing a research aimed toward the preservation of endangered species" , "correct": false }
             ] 
         },
         {
@@ -4536,7 +4533,7 @@
             ] 
         }
     ],
-    "Biological Science":[
+    "Biological_Science":[
         {
             "Questions":"Where do producers obtain their energy?",
             "MultipleChoice": [
@@ -4561,7 +4558,7 @@
                 { "choices" : "Metabolism" , "correct": false },
                 { "choices" : "Growth and development", "correct": false  },
                 { "choices" : "Homeostasis" , "correct": true },
-                { "choices" : "Homeostasis" , "correct": false }
+                { "choices" : "Homeostasiss" , "correct": false }
             ] 
         },
         {
@@ -4711,7 +4708,7 @@
         {
             "Questions":"Which property of water is probably MOST important for the functioning of organisms at the molecular level?",
             "MultipleChoice": [
-                { "choices" : ". Cohesion and high surface tension" , "correct": false },
+                { "choices" : "Cohesion and high surface tension" , "correct": false },
                 { "choices" : "High specific heat", "correct": false  },
                 { "choices" : "High heat of vaporization" , "correct": false },
                 { "choices" : "Versatility as a solvent" , "correct": true }
@@ -4988,7 +4985,7 @@
             ] 
         }
     ],
-    "Agriculture and Fishery Art":[
+    "Agriculture_and_Fishery_Art":[
         {
             "Questions":"Which type of plant propagation is reflected in the paragraph above?",
             "MultipleChoice": [
@@ -5019,7 +5016,7 @@
         {
             "Questions":"The following method of propagation can be used to achieve what is needed in the third sentence, EXCEPT?",
             "MultipleChoice": [
-                { "choices" : " approach grafting" , "correct": false },
+                { "choices" : "approach grafting" , "correct": false },
                 { "choices" : "tongue grafting", "correct": false  },
                 { "choices" : "root grafting" , "correct": true },
                 { "choices" : "saddle grafting" , "correct": false }
@@ -5092,7 +5089,7 @@
             "Questions":"Which of the following is NOT one of the importance of plant classification?",
             "MultipleChoice": [
                 { "choices" : "Complicates plants collection initiatives, research, breeding and specialized development efforts" , "correct": true },
-                { "choices" : ". Facilitates efficient communication, dissemination and retrieval of scientific information", "correct": false  },
+                { "choices" : "Facilitates efficient communication, dissemination and retrieval of scientific information", "correct": false  },
                 { "choices" : "Helps in intergeneric grafting of Solanaceae" , "correct": false },
                 { "choices" : "Indicates the similarities of crops in their uses, adaptation growth habits and method of culture" , "correct": false }
             ] 
@@ -5100,8 +5097,8 @@
         {
             "Questions":"Which is the transfer of pollen from the anther of one flower to the stiga of another flower in separate plants?",
             "MultipleChoice": [
-                { "choices" : ". Self-polliation" , "correct": false },
-                { "choices" : ". Cross-pollination", "correct": true  },
+                { "choices" : "Self-polliation" , "correct": false },
+                { "choices" : "Cross-pollination", "correct": true  },
                 { "choices" : "Mono-pollination" , "correct": false },
                 { "choices" : "Dual-pollination" , "correct": false }
             ] 
@@ -5121,7 +5118,7 @@
                 { "choices" : "Ager cultura" , "correct": true },
                 { "choices" : "Flos cultura", "correct": false  },
                 { "choices" : "Proventus cultura" , "correct": false },
-                { "choices" : "Ager cultura" , "correct": false }
+                { "choices" : "Ager cultural" , "correct": false }
             ] 
         },
         {
@@ -5154,7 +5151,7 @@
         {
             "Questions":"Which pasture and forage are grown, cut, fermented and preserved before being fed to animals?",
             "MultipleChoice": [
-                { "choices" : ". Spoilage crops" , "correct": false },
+                { "choices" : "Spoilage crops" , "correct": false },
                 { "choices" : "Beverage crops", "correct": false  },
                 { "choices" : "Silage crops" , "correct": true },
                 { "choices" : "Cereal or Grain crops" , "correct": false }
@@ -5245,8 +5242,8 @@
             "Questions":"Which described a snood correctly?",
             "MultipleChoice": [
                 { "choices" : "Fleshy appendage hanging down the skin to the throat or chin of goats" , "correct": false },
-                { "choices" : ". Fleshy flap of skin that hangs over the turkey’s beak, and similar to the caruncle, turns bright red when angered or during courtdship", "correct": true  },
-                { "choices" : ". Fleshy protuberance on the back of a cattle" , "correct": false },
+                { "choices" : "Fleshy flap of skin that hangs over the turkey’s beak, and similar to the caruncle, turns bright red when angered or during courtdship", "correct": true  },
+                { "choices" : "Fleshy protuberance on the back of a cattle" , "correct": false },
                 { "choices" : "Fleshy and usually red outcrop of skin atop the chicken head" , "correct": false }
             ] 
         },
@@ -5256,7 +5253,7 @@
                 { "choices" : "5 to 7 months" , "correct": false },
                 { "choices" : "6 to 8 months", "correct": true  },
                 { "choices" : "4 to 6 months" , "correct": false },
-                { "choices" : ". 8 to 10 months" , "correct": false }
+                { "choices" : "8 to 10 months" , "correct": false }
             ] 
         },
         {
@@ -5291,14 +5288,14 @@
             "MultipleChoice": [
                 { "choices" : "Coccidiosis" , "correct": false },
                 { "choices" : "Marek’s Disease", "correct": false  },
-                { "choices" : ". Avain Malaria" , "correct": false },
-                { "choices" : ". Chronic Respiratory" , "correct": true }
+                { "choices" : "Avain Malaria" , "correct": false },
+                { "choices" : "Chronic Respiratory" , "correct": true }
             ] 
         },
         {
             "Questions":"Which insect pest tear, grind or chew their food?",
             "MultipleChoice": [
-                { "choices" : ". Chewing Insects" , "correct": true },
+                { "choices" : "Chewing Insects" , "correct": true },
                 { "choices" : "Piercing-Sucking Insects", "correct": false  },
                 { "choices" : "Rasping-sucking insects" , "correct": false },
                 { "choices" : "Sponging Insects" , "correct": false }
@@ -5407,7 +5404,7 @@
             "Questions":"Which is a written statement or collection of facts and figures on a subject for a definite purpose?",
             "MultipleChoice": [
                 { "choices" : "Farm Inventory" , "correct": false },
-                { "choices" : " Farm Manual", "correct": false  },
+                { "choices" : "Farm Manual", "correct": false  },
                 { "choices" : "Farm Records" , "correct": true },
                 { "choices" : "Farm Accounts" , "correct": false }
             ] 
@@ -5416,7 +5413,7 @@
             "Questions":"The following are factors that determines the best time in talking a farm inventory EXCEPT ________ .",
             "MultipleChoice": [
                 { "choices" : "the time when the amount of factors and supplies on hand is at the lowest point" , "correct": false },
-                { "choices" : ". the time when income tax returns are due", "correct": false  },
+                { "choices" : "the time when income tax returns are due", "correct": false  },
                 { "choices" : "when there is little essential work to be done on the farm" , "correct": false },
                 { "choices" : "the time when the amount of growing crops is at the highest" , "correct": true }
             ] 
@@ -5426,7 +5423,7 @@
             "MultipleChoice": [
                 { "choices" : "Directing" , "correct": false },
                 { "choices" : "Organizing", "correct": false  },
-                { "choices" : ". Controlling/Coordinating" , "correct": true },
+                { "choices" : "Controlling/Coordinating" , "correct": true },
                 { "choices" : "Reporting/Representing" , "correct": false }
             ] 
         },
@@ -5441,3 +5438,5 @@
         }
     ]
  }
+]
+}

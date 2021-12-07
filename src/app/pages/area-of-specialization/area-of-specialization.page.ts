@@ -15,26 +15,30 @@ import { AnimationOptions } from 'ngx-lottie';
   ]
 })
 export class AreaOfSpecializationPage{
-  quizzes = [];
-  English = false;
-  Filipino = false;
-  Mathematics = false;
-  Mapeh=false;
-  Values_Education=false;
-  Tecnology_and_LIvelihood_Education=false;
-  Social_Science=false;
-  Physical_Science=false;
-  Biological_Science=false;
-  Agriculture_and_Fishery_Art=false;
+  quizzes = [0,1,2,3,4]
+  examss = [5,6,7,8,9]
+  part = ["English","Filipino","Mathematics","Mapeh","Values Education"]
+  parts = [0,0,0,0,0,"TLE","Social Science","Physical Science","Biological Science","Agri And Fishery Art"]
+  English = false
+  Filipino = false
+  Mathematics = false
+  Mapeh=false
+  Values_Education=false
+  Tecnology_and_LIvelihood_Education=false
+  Social_Science=false
+  Physical_Science=false
+  Biological_Science=false
+  Agriculture_and_Fishery_Art=false
 
-  currentQuiz:number;
-  answerSelected = false;
-  correctAnswers = 0;
-  incorrectAnswers = 0;
-  prevAnswered = [];
+  currentQuiz:number
+  answerSelected = false
+  correctAnswers = 0
+  incorrectAnswers = 0
+  prevAnswered = []
+  pageval = 0
   
-  result = false;
-  resultStatus = 'Show Result';
+  result = false
+  resultStatus = 'Show Result'
 
   options:AnimationOptions = {
     path:'assets/welldone.json'
@@ -44,6 +48,14 @@ export class AreaOfSpecializationPage{
     constructor(private router:Router) { }
   
     ngOnInit(): void {
+        let count = 0;
+
+        for(count=0; count<this.quizzes.length; count++){
+          console.log(this.prevAnswered.push(count));
+        }
+
+        // alert(this.prevAnswered);
+
     }
   
 
@@ -242,28 +254,36 @@ export class AreaOfSpecializationPage{
     showResult(){
       this.result = true;
       this.resultStatus = 'Play Again!';  
-      // Swal.fire({
-      //   title: this.correctAnswers + " out of " + this.quizzes.length,
-      //   showDenyButton: true,
-      //   showCancelButton: true,
-      //   confirmButtonText: 'Retake',
-      //   denyButtonText: `Cancel`,
-      // }).then((results) => {
-      //   if (results.isConfirmed) {
-      //     this.resultStatus = "Show Result";
-      //     this.playAgain();
-      //   } else if (results.isDenied) {
-      //     Swal.fire('nice', '', 'info')
-      //     this.resultStatus = "Show Result";
-      //     this.router.navigate(['']);
-      //   }
-      // }) 
     }
     playAgain(){
       this.prevAnswered = [];
       this.prevAnswered.push(this.getRandom());
       this.correctAnswers = 0;
       this.incorrectAnswers = 0;
+    }
+
+    navigateToNewPage(pagenum:number){
+      if(pagenum==0){
+        this.router.navigate(['area-of-specialization/english']);
+      }else if(pagenum==1){
+        this.router.navigate(['area-of-specialization/filipino']);
+      }else if(pagenum==2){
+        this.router.navigate(['area-of-specialization/mathematics']);
+      }else if(pagenum==3){
+        this.router.navigate(['area-of-specialization/mapeh']);
+      }else if(pagenum==4){
+        this.router.navigate(['area-of-specialization/values-education']);
+      }else if(pagenum==5){
+        this.router.navigate(['area-of-specialization/tle']);
+      }else if(pagenum==6){
+        this.router.navigate(['area-of-specialization/social-science']);
+      }else if(pagenum==7){
+        this.router.navigate(['area-of-specialization/physical-science']);
+      }else if(pagenum==8){
+        this.router.navigate(['area-of-specialization/biological-science']);
+      }else if(pagenum==9){
+        this.router.navigate(['area-of-specialization/afa']);
+      }
     }
   
 
