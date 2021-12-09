@@ -1,5 +1,5 @@
 {
-  "name": "LET_Exam_Reviewer",
+  "name": "let_exam_reviewer",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
@@ -84,5 +84,14 @@
     "platforms": [
       "android"
     ]
+  },
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevin202510/MobileAppFinalsOutput.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kevin202510/MobileAppFinalsOutput/issues"
   }
 }

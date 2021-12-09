@@ -23,14 +23,14 @@
   .title{
     font-weight: bold;
     font-size: 25px;
-    color: rgb(0, 0, 0);;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   .pageTitle{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(2, 2, 2);
+    color:rgb(27, 26, 26);
     font-size: 1.5em;
   }
   .examContent{
@@ -53,7 +53,7 @@
     }
   }
   .pageContent{
-    --background: #0853faba;
+    --background: rgb(234, 218, 208);
   }
 .slides {
   margin-top: 2%;
@@ -64,5 +64,9 @@
 }
 .toolbars{
   height: 12%;
-  --background: #ede900e0
+  --background:rgb(109, 25, 25);
+}
+
+.topbtn{
+  color: white;
 }

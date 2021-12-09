@@ -1,5 +1,5 @@
 <ion-toolbar class="toolbars">
-  <ion-icon class="return" slot="start" name="return-up-back" routerLink="/area-of-specialization"></ion-icon>
+  <ion-icon class="return" slot="start" class="topbtn"name="return-up-back"  routerLink="/area-of-specialization"></ion-icon>
   <h4 class="title">Licensure Examination <br> for Teachers</h4>
 </ion-toolbar>
 
@@ -21,12 +21,13 @@
       </ion-item>
       </ion-radio-group>
   </ion-card-content>
-</ion-card>
-  <ion-button *ngIf="prevAnswered.length < 51 && diplayquestion" (click)="SubmitExam()">Submit</ion-button>
-  <div class="nextBtn">
-    <ion-button *ngIf="prevAnswered.length <= 51 && diplayquestion" (click)="onAnswer(answer)">Next</ion-button>
-  </div>
-
+    </ion-card>
+    <div *ngIf="prevAnswered.length >= 50 && diplayquestion">
+      <ion-button (click)="SubmitExam()">Submit</ion-button>
+    </div>
+    <div class="nextBtn">
+      <ion-button *ngIf="prevAnswered.length < 50 && diplayquestion" (click)="onAnswer(answer)">Next</ion-button>
+    </div>
   <ion-card *ngIf="correctAnswers >= 0 && resultStatus">
     <ion-card-content>
       <h2>You got {{correctAnswers}} over {{quizzes.length}}</h2>

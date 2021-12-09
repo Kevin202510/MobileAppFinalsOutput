@@ -83,7 +83,7 @@ export class ProfessionalEducationPage implements OnInit {
             this.router.navigate(['area-of-specialization/values-education']);
           }else if(olddata.AOS==="Tecnology_and_LIvelihood_Education"){
             this.router.navigate(['area-of-specialization/tle']);
-          }else if(olddata.AOS==="[Social_Science]"){
+          }else if(olddata.AOS==="Social_Science"){
             this.router.navigate(['area-of-specialization/social-science']);
           }else if(olddata.AOS==="Physical_Science"){
             this.router.navigate(['area-of-specialization/physical-science']);
