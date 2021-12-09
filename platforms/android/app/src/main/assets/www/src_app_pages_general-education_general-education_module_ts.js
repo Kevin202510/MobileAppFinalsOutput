@@ -129,12 +129,29 @@ let GeneralEducationPage = class GeneralEducationPage {
         this.incorrectAnswers = 0;
         this.prevAnswered = [];
         this.result = false;
-        this.resultStatus = 'Show Result';
+        this.resultStatus = false;
         this.selectedSegment = "Exam";
         this.options = {
             path: 'assets/welldone.json'
         };
         this.datenow = this.datePipe.transform(this.myDate, 'MMM-dd-yyyy');
+        if (localStorage.getItem("ionicExamLevelData") != null) {
+            var olddata = JSON.parse(localStorage.getItem('ionicExamLevelData'));
+            if (olddata.Status) {
+                this.checkExamId();
+            }
+        }
+    }
+    checkExamId() {
+        if (localStorage.getItem("ionicExamId") === null) {
+            let data = { ExamId: 0 };
+            localStorage.setItem('ionicExamId', JSON.stringify(data));
+        }
+        else {
+            var olddata = JSON.parse(localStorage.getItem('ionicExamId'));
+            olddata.ExamId = olddata.ExamId + 1;
+            localStorage.setItem('ionicExamId', JSON.stringify(olddata));
+        }
     }
     ngOnInit() {
         fetch('./assets/GeneralEducationJsonData/QuestionAndAnswerLetExamReviewer.json').then(res => res.json())
@@ -162,8 +179,6 @@ let GeneralEducationPage = class GeneralEducationPage {
     onAnswer(option) {
         // this.answerSelected = true;
         setTimeout(() => {
-            console.log(this.prevAnswered);
-            console.log("CA " + this.correctAnswers);
             let newQuiz = this.getRandom();
             while (this.prevAnswered.includes(newQuiz) && this.prevAnswered.length < 50) {
                 newQuiz = this.getRandom();
@@ -184,7 +199,7 @@ let GeneralEducationPage = class GeneralEducationPage {
     }
     showResult() {
         this.result = true;
-        this.resultStatus = 'Play Again!';
+        this.resultStatus = true;
         var olddata = JSON.parse(localStorage.getItem('ionicExamLevelData'));
         if (olddata.Status) {
             this.saveScore();
@@ -199,8 +214,8 @@ let GeneralEducationPage = class GeneralEducationPage {
         olddata.push({ PartName: "GenEd", Score: this.correctAnswers, ExamId: olddatas.ExamId, DateTaken: this.datenow });
         localStorage.setItem('ionicExamData', JSON.stringify(olddata));
     }
-    retake() {
-        this.resultStatus = 'Show Result';
+    playAgain() {
+        this.resultStatus = false;
         this.prevAnswered = [];
         this.prevAnswered.push(this.getRandom());
         this.correctAnswers = 0;
@@ -256,7 +271,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (" <ion-toolbar class=\"toolbars\">\n    <ion-buttons slot=\"start\">\n      <ion-menu-button menu=\"letexam-menu\" autoHide=\"false\"></ion-menu-button>\n    </ion-buttons>\n    <ion-buttons slot=\"secondary\">\n      <ion-button>\n        <ion-icon slot=\"icon-only\" name=\"star\"></ion-icon>\n      </ion-button>\n    </ion-buttons>\n    <h4 class=\"title\">Licensure Examination <br> for Teachers</h4>\n  </ion-toolbar>\n\n<ion-content class=\"pageContent ion-padding\">\n  <div class=\"slides ion-margin-bottom\">  \n  <h4 class=\"pageTitle\">GENERAL EDUCATION</h4>\n<ion-card class=\"examContent\">\n  <ion-card *ngIf=\"prevAnswered.length <= 51 && diplayquestion && selectedSegment == 'Exam'\" class=\"questionAndAns\">\n    <ion-card-header>\n      <div class=\"examNum\">\n        <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>\n      </div>\n      <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>\n    </ion-card-header>\n    <ion-card-content class=\"answers__list\">\n      <ion-radio-group>\n      <ion-item *ngFor=\"let quiz of quizzes[currentQuiz]?.MultipleChoice\">\n          <ion-label>{{ quiz.choices }}</ion-label>\n          <ion-radio value=\"{{ quiz.choices }}\" (click)=\"getCorrectAns(quiz.correct)\" slot=\"start\"></ion-radio>\n      </ion-item>\n      </ion-radio-group>\n    </ion-card-content>\n  </ion-card>\n  <ion-grid *ngIf=\"prevAnswered.length < 51 && diplayquestion\" >\n    <ion-row>\n      <ion-col>\n        <ion-button (click)=\"ReviewExam()\">Review</ion-button>\n      </ion-col>\n      <ion-col>\n        <ion-button (click)=\"SubmitExam()\">Submit</ion-button>\n      </ion-col>\n    </ion-row>\n    </ion-grid>\n    <div class=\"nextBtn\">\n      <ion-button *ngIf=\"prevAnswered.length <= 51 && diplayquestion\" (click)=\"onAnswer(answer)\">Next</ion-button>\n    </div>\n  </ion-card>\n  \n  <ion-card *ngIf=\"correctAnswers >= 0 && resultStatus == 'Play Again!'\">\n    <ion-card-content>\n      <h2>You got {{correctAnswers}} over {{quizzes.length}}</h2>\n      <ng-lottie [options]='options'></ng-lottie>\n      <button class=\"btn btn--new\" (click)=\"retake()\" *ngIf=\"resultStatus !== 'Show Result'\">Retake</button>\n    </ion-card-content>\n  </ion-card>\n  </div>\n</ion-content>");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("<ion-toolbar class=\"toolbars\">\n  <ion-buttons slot=\"start\">\n    <ion-menu-button menu=\"letexam-menu\" autoHide=\"false\"></ion-menu-button>\n  </ion-buttons>\n  <ion-buttons slot=\"secondary\">\n    <ion-button>\n      <ion-icon slot=\"icon-only\" name=\"star\"></ion-icon>\n    </ion-button>\n  </ion-buttons>\n  <h4 class=\"title\">Licensure Examination <br> for Teachers</h4>\n</ion-toolbar>\n\n<ion-content class=\"pageContent ion-padding\">\n<div class=\"slides ion-margin-bottom\">  \n<h4 class=\"pageTitle\">GENERAL EDUCATION</h4>\n<ion-card *ngIf=\"prevAnswered.length <= 50 && diplayquestion && selectedSegment == 'Exam'\" class=\"questionAndAns\">\n  <ion-card-header>\n    <div class=\"examNum\">\n      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>\n    </div>\n    <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>\n  </ion-card-header>\n  <ion-card-content class=\"answers__list\">\n    <ion-radio-group>\n      <ion-item *ngFor=\"let quiz of quizzes[currentQuiz]?.MultipleChoice\">\n          <ion-label text-wrap>{{ quiz.choices }}</ion-label>\n          <ion-radio value=\"{{ quiz.choices }}\" (click)=\"getCorrectAns(quiz.correct)\" slot=\"start\"></ion-radio>\n      </ion-item>\n      </ion-radio-group>\n  </ion-card-content>\n</ion-card>\n  <div *ngIf=\"prevAnswered.length >= 50 && diplayquestion\">\n    <ion-button (click)=\"SubmitExam()\">Submit</ion-button>\n  </div>\n  <div class=\"nextBtn\">\n    <ion-button *ngIf=\"prevAnswered.length < 50 && diplayquestion\" (click)=\"onAnswer(answer)\">Next</ion-button>\n  </div>\n\n<ion-card *ngIf=\"correctAnswers >= 0 && resultStatus\">\n  <ion-card-content>\n    <h2>You got {{correctAnswers}} over {{quizzes.length}}</h2>\n    <ng-lottie [options]='options'></ng-lottie>\n    <ion-button class=\"btn btn--new\" (click)=\"playAgain()\" *ngIf=\"resultStatus && !status\">Retake</ion-button>\n    <ion-button class=\"btn btn--new\" (click)=\"retakeExam()\" href=\"general-education\" *ngIf=\"resultStatus && status\">Retake Exam</ion-button>\n    <ion-button href=\"home\" (click)=\"getBackHome()\" class=\"btn btn--new\" *ngIf=\"resultStatus && status\">No</ion-button>\n  </ion-card-content>\n</ion-card>\n</div>\n</ion-content>");
 
 /***/ })
 

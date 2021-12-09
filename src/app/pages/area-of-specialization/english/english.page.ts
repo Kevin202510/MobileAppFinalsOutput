@@ -66,10 +66,10 @@ export class EnglishPage implements OnInit {
 
     SubmitExam(){
       if(localStorage.getItem("ionicExamLevelData")!=null){
-        this.saveScore();
         if(this.olddata.Status){
           this.status = true;
-          this.showResult();
+          this.saveScore();
+          this.router.navigate(['final-score']);
         }else{
           this.diplayquestion = false;
           this.showResult();
@@ -100,8 +100,6 @@ export class EnglishPage implements OnInit {
     onAnswer(option: boolean){
       // this.answerSelected = true;
       setTimeout(() => {
-        console.log(this.prevAnswered);
-        console.log("CA " + this.correctAnswers);
         let newQuiz = this.getRandom();
          while(this.prevAnswered.includes(newQuiz) && this.prevAnswered.length < 50){
           newQuiz = this.getRandom();

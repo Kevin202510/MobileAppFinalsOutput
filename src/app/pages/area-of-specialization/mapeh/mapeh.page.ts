@@ -66,10 +66,10 @@ export class MapehPage implements OnInit {
 
     SubmitExam(){
       if(localStorage.getItem("ionicExamLevelData")!=null){
-        this.saveScore();
         if(this.olddata.Status){
+          this.saveScore();
           this.status = true;
-          this.showResult();
+          this.router.navigate(['final-score']);
         }else{
           this.diplayquestion = false;
           this.showResult();

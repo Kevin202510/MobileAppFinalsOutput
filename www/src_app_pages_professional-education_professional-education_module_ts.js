@@ -129,7 +129,7 @@ let ProfessionalEducationPage = class ProfessionalEducationPage {
         this.incorrectAnswers = 0;
         this.prevAnswered = [];
         this.result = false;
-        this.resultStatus = 'Show Result';
+        this.resultStatus = false;
         this.selectedSegment = "Exam";
         this.status = false;
         this.options = {
@@ -143,9 +143,9 @@ let ProfessionalEducationPage = class ProfessionalEducationPage {
             .then(content => {
             this.quizzes = content.ProfessionalEducation;
         });
-        var olddata = JSON.parse(localStorage.getItem('ionicExamData'));
-        console.log(olddata[0].PartName);
-        console.log(olddata);
+        // var olddata = JSON.parse(localStorage.getItem('ionicExamData'));
+        // console.log(olddata[0].PartName);
+        // console.log(olddata);
         // this.quizzes = this.quizService.getQuizzes();
         this.currentQuiz = this.getRandom();
         this.prevAnswered.push(this.currentQuiz);
@@ -157,7 +157,7 @@ let ProfessionalEducationPage = class ProfessionalEducationPage {
         var olddata = JSON.parse(localStorage.getItem('ionicExamLevelData'));
         if (olddata.Status) {
             this.status = true;
-            if (localStorage.getItem('ionicAOS') != null) {
+            if (localStorage.getItem('ionicAOS') != null && olddata.ExamLevel === "Secondary") {
                 this.saveScore();
                 var olddata = JSON.parse(localStorage.getItem('ionicAOS'));
                 if (olddata.AOS === "English") {
@@ -178,7 +178,7 @@ let ProfessionalEducationPage = class ProfessionalEducationPage {
                 else if (olddata.AOS === "Tecnology_and_LIvelihood_Education") {
                     this.router.navigate(['area-of-specialization/tle']);
                 }
-                else if (olddata.AOS === "Social_Science") {
+                else if (olddata.AOS === "[Social_Science]") {
                     this.router.navigate(['area-of-specialization/social-science']);
                 }
                 else if (olddata.AOS === "Physical_Science") {
@@ -192,8 +192,8 @@ let ProfessionalEducationPage = class ProfessionalEducationPage {
                 }
             }
             else {
-                this.diplayquestion = false;
-                this.showResult();
+                this.saveScore();
+                this.router.navigate(['final-score']);
             }
         }
         else {
@@ -226,11 +226,7 @@ let ProfessionalEducationPage = class ProfessionalEducationPage {
     }
     showResult() {
         this.result = true;
-        this.resultStatus = 'Play Again!';
-        var olddata = JSON.parse(localStorage.getItem('ionicExamLevelData'));
-        if (olddata.Status) {
-            this.saveScore();
-        }
+        this.resultStatus = true;
     }
     getBackHome() {
         this.olddata.Status = false;
@@ -249,8 +245,26 @@ let ProfessionalEducationPage = class ProfessionalEducationPage {
         olddata.push({ PartName: "ProfEd", Score: this.correctAnswers, ExamId: olddatas.ExamId, DateTaken: this.datenow });
         localStorage.setItem('ionicExamData', JSON.stringify(olddata));
     }
+    // addTwoSubScore(){
+    //   var olddata = JSON.parse(localStorage.getItem('ionicExamData'));
+    //   var getGEScore = olddata[0].PartName;
+    //   var getGEScore = olddata[0].PartName;
+    //   var olddatas = JSON.parse(localStorage.getItem('ionicExamId'));
+    //   var getExamId = olddatas.ExamId;
+    //   var initScoreGe;
+    //   var initScoreProfEd;
+    //   for(var i=0;i<olddata.length;i++){
+    //     if(olddata[i].PartName === "GenEd" && olddata[i].ExamId ==getExamId){
+    //       initScoreGe = olddata[i].Score; 
+    //     }else if(olddata[i].PartName === "ProfEd" && olddata[i].ExamId ==getExamId){
+    //       initScoreProfEd = olddata[i].Score; 
+    //     }
+    //   }
+    //   console.log("GE : " + initScoreGe);
+    //    console.log("Prof Ed : " + initScoreProfEd);
+    // }
     playAgain() {
-        this.resultStatus = 'Show Result';
+        this.resultStatus = false;
         this.prevAnswered = [];
         this.prevAnswered.push(this.getRandom());
         this.correctAnswers = 0;
@@ -306,7 +320,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("<ion-toolbar class=\"toolbars\">\r\n  <ion-buttons slot=\"start\">\r\n    <ion-menu-button menu=\"letexam-menu\" autoHide=\"false\"></ion-menu-button>\r\n  </ion-buttons>\r\n  <ion-buttons slot=\"secondary\">\r\n    <ion-button>\r\n      <ion-icon slot=\"icon-only\" name=\"star\"></ion-icon>\r\n    </ion-button>\r\n  </ion-buttons>\r\n  <h4 class=\"title\">Licensure Examination <br> for Teachers</h4>\r\n</ion-toolbar>\r\n\r\n<ion-content class=\"pageContent ion-padding\">\r\n<div class=\"slides ion-margin-bottom\">  \r\n<h4 class=\"pageTitle\">PROFESSIONAL EDUCATION</h4>\r\n<ion-card class=\"examContent\">\r\n<ion-card *ngIf=\"prevAnswered.length <= 51 && diplayquestion && selectedSegment == 'Exam'\" class=\"questionAndAns\">\r\n  <ion-card-header>\r\n    <div class=\"examNum\">\r\n      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>\r\n    </div>\r\n    <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>\r\n  </ion-card-header>\r\n  <ion-card-content class=\"answers__list\">\r\n    <ion-radio-group>\r\n    <ion-item *ngFor=\"let quiz of quizzes[currentQuiz]?.MultipleChoice\">\r\n        <ion-label>{{ quiz.choices }}</ion-label>\r\n        <ion-radio value=\"{{ quiz.choices }}\" (click)=\"getCorrectAns(quiz.correct)\" slot=\"start\"></ion-radio>\r\n    </ion-item>\r\n    </ion-radio-group>\r\n  </ion-card-content>\r\n</ion-card>\r\n<ion-grid *ngIf=\"prevAnswered.length < 51 && diplayquestion\" >\r\n  <ion-row>\r\n    <ion-col>\r\n      <ion-button (click)=\"ReviewExam()\">Review</ion-button>\r\n    </ion-col>\r\n    <ion-col>\r\n      <ion-button (click)=\"SubmitExam()\">Submit</ion-button>\r\n    </ion-col>\r\n  </ion-row>\r\n  </ion-grid>\r\n  <div class=\"nextBtn\">\r\n    <ion-button *ngIf=\"prevAnswered.length <= 51 && diplayquestion\" (click)=\"onAnswer(answer)\">Next</ion-button>\r\n  </div>\r\n</ion-card>\r\n\r\n<ion-card *ngIf=\"correctAnswers >= 0 && resultStatus == 'Play Again!'\">\r\n  <ion-card-content>\r\n    <h2>You got {{correctAnswers}} over {{quizzes.length}}</h2>\r\n    <ng-lottie [options]='options'></ng-lottie>\r\n    <button class=\"btn btn--new\" (click)=\"playAgain()\" *ngIf=\"resultStatus !== 'Show Result'\">Retake</button>\r\n    <ion-button class=\"btn btn--new\" (click)=\"retakeExam()\" href=\"general-education\" *ngIf=\"resultStatus !== 'Show Result' && status\">Retake Exam</ion-button>\r\n    <ion-button href=\"home\" (click)=\"getBackHome()\" class=\"btn btn--new\" *ngIf=\"resultStatus !== 'Show Result' && status\">No</ion-button>\r\n  </ion-card-content>\r\n</ion-card>\r\n</div>\r\n</ion-content>");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("<ion-toolbar class=\"toolbars\">\r\n  <ion-buttons slot=\"start\">\r\n    <ion-menu-button menu=\"letexam-menu\" autoHide=\"false\"></ion-menu-button>\r\n  </ion-buttons>\r\n  <ion-buttons slot=\"secondary\">\r\n    <ion-button>\r\n      <ion-icon slot=\"icon-only\" name=\"star\"></ion-icon>\r\n    </ion-button>\r\n  </ion-buttons>\r\n  <h4 class=\"title\">Licensure Examination <br> for Teachers</h4>\r\n</ion-toolbar>\r\n\r\n<ion-content class=\"pageContent ion-padding\">\r\n<div class=\"slides ion-margin-bottom\">  \r\n<h4 class=\"pageTitle\">PROFESSIONAL EDUCATION</h4>\r\n<ion-card *ngIf=\"prevAnswered.length <= 50 && diplayquestion && selectedSegment == 'Exam'\" class=\"questionAndAns\">\r\n  <ion-card-header>\r\n    <div class=\"examNum\">\r\n      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>\r\n    </div>\r\n    <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>\r\n  </ion-card-header>\r\n  <ion-card-content class=\"answers__list\">\r\n    <ion-radio-group>\r\n      <ion-item *ngFor=\"let quiz of quizzes[currentQuiz]?.MultipleChoice\">\r\n          <ion-label text-wrap>{{ quiz.choices }}</ion-label>\r\n          <ion-radio value=\"{{ quiz.choices }}\" (click)=\"getCorrectAns(quiz.correct)\" slot=\"start\"></ion-radio>\r\n      </ion-item>\r\n      </ion-radio-group>\r\n  </ion-card-content>\r\n</ion-card>\r\n<div *ngIf=\"prevAnswered.length >= 50 && diplayquestion\">\r\n  <ion-button (click)=\"SubmitExam()\">Submit</ion-button>\r\n</div>\r\n<div class=\"nextBtn\">\r\n  <ion-button *ngIf=\"prevAnswered.length < 50 && diplayquestion\" (click)=\"onAnswer(answer)\">Next</ion-button>\r\n</div>\r\n\r\n<ion-card *ngIf=\"correctAnswers >= 0 && resultStatus\">\r\n  <ion-card-content>\r\n    <h2>You got {{correctAnswers}} over {{quizzes.length}}</h2>\r\n    <ng-lottie [options]='options'></ng-lottie>\r\n    <ion-button class=\"btn btn--new\" (click)=\"playAgain()\" *ngIf=\"resultStatus && !status\">Retake</ion-button>\r\n    <ion-button class=\"btn btn--new\" (click)=\"retakeExam()\" href=\"general-education\" *ngIf=\"resultStatus && status\">Retake Exam</ion-button>\r\n    <ion-button href=\"home\" (click)=\"getBackHome()\" class=\"btn btn--new\" *ngIf=\"resultStatus && status\">No</ion-button>\r\n  </ion-card-content>\r\n</ion-card>\r\n</div>\r\n</ion-content>");
 
 /***/ })
 

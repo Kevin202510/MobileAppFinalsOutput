@@ -129,11 +129,13 @@ let PhysicalSciencePage = class PhysicalSciencePage {
         this.incorrectAnswers = 0;
         this.prevAnswered = [];
         this.result = false;
-        this.resultStatus = 'Show Result';
+        this.resultStatus = false;
         this.selectedSegment = "Exam";
+        this.status = false;
         this.options = {
             path: 'assets/welldone.json'
         };
+        this.olddata = JSON.parse(localStorage.getItem('ionicExamLevelData'));
         this.datenow = this.datePipe.transform(this.myDate, 'MMM-dd-yyyy');
     }
     ngOnInit() {
@@ -149,8 +151,34 @@ let PhysicalSciencePage = class PhysicalSciencePage {
         this.answer = ans;
     }
     SubmitExam() {
-        this.diplayquestion = false;
-        this.showResult();
+        if (localStorage.getItem("ionicExamLevelData") != null) {
+            if (this.olddata.Status) {
+                this.saveScore();
+                this.status = true;
+                this.router.navigate(['final-score']);
+            }
+            else {
+                this.diplayquestion = false;
+                this.showResult();
+            }
+        }
+    }
+    saveScore() {
+        if (localStorage.getItem("ionicExamData") === null) {
+            localStorage.setItem('ionicExamData', '[]');
+        }
+        var olddata = JSON.parse(localStorage.getItem('ionicExamData'));
+        var olddatas = JSON.parse(localStorage.getItem('ionicExamId'));
+        olddata.push({ PartName: "Physical_Science", Score: this.correctAnswers, ExamId: olddatas.ExamId, DateTaken: this.datenow });
+        localStorage.setItem('ionicExamData', JSON.stringify(olddata));
+    }
+    getBackHome() {
+        this.olddata.Status = false;
+        localStorage.setItem('ionicExamLevelData', JSON.stringify(this.olddata));
+    }
+    retakeExam() {
+        this.olddata.Status = true;
+        localStorage.setItem('ionicExamLevelData', JSON.stringify(this.olddata));
     }
     onAnswer(option) {
         // this.answerSelected = true;
@@ -177,43 +205,15 @@ let PhysicalSciencePage = class PhysicalSciencePage {
     }
     showResult() {
         this.result = true;
-        this.resultStatus = 'Play Again!';
-        if (localStorage.getItem("ionicGeneralEducationData") === null) {
-            localStorage.setItem('ionicGeneralEducationData', '[]');
-        }
-        var olddata = JSON.parse(localStorage.getItem('ionicGeneralEducationData'));
-        olddata.push({ Score: this.correctAnswers, DateTaken: this.datenow });
-        localStorage.setItem('ionicGeneralEducationData', JSON.stringify(olddata));
-        // Swal.fire({
-        //   title: this.correctAnswers + " out of " + this.quizzes.length,
-        //   showDenyButton: true,
-        //   showCancelButton: true,
-        //   confirmButtonText: 'Retake',
-        //   denyButtonText: `Cancel`,
-        // }).then((results) => {
-        //   if (results.isConfirmed) {
-        //     this.resultStatus = "Show Result";
-        //     this.playAgain();
-        //   } else if (results.isDenied) {
-        //     Swal.fire('nice', '', 'info')
-        //     this.resultStatus = "Show Result";
-        //     this.router.navigate(['']);
-        //   }
-        // }) 
+        this.resultStatus = true;
     }
     playAgain() {
-        this.resultStatus = 'Show Result';
+        this.resultStatus = false;
         this.prevAnswered = [];
         this.prevAnswered.push(this.getRandom());
         this.correctAnswers = 0;
         this.incorrectAnswers = 0;
         this.diplayquestion = true;
-    }
-    segmentChanged(event) {
-        this.selectedSegment = event.target.value;
-        if (event.target.value == 'History') {
-            console.log(this.datas = JSON.parse(localStorage.getItem('ionicGeneralEducationData')));
-        }
     }
 };
 PhysicalSciencePage.ctorParameters = () => [
@@ -249,7 +249,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("#pos {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  color: white;\n}\n\n.headtit {\n  text-align: center;\n}\n\n.bgbut {\n  position: absolute;\n  top: 15px;\n  right: 15px;\n  width: 45px;\n  height: 40px;\n  background-color: #53b2ff;\n  border-radius: 60%;\n}\n\n#headCol {\n  --background: linear-gradient(to right, rgb(11, 158, 216), rgb(4, 89, 247));\n}\n\n.title {\n  font-weight: bold;\n  font-size: 25px;\n  color: white;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBoeXNpY2FsLXNjaWVuY2UucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksa0JBQUE7RUFDQSxTQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7QUFDSjs7QUFDRTtFQUNFLGtCQUFBO0FBRUo7O0FBQUU7RUFDRSxrQkFBQTtFQUNBLFNBQUE7RUFDQSxXQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7RUFDQSx5QkFBQTtFQUNBLGtCQUFBO0FBR0o7O0FBREU7RUFDRSwyRUFBQTtBQUlKOztBQUZFO0VBQ0UsaUJBQUE7RUFDQSxlQUFBO0VBQ0EsWUFBQTtBQUtKIiwiZmlsZSI6InBoeXNpY2FsLXNjaWVuY2UucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI3Bvc3tcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogMTBweDtcclxuICAgIHJpZ2h0OiAxMHB4O1xyXG4gICAgY29sb3I6IHdoaXRlO1xyXG4gIH1cclxuICAuaGVhZHRpdHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICB9XHJcbiAgLmJnYnV0e1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiAxNXB4O1xyXG4gICAgcmlnaHQ6IDE1cHg7XHJcbiAgICB3aWR0aDogNDVweDtcclxuICAgIGhlaWdodDogNDBweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYig4MywgMTc4LCAyNTUpO1xyXG4gICAgYm9yZGVyLXJhZGl1czogNjAlO1xyXG4gIH1cclxuICAjaGVhZENvbHtcclxuICAgIC0tYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KHRvIHJpZ2h0LCByZ2IoMTEsIDE1OCwgMjE2KSwgcmdiKDQsIDg5LCAyNDcpKTtcclxuICB9XHJcbiAgLnRpdGxle1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICBmb250LXNpemU6IDI1cHg7XHJcbiAgICBjb2xvcjogd2hpdGU7XHJcbiAgfSJdfQ== */");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("#pos {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  color: white;\n}\n\n.headtit {\n  text-align: center;\n}\n\n.bgbut {\n  position: absolute;\n  top: 15px;\n  right: 15px;\n  width: 45px;\n  height: 40px;\n  background-color: #53b2ff;\n  border-radius: 60%;\n}\n\n#headCol {\n  --background: linear-gradient(to right, rgb(11, 158, 216), rgb(4, 89, 247));\n  height: 120%;\n}\n\n.title {\n  font-weight: bold;\n  font-size: 25px;\n  color: black;\n  text-align: center;\n  font-family: \"Lucida Sans\", \"Lucida Sans Regular\", \"Lucida Grande\", \"Lucida Sans Unicode\", Geneva, Verdana, sans-serif;\n}\n\n.pageTitle {\n  text-align: center;\n  font-family: \"Lucida Sans\", \"Lucida Sans Regular\", \"Lucida Grande\", \"Lucida Sans Unicode\", Geneva, Verdana, sans-serif;\n  color: #020202;\n  font-size: 1.5em;\n}\n\n.examContent {\n  margin-top: 5%;\n  height: 80%;\n  --background: #e0f1e7;\n}\n\n.questionAndAns {\n  height: 90%;\n}\n\n.examNum {\n  text-align: center;\n}\n\n.nextBtn {\n  text-align: center;\n  margin-bottom: 15px;\n}\n\n.nextBtn ion-button {\n  height: 40px;\n  width: 80px;\n}\n\n.pageContent {\n  --background: #0853faba;\n}\n\n.slides {\n  margin-top: 2%;\n  background: #e0f1e7;\n  padding: 1px 10px 20px 10px;\n  border-radius: 28px 28px 28px 28px;\n}\n\n.toolbars {\n  height: 12%;\n  --background: #ede900e0 ;\n}\n\n.return {\n  font-size: 30px;\n  margin-left: 15px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBoeXNpY2FsLXNjaWVuY2UucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usa0JBQUE7RUFDQSxTQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7QUFDRjs7QUFDQTtFQUNFLGtCQUFBO0FBRUY7O0FBQUE7RUFDRSxrQkFBQTtFQUNBLFNBQUE7RUFDQSxXQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7RUFDQSx5QkFBQTtFQUNBLGtCQUFBO0FBR0Y7O0FBREE7RUFDRSwyRUFBQTtFQUNBLFlBQUE7QUFJRjs7QUFGQTtFQUNFLGlCQUFBO0VBQ0EsZUFBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLHNIQUFBO0FBS0Y7O0FBSEE7RUFDRSxrQkFBQTtFQUNBLHNIQUFBO0VBQ0EsY0FBQTtFQUNBLGdCQUFBO0FBTUY7O0FBSkE7RUFDRSxjQUFBO0VBQ0EsV0FBQTtFQUNBLHFCQUFBO0FBT0Y7O0FBTEE7RUFDRSxXQUFBO0FBUUY7O0FBTkE7RUFDRSxrQkFBQTtBQVNGOztBQVBBO0VBQ0Usa0JBQUE7RUFDQSxtQkFBQTtBQVVGOztBQVRFO0VBQ0UsWUFBQTtFQUNBLFdBQUE7QUFXSjs7QUFSQTtFQUNFLHVCQUFBO0FBV0Y7O0FBVEE7RUFDQSxjQUFBO0VBQ0EsbUJBQUE7RUFDQSwyQkFBQTtFQUNBLGtDQUFBO0FBWUE7O0FBVEE7RUFDQSxXQUFBO0VBQ0Esd0JBQUE7QUFZQTs7QUFWQTtFQUNFLGVBQUE7RUFDQSxpQkFBQTtBQWFGIiwiZmlsZSI6InBoeXNpY2FsLXNjaWVuY2UucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI3Bvc3tcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgdG9wOiAxMHB4O1xyXG4gIHJpZ2h0OiAxMHB4O1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxufVxyXG4uaGVhZHRpdHtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuLmJnYnV0e1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICB0b3A6IDE1cHg7XHJcbiAgcmlnaHQ6IDE1cHg7XHJcbiAgd2lkdGg6IDQ1cHg7XHJcbiAgaGVpZ2h0OiA0MHB4O1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHJnYig4MywgMTc4LCAyNTUpO1xyXG4gIGJvcmRlci1yYWRpdXM6IDYwJTtcclxufVxyXG4jaGVhZENvbHtcclxuICAtLWJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCh0byByaWdodCwgcmdiKDExLCAxNTgsIDIxNiksIHJnYig0LCA4OSwgMjQ3KSk7XHJcbiAgaGVpZ2h0OiAxMjAlO1xyXG59XHJcbi50aXRsZXtcclxuICBmb250LXdlaWdodDogYm9sZDtcclxuICBmb250LXNpemU6IDI1cHg7XHJcbiAgY29sb3I6IHJnYigwLCAwLCAwKTs7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIGZvbnQtZmFtaWx5OiAnTHVjaWRhIFNhbnMnLCAnTHVjaWRhIFNhbnMgUmVndWxhcicsICdMdWNpZGEgR3JhbmRlJywgJ0x1Y2lkYSBTYW5zIFVuaWNvZGUnLCBHZW5ldmEsIFZlcmRhbmEsIHNhbnMtc2VyaWY7XHJcbn1cclxuLnBhZ2VUaXRsZXtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgZm9udC1mYW1pbHk6ICdMdWNpZGEgU2FucycsICdMdWNpZGEgU2FucyBSZWd1bGFyJywgJ0x1Y2lkYSBHcmFuZGUnLCAnTHVjaWRhIFNhbnMgVW5pY29kZScsIEdlbmV2YSwgVmVyZGFuYSwgc2Fucy1zZXJpZjtcclxuICBjb2xvcjogcmdiKDIsIDIsIDIpO1xyXG4gIGZvbnQtc2l6ZTogMS41ZW07XHJcbn1cclxuLmV4YW1Db250ZW50e1xyXG4gIG1hcmdpbi10b3A6IDUlO1xyXG4gIGhlaWdodDogODAlO1xyXG4gIC0tYmFja2dyb3VuZDogI2UwZjFlNztcclxufVxyXG4ucXVlc3Rpb25BbmRBbnN7XHJcbiAgaGVpZ2h0OiA5MCU7XHJcbn1cclxuLmV4YW1OdW17XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcbi5uZXh0QnRue1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBtYXJnaW4tYm90dG9tOiAxNXB4O1xyXG4gIGlvbi1idXR0b257XHJcbiAgICBoZWlnaHQ6IDQwcHg7XHJcbiAgICB3aWR0aDogODBweDtcclxuICB9XHJcbn1cclxuLnBhZ2VDb250ZW50e1xyXG4gIC0tYmFja2dyb3VuZDogIzA4NTNmYWJhO1xyXG59XHJcbi5zbGlkZXMge1xyXG5tYXJnaW4tdG9wOiAyJTtcclxuYmFja2dyb3VuZDogI2UwZjFlNztcclxucGFkZGluZzogMXB4IDEwcHggMjBweCAxMHB4O1xyXG5ib3JkZXItcmFkaXVzOiAyOHB4IDI4cHggMjhweCAyOHB4O1xyXG4vLyBoZWlnaHQ6IDIwJTtcclxufVxyXG4udG9vbGJhcnN7XHJcbmhlaWdodDogMTIlO1xyXG4tLWJhY2tncm91bmQ6ICNlZGU5MDBlMFxyXG59XHJcbi5yZXR1cm57XHJcbiAgZm9udC1zaXplOiAzMHB4O1xyXG4gIG1hcmdpbi1sZWZ0OiAxNXB4O1xyXG59Il19 */");
 
 /***/ }),
 
@@ -264,7 +264,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("<ion-header [translucent]=\"true\">\n  <ion-toolbar id=\"headCol\">\n    <div class=\"headtit\">\n      <h4 class=\"title\">Licensure Examination <br> for Teachers</h4>\n    </div>\n    <div class=\"bgbut\"></div>\n    <ion-buttons slot=\"end\" id=\"pos\"><ion-menu-button menu=\"letexam-menu\"><ion-icon name=\"list-outline\"></ion-icon></ion-menu-button></ion-buttons>\n    <!-- <img slot=\"end\" style=\"margin-right: 20px; border-radius: 13px;\" src=\"assets/icon/profile1.png\" width=\"50\"> -->\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n  <ion-toolbar>\n  <ion-segment (ionChange)=\"segmentChanged($event)\">\n    <ion-segment-button value=\"Exam\">\n      <ion-label>Exam</ion-label>\n    </ion-segment-button>\n    <ion-segment-button value=\"History\">\n      <ion-label>History</ion-label>\n    </ion-segment-button>\n  </ion-segment>\n</ion-toolbar>\n\n\n  <ion-card *ngIf=\"prevAnswered.length <= 51 && diplayquestion && selectedSegment == 'Exam'\" class=\"answers\">\n    <ion-card-header>\n      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>\n      <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>\n    </ion-card-header>\n    <ion-card-content class=\"answers__list\">\n      <ion-radio-group>\n      <ion-item *ngFor=\"let quiz of quizzes[currentQuiz]?.MultipleChoice\">\n          <ion-label>{{ quiz.choices }}</ion-label>\n          <ion-radio value=\"{{ quiz.choices }}\" (click)=\"getCorrectAns(quiz.correct)\" slot=\"start\"></ion-radio>\n      </ion-item>\n      </ion-radio-group>\n    </ion-card-content>\n  </ion-card>\n  <ion-grid *ngIf=\"prevAnswered.length > 51 && diplayquestion\" >\n    <ion-row>\n      <ion-col>\n        <ion-button (click)=\"ReviewExam()\">Review</ion-button>\n      </ion-col>\n      <ion-col>\n        <ion-button (click)=\"SubmitExam()\">Submit</ion-button>\n      </ion-col>\n    </ion-row>\n    </ion-grid>\n    <ion-button *ngIf=\"prevAnswered.length <= 51 && diplayquestion\"  (click)=\"onAnswer(answer)\">Next</ion-button>\n  \n  <ion-card *ngIf=\"correctAnswers > 0 && resultStatus == 'Play Again!'\">\n    <ion-card-content>\n      <h2>You got {{correctAnswers}} over {{quizzes.length}}</h2>\n      <ng-lottie [options]='options'></ng-lottie>\n      <button class=\"btn btn--new\" (click)=\"playAgain()\" *ngIf=\"resultStatus !== 'Show Result'\">{{ resultStatus }}</button>\n    </ion-card-content>\n  </ion-card>\n  <ion-card *ngIf=\"selectedSegment=='History'\">\n    <h4>Score History</h4>\n    <ion-card-content *ngFor=\"let quiz of datas\">\n      <ion-item>\n        <ion-text>Score {{quiz.Score}} <br> Date Taken {{quiz.DateTaken}}</ion-text>\n      </ion-item>\n    </ion-card-content>\n  </ion-card>\n</ion-content>");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("<ion-toolbar class=\"toolbars\">\n  <ion-icon class=\"return\" slot=\"start\" name=\"return-up-back\" routerLink=\"/area-of-specialization\"></ion-icon>\n  <h4 class=\"title\">Licensure Examination <br> for Teachers</h4>\n</ion-toolbar>\n\n<ion-content class=\"pageContent ion-padding\">\n<div class=\"slides ion-margin-bottom\">  \n<h4 class=\"pageTitle\">PHYSICAL SCIENCE</h4>\n<ion-card *ngIf=\"prevAnswered.length <= 51 && diplayquestion && selectedSegment == 'Exam'\" class=\"questionAndAns\">\n  <ion-card-header>\n    <div class=\"examNum\">\n      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>\n    </div>\n    <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>\n  </ion-card-header>\n  <ion-card-content class=\"answers__list\">\n    <ion-radio-group>\n      <ion-item *ngFor=\"let quiz of quizzes[currentQuiz]?.MultipleChoice\">\n          <ion-label text-wrap>{{ quiz.choices }}</ion-label>\n          <ion-radio value=\"{{ quiz.choices }}\" (click)=\"getCorrectAns(quiz.correct)\" slot=\"start\"></ion-radio>\n      </ion-item>\n      </ion-radio-group>\n  </ion-card-content>\n</ion-card>\n  <ion-button *ngIf=\"prevAnswered.length < 51 && diplayquestion\" (click)=\"SubmitExam()\">Submit</ion-button>\n  <div class=\"nextBtn\">\n    <ion-button *ngIf=\"prevAnswered.length <= 51 && diplayquestion\" (click)=\"onAnswer(answer)\">Next</ion-button>\n  </div>\n\n  <ion-card *ngIf=\"correctAnswers >= 0 && resultStatus\">\n    <ion-card-content>\n      <h2>You got {{correctAnswers}} over {{quizzes.length}}</h2>\n      <ng-lottie [options]='options'></ng-lottie>\n      <ion-button class=\"btn btn--new\" (click)=\"playAgain()\" *ngIf=\"resultStatus && !status\">Retake</ion-button>\n      <ion-button class=\"btn btn--new\" (click)=\"retakeExam()\" href=\"general-education\" *ngIf=\"resultStatus && status\">Retake Exam</ion-button>\n      <ion-button href=\"home\" (click)=\"getBackHome()\" class=\"btn btn--new\" *ngIf=\"resultStatus && status\">No</ion-button>\n    </ion-card-content>\n  </ion-card>\n</div>\n</ion-content>");
 
 /***/ })
 

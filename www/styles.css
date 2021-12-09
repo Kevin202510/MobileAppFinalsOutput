@@ -232,7 +232,7 @@ html.ios ion-modal .ion-page {
   border-radius: inherit;
 }
 .ion-color-primary {
-  --ion-color-base: var(--ion-color-primary, #3880ff) !important;
+  --ion-color-base: var(--ion-color-primary, rgb(234, 218, 208)) !important;
   --ion-color-base-rgb: var(--ion-color-primary-rgb, 56, 128, 255) !important;
   --ion-color-contrast: var(--ion-color-primary-contrast, #fff) !important;
   --ion-color-contrast-rgb: var(--ion-color-primary-contrast-rgb, 255, 255, 255) !important;

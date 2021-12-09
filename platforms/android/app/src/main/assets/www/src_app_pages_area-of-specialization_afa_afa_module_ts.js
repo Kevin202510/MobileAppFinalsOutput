@@ -129,11 +129,13 @@ let AFAPage = class AFAPage {
         this.incorrectAnswers = 0;
         this.prevAnswered = [];
         this.result = false;
-        this.resultStatus = 'Show Result';
+        this.resultStatus = false;
         this.selectedSegment = "Exam";
+        this.status = false;
         this.options = {
             path: 'assets/welldone.json'
         };
+        this.olddata = JSON.parse(localStorage.getItem('ionicExamLevelData'));
         this.datenow = this.datePipe.transform(this.myDate, 'MMM-dd-yyyy');
     }
     ngOnInit() {
@@ -149,8 +151,34 @@ let AFAPage = class AFAPage {
         this.answer = ans;
     }
     SubmitExam() {
-        this.diplayquestion = false;
-        this.showResult();
+        if (localStorage.getItem("ionicExamLevelData") != null) {
+            if (this.olddata.Status) {
+                this.saveScore();
+                this.status = true;
+                this.router.navigate(['final-score']);
+            }
+            else {
+                this.diplayquestion = false;
+                this.showResult();
+            }
+        }
+    }
+    saveScore() {
+        if (localStorage.getItem("ionicExamData") === null) {
+            localStorage.setItem('ionicExamData', '[]');
+        }
+        var olddata = JSON.parse(localStorage.getItem('ionicExamData'));
+        var olddatas = JSON.parse(localStorage.getItem('ionicExamId'));
+        olddata.push({ PartName: "Agriculture_and_Fishery_Art", Score: this.correctAnswers, ExamId: olddatas.ExamId, DateTaken: this.datenow });
+        localStorage.setItem('ionicExamData', JSON.stringify(olddata));
+    }
+    getBackHome() {
+        this.olddata.Status = false;
+        localStorage.setItem('ionicExamLevelData', JSON.stringify(this.olddata));
+    }
+    retakeExam() {
+        this.olddata.Status = true;
+        localStorage.setItem('ionicExamLevelData', JSON.stringify(this.olddata));
     }
     onAnswer(option) {
         // this.answerSelected = true;
@@ -177,43 +205,15 @@ let AFAPage = class AFAPage {
     }
     showResult() {
         this.result = true;
-        this.resultStatus = 'Play Again!';
-        if (localStorage.getItem("ionicGeneralEducationData") === null) {
-            localStorage.setItem('ionicGeneralEducationData', '[]');
-        }
-        var olddata = JSON.parse(localStorage.getItem('ionicGeneralEducationData'));
-        olddata.push({ Score: this.correctAnswers, DateTaken: this.datenow });
-        localStorage.setItem('ionicGeneralEducationData', JSON.stringify(olddata));
-        // Swal.fire({
-        //   title: this.correctAnswers + " out of " + this.quizzes.length,
-        //   showDenyButton: true,
-        //   showCancelButton: true,
-        //   confirmButtonText: 'Retake',
-        //   denyButtonText: `Cancel`,
-        // }).then((results) => {
-        //   if (results.isConfirmed) {
-        //     this.resultStatus = "Show Result";
-        //     this.playAgain();
-        //   } else if (results.isDenied) {
-        //     Swal.fire('nice', '', 'info')
-        //     this.resultStatus = "Show Result";
-        //     this.router.navigate(['']);
-        //   }
-        // }) 
+        this.resultStatus = true;
     }
     playAgain() {
-        this.resultStatus = 'Show Result';
+        this.resultStatus = false;
         this.prevAnswered = [];
         this.prevAnswered.push(this.getRandom());
         this.correctAnswers = 0;
         this.incorrectAnswers = 0;
         this.diplayquestion = true;
-    }
-    segmentChanged(event) {
-        this.selectedSegment = event.target.value;
-        if (event.target.value == 'History') {
-            console.log(this.datas = JSON.parse(localStorage.getItem('ionicGeneralEducationData')));
-        }
     }
 };
 AFAPage.ctorParameters = () => [
@@ -249,7 +249,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("#pos {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  color: white;\n}\n\n.headtit {\n  text-align: center;\n}\n\n.bgbut {\n  position: absolute;\n  top: 15px;\n  right: 15px;\n  width: 45px;\n  height: 40px;\n  background-color: #53b2ff;\n  border-radius: 60%;\n}\n\n#headCol {\n  --background: linear-gradient(to right, rgb(11, 158, 216), rgb(4, 89, 247));\n}\n\n.title {\n  font-weight: bold;\n  font-size: 25px;\n  color: white;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFmYS5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxrQkFBQTtFQUNBLFNBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtBQUNKOztBQUNFO0VBQ0Usa0JBQUE7QUFFSjs7QUFBRTtFQUNFLGtCQUFBO0VBQ0EsU0FBQTtFQUNBLFdBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLHlCQUFBO0VBQ0Esa0JBQUE7QUFHSjs7QUFERTtFQUNFLDJFQUFBO0FBSUo7O0FBRkU7RUFDRSxpQkFBQTtFQUNBLGVBQUE7RUFDQSxZQUFBO0FBS0oiLCJmaWxlIjoiYWZhLnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiNwb3N7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICB0b3A6IDEwcHg7XHJcbiAgICByaWdodDogMTBweDtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICB9XHJcbiAgLmhlYWR0aXR7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgfVxyXG4gIC5iZ2J1dHtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogMTVweDtcclxuICAgIHJpZ2h0OiAxNXB4O1xyXG4gICAgd2lkdGg6IDQ1cHg7XHJcbiAgICBoZWlnaHQ6IDQwcHg7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoODMsIDE3OCwgMjU1KTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDYwJTtcclxuICB9XHJcbiAgI2hlYWRDb2x7XHJcbiAgICAtLWJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCh0byByaWdodCwgcmdiKDExLCAxNTgsIDIxNiksIHJnYig0LCA4OSwgMjQ3KSk7XHJcbiAgfVxyXG4gIC50aXRsZXtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgZm9udC1zaXplOiAyNXB4O1xyXG4gICAgY29sb3I6IHdoaXRlO1xyXG4gIH0iXX0= */");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("#pos {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  color: white;\n}\n\n.headtit {\n  text-align: center;\n}\n\n.bgbut {\n  position: absolute;\n  top: 15px;\n  right: 15px;\n  width: 45px;\n  height: 40px;\n  background-color: #53b2ff;\n  border-radius: 60%;\n}\n\n#headCol {\n  --background: linear-gradient(to right, rgb(11, 158, 216), rgb(4, 89, 247));\n  height: 120%;\n}\n\n.title {\n  font-weight: bold;\n  font-size: 25px;\n  color: black;\n  text-align: center;\n  font-family: \"Lucida Sans\", \"Lucida Sans Regular\", \"Lucida Grande\", \"Lucida Sans Unicode\", Geneva, Verdana, sans-serif;\n}\n\n.pageTitle {\n  text-align: center;\n  font-family: \"Lucida Sans\", \"Lucida Sans Regular\", \"Lucida Grande\", \"Lucida Sans Unicode\", Geneva, Verdana, sans-serif;\n  color: #020202;\n  font-size: 1.5em;\n}\n\n.examContent {\n  margin-top: 5%;\n  height: 80%;\n  --background: #e0f1e7;\n}\n\n.questionAndAns {\n  height: 90%;\n}\n\n.examNum {\n  text-align: center;\n}\n\n.nextBtn {\n  text-align: center;\n  margin-bottom: 15px;\n}\n\n.nextBtn ion-button {\n  height: 40px;\n  width: 80px;\n}\n\n.pageContent {\n  --background: #0853faba;\n}\n\n.slides {\n  margin-top: 2%;\n  background: #e0f1e7;\n  padding: 1px 10px 20px 10px;\n  border-radius: 28px 28px 28px 28px;\n}\n\n.toolbars {\n  height: 12%;\n  --background: #ede900e0 ;\n}\n\n.return {\n  font-size: 30px;\n  margin-left: 15px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFmYS5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxrQkFBQTtFQUNBLFNBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtBQUNGOztBQUNBO0VBQ0Usa0JBQUE7QUFFRjs7QUFBQTtFQUNFLGtCQUFBO0VBQ0EsU0FBQTtFQUNBLFdBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLHlCQUFBO0VBQ0Esa0JBQUE7QUFHRjs7QUFEQTtFQUNFLDJFQUFBO0VBQ0EsWUFBQTtBQUlGOztBQUZBO0VBQ0UsaUJBQUE7RUFDQSxlQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0Esc0hBQUE7QUFLRjs7QUFIQTtFQUNFLGtCQUFBO0VBQ0Esc0hBQUE7RUFDQSxjQUFBO0VBQ0EsZ0JBQUE7QUFNRjs7QUFKQTtFQUNFLGNBQUE7RUFDQSxXQUFBO0VBQ0EscUJBQUE7QUFPRjs7QUFMQTtFQUNFLFdBQUE7QUFRRjs7QUFOQTtFQUNFLGtCQUFBO0FBU0Y7O0FBUEE7RUFDRSxrQkFBQTtFQUNBLG1CQUFBO0FBVUY7O0FBVEU7RUFDRSxZQUFBO0VBQ0EsV0FBQTtBQVdKOztBQVJBO0VBQ0UsdUJBQUE7QUFXRjs7QUFUQTtFQUNBLGNBQUE7RUFDQSxtQkFBQTtFQUNBLDJCQUFBO0VBQ0Esa0NBQUE7QUFZQTs7QUFUQTtFQUNBLFdBQUE7RUFDQSx3QkFBQTtBQVlBOztBQVZBO0VBQ0UsZUFBQTtFQUNBLGlCQUFBO0FBYUYiLCJmaWxlIjoiYWZhLnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiNwb3N7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIHRvcDogMTBweDtcclxuICByaWdodDogMTBweDtcclxuICBjb2xvcjogd2hpdGU7XHJcbn1cclxuLmhlYWR0aXR7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcbi5iZ2J1dHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgdG9wOiAxNXB4O1xyXG4gIHJpZ2h0OiAxNXB4O1xyXG4gIHdpZHRoOiA0NXB4O1xyXG4gIGhlaWdodDogNDBweDtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoODMsIDE3OCwgMjU1KTtcclxuICBib3JkZXItcmFkaXVzOiA2MCU7XHJcbn1cclxuI2hlYWRDb2x7XHJcbiAgLS1iYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQodG8gcmlnaHQsIHJnYigxMSwgMTU4LCAyMTYpLCByZ2IoNCwgODksIDI0NykpO1xyXG4gIGhlaWdodDogMTIwJTtcclxufVxyXG4udGl0bGV7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG4gIGNvbG9yOiByZ2IoMCwgMCwgMCk7O1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBmb250LWZhbWlseTogJ0x1Y2lkYSBTYW5zJywgJ0x1Y2lkYSBTYW5zIFJlZ3VsYXInLCAnTHVjaWRhIEdyYW5kZScsICdMdWNpZGEgU2FucyBVbmljb2RlJywgR2VuZXZhLCBWZXJkYW5hLCBzYW5zLXNlcmlmO1xyXG59XHJcbi5wYWdlVGl0bGV7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIGZvbnQtZmFtaWx5OiAnTHVjaWRhIFNhbnMnLCAnTHVjaWRhIFNhbnMgUmVndWxhcicsICdMdWNpZGEgR3JhbmRlJywgJ0x1Y2lkYSBTYW5zIFVuaWNvZGUnLCBHZW5ldmEsIFZlcmRhbmEsIHNhbnMtc2VyaWY7XHJcbiAgY29sb3I6IHJnYigyLCAyLCAyKTtcclxuICBmb250LXNpemU6IDEuNWVtO1xyXG59XHJcbi5leGFtQ29udGVudHtcclxuICBtYXJnaW4tdG9wOiA1JTtcclxuICBoZWlnaHQ6IDgwJTtcclxuICAtLWJhY2tncm91bmQ6ICNlMGYxZTc7XHJcbn1cclxuLnF1ZXN0aW9uQW5kQW5ze1xyXG4gIGhlaWdodDogOTAlO1xyXG59XHJcbi5leGFtTnVte1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG4ubmV4dEJ0bntcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgbWFyZ2luLWJvdHRvbTogMTVweDtcclxuICBpb24tYnV0dG9ue1xyXG4gICAgaGVpZ2h0OiA0MHB4O1xyXG4gICAgd2lkdGg6IDgwcHg7XHJcbiAgfVxyXG59XHJcbi5wYWdlQ29udGVudHtcclxuICAtLWJhY2tncm91bmQ6ICMwODUzZmFiYTtcclxufVxyXG4uc2xpZGVzIHtcclxubWFyZ2luLXRvcDogMiU7XHJcbmJhY2tncm91bmQ6ICNlMGYxZTc7XHJcbnBhZGRpbmc6IDFweCAxMHB4IDIwcHggMTBweDtcclxuYm9yZGVyLXJhZGl1czogMjhweCAyOHB4IDI4cHggMjhweDtcclxuLy8gaGVpZ2h0OiAyMCU7XHJcbn1cclxuLnRvb2xiYXJze1xyXG5oZWlnaHQ6IDEyJTtcclxuLS1iYWNrZ3JvdW5kOiAjZWRlOTAwZTBcclxufVxyXG4ucmV0dXJue1xyXG4gIGZvbnQtc2l6ZTogMzBweDtcclxuICBtYXJnaW4tbGVmdDogMTVweDtcclxufSJdfQ== */");
 
 /***/ }),
 
@@ -264,7 +264,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("<ion-header [translucent]=\"true\">\n  <ion-toolbar id=\"headCol\">\n    <div class=\"headtit\">\n      <h4 class=\"title\">Licensure Examination <br> for Teachers</h4>\n    </div>\n    <div class=\"bgbut\"></div>\n    <ion-buttons slot=\"end\" id=\"pos\"><ion-menu-button menu=\"letexam-menu\"><ion-icon name=\"list-outline\"></ion-icon></ion-menu-button></ion-buttons>\n    <!-- <img slot=\"end\" style=\"margin-right: 20px; border-radius: 13px;\" src=\"assets/icon/profile1.png\" width=\"50\"> -->\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n  <ion-toolbar>\n  <ion-segment (ionChange)=\"segmentChanged($event)\">\n    <ion-segment-button value=\"Exam\">\n      <ion-label>Exam</ion-label>\n    </ion-segment-button>\n    <ion-segment-button value=\"History\">\n      <ion-label>History</ion-label>\n    </ion-segment-button>\n  </ion-segment>\n</ion-toolbar>\n\n\n  <ion-card *ngIf=\"prevAnswered.length <= 51 && diplayquestion && selectedSegment == 'Exam'\" class=\"answers\">\n    <ion-card-header>\n      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>\n      <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>\n    </ion-card-header>\n    <ion-card-content class=\"answers__list\">\n      <ion-radio-group>\n      <ion-item *ngFor=\"let quiz of quizzes[currentQuiz]?.MultipleChoice\">\n          <ion-label>{{ quiz.choices }}</ion-label>\n          <ion-radio value=\"{{ quiz.choices }}\" (click)=\"getCorrectAns(quiz.correct)\" slot=\"start\"></ion-radio>\n      </ion-item>\n      </ion-radio-group>\n    </ion-card-content>\n  </ion-card>\n  <ion-grid *ngIf=\"prevAnswered.length > 51 && diplayquestion\" >\n    <ion-row>\n      <ion-col>\n        <ion-button (click)=\"ReviewExam()\">Review</ion-button>\n      </ion-col>\n      <ion-col>\n        <ion-button (click)=\"SubmitExam()\">Submit</ion-button>\n      </ion-col>\n    </ion-row>\n    </ion-grid>\n    <ion-button *ngIf=\"prevAnswered.length <= 51 && diplayquestion\"  (click)=\"onAnswer(answer)\">Next</ion-button>\n  \n  <ion-card *ngIf=\"correctAnswers > 0 && resultStatus == 'Play Again!'\">\n    <ion-card-content>\n      <h2>You got {{correctAnswers}} over {{quizzes.length}}</h2>\n      <ng-lottie [options]='options'></ng-lottie>\n      <button class=\"btn btn--new\" (click)=\"playAgain()\" *ngIf=\"resultStatus !== 'Show Result'\">{{ resultStatus }}</button>\n    </ion-card-content>\n  </ion-card>\n  <ion-card *ngIf=\"selectedSegment=='History'\">\n    <h4>Score History</h4>\n    <ion-card-content *ngFor=\"let quiz of datas\">\n      <ion-item>\n        <ion-text>Score {{quiz.Score}} <br> Date Taken {{quiz.DateTaken}}</ion-text>\n      </ion-item>\n    </ion-card-content>\n  </ion-card>\n</ion-content>");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("<ion-toolbar class=\"toolbars\">\n  <ion-icon class=\"return\" slot=\"start\" name=\"return-up-back\" routerLink=\"/area-of-specialization\"></ion-icon>\n  <h4 class=\"title\">Licensure Examination <br> for Teachers</h4>\n</ion-toolbar>\n\n<ion-content class=\"pageContent ion-padding\">\n<div class=\"slides ion-margin-bottom\">  \n<h4 class=\"pageTitle\">Agriculture_and_Fishery_Art</h4>\n<ion-card *ngIf=\"prevAnswered.length <= 51 && diplayquestion && selectedSegment == 'Exam'\" class=\"questionAndAns\">\n  <ion-card-header>\n    <div class=\"examNum\">\n      <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>\n    </div>\n    <h4>{{ quizzes[currentQuiz]?.Questions }}</h4>\n  </ion-card-header>\n  <ion-card-content class=\"answers__list\">\n    <ion-radio-group>\n      <ion-item *ngFor=\"let quiz of quizzes[currentQuiz]?.MultipleChoice\">\n          <ion-label text-wrap>{{ quiz.choices }}</ion-label>\n          <ion-radio value=\"{{ quiz.choices }}\" (click)=\"getCorrectAns(quiz.correct)\" slot=\"start\"></ion-radio>\n      </ion-item>\n      </ion-radio-group>\n  </ion-card-content>\n</ion-card>\n  <ion-button *ngIf=\"prevAnswered.length < 51 && diplayquestion\" (click)=\"SubmitExam()\">Submit</ion-button>\n  <div class=\"nextBtn\">\n    <ion-button *ngIf=\"prevAnswered.length <= 51 && diplayquestion\" (click)=\"onAnswer(answer)\">Next</ion-button>\n  </div>\n\n  <ion-card *ngIf=\"correctAnswers >= 0 && resultStatus\">\n    <ion-card-content>\n      <h2>You got {{correctAnswers}} over {{quizzes.length}}</h2>\n      <ng-lottie [options]='options'></ng-lottie>\n      <ion-button class=\"btn btn--new\" (click)=\"playAgain()\" *ngIf=\"resultStatus && !status\">Retake</ion-button>\n      <ion-button class=\"btn btn--new\" (click)=\"retakeExam()\" href=\"general-education\" *ngIf=\"resultStatus && status\">Retake Exam</ion-button>\n      <ion-button href=\"home\" (click)=\"getBackHome()\" class=\"btn btn--new\" *ngIf=\"resultStatus && status\">No</ion-button>\n    </ion-card-content>\n  </ion-card>\n</div>\n</ion-content>");
 
 /***/ })
 

@@ -13,7 +13,7 @@
 <ion-content class="pageContent ion-padding">
 <div class="slides ion-margin-bottom">  
 <h4 class="pageTitle">PROFESSIONAL EDUCATION</h4>
-<ion-card *ngIf="prevAnswered.length <= 51 && diplayquestion && selectedSegment == 'Exam'" class="questionAndAns">
+<ion-card *ngIf="prevAnswered.length <= 50 && diplayquestion && selectedSegment == 'Exam'" class="questionAndAns">
   <ion-card-header>
     <div class="examNum">
       <h4>{{ prevAnswered.length }} of {{ quizzes.length }}</h4>
@@ -22,19 +22,19 @@
   </ion-card-header>
   <ion-card-content class="answers__list">
     <ion-radio-group>
-    <ion-item *ngFor="let quiz of quizzes[currentQuiz]?.MultipleChoice">
-        <ion-label>{{ quiz.choices }}</ion-label>
-        <ion-radio value="{{ quiz.choices }}" (click)="getCorrectAns(quiz.correct)" slot="start"></ion-radio>
-    </ion-item>
-    </ion-radio-group>
+      <ion-item *ngFor="let quiz of quizzes[currentQuiz]?.MultipleChoice">
+          <ion-label text-wrap>{{ quiz.choices }}</ion-label>
+          <ion-radio value="{{ quiz.choices }}" (click)="getCorrectAns(quiz.correct)" slot="start"></ion-radio>
+      </ion-item>
+      </ion-radio-group>
   </ion-card-content>
 </ion-card>
-  <div *ngIf="prevAnswered.length < 51 && diplayquestion">
-    <ion-button (click)="SubmitExam()">Submit</ion-button>
-  </div>
-  <div class="nextBtn">
-    <ion-button *ngIf="prevAnswered.length <= 51 && diplayquestion" (click)="onAnswer(answer)">Next</ion-button>
-  </div>
+<div *ngIf="prevAnswered.length >= 50 && diplayquestion">
+  <ion-button (click)="SubmitExam()">Submit</ion-button>
+</div>
+<div class="nextBtn">
+  <ion-button *ngIf="prevAnswered.length < 50 && diplayquestion" (click)="onAnswer(answer)">Next</ion-button>
+</div>
 
 <ion-card *ngIf="correctAnswers >= 0 && resultStatus">
   <ion-card-content>

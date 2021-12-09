@@ -66,10 +66,10 @@ export class BiologicalSciencePage implements OnInit {
 
     SubmitExam(){
       if(localStorage.getItem("ionicExamLevelData")!=null){
-        this.saveScore();
         if(this.olddata.Status){
           this.status = true;
-          this.showResult();
+          this.saveScore();
+          this.router.navigate(['final-score']);
         }else{
           this.diplayquestion = false;
           this.showResult();
@@ -83,7 +83,7 @@ export class BiologicalSciencePage implements OnInit {
       }
       var olddata = JSON.parse(localStorage.getItem('ionicExamData'));
       var olddatas = JSON.parse(localStorage.getItem('ionicExamId'));
-      olddata.push({PartName:"English",Score:this.correctAnswers,ExamId:olddatas.ExamId,DateTaken:this.datenow});
+      olddata.push({PartName:"Biological_Science",Score:this.correctAnswers,ExamId:olddatas.ExamId,DateTaken:this.datenow});
       localStorage.setItem('ionicExamData',JSON.stringify(olddata));
     }
 

@@ -68,7 +68,7 @@ export class ProfessionalEducationPage implements OnInit {
       var olddata = JSON.parse(localStorage.getItem('ionicExamLevelData'));
       if(olddata.Status){
         this.status = true;
-        if(localStorage.getItem('ionicAOS')!=null){
+        if(localStorage.getItem('ionicAOS')!=null && olddata.ExamLevel==="Secondary"){
           this.saveScore();
           var olddata = JSON.parse(localStorage.getItem('ionicAOS'));
           if(olddata.AOS==="English"){
@@ -83,7 +83,7 @@ export class ProfessionalEducationPage implements OnInit {
             this.router.navigate(['area-of-specialization/values-education']);
           }else if(olddata.AOS==="Tecnology_and_LIvelihood_Education"){
             this.router.navigate(['area-of-specialization/tle']);
-          }else if(olddata.AOS==="Social_Science"){
+          }else if(olddata.AOS==="[Social_Science]"){
             this.router.navigate(['area-of-specialization/social-science']);
           }else if(olddata.AOS==="Physical_Science"){
             this.router.navigate(['area-of-specialization/physical-science']);
@@ -93,8 +93,8 @@ export class ProfessionalEducationPage implements OnInit {
             this.router.navigate(['area-of-specialization/afa']);
           }
         }else{
-          this.diplayquestion = false;
-          this.showResult();
+          this.saveScore();
+          this.router.navigate(['final-score']);
         }
       }else{
         this.diplayquestion = false;
@@ -132,10 +132,6 @@ export class ProfessionalEducationPage implements OnInit {
     showResult(){
       this.result = true;
       this.resultStatus = true;  
-      var olddata = JSON.parse(localStorage.getItem('ionicExamLevelData'));
-      if(olddata.Status){
-        this.saveScore();
-      } 
     }
 
     olddata = JSON.parse(localStorage.getItem('ionicExamLevelData'));
@@ -158,7 +154,6 @@ export class ProfessionalEducationPage implements OnInit {
       var olddatas = JSON.parse(localStorage.getItem('ionicExamId'));
       olddata.push({PartName:"ProfEd",Score:this.correctAnswers,ExamId:olddatas.ExamId,DateTaken:this.datenow});
       localStorage.setItem('ionicExamData',JSON.stringify(olddata));
-      this.router.navigate(['final-score']);
     }
 
     // addTwoSubScore(){
