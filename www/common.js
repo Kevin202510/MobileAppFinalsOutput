@@ -1,4 +1,4 @@
-(self["webpackChunkLET_Exam_Reviewer"] = self["webpackChunkLET_Exam_Reviewer"] || []).push([["common"],{
+(self["webpackChunklet_exam_reviewer"] = self["webpackChunklet_exam_reviewer"] || []).push([["common"],{
 
 /***/ 8225:
 /*!*********************************************************************!*\

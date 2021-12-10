@@ -1,4 +1,4 @@
-(self["webpackChunkLET_Exam_Reviewer"] = self["webpackChunkLET_Exam_Reviewer"] || []).push([["main"],{
+(self["webpackChunklet_exam_reviewer"] = self["webpackChunklet_exam_reviewer"] || []).push([["main"],{
 
 /***/ 8255:
 /*!*******************************************************!*\
@@ -67,7 +67,7 @@ const routes = [
     },
     {
         path: 'register',
-        loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_pages_Authentication_register_register_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./pages/Authentication/register/register.module */ 730)).then(m => m.RegisterPageModule)
+        loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-node_modules_sweetalert2_dist_sweetalert2_all_js"), __webpack_require__.e("src_app_pages_Authentication_register_register_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ./pages/Authentication/register/register.module */ 730)).then(m => m.RegisterPageModule)
     },
     {
         path: 'final-score',
@@ -100,20 +100,38 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppComponent": () => (/* binding */ AppComponent)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 4762);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tslib */ 4762);
 /* harmony import */ var _raw_loader_app_component_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !raw-loader!./app.component.html */ 1106);
 /* harmony import */ var _app_component_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.component.scss */ 3069);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 7716);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 7716);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ 9895);
+
 
 
 
 
 let AppComponent = class AppComponent {
-    constructor() { }
+    constructor(router) {
+        this.router = router;
+        var data = JSON.parse(localStorage.getItem('ionicAuthenticationDataUserId'));
+        var olddata = JSON.parse(localStorage.getItem('ionicAuthenticationData'));
+        if (localStorage.getItem('ionicAuthenticationData') !== null) {
+            this.userFullname = olddata[data.UserId].Fullname;
+            // alert(olddata[data.UserId].Fullname);
+        }
+    }
+    Logout() {
+        var data = JSON.parse(localStorage.getItem('ionicAuthenticationDataUserId'));
+        data.LoginStatus = 1;
+        localStorage.setItem('ionicAuthenticationDataUserId', JSON.stringify(data));
+        this.router.navigate(['authentication']);
+    }
 };
-AppComponent.ctorParameters = () => [];
-AppComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_2__.__decorate)([
-    (0,_angular_core__WEBPACK_IMPORTED_MODULE_3__.Component)({
+AppComponent.ctorParameters = () => [
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__.Router }
+];
+AppComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([
+    (0,_angular_core__WEBPACK_IMPORTED_MODULE_4__.Component)({
         selector: 'app-root',
         template: _raw_loader_app_component_html__WEBPACK_IMPORTED_MODULE_0__.default,
         styles: [_app_component_scss__WEBPACK_IMPORTED_MODULE_1__.default]
@@ -467,7 +485,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (".sidebg {\n  --ion-background-color: rgb(109, 25, 25);\n}\n\n.menu-header-bg {\n  height: 180px;\n  width: 350px;\n  background-color: #eadad0;\n  transform: rotate(-15deg);\n  border-radius: 10px 10px 10px 50px;\n  margin-left: -18px;\n  margin-top: -50px;\n  margin-bottom: 60px;\n}\n\n.lab {\n  --color: white;\n  font-weight: bold;\n}\n\n.iconn {\n  color: white;\n}\n\n.lalag {\n  height: 80px;\n  --background: rgb(109, 25, 25);\n}\n\n.lalag:hover {\n  --background: rgb(109, 25, 25);\n}\n\n.listbg {\n  --background: rgb(109, 25, 25);\n}\n\n.header-content {\n  position: absolute;\n  top: 30px;\n  left: 15px;\n  display: flex;\n  align-items: center;\n}\n\n.header-content img {\n  width: 100px;\n  height: 90px;\n  border-radius: 50%;\n  margin-right: 10px;\n  border: 7px solid #6d1919;\n}\n\n.header-content .uname {\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHdDQUFBO0FBQ0o7O0FBQ0E7RUFDSSxhQUFBO0VBQ0EsWUFBQTtFQUNBLHlCQUFBO0VBR0EseUJBQUE7RUFDQSxrQ0FBQTtFQUNBLGtCQUFBO0VBQ0EsaUJBQUE7RUFDQSxtQkFBQTtBQUFKOztBQUVBO0VBQ0ksY0FBQTtFQUNBLGlCQUFBO0FBQ0o7O0FBQ0E7RUFDSSxZQUFBO0FBRUo7O0FBQUE7RUFDSSxZQUFBO0VBQ0EsOEJBQUE7QUFHSjs7QUFEQTtFQUNJLDhCQUFBO0FBSUo7O0FBRkE7RUFDSSw4QkFBQTtBQUtKOztBQUhBO0VBQ0ksa0JBQUE7RUFDQSxTQUFBO0VBQ0EsVUFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtBQU1KOztBQUpJO0VBQ0ksWUFBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0VBQ0EseUJBQUE7QUFNUjs7QUFISTtFQUNJLGlCQUFBO0FBS1IiLCJmaWxlIjoiYXBwLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnNpZGViZ3tcclxuICAgIC0taW9uLWJhY2tncm91bmQtY29sb3I6IHJnYigxMDksIDI1LCAyNSk7XHJcbn1cclxuLm1lbnUtaGVhZGVyLWJne1xyXG4gICAgaGVpZ2h0OiAxODBweDtcclxuICAgIHdpZHRoOiAzNTBweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigyMzQsIDIxOCwgMjA4KTtcclxuICAgIC8vIGJhY2tncm91bmQ6bGluZWFyLWdyYWRpZW50KDkwZGVnICwjMGZhNWViIDAlLCMwNDRmNzIgMTAwJSk7XHJcbiAgICAvLyBib3gtc2hhZG93OiAwcHggMXB4IDEwcHggcmdiYSg5OCwxNDAsMjU1LDAuNSk7XHJcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgtMTVkZWcpO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMTBweCAxMHB4IDEwcHggNTBweDtcclxuICAgIG1hcmdpbi1sZWZ0OiAtMThweDtcclxuICAgIG1hcmdpbi10b3A6IC01MHB4O1xyXG4gICAgbWFyZ2luLWJvdHRvbTogNjBweDtcclxufVxyXG4ubGFie1xyXG4gICAgLS1jb2xvcjogd2hpdGU7XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG4uaWNvbm57XHJcbiAgICBjb2xvcjogd2hpdGU7XHJcbn1cclxuLmxhbGFne1xyXG4gICAgaGVpZ2h0OiA4MHB4O1xyXG4gICAgLS1iYWNrZ3JvdW5kOiByZ2IoMTA5LCAyNSwgMjUpO1xyXG59XHJcbi5sYWxhZzpob3ZlcntcclxuICAgIC0tYmFja2dyb3VuZDogcmdiKDEwOSwgMjUsIDI1KTtcclxufVxyXG4ubGlzdGJne1xyXG4gICAgLS1iYWNrZ3JvdW5kOiByZ2IoMTA5LCAyNSwgMjUpO1xyXG59XHJcbi5oZWFkZXItY29udGVudHtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogMzBweDtcclxuICAgIGxlZnQ6IDE1cHg7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuXHJcbiAgICBpbWd7XHJcbiAgICAgICAgd2lkdGg6IDEwMHB4O1xyXG4gICAgICAgIGhlaWdodDogOTBweDtcclxuICAgICAgICBib3JkZXItcmFkaXVzOiA1MCU7XHJcbiAgICAgICAgbWFyZ2luLXJpZ2h0OiAxMHB4O1xyXG4gICAgICAgIGJvcmRlcjogN3B4IHNvbGlkIHJnYigxMDksIDI1LCAyNSk7XHJcbiAgICB9XHJcblxyXG4gICAgLnVuYW1le1xyXG4gICAgICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgfVxyXG59Il19 */");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (".sidebg {\n  --ion-background-color: rgb(216, 135, 135);\n}\n\n.menu-header-bg {\n  height: 180px;\n  width: 350px;\n  background-color: #eadad0;\n  transform: rotate(-15deg);\n  border-radius: 10px 10px 10px 50px;\n  margin-left: -18px;\n  margin-top: -50px;\n  margin-bottom: 60px;\n}\n\n.lab {\n  --color: white;\n  font-weight: bold;\n}\n\n.iconn {\n  color: white;\n}\n\n.lalag {\n  height: 80px;\n  --background: rgb(216, 135, 135);\n}\n\n.lalag:hover {\n  --background: rgb(216, 135, 135);\n}\n\n.listbg {\n  --background: rgb(216, 135, 135);\n}\n\n.header-content {\n  position: absolute;\n  top: 30px;\n  left: 15px;\n  display: flex;\n  align-items: center;\n}\n\n.header-content img {\n  width: 100px;\n  height: 90px;\n  border-radius: 50%;\n  margin-right: 10px;\n  border: 7px solid #d88787;\n}\n\n.header-content .uname {\n  font-weight: bold;\n  font-size: 18px;\n}\n\n.nextBtn {\n  text-align: center;\n  margin-bottom: 15px;\n}\n\n.nextBtn ion-button {\n  height: 40px;\n  width: 120px;\n  --background:rgb(216, 135, 135);\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLDBDQUFBO0FBQ0o7O0FBQ0E7RUFDSSxhQUFBO0VBQ0EsWUFBQTtFQUNBLHlCQUFBO0VBQ0EseUJBQUE7RUFDQSxrQ0FBQTtFQUNBLGtCQUFBO0VBQ0EsaUJBQUE7RUFDQSxtQkFBQTtBQUVKOztBQUFBO0VBQ0ksY0FBQTtFQUNBLGlCQUFBO0FBR0o7O0FBREE7RUFDSSxZQUFBO0FBSUo7O0FBRkE7RUFDSSxZQUFBO0VBQ0EsZ0NBQUE7QUFLSjs7QUFIQTtFQUNJLGdDQUFBO0FBTUo7O0FBSkE7RUFDSSxnQ0FBQTtBQU9KOztBQUxBO0VBQ0ksa0JBQUE7RUFDQSxTQUFBO0VBQ0EsVUFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtBQVFKOztBQU5JO0VBQ0ksWUFBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0VBQ0EseUJBQUE7QUFRUjs7QUFMSTtFQUNJLGlCQUFBO0VBQ0EsZUFBQTtBQU9SOztBQUpBO0VBQ0ksa0JBQUE7RUFDQSxtQkFBQTtBQU9KOztBQU5JO0VBQ0UsWUFBQTtFQUNBLFlBQUE7RUFDQSwrQkFBQTtBQVFOIiwiZmlsZSI6ImFwcC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5zaWRlYmd7XHJcbiAgICAtLWlvbi1iYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjE2LCAxMzUsIDEzNSk7XHJcbn1cclxuLm1lbnUtaGVhZGVyLWJne1xyXG4gICAgaGVpZ2h0OiAxODBweDtcclxuICAgIHdpZHRoOiAzNTBweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigyMzQsIDIxOCwgMjA4KTtcclxuICAgIHRyYW5zZm9ybTogcm90YXRlKC0xNWRlZyk7XHJcbiAgICBib3JkZXItcmFkaXVzOiAxMHB4IDEwcHggMTBweCA1MHB4O1xyXG4gICAgbWFyZ2luLWxlZnQ6IC0xOHB4O1xyXG4gICAgbWFyZ2luLXRvcDogLTUwcHg7XHJcbiAgICBtYXJnaW4tYm90dG9tOiA2MHB4O1xyXG59XHJcbi5sYWJ7XHJcbiAgICAtLWNvbG9yOiB3aGl0ZTtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59XHJcbi5pY29ubntcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxufVxyXG4ubGFsYWd7XHJcbiAgICBoZWlnaHQ6IDgwcHg7XHJcbiAgICAtLWJhY2tncm91bmQ6IHJnYigyMTYsIDEzNSwgMTM1KTtcclxufVxyXG4ubGFsYWc6aG92ZXJ7XHJcbiAgICAtLWJhY2tncm91bmQ6IHJnYigyMTYsIDEzNSwgMTM1KTtcclxufVxyXG4ubGlzdGJne1xyXG4gICAgLS1iYWNrZ3JvdW5kOiByZ2IoMjE2LCAxMzUsIDEzNSk7XHJcbn1cclxuLmhlYWRlci1jb250ZW50e1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiAzMHB4O1xyXG4gICAgbGVmdDogMTVweDtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG5cclxuICAgIGltZ3tcclxuICAgICAgICB3aWR0aDogMTAwcHg7XHJcbiAgICAgICAgaGVpZ2h0OiA5MHB4O1xyXG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcclxuICAgICAgICBtYXJnaW4tcmlnaHQ6IDEwcHg7XHJcbiAgICAgICAgYm9yZGVyOiA3cHggc29saWQgcmdiKDIxNiwgMTM1LCAxMzUpO1xyXG4gICAgfVxyXG5cclxuICAgIC51bmFtZXtcclxuICAgICAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgICAgICBmb250LXNpemU6IDE4cHg7XHJcbiAgICB9XHJcbn1cclxuLm5leHRCdG57XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAxNXB4O1xyXG4gICAgaW9uLWJ1dHRvbntcclxuICAgICAgaGVpZ2h0OiA0MHB4O1xyXG4gICAgICB3aWR0aDogMTIwcHg7XHJcbiAgICAgIC0tYmFja2dyb3VuZDpyZ2IoMjE2LCAxMzUsIDEzNSk7XHJcbiAgICB9XHJcbiAgfSJdfQ== */");
 
 /***/ }),
 
@@ -482,7 +500,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("<ion-app>\n  <ion-menu class=\"sidebg ion-padding\" side=\"start\" menuId=\"letexam-menu\" contentId=\"mainmenu\">\n    <ion-content>\n      <div class=\"menu-header-bg\"></div>\n      <div class=\"header-content\">\n        <img src=\"assets/logs/vin.jpg\">\n        <ion-label>\n          <h2 class=\"uname\">Kevin Felix Caluag</h2>\n        </ion-label>\n    </div>\n      <ion-list>\n        <ion-menu-toggle>\n          <ion-item class=\"lalag\" href=\"/home\">\n            <ion-icon class=\"iconn\" name=\"home\" slot=\"start\"></ion-icon>\n            <ion-label class=\"lab\">Home</ion-label>\n          </ion-item>\n        </ion-menu-toggle> \n        <ion-menu-toggle>\n          <ion-item class=\"lalag\" routerLink=\"/general-education\">\n            <ion-icon class=\"iconn\" name=\"bookmarks\" slot=\"start\"></ion-icon>\n            <ion-label class=\"lab\">General Education</ion-label>\n          </ion-item>\n        </ion-menu-toggle> \n        <ion-menu-toggle>\n          <ion-item class=\"lalag\" routerLink=\"/professional-education\">\n            <ion-icon class=\"iconn\" name=\"bookmarks\" slot=\"start\"></ion-icon>\n            <ion-label class=\"lab\">Professional Education</ion-label>\n          </ion-item>\n        </ion-menu-toggle> \n        <ion-menu-toggle>\n          <ion-item class=\"lalag\" routerLink=\"/area-of-specialization\">\n            <ion-icon class=\"iconn\" name=\"bookmarks\" slot=\"start\"></ion-icon>\n            <ion-label class=\"lab\">Majorship</ion-label>\n          </ion-item>\n        </ion-menu-toggle> \n      </ion-list>\n    </ion-content>\n  </ion-menu>\n  <ion-router-outlet id=\"mainmenu\"></ion-router-outlet>\n</ion-app>\n");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("<ion-app>\n  <ion-menu class=\"sidebg ion-padding\" side=\"start\" menuId=\"letexam-menu\" contentId=\"mainmenu\">\n    <ion-content>\n      <div class=\"menu-header-bg\"></div>\n      <div class=\"header-content\">\n        <img src=\"assets/icon/userprofile.png\">\n        <ion-label>\n          <h2 class=\"uname\">{{userFullname}}</h2>\n        </ion-label>\n    </div>\n      <ion-list>\n        <ion-menu-toggle>\n          <ion-item class=\"lalag\" href=\"/home\">\n            <ion-icon class=\"iconn\" name=\"home\" slot=\"start\"></ion-icon>\n            <ion-label class=\"lab\">Home</ion-label>\n          </ion-item>\n        </ion-menu-toggle> \n        <ion-menu-toggle>\n          <ion-item class=\"lalag\" routerLink=\"/general-education\">\n            <ion-icon class=\"iconn\" name=\"bookmarks\" slot=\"start\"></ion-icon>\n            <ion-label class=\"lab\">General Education</ion-label>\n          </ion-item>\n        </ion-menu-toggle> \n        <ion-menu-toggle>\n          <ion-item class=\"lalag\" routerLink=\"/professional-education\">\n            <ion-icon class=\"iconn\" name=\"bookmarks\" slot=\"start\"></ion-icon>\n            <ion-label class=\"lab\">Professional Education</ion-label>\n          </ion-item>\n        </ion-menu-toggle> \n        <ion-menu-toggle>\n          <ion-item class=\"lalag\" routerLink=\"/area-of-specialization\">\n            <ion-icon class=\"iconn\" name=\"bookmarks\" slot=\"start\"></ion-icon>\n            <ion-label class=\"lab\">Majorship</ion-label>\n          </ion-item>\n        </ion-menu-toggle> \n        <ion-menu-toggle>\n          <div class=\"nextBtn\">\n            <ion-button class=\"logout\" (click)=\"Logout()\">Log Out</ion-button>\n          </div>\n        </ion-menu-toggle>\n      </ion-list>\n    </ion-content>\n  </ion-menu>\n  <ion-router-outlet id=\"mainmenu\"></ion-router-outlet>\n</ion-app>\n");
 
 /***/ })
 

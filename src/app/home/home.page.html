@@ -2,27 +2,40 @@
   <ion-buttons slot="start">
     <ion-menu-button class="topbtn" menu="letexam-menu" autoHide="false"></ion-menu-button>
   </ion-buttons>
-  <ion-buttons slot="secondary">
-    <ion-button>
-      <ion-icon class="topbtn" slot="icon-only" name="star"></ion-icon>
-    </ion-button>
-  </ion-buttons>
   <h4 class="title">Licensure Examination <br> for Teachers</h4>
 </ion-toolbar>
 
 <ion-content class="pageContent ion-padding">
   <div class="slides ion-margin-bottom">  
   <ion-card class="examContent">
+    <ion-card-header class="prclogo">
+      <img src="assets/icon/prclogo.png">
+    </ion-card-header>
     <ion-card-content>
       <ion-item class="descr">
         <p class="letDescription">
           Licensure Examination for Teachers (LET) is a test of the overall knowledge and proficiency of prospective teachers to provide a reliable structure, which the practice of prospective teachers can be measured and proven, and it gives access to continuing growth and development.
         </p>
       </ion-item>
+      <br>
+      <ion-item class="descr">
+        <ion-text>
+          <h4 class="tobetaken">LET EXAM Part to be Taken</h4>
+          <ion-item class="descr"><h4>General Education</h4></ion-item>
+          <ion-item class="descr"><h4>Professional Education</h4></ion-item>
+          <ion-item class="descr"><h4>Area Of Specialization</h4></ion-item>
+        </ion-text>
+      </ion-item>
+      <br>
+      <ion-item class="descr">
+        <p class="tobetakenper">
+        Generally, exam for elementary level covers topics from General Education (GenEd) 40% and Professional Education (ProfEd) 60%, while in secondary level, GenEd 20%, ProfEd 40% and area of specialization 40%.
+       </p>
+      </ion-item>
     </ion-card-content>
   </ion-card>
-    <h4 class="tobetaken">LET EXAM Part to be Taken</h4>
-    <ion-card class="examContent" id="hovthisGE" class="ge" (click)="goGEED()">
+    
+    <!-- <ion-card class="examContent" id="hovthisGE" class="ge" (click)="goGEED()">
       <ion-card-header>
         <ion-item><h4>General Education</h4></ion-item>
         <ion-item><h4>Professional Education</h4></ion-item>
@@ -35,7 +48,7 @@
          </p>
         </ion-item>
       </ion-card-content>
-    </ion-card>
+    </ion-card> -->
     <!-- <ion-card class="examContent" id="hovthisGE" class="pe" (click)="goPEED()">
       <ion-card-header>
         <h4>Professional Education</h4>

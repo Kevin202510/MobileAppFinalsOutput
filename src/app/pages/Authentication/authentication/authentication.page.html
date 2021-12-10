@@ -1,4 +1,4 @@
-<ion-content>
+<ion-content class="pageContent">
     <ion-card class="logcard">
       <ion-card-header class="icardhead">
         <img class="gradcap" src="assets/icon/gradcap.png">
@@ -14,7 +14,10 @@
           <ion-input type="password" [(ngModel)]="password"></ion-input>
         </ion-item>
         <div class="cent">
-          <ion-button class="logbtn" (click)="Login()" expand="block" >Login</ion-button>
+          <ion-button class="logbtn1" (click)="Login()" expand="block" >Login</ion-button>
+        </div>
+        <div class="cent1">
+          <ion-button class="logbtn" routerLink="/register" expand="block" >Register</ion-button>
         </div>
       </ion-card-content>
     </ion-card>

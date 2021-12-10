@@ -1,5 +1,8 @@
 <ion-toolbar class="toolbars">
-  <ion-icon class="return" slot="start" class="topbtn" name="return-up-back" routerLink="/area-of-specialization"></ion-icon>
+  <ion-buttons *ngIf="stat" slot="start">
+    <ion-menu-button class="topbtn" menu="letexam-menu" autoHide="false"></ion-menu-button>
+  </ion-buttons>
+  <ion-icon *ngIf="!stat" class="return" slot="start" class="topbtn"name="return-up-back"  routerLink="/area-of-specialization"></ion-icon>
   <h4 class="title">Licensure Examination <br> for Teachers</h4>
 </ion-toolbar>
 
@@ -23,7 +26,7 @@
       </ion-radio-group>
   </ion-card-content>
 </ion-card>
-      <div *ngIf="prevAnswered.length >= 50 && diplayquestion">
+      <div  class="nextBtn" *ngIf="prevAnswered.length >= 50 && diplayquestion">
           <ion-button (click)="SubmitExam()">Submit</ion-button>
         </div>
         <div class="nextBtn">

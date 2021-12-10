@@ -13,7 +13,6 @@ export class AuthenticationPage implements OnInit {
 
   username:string;
   password:string;
-  authData:[];
 
   ngOnInit() {
   }
@@ -33,40 +32,56 @@ export class AuthenticationPage implements OnInit {
   }
   Login(){
     if(this.validateForm()){
-      if(localStorage.getItem("ionicAuthenticationData")===null){
-        localStorage.setItem('ionicAuthenticationData','[]');
-        var olddata = JSON.parse(localStorage.getItem('ionicAuthenticationData'));
-        olddata.push({Username:this.username,Password:this.password});
-        localStorage.setItem('ionicAuthenticationData',JSON.stringify(olddata));
-        this.router.navigate(['home']);
-      }else{
-        console.log(this.authData = JSON.parse(localStorage.getItem('ionicAuthenticationData')));
-        console.log(this.authData);
-        for (let i = 0; i < this.authData.length; i++){
-          if(this.authData[i]['Username']==this.username && this.authData[i]['Password']==this.password){
-            Swal.fire({
-              position: 'center',
-              icon: 'success',
-              title: 'Login Sucessfully',
-              showConfirmButton: false,
-              timer: 1500
-            })
-            this.router.navigate(['home']);
-          }else{
-            Swal.fire({
-              position: 'center',
-              icon: 'warning',
-              title: 'Login Failed',
-              showConfirmButton: false,
-              timer: 1500
-            })
-          }
-        } 
-      }
-    // if(this.authData[])
-    //   // var olddata = JSON.parse(localStorage.getItem('ionicAuthenticationData'));
-    //   // olddata.push({Username:this.username,Password:this.password});
-    //   // localStorage.setItem('ionicAuthenticationData',JSON.stringify(olddata));
+      // if(localStorage.getItem("ionicAuthenticationData")===null){
+      //   localStorage.setItem('ionicAuthenticationData','[]');
+      //   var olddata = JSON.parse(localStorage.getItem('ionicAuthenticationData'));
+      //   olddata.push({Username:this.username,Password:this.password});
+      //   localStorage.setItem('ionicAuthenticationData',JSON.stringify(olddata));
+      //   this.router.navigate(['home']);
+      // }else{
+        var authData = JSON.parse(localStorage.getItem('ionicAuthenticationData'));
+        if(localStorage.getItem('ionicAuthenticationData')!==null){
+              // console.log(this.authData);
+            for (let i = 0; i < authData.length; i++){
+              if(authData[i]['Username']==this.username && authData[i]['Password']==this.password){
+                if(localStorage.getItem("ionicAuthenticationDataUserId")===null){
+                    let data = {UserId:authData[i].UserId,LoginStatus:0};
+                    localStorage.setItem('ionicAuthenticationDataUserId',JSON.stringify(data));
+                }else{
+                  var ddata =  JSON.parse(localStorage.getItem('ionicAuthenticationDataUserId'));
+                  ddata.UserId = authData[i].UserId;
+                  ddata.LoginStatus = 0;
+                  localStorage.setItem('ionicAuthenticationDataUserId',JSON.stringify(ddata));
+                }
+                Swal.fire({
+                  position: 'center',
+                  icon: 'success',
+                  title: 'Login Sucessfully',
+                  showConfirmButton: false,
+                  timer: 1500
+                })
+                location.href ="home";
+                // this.router.navigate(['home']);
+              }else{
+                Swal.fire({
+                  position: 'center',
+                  icon: 'warning',
+                  title: 'Login Failed',
+                  showConfirmButton: false,
+                  timer: 1500
+                })
+              }
+            // } 
+          } 
+        }else{
+          Swal.fire({
+            position: 'center',
+            icon: 'warning',
+            title: 'Login Failed',
+            showConfirmButton: false,
+            timer: 1500
+          })
+        }
     }
   }
 

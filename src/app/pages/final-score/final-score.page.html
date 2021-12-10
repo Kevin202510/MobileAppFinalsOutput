@@ -14,28 +14,51 @@
 <div class="slides ion-margin-bottom">  
 <h4 class="pageTitle">Final Score</h4>
 <ion-card class="questionAndAns">
-  <ion-card-content class="answers__list">
-    <ion-item>
-      <h2>GENERAL EDUCATION : {{scoreGE}} %</h2>
-    </ion-item>
-    <ion-item>
-      <h2>PROFESSIONAL EDUCATION : {{scorePED}} %</h2>
-    </ion-item>
-    <ion-item  *ngIf="examlevel">
-      <h2>MAJORSHIP : {{scoreAOS}} %</h2>
-    </ion-item>
-    <ion-item>
-      <h2>Your Final LET Average : {{FinalAverage}}</h2>
-    </ion-item>
-    <ng-lottie [options]='options'></ng-lottie>
+  <ion-card-content class="answers__list"> 
+    <div class="ion-text-center result">
+      <h2>GENERAL EDUCATION</h2>
+      <h3>{{examscoreGE}} out of 50</h3>
+      <h3>{{scoreGE}} %</h3>
+    </div>
+    <div class="ion-text-center result">
+      <h2>PROFESSIONAL EDUCATION</h2>
+      <h3>{{examscorePED}} out of 50</h3>
+      <h3>{{scorePED}} %</h3>
+    </div>
+
+    <div class="ion-text-center result" *ngIf="examlevel">
+      <h2>MAJORSHIP</h2>
+      <h3>{{examscorePED}} out of 50</h3>
+      <h3>{{scorePED}} %</h3>
+    </div>
+
+    <div class="ion-text-center result">
+      <h2>Your Final LET Average</h2>
+      <h3>{{FinalAverage}} %</h3>
+    </div>
+    <br>
+    <div class="ion-text-center pass" *ngIf="FinalAverage >=75">
+      <h2>You Passed The LET Exam</h2>
+    </div>
+    <div class="ion-text-center failed" *ngIf="FinalAverage <75">
+      <h2>You Failed The LET Exam</h2>
+    </div>
+    <ng-lottie *ngIf="FinalAverage >=75" [options]='options'></ng-lottie>
+    <ng-lottie *ngIf="FinalAverage <75" [options]='optionss'></ng-lottie>
   </ion-card-content>
+
+  <ion-card-content class="btnfunct" *ngIf="status">
+    <ion-button class="btn btn--new" (click)="retakeExam()" href="general-education" *ngIf="status">Retake Exam</ion-button><br>
+    <ion-button href="home" (click)="getBackHome()" class="btn btn--new" *ngIf="status">Finish</ion-button>
+  </ion-card-content>
+  
 </ion-card>
 
-<ion-card>
-  <ion-card-content *ngIf="status">
-    <ion-button class="btn btn--new" (click)="retakeExam()" href="general-education" *ngIf="status">Retake Exam</ion-button>
-    <ion-button href="home" (click)="getBackHome()" class="btn btn--new" *ngIf="status">No</ion-button>
+<!-- <ion-card>
+  <ion-card-content class="btnfunct" *ngIf="status">
+    <ion-button class="btn btn--new" (click)="retakeExam()" href="general-education" *ngIf="status">Retake Exam</ion-button><br>
+    <ion-button href="home" (click)="getBackHome()" class="btn btn--new" *ngIf="status">Finish</ion-button>
   </ion-card-content>
-</ion-card>
+</ion-card> -->
 </div>
 </ion-content>

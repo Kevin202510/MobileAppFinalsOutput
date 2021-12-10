@@ -1,4 +1,4 @@
-(self["webpackChunkLET_Exam_Reviewer"] = self["webpackChunkLET_Exam_Reviewer"] || []).push([["polyfills-dom"],{
+(self["webpackChunklet_exam_reviewer"] = self["webpackChunklet_exam_reviewer"] || []).push([["polyfills-dom"],{
 
 /***/ 5141:
 /*!************************************************************!*\

@@ -3,9 +3,9 @@
     <ion-content>
       <div class="menu-header-bg"></div>
       <div class="header-content">
-        <img src="assets/logs/vin.jpg">
+        <img src="assets/icon/userprofile.png">
         <ion-label>
-          <h2 class="uname">Kevin Felix Caluag</h2>
+          <h2 class="uname">{{userFullname}}</h2>
         </ion-label>
     </div>
       <ion-list>
@@ -33,6 +33,11 @@
             <ion-label class="lab">Majorship</ion-label>
           </ion-item>
         </ion-menu-toggle> 
+        <ion-menu-toggle>
+          <div class="nextBtn">
+            <ion-button class="logout" (click)="Logout()">Log Out</ion-button>
+          </div>
+        </ion-menu-toggle>
       </ion-list>
     </ion-content>
   </ion-menu>

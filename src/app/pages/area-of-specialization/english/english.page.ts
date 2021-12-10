@@ -29,6 +29,7 @@ export class EnglishPage implements OnInit {
   correctAnswers = 0;
   incorrectAnswers = 0;
   prevAnswered = [];
+  stat = false;
   
   result = false;
   resultStatus = false;
@@ -55,6 +56,8 @@ export class EnglishPage implements OnInit {
       this.currentQuiz = this.getRandom();
       
       this.prevAnswered.push(this.currentQuiz);
+
+      this.stat = this.olddata.Status;
     }
 
     getCorrectAns(ans:boolean){

@@ -2,11 +2,6 @@
   <ion-buttons slot="start">
     <ion-menu-button class="topbtn" menu="letexam-menu" autoHide="false"></ion-menu-button>
   </ion-buttons>
-  <ion-buttons slot="secondary">
-    <ion-button>
-      <ion-icon slot="icon-only" name="star"></ion-icon>
-    </ion-button>
-  </ion-buttons>
   <h4 class="title">Licensure Examination <br> for Teachers</h4>
 </ion-toolbar>
 
@@ -29,7 +24,7 @@
       </ion-radio-group>
   </ion-card-content>
 </ion-card>
-  <div *ngIf="prevAnswered.length >= 50 && diplayquestion">
+  <div class="nextBtn" *ngIf="prevAnswered.length >= 50 && diplayquestion">
     <ion-button (click)="SubmitExam()">Submit</ion-button>
   </div>
   <div class="nextBtn">

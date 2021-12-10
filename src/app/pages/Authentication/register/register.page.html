@@ -1,10 +1,14 @@
-<ion-content>
+<ion-content  class="pageContent">
   <ion-card class="logcard">
     <ion-card-header class="icardhead">
       <img class="gradcap" src="assets/icon/gradcap.png">
       <h4>LET Exam Reviewer</h4>
     </ion-card-header>
     <ion-card-content>
+      <ion-item>
+        <ion-label position="floating" required>FullName</ion-label>
+        <ion-input type="text" [(ngModel)]="fullname"></ion-input>
+      </ion-item>
       <ion-item>
         <ion-label position="floating" required>Username</ion-label>
         <ion-input type="text" [(ngModel)]="username"></ion-input>
@@ -14,7 +18,10 @@
         <ion-input type="password" [(ngModel)]="password"></ion-input>
       </ion-item>
       <div class="cent">
-        <ion-button class="logbtn" (click)="Login()" expand="block" >Login</ion-button>
+        <ion-button class="logbtn1" (click)="register()" expand="block" >Register</ion-button>
+      </div>
+      <div class="cent1">
+        <ion-button class="logbtn" routerLink="/authentication" expand="block" >Login</ion-button>
       </div>
     </ion-card-content>
   </ion-card>

@@ -35,6 +35,7 @@ export class BiologicalSciencePage implements OnInit {
   selectedSegment: string = "Exam";
   answer:boolean;
   status = false;
+  stat=false;
 
 
   options:AnimationOptions = {
@@ -55,6 +56,7 @@ export class BiologicalSciencePage implements OnInit {
       this.currentQuiz = this.getRandom();
       
       this.prevAnswered.push(this.currentQuiz);
+      this.stat = this.olddata.Status;
     }
 
     getCorrectAns(ans:boolean){

@@ -4,6 +4,9 @@
     right: 10px;
     color: white;
   }
+  *{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
   .headtit{
     text-align: center;
   }
@@ -65,4 +68,29 @@
   .toolbars{
   height: 12%;
   --background: #ede900e0
+  }
+  .failed{
+    background-color: rgb(236, 15, 15);
+    h2{
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+  .pass{
+    background-color: rgb(48, 187, 252);
+    h2{
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+  .btnfunct{
+    text-align: center;
+  }
+  .result{
+    h3{
+      font-size: 20px;
+    }
+    h2{
+      line-height: 50px;
+    }
   }

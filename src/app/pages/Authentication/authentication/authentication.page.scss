@@ -2,12 +2,22 @@
     text-align: center;
     font-size: 30px;
 }
-.logbtn{
+.logbtn1{
     --border-radius: 100px;
-    margin-top: 40px;
+    margin-top: 15px;
+    width: 70%;
+}.logbtn{
+    --border-radius: 100px;
+    margin-top: 10px;
     width: 70%;
 }
 .cent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cent1{
+    margin-top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,4 +33,6 @@
 .swal2-popup{
     width: 20em !important;
     max-width: 80% !important;
+}.pageContent{
+    --background: rgb(234, 218, 208);
 }

@@ -17,8 +17,15 @@ export class HomePage {
   }
 
   init(){
+    
     if(localStorage.getItem("ionicAuthenticationData")===null){
       this.router.navigate(['authentication']);
+    }else{
+      var ddata =  JSON.parse(localStorage.getItem('ionicAuthenticationDataUserId'));
+      var stat = ddata.LoginStatus;
+      if(stat==1){
+        this.router.navigate(['authentication']);
+      }
     }
 
     this.initLocalStorage();

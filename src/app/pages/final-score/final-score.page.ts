@@ -11,12 +11,19 @@ export class FinalScorePage implements OnInit {
 scoreGE:number;
 scorePED:number;
 scoreAOS:number;
+examscoreGE:number;
+examscorePED:number;
+examscoreAOS:number;
 FinalAverage:number;
 status=false;
 examlevel = false;
 
 options:AnimationOptions = {
   path:'assets/congrats1.json'
+}
+
+optionss:AnimationOptions = {
+  path:'assets/welldone.json'
 }
 
   constructor() { }
@@ -58,11 +65,13 @@ options:AnimationOptions = {
           this.scoreGE = Math.floor(sge*100);
           initScoreGe = sge.toFixed(2);
           console.log(initScoreGe);
+          this.examscoreGE = olddata[i].Score;
         }else if(olddata[i].PartName === "ProfEd" && olddata[i].ExamId ==getExamId){
           ped = (olddata[i].Score/totalitem) * 0.6; 
           this.scorePED = Math.floor(ped*100);
           initScoreProfEd = ped.toFixed(2);
           console.log(initScoreProfEd);
+          this.examscorePED = olddata[i].Score;
         }
       }else if(examLevel.ExamLevel==="Secondary"){
         this.examlevel = true;
@@ -71,71 +80,83 @@ options:AnimationOptions = {
           this.scoreGE = Math.floor(sge*100);
           initScoreGe = sge.toFixed(2);
           console.log(initScoreGe);
+          this.examscoreGE = olddata[i].Score;
         }else if(olddata[i].PartName === "ProfEd" && olddata[i].ExamId ==getExamId){
           ped = (olddata[i].Score/totalitem) * 0.4; 
           this.scorePED = Math.floor(ped*100);
           initScoreProfEd = ped.toFixed(2);
           console.log(initScoreProfEd);
+          this.examscorePED = olddata[i].Score;
         }else if(olddata[i].PartName === "English" && olddata[i].ExamId ==getExamId){
           aos = (olddata[i].Score/totalitem) * 0.4; 
           this.scoreAOS = Math.floor(aos*100);
           initScoreMajor = aos.toFixed(2);
           console.log(initScoreMajor);
+          this.examscoreAOS = olddata[i].Score;
         }else if(olddata[i].PartName === "Filipino" && olddata[i].ExamId ==getExamId){
           aos = (olddata[i].Score/totalitem) * 0.4; 
           this.scoreAOS = Math.floor(aos*100);
           initScoreMajor = aos.toFixed(2);
           console.log(initScoreMajor);
+          this.examscoreAOS = olddata[i].Score;
         }else if(olddata[i].PartName === "Mathematics" && olddata[i].ExamId ==getExamId){
           aos = (olddata[i].Score/totalitem) * 0.4; 
           this.scoreAOS = Math.floor(aos*100);
           initScoreMajor = aos.toFixed(2);
           console.log(initScoreMajor);
+          this.examscoreAOS = olddata[i].Score;
         }else if(olddata[i].PartName === "Mapeh" && olddata[i].ExamId ==getExamId){
           aos = (olddata[i].Score/totalitem) * 0.4; 
           this.scoreAOS = Math.floor(aos*100);
           initScoreMajor = aos.toFixed(2);
           console.log(initScoreMajor);
+          this.examscoreAOS = olddata[i].Score;
         }else if(olddata[i].PartName === "Values_Education" && olddata[i].ExamId ==getExamId){
           aos = (olddata[i].Score/totalitem) * 0.4; 
           this.scoreAOS = Math.floor(aos*100);
           initScoreMajor = aos.toFixed(2);
           console.log(initScoreMajor);
+          this.examscoreAOS = olddata[i].Score;
         }else if(olddata[i].PartName === "Tecnology_and_LIvelihood_Education" && olddata[i].ExamId ==getExamId){
           aos = (olddata[i].Score/totalitem) * 0.4; 
           this.scoreAOS = Math.floor(aos*100);
           initScoreMajor = aos.toFixed(2);
           console.log(initScoreMajor);
+          this.examscoreAOS = olddata[i].Score;
         }else if(olddata[i].PartName === "Social_Science" && olddata[i].ExamId ==getExamId){
           aos = (olddata[i].Score/totalitem) * 0.4; 
           this.scoreAOS = Math.floor(aos*100);
           initScoreMajor = aos.toFixed(2);
           console.log(initScoreMajor);
+          this.examscoreAOS = olddata[i].Score;
         }else if(olddata[i].PartName === "Physical_Science" && olddata[i].ExamId ==getExamId){
           aos = (olddata[i].Score/totalitem) * 0.4; 
           this.scoreAOS = Math.floor(aos*100);
           initScoreMajor = aos.toFixed(2);
           console.log(initScoreMajor);
+          this.examscoreAOS = olddata[i].Score;
         }else if(olddata[i].PartName === "Biological_Science" && olddata[i].ExamId ==getExamId){
           aos = (olddata[i].Score/totalitem) * 0.4; 
           this.scoreAOS = Math.floor(aos*100);
           initScoreMajor = aos.toFixed(2);
           console.log(initScoreMajor);
+          this.examscoreAOS = olddata[i].Score;
         }else if(olddata[i].PartName === "Agriculture_and_Fishery_Art" && olddata[i].ExamId ==getExamId){
           aos = (olddata[i].Score/totalitem) * 0.4; 
           this.scoreAOS = Math.floor(aos*100);
           initScoreMajor = aos.toFixed(2);
           console.log(initScoreMajor);
+          this.examscoreAOS = olddata[i].Score;
         }
       }
     }
     if(examLevel.ExamLevel==="Elementary"){
       this.FinalAverage = (parseFloat(initScoreGe) + parseFloat(initScoreProfEd))*100;
-      console.log((parseFloat(initScoreGe) + parseFloat(initScoreProfEd))*100);
+      // console.log((parseFloat(initScoreGe) + parseFloat(initScoreProfEd))*100);
     }
     else if(examLevel.ExamLevel==="Secondary"){
       this.FinalAverage = (parseFloat(initScoreGe) + parseFloat(initScoreProfEd) + parseFloat(initScoreMajor))*100;
-      console.log((parseFloat(initScoreGe) + parseFloat(initScoreProfEd) + parseFloat(initScoreMajor))*100);
+      // console.log((parseFloat(initScoreGe) + parseFloat(initScoreProfEd) + parseFloat(initScoreMajor))*100);
     }
     this.status = true;
 

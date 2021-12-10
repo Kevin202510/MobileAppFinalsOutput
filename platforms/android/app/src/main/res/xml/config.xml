@@ -25,7 +25,7 @@
         <param name="android-package" onload="true" value="io.ionic.keyboard.CDVIonicKeyboard" />
     </feature>
     <name>LET EXAM REVIEWER</name>
-    <description>An awesome Ionic/Cordova app.</description>
+    <description>LET EXAM REVIEWER</description>
     <author email="hi@ionicframework.com" href="http://ionicframework.com/">Ionic Framework Team</author>
     <content src="index.html" />
     <access origin="*" />
